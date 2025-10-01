@@ -171,3 +171,6 @@ cython_debug/
 lafand-mt/*
 blue/*
 m2m100_en_tw/*
+uv.lock
+pyproject.toml
+main.py
