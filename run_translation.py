@@ -18,11 +18,15 @@ Fine-tuning the library models for sequence to sequence.
 """
 # You can also adapt this script on your own sequence to sequence task. Pointers for this are left as comments.
 
+import atexit
+import json
 import logging
 import os
 import sys
 from dataclasses import dataclass, field
 from typing import Optional
+
+from datetime import datetime
 
 import datasets
 import numpy as np
@@ -227,18 +231,179 @@ class DataTrainingArguments:
             self.val_max_target_length = self.max_target_length
 
 
+@dataclass
+class ExperimentArguments:
+    """Extra controls for experiment logging and reproducibility."""
+
+    epochs: Optional[float] = field(
+        default=None,
+        metadata={"help": "Override the number of training epochs."},
+    )
+    log_backend: str = field(
+        default="file",
+        metadata={"help": "Where to record metrics. Choose 'file' or 'wandb'.", "choices": ["file", "wandb"]},
+    )
+    metrics_log_file: Optional[str] = field(
+        default=None,
+        metadata={"help": "Path to a JSONL metrics log. Defaults to <output_dir>/metrics_log.jsonl."},
+    )
+    wandb_project: Optional[str] = field(
+        default=None, metadata={"help": "Weights & Biases project name when using the wandb backend."}
+    )
+    wandb_entity: Optional[str] = field(
+        default=None, metadata={"help": "Weights & Biases entity (team/user)."}
+    )
+
+    def __post_init__(self):
+        if self.log_backend not in {"file", "wandb"}:
+            raise ValueError("log_backend must be either 'file' or 'wandb'.")
+
+
+class MetricsLogger:
+    """Lightweight reporter that writes metrics to disk and optionally W&B."""
+
+    def __init__(
+        self,
+        *,
+        backend: str,
+        log_file: Optional[str],
+        run_name: str,
+        config: dict,
+        wandb_project: Optional[str],
+        wandb_entity: Optional[str],
+    ) -> None:
+        self.backend = backend
+        self.log_file = log_file
+        self.run_name = run_name
+        self.config = config
+        self._file_handle = None
+        self._wandb_run = None
+        self._wandb = None
+
+        if self.log_file is not None:
+            directory = os.path.dirname(self.log_file)
+            if directory:
+                os.makedirs(directory, exist_ok=True)
+            self._file_handle = open(self.log_file, "a", encoding="utf-8")
+
+        if backend == "wandb":
+            try:
+                import wandb  # type: ignore
+            except ImportError:
+                logger.warning(
+                    "Weights & Biases not found. Falling back to file logging at %s", self.log_file or "stdout"
+                )
+                self.backend = "file"
+            else:
+                self._wandb = wandb
+                init_kwargs = {"name": run_name, "config": config}
+                if wandb_project is not None:
+                    init_kwargs["project"] = wandb_project
+                if wandb_entity is not None:
+                    init_kwargs["entity"] = wandb_entity
+                self._wandb_run = wandb.init(**init_kwargs)
+
+        atexit.register(self.close)
+
+    def log(self, split: str, metrics: dict) -> None:
+        if self.backend not in {"file", "wandb"} and self._file_handle is None:
+            return
+
+        safe_metrics = {k: self._coerce(v) for k, v in metrics.items()}
+        timestamp = datetime.utcnow().isoformat() + "Z"
+
+        if self._file_handle is not None:
+            record = {"run": self.run_name, "split": split, "timestamp": timestamp, "metrics": safe_metrics}
+            self._file_handle.write(json.dumps(record) + "\n")
+            self._file_handle.flush()
+
+        if self.backend == "wandb" and self._wandb_run is not None:
+            payload = {f"{split}/{k}": v for k, v in safe_metrics.items()}
+            if "epoch" in safe_metrics:
+                payload.setdefault("epoch", safe_metrics["epoch"])
+            payload.setdefault("split", split)
+            payload.setdefault("timestamp", timestamp)
+            self._wandb_run.log(payload)
+
+    def close(self) -> None:
+        if self._file_handle is not None and not self._file_handle.closed:
+            self._file_handle.close()
+        if self.backend == "wandb" and self._wandb_run is not None:
+            self._wandb_run.finish()
+            self._wandb_run = None
+
+    @staticmethod
+    def _coerce(value):
+        if isinstance(value, (np.floating, np.integer)):
+            return value.item()
+        if isinstance(value, np.ndarray):
+            return value.tolist()
+        if isinstance(value, (int, float, str, bool)) or value is None:
+            return value
+        try:
+            return float(value)
+        except (TypeError, ValueError):
+            return str(value)
+
+
 def main():
     # See all possible arguments in src/transformers/training_args.py
     # or by passing the --help flag to this script.
     # We now keep distinct sets of args, for a cleaner separation of concerns.
 
-    parser = HfArgumentParser((ModelArguments, DataTrainingArguments, Seq2SeqTrainingArguments))
+    parser = HfArgumentParser((ModelArguments, DataTrainingArguments, Seq2SeqTrainingArguments, ExperimentArguments))
     if len(sys.argv) == 2 and sys.argv[1].endswith(".json"):
         # If we pass only one argument to the script and it's the path to a json file,
         # let's parse it to get our arguments.
-        model_args, data_args, training_args = parser.parse_json_file(json_file=os.path.abspath(sys.argv[1]))
+        model_args, data_args, training_args, experiment_args = parser.parse_json_file(
+            json_file=os.path.abspath(sys.argv[1])
+        )
     else:
-        model_args, data_args, training_args = parser.parse_args_into_dataclasses()
+        model_args, data_args, training_args, experiment_args = parser.parse_args_into_dataclasses()
+
+    epoch_suffix = None
+    if experiment_args.epochs is not None:
+        epoch_value = float(experiment_args.epochs)
+        training_args.num_train_epochs = epoch_value
+        if epoch_value.is_integer():
+            epoch_suffix = str(int(epoch_value))
+        else:
+            epoch_suffix = str(epoch_value).replace(".", "p")
+        if training_args.output_dir:
+            if not training_args.output_dir.endswith(f"_ep{epoch_suffix}"):
+                training_args.output_dir = f"{training_args.output_dir}_ep{epoch_suffix}"
+        if training_args.run_name:
+            if not training_args.run_name.endswith(f"_ep{epoch_suffix}"):
+                training_args.run_name = f"{training_args.run_name}_ep{epoch_suffix}"
+
+    if not training_args.run_name:
+        trimmed_output_dir = training_args.output_dir.rstrip("/") if training_args.output_dir else ""
+        training_args.run_name = os.path.basename(trimmed_output_dir) or trimmed_output_dir or "run"
+        if epoch_suffix is not None and not training_args.run_name.endswith(f"_ep{epoch_suffix}"):
+            training_args.run_name = f"{training_args.run_name}_ep{epoch_suffix}"
+
+    metrics_logger = None
+    default_log_path = experiment_args.metrics_log_file
+    if default_log_path is None:
+        base_dir_for_logs = training_args.output_dir or "."
+        default_log_path = os.path.join(base_dir_for_logs, "metrics_log.jsonl")
+
+    experiment_config = {
+        "model_name_or_path": model_args.model_name_or_path,
+        "num_train_epochs": training_args.num_train_epochs,
+        "output_dir": training_args.output_dir,
+        "source_lang": data_args.source_lang,
+        "target_lang": data_args.target_lang,
+    }
+
+    metrics_logger = MetricsLogger(
+        backend=experiment_args.log_backend,
+        log_file=default_log_path,
+        run_name=training_args.run_name,
+        config=experiment_config,
+        wandb_project=experiment_args.wandb_project,
+        wandb_entity=experiment_args.wandb_entity,
+    )
 
     # Setup logging
     logging.basicConfig(
@@ -371,6 +536,8 @@ def main():
         column_names = raw_datasets["test"].column_names
     else:
         logger.info("There is nothing to do. Please pass `do_train`, `do_eval` and/or `do_predict`.")
+        if metrics_logger is not None:
+            metrics_logger.close()
         return
 
     # For translation we set the codes of our source and target languages (only useful for mBART, the others will
@@ -547,6 +714,8 @@ def main():
         trainer.log_metrics("train", metrics)
         trainer.save_metrics("train", metrics)
         trainer.save_state()
+        if metrics_logger is not None:
+            metrics_logger.log("train", metrics)
 
     # Evaluation
     results = {}
@@ -561,6 +730,8 @@ def main():
 
         trainer.log_metrics("eval", metrics)
         trainer.save_metrics("eval", metrics)
+        if metrics_logger is not None:
+            metrics_logger.log("eval", metrics)
 
     if training_args.do_predict:
         logger.info("*** Predict ***")
@@ -579,6 +750,8 @@ def main():
 
         trainer.log_metrics("predict", metrics)
         trainer.save_metrics("predict", metrics)
+        if metrics_logger is not None:
+            metrics_logger.log("predict", metrics)
 
         if trainer.is_world_process_zero():
             if training_args.predict_with_generate:
@@ -605,6 +778,9 @@ def main():
             kwargs["language"] = languages
 
         trainer.push_to_hub(**kwargs)
+
+    if metrics_logger is not None:
+        metrics_logger.close()
 
     return results
 
