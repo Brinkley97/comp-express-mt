@@ -169,5 +169,7 @@ cython_debug/
 .DS_Store
 
 lafand-mt/*
-blue/*
+mt_env/*
+m2m100_en_tw_*/*
 m2m100_en_tw/*
+wandb/*
