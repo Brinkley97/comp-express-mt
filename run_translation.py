@@ -20,6 +20,7 @@ Fine-tuning the library models for sequence to sequence.
 
 import atexit
 import json
+import functools
 import logging
 import os
 import sys
@@ -702,6 +703,16 @@ def main():
         generation_config = getattr(model, "generation_config", None)
         if generation_config is not None and getattr(generation_config, "early_stopping", None) is None:
             generation_config.early_stopping = True
+
+        original_generate = model.generate
+
+        @functools.wraps(original_generate)
+        def generate_with_defaults(*args, **kwargs):
+            if kwargs.get("early_stopping") is None:
+                kwargs["early_stopping"] = True
+            return original_generate(*args, **kwargs)
+
+        model.generate = generate_with_defaults
 
     # Training
     if training_args.do_train:
