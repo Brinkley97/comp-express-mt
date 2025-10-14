@@ -655,7 +655,8 @@ def main():
         )
 
     # Metric
-    metric = evaluate.load("sacrebleu")
+    bleu_metric = evaluate.load("sacrebleu")
+    chrf_metric = evaluate.load("chrf")
 
     def postprocess_text(preds, labels):
         preds = [pred.strip() for pred in preds]
@@ -676,8 +677,10 @@ def main():
         # Some simple post-processing
         decoded_preds, decoded_labels = postprocess_text(decoded_preds, decoded_labels)
 
-        result = metric.compute(predictions=decoded_preds, references=decoded_labels)
-        result = {"bleu": result["score"]}
+        bleu = bleu_metric.compute(predictions=decoded_preds, references=decoded_labels)
+        chrf = chrf_metric.compute(predictions=decoded_preds, references=decoded_labels, word_order=2)
+
+        result = {"bleu": bleu["score"], "chrfpp": chrf["score"]}
 
         prediction_lens = [np.count_nonzero(pred != tokenizer.pad_token_id) for pred in preds]
         result["gen_len"] = np.mean(prediction_lens)
@@ -716,6 +719,19 @@ def main():
         trainer.save_state()
         if metrics_logger is not None:
             metrics_logger.log("train", metrics)
+
+        if training_args.predict_with_generate:
+            logger.info("*** Evaluate (train split) ***")
+            train_eval_metrics = trainer.evaluate(
+                eval_dataset=train_dataset,
+                max_length=data_args.val_max_target_length,
+                num_beams=data_args.num_beams,
+                metric_key_prefix="train_gen",
+            )
+            trainer.log_metrics("train_gen", train_eval_metrics)
+            trainer.save_metrics("train_gen", train_eval_metrics)
+            if metrics_logger is not None:
+                metrics_logger.log("train_gen", train_eval_metrics)
 
     # Evaluation
     results = {}
