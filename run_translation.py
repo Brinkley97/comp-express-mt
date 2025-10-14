@@ -698,6 +698,11 @@ def main():
         compute_metrics=compute_metrics if training_args.predict_with_generate else None,
     )
 
+    if training_args.predict_with_generate:
+        generation_config = getattr(model, "generation_config", None)
+        if generation_config is not None and getattr(generation_config, "early_stopping", None) is None:
+            generation_config.early_stopping = True
+
     # Training
     if training_args.do_train:
         checkpoint = None
