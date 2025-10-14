@@ -707,18 +707,33 @@ def main():
             else data_args.max_target_length
         )
         if default_max_length is None:
-            if training_args.generation_max_length is not None:
-                default_max_length = training_args.generation_max_length
-            else:
-                default_max_length = 128
-                training_args.generation_max_length = default_max_length
-        elif training_args.generation_max_length is None:
-            training_args.generation_max_length = default_max_length
+            default_max_length = training_args.generation_max_length
+        if default_max_length is None:
+            default_max_length = 128
+
+        training_args.generation_max_length = default_max_length
+
         if generation_config is not None:
             if getattr(generation_config, "early_stopping", None) is None:
                 generation_config.early_stopping = True
-            if getattr(generation_config, "max_length", None) is None and default_max_length is not None:
+            if getattr(generation_config, "max_length", None) is None:
                 generation_config.max_length = default_max_length
+            if getattr(generation_config, "max_new_tokens", None) is not None and getattr(
+                generation_config, "max_length", None
+            ) is None:
+                generation_config.max_length = default_max_length
+
+        if hasattr(trainer, "generation_config") and trainer.generation_config is not None:
+            if getattr(trainer.generation_config, "early_stopping", None) is None:
+                trainer.generation_config.early_stopping = True
+            if getattr(trainer.generation_config, "max_length", None) is None:
+                trainer.generation_config.max_length = default_max_length
+            if getattr(trainer.generation_config, "max_new_tokens", None) is not None and getattr(
+                trainer.generation_config, "max_length", None
+            ) is None:
+                trainer.generation_config.max_length = default_max_length
+        elif generation_config is not None:
+            trainer.generation_config = generation_config
 
         original_generate = model.generate
 
@@ -727,10 +742,7 @@ def main():
             if kwargs.get("early_stopping") is None:
                 kwargs["early_stopping"] = True
             if kwargs.get("max_length") is None:
-                if default_max_length is not None:
-                    kwargs["max_length"] = default_max_length
-                else:
-                    kwargs["max_length"] = training_args.generation_max_length or 128
+                kwargs["max_length"] = default_max_length
             return original_generate(*args, **kwargs)
 
         model.generate = generate_with_defaults
