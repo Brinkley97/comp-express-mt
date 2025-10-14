@@ -701,8 +701,24 @@ def main():
 
     if training_args.predict_with_generate:
         generation_config = getattr(model, "generation_config", None)
-        if generation_config is not None and getattr(generation_config, "early_stopping", None) is None:
-            generation_config.early_stopping = True
+        default_max_length = (
+            data_args.val_max_target_length
+            if data_args.val_max_target_length is not None
+            else data_args.max_target_length
+        )
+        if default_max_length is None:
+            if training_args.generation_max_length is not None:
+                default_max_length = training_args.generation_max_length
+            else:
+                default_max_length = 128
+                training_args.generation_max_length = default_max_length
+        elif training_args.generation_max_length is None:
+            training_args.generation_max_length = default_max_length
+        if generation_config is not None:
+            if getattr(generation_config, "early_stopping", None) is None:
+                generation_config.early_stopping = True
+            if getattr(generation_config, "max_length", None) is None and default_max_length is not None:
+                generation_config.max_length = default_max_length
 
         original_generate = model.generate
 
@@ -710,6 +726,11 @@ def main():
         def generate_with_defaults(*args, **kwargs):
             if kwargs.get("early_stopping") is None:
                 kwargs["early_stopping"] = True
+            if kwargs.get("max_length") is None:
+                if default_max_length is not None:
+                    kwargs["max_length"] = default_max_length
+                else:
+                    kwargs["max_length"] = training_args.generation_max_length or 128
             return original_generate(*args, **kwargs)
 
         model.generate = generate_with_defaults
