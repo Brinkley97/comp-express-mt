@@ -48,6 +48,7 @@ from transformers import (
     MBartTokenizerFast,
     Seq2SeqTrainer,
     Seq2SeqTrainingArguments,
+    GenerationConfig,
     default_data_collator,
     set_seed,
 )
@@ -699,6 +700,7 @@ def main():
         compute_metrics=compute_metrics if training_args.predict_with_generate else None,
     )
 
+    # FIXED: Proper generation config setup to avoid NoneType errors
     if training_args.predict_with_generate:
         generation_config = getattr(model, "generation_config", None)
         default_max_length = (
@@ -709,30 +711,39 @@ def main():
         if default_max_length is None:
             default_max_length = training_args.generation_max_length
         if default_max_length is None:
-            default_max_length = 128
+            default_max_length = 200
 
         training_args.generation_max_length = default_max_length
 
+        # Ensure model's generation_config has max_length set (never None)
         if generation_config is not None:
-            if getattr(generation_config, "early_stopping", None) is None:
-                generation_config.early_stopping = True
-            if getattr(generation_config, "max_length", None) is None:
-                generation_config.max_length = default_max_length
-            if getattr(generation_config, "max_new_tokens", None) is not None and getattr(
-                generation_config, "max_length", None
-            ) is None:
-                generation_config.max_length = default_max_length
+            generation_config.early_stopping = True
+            generation_config.max_length = default_max_length
+            # Remove max_new_tokens if present to avoid conflicts
+            if hasattr(generation_config, "max_new_tokens"):
+                generation_config.max_new_tokens = None
+        else:
+            # Create a generation config if it doesn't exist
+            generation_config = GenerationConfig(
+                max_length=default_max_length,
+                early_stopping=True
+            )
+            model.generation_config = generation_config
 
+        # Set num_beams if specified
+        if data_args.num_beams is not None:
+            generation_config.num_beams = data_args.num_beams
+            training_args.generation_num_beams = data_args.num_beams
+
+        # Ensure trainer gets the updated config
         if hasattr(trainer, "generation_config") and trainer.generation_config is not None:
-            if getattr(trainer.generation_config, "early_stopping", None) is None:
-                trainer.generation_config.early_stopping = True
-            if getattr(trainer.generation_config, "max_length", None) is None:
-                trainer.generation_config.max_length = default_max_length
-            if getattr(trainer.generation_config, "max_new_tokens", None) is not None and getattr(
-                trainer.generation_config, "max_length", None
-            ) is None:
-                trainer.generation_config.max_length = default_max_length
-        elif generation_config is not None:
+            trainer.generation_config.early_stopping = True
+            trainer.generation_config.max_length = default_max_length
+            if hasattr(trainer.generation_config, "max_new_tokens"):
+                trainer.generation_config.max_new_tokens = None
+            if data_args.num_beams is not None:
+                trainer.generation_config.num_beams = data_args.num_beams
+        else:
             trainer.generation_config = generation_config
 
         original_generate = model.generate
@@ -743,6 +754,8 @@ def main():
                 kwargs["early_stopping"] = True
             if kwargs.get("max_length") is None:
                 kwargs["max_length"] = default_max_length
+            if kwargs.get("num_beams") is None and data_args.num_beams is not None:
+                kwargs["num_beams"] = data_args.num_beams
             return original_generate(*args, **kwargs)
 
         model.generate = generate_with_defaults
@@ -857,7 +870,6 @@ def _mp_fn(index):
 
 if __name__ == "__main__":
     main()
-
 
 '''
 CUDA_VISIBLE_DEVICES=0 python run_translation_49.py \
