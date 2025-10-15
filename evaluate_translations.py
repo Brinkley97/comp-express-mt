@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Evaluate a fine-tuned translation model on multiple splits with BLEU and chrF++."""
+"""Evaluate a fine-tuned translation model on multiple splits with BLEU and chrF++.
+ Save predictions for Comet-style evaluation if desired.
+"""
 
 import argparse
 import json
