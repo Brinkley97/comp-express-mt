@@ -36,6 +36,7 @@ def parse_args() -> argparse.Namespace:
                         help="Optional mixed-precision mode for generation.")
     parser.add_argument("--progress", action="store_true", help="Show tqdm progress bars.")
     parser.add_argument("--save_predictions", action="store_true", help="Persist model outputs to disk.")
+    parser.add_argument("--save_json", action="store_true", help="Persist src/mt/ref triples as JSON files.")
     return parser.parse_args()
 
 
@@ -88,13 +89,14 @@ def evaluate_split(
     show_progress: bool,
 ) -> Dict[str, float]:
     if not data:
-        return {}
+        return {}, [], [], []
 
     bleu_metric = evaluate.load("sacrebleu")
     chrf_metric = evaluate.load("chrf")
 
     predictions: List[str] = []
     references: List[str] = []
+    sources_all: List[str] = []
 
     iterator = chunked(data, batch_size)
     if show_progress:
@@ -105,6 +107,7 @@ def evaluate_split(
         for batch in iterator:
             sources = [source_prefix + item["source"] for item in batch]
             references.extend(item["target"] for item in batch)
+            sources_all.extend(item["source"] for item in batch)
 
             tokenized = tokenizer(
                 sources,
@@ -130,7 +133,7 @@ def evaluate_split(
         "bleu": round(sacrebleu["score"], 4),
         "chrfpp": round(chrf["score"], 4),
     }
-    return results, predictions
+    return results, predictions, references, sources_all
 
 
 def main() -> None:
@@ -166,7 +169,10 @@ def main() -> None:
     summary = {}
     for split_name, path in datasets.items():
         data = load_split(path, args.source_lang, args.target_lang)
-        metrics, predictions = evaluate_split(
+        if not data:
+            print(f"Split: {split_name} (empty dataset, skipping)")
+            continue
+        metrics, predictions, references, sources = evaluate_split(
             model,
             tokenizer,
             data,
@@ -182,10 +188,19 @@ def main() -> None:
         print("  BLEU   :", metrics["bleu"])
         print("  chrF++ :", metrics["chrfpp"])
 
-        if args.save_predictions and output_dir is not None:
-            pred_file = output_dir / f"{split_name}_predictions.txt"
-            with pred_file.open("w", encoding="utf-8") as handle:
-                handle.write("\n".join(predictions))
+        if output_dir is not None:
+            if args.save_predictions:
+                pred_file = output_dir / f"{split_name}_predictions.txt"
+                with pred_file.open("w", encoding="utf-8") as handle:
+                    handle.write("\n".join(predictions))
+            if args.save_json:
+                json_path = output_dir / f"{split_name}_triples.json"
+                records = [
+                    {"src": src, "mt": hyp, "ref": ref}
+                    for src, hyp, ref in zip(sources, predictions, references)
+                ]
+                with json_path.open("w", encoding="utf-8") as handle:
+                    json.dump(records, handle, ensure_ascii=False, indent=2)
 
     if output_dir is not None:
         metrics_path = output_dir / "metrics.json"
