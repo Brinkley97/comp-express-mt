@@ -71,6 +71,23 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Export per-segment CSVs with STL and QE scores (when --qe_model is set).",
     )
+    parser.add_argument(
+        "--perm_samples",
+        type=int,
+        default=2000,
+        help="Number of permutations/bootstraps for p-values and CIs."
+    )
+    parser.add_argument(
+        "--seed",
+        type=int,
+        default=123,
+        help="Random seed for reproducible resampling."
+    )
+    parser.add_argument(
+        "--overall_subset",
+        default=None,
+        help="Comma-separated list of file basenames (e.g., '1_to_m_triples.json,m_to_1_triples.json') to include in the OVERALL aggregation. If not set, all files are used."
+    )
     return parser.parse_args()
 
 
@@ -176,18 +193,83 @@ def spearman_corr(a: List[float], b: List[float]) -> float:
     return float(np.corrcoef(ra, rb)[0, 1])
 
 
+# Permutation helpers
+def signflip_pvalue_mean_diff(diffs: np.ndarray, *, B: int = 2000, seed: int = 123) -> float:
+    """
+    Two-sided paired permutation (sign-flip) test on the mean of paired differences.
+    H0: mean(diffs) == 0. Returns p-value.
+    """
+    diffs = np.asarray(diffs, dtype=float)
+    diffs = diffs[np.isfinite(diffs)]
+    n = diffs.size
+    if n == 0:
+        return float("nan")
+    obs = float(diffs.mean())
+    rng = np.random.default_rng(seed)
+    # Vectorized sign flips: +1/-1 with equal prob
+    flips = rng.choice([-1.0, 1.0], size=(B, n))
+    perm_means = (flips * diffs).mean(axis=1)
+    p = float((np.abs(perm_means) >= abs(obs)).mean())
+    return p
+
+
+def permutation_pvalue_corr(x: List[float], y: List[float], *, kind: str = "pearson", B: int = 2000, seed: int = 123) -> float:
+    """
+    Two-sided permutation test for correlation between x and y.
+    kind: 'pearson' or 'spearman'. Returns p-value.
+    """
+    xa = np.asarray(x, dtype=float)
+    ya = np.asarray(y, dtype=float)
+    mask = np.isfinite(xa) & np.isfinite(ya)
+    xa, ya = xa[mask], ya[mask]
+    n = xa.size
+    if n < 3:
+        return float("nan")
+
+    if kind == "spearman":
+        r_obs = spearman_corr(xa.tolist(), ya.tolist())
+    else:
+        r_obs = float(np.corrcoef(xa, ya)[0, 1])
+
+    if not np.isfinite(r_obs):
+        return float("nan")
+
+    rng = np.random.default_rng(seed)
+    # Pre-generate permutations by shuffling indices of y
+    idx = np.arange(n)
+    r_perm = np.empty(B, dtype=float)
+    for b in range(B):
+        rng.shuffle(idx)
+        if kind == "spearman":
+            r_perm[b] = spearman_corr(xa.tolist(), ya[idx].tolist())
+        else:
+            r_perm[b] = float(np.corrcoef(xa, ya[idx])[0, 1])
+    p = float((np.abs(r_perm) >= abs(r_obs)).mean())
+    return p
+
+
 def compare_and_visualize(stl_report: Dict[str, Any],
                           qe_report: Dict[str, Any],
                           *,
                           input_dir: Path,
                           export_segments: bool,
-                          make_plots: bool) -> Dict[str, Any]:
+                          make_plots: bool,
+                          subset_files: List[str] | None = None,
+                          perm_samples: int = 2000,
+                          seed: int = 123) -> Dict[str, Any]:
     """Align STL and QE by file and index; write per-file CSVs and plots; return summary stats."""
     summary = {"files": [], "overall": {}}
 
     # Build quick lookups by filename
     stl_by_file = {f["file"]: f for f in stl_report["files"]}
     qe_by_file = {f["file"]: f for f in qe_report["files"]}
+
+    # Normalize subset filter (accept basenames or stems)
+    subset_names = None
+    subset_stems = None
+    if subset_files:
+        subset_names = {name.strip() for name in subset_files if name and name.strip()}
+        subset_stems = {Path(n).stem for n in subset_names}
 
     all_stl = []
     all_qe = []
@@ -209,15 +291,20 @@ def compare_and_visualize(stl_report: Dict[str, Any],
         stl_scores = stl_scores[:n]
         qe_scores = qe_scores[:n]
 
-        # Accumulate global vectors
-        all_stl.extend(stl_scores)
-        all_qe.extend(qe_scores)
+        # Accumulate global vectors (respect subset if provided)
+        use_for_overall = (subset_names is None) or (fname in subset_names) or (Path(fname).stem in subset_stems)
+        if use_for_overall:
+            all_stl.extend(stl_scores)
+            all_qe.extend(qe_scores)
 
         # Per-file stats
         pearson = float(np.corrcoef(stl_scores, qe_scores)[0, 1]) if n > 1 else float("nan")
         spearman = spearman_corr(stl_scores, qe_scores) if n > 1 else float("nan")
         diffs = [s - q for s, q in zip(stl_scores, qe_scores)]
         mean_diff = float(mean(diffs)) if diffs else float("nan")
+        p_mean = signflip_pvalue_mean_diff(np.asarray(diffs, dtype=float), B=perm_samples, seed=seed) if diffs else float("nan")
+        p_pearson = permutation_pvalue_corr(stl_scores, qe_scores, kind="pearson", B=perm_samples, seed=seed) if n > 2 else float("nan")
+        p_spearman = permutation_pvalue_corr(stl_scores, qe_scores, kind="spearman", B=perm_samples, seed=seed) if n > 2 else float("nan")
 
         file_stats = {
             "file": fname,
@@ -227,6 +314,9 @@ def compare_and_visualize(stl_report: Dict[str, Any],
             "pearson": pearson,
             "spearman": spearman,
             "mean_diff_stl_minus_qe": mean_diff,
+            "p_value_mean_diff": p_mean,
+            "p_value_pearson": p_pearson,
+            "p_value_spearman": p_spearman,
         }
         summary["files"].append(file_stats)
 
@@ -265,6 +355,16 @@ def compare_and_visualize(stl_report: Dict[str, Any],
             plt.savefig(input_dir / f"{Path(fname).stem}_hist_stl_minus_qe.png", dpi=180)
             plt.close()
 
+    # Track which files contributed to OVERALL aggregation
+    if subset_names is None:
+        used_files = sorted(list(stl_by_file.keys() & qe_by_file.keys()))
+    else:
+        used = []
+        for fname in stl_by_file.keys():
+            if fname in qe_by_file and ((fname in subset_names) or (Path(fname).stem in subset_stems)):
+                used.append(fname)
+        used_files = sorted(used)
+
     # Overall stats across all files
     if len(all_stl) >= 2 and len(all_qe) == len(all_stl):
         overall_pearson = float(np.corrcoef(all_stl, all_qe)[0, 1])
@@ -273,8 +373,8 @@ def compare_and_visualize(stl_report: Dict[str, Any],
         mean_diff = float(diffs.mean())
 
         # Simple bootstrap CI for mean difference
-        rng = np.random.default_rng(123)
-        B = 2000
+        rng = np.random.default_rng(seed)
+        B = perm_samples
         boots = []
         n = len(diffs)
         for _ in range(B):
@@ -282,12 +382,20 @@ def compare_and_visualize(stl_report: Dict[str, Any],
             boots.append(float(diffs[idxs].mean()))
         lo, hi = float(np.percentile(boots, 2.5)), float(np.percentile(boots, 97.5))
 
+        p_mean = signflip_pvalue_mean_diff(diffs, B=perm_samples, seed=seed)
+        p_pearson = permutation_pvalue_corr(all_stl, all_qe, kind="pearson", B=perm_samples, seed=seed)
+        p_spearman = permutation_pvalue_corr(all_stl, all_qe, kind="spearman", B=perm_samples, seed=seed)
+
         summary["overall"] = {
             "num_segments": len(all_stl),
             "pearson": overall_pearson,
             "spearman": overall_spearman,
             "mean_diff_stl_minus_qe": mean_diff,
             "mean_diff_95ci": [lo, hi],
+            "p_value_mean_diff": float(p_mean),
+            "p_value_pearson": float(p_pearson),
+            "p_value_spearman": float(p_spearman),
+            "files_used": used_files,
         }
 
     return summary
@@ -332,11 +440,17 @@ def main() -> None:
         with output_path.open("w", encoding="utf-8") as handle:
             json.dump(combined, handle, ensure_ascii=False, indent=2)
 
+        subset = None
+        if args.overall_subset:
+            subset = [p.strip() for p in args.overall_subset.split(",") if p.strip()]
         summary = compare_and_visualize(
             stl_report, qe_report,
             input_dir=input_dir,
             export_segments=args.export_segments,
             make_plots=args.make_plots,
+            subset_files=subset,
+            perm_samples=args.perm_samples,
+            seed=args.seed,
         )
         with (input_dir / "comet_comparison_summary.json").open("w", encoding="utf-8") as f:
             json.dump(summary, f, ensure_ascii=False, indent=2)
