@@ -18,6 +18,28 @@ from comet import download_model, load_from_checkpoint
 
 
 def parse_args() -> argparse.Namespace:
+    """
+    Parses command-line arguments for COMET evaluation script.
+
+    Returns:
+        argparse.Namespace: Parsed arguments with the following options:
+            --input_dir (str, required): Directory containing *_triples.json files with src/mt/ref entries.
+            --model (str, optional): COMET model checkpoint to use (Hugging Face identifier or path). Default: "masakhane/africomet-stl-1.1".
+            --pattern (str, optional): Glob pattern to match evaluation files inside input_dir. Default: "*_triples.json".
+            --batch_size (int, optional): Prediction batch size for COMET scoring. Default: 8.
+            --gpus (int, optional): Number of GPUs to use (set to 0 for CPU-only). Default: 1.
+            --output (str, optional): Path to write aggregated metrics JSON (defaults to <input_dir>/comet_metrics.json).
+            --store_segment_scores (bool, optional): Include per-segment COMET scores in the output JSON.
+            --qe_model (str, optional): Optional COMET QE checkpoint (reference-free). If provided, runs both STL (reference-based) and QE.
+            --make_plots (bool, optional): Generate scatter and histogram plots comparing STL vs QE (when --qe_model is set).
+            --export_segments (bool, optional): Export per-segment CSVs with STL and QE scores (when --qe_model is set).
+            --perm_samples (int, optional): Number of permutations/bootstraps for p-values and CIs. Default: 2000.
+            --seed (int, optional): Random seed for reproducible resampling. Default: 123.
+            --overall_subset (str, optional): Comma-separated list of file basenames to include in the OVERALL aggregation. If not set, all files are used.
+            --expansive_files (str, optional): Comma-separated basenames or stems that define the expansive (1->M) bucket. Default: "1_to_m_triples.json".
+            --compressive_files (str, optional): Comma-separated basenames or stems that define the compressive (M->1) bucket. Default: "m_to_1_triples.json".
+            --general_files (str, optional): Comma-separated basenames or stems that define the general test bucket. Default: "test_triples.json".
+    """
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--input_dir",
@@ -107,11 +129,37 @@ def parse_args() -> argparse.Namespace:
 
 
 def discover_files(root: Path, pattern: str) -> List[Path]:
+    """
+    Discover and return a sorted list of file paths in the given root directory that match the specified glob pattern.
+
+    Args:
+        root (Path): The root directory to search for files.
+        pattern (str): The glob pattern to match file names.
+
+    Returns:
+        List[Path]: A sorted list of Path objects representing files that match the pattern.
+    """
     files = sorted(root.glob(pattern))
     return [f for f in files if f.is_file()]
 
 
 def load_triplets(path: Path) -> List[Dict[str, Any]]:
+    """
+    Load and validate a list of triplet dictionaries from a JSON file.
+
+    Each entry in the JSON file must be a dictionary containing at least the keys "src" and "mt".
+    If any entry contains the key "ref", then all entries are required to have "ref" as well.
+
+    Args:
+        path (Path): The path to the JSON file containing the triplets.
+
+    Returns:
+        List[Dict[str, Any]]: A list of validated dictionaries, each containing the keys "src", "mt", and optionally "ref".
+
+    Raises:
+        ValueError: If the file cannot be parsed as JSON, if the top-level object is not a list,
+                    if any entry is not a dictionary, or if required keys are missing from any entry.
+    """
     with path.open("r", encoding="utf-8") as handle:
         try:
             data = json.load(handle)
