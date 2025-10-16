@@ -16,6 +16,27 @@ from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
 
 def parse_args() -> argparse.Namespace:
+    """
+    Parses command-line arguments for evaluating translation models.
+
+    Returns:
+        argparse.Namespace: Parsed command-line arguments with the following options:
+            --model_path (str, required): Path or identifier of the fine-tuned model.
+            --source_lang (str, required): Source language code (e.g. 'en').
+            --target_lang (str, required): Target language code (e.g. 'sw').
+            --source_prefix (str, optional): Optional prefix applied to every source sentence (default: "").
+            --forced_bos_token (str, optional): Token forced as first decoder token for multilingual models.
+            --datasets (list of str, required): Named JSONL datasets to evaluate, e.g. train=data/train.json test=data/test.json.
+            --output_dir (str, optional): Directory to save predictions/metrics.
+            --batch_size (int, optional): Generation batch size (default: 8).
+            --max_length (int, optional): Maximum generation length (default: 200).
+            --num_beams (int, optional): Beam search width (default: 5).
+            --device (str, optional): Device override (cpu, cuda, cuda:0, mps, ...).
+            --precision (str, optional): Mixed-precision mode for generation; one of {"fp32", "bf16", "fp16"} (default: "fp32").
+            --progress (bool, optional): Show tqdm progress bars if set.
+            --save_predictions (bool, optional): Persist model outputs to disk if set.
+            --save_json (bool, optional): Persist src/mt/ref triples as JSON files if set.
+    """
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model_path", required=True, help="Path or identifier of the fine-tuned model.")
     parser.add_argument("--source_lang", required=True, help="Source language code (e.g. en).")
@@ -43,6 +64,22 @@ def parse_args() -> argparse.Namespace:
 
 
 def load_split(path: Path, source_lang: str, target_lang: str) -> List[Dict[str, str]]:
+    """
+    Load a JSONL translation dataset and extract source/target language pairs.
+
+    Args:
+        path (Path): Path to the JSONL file containing translation records.
+        source_lang (str): The source language code (e.g., 'en').
+        target_lang (str): The target language code (e.g., 'fr').
+
+    Returns:
+        List[Dict[str, str]]: A list of dictionaries, each containing 'source' and 'target' keys
+        with corresponding text strings.
+
+    Raises:
+        ValueError: If a record does not contain a 'translation' field.
+        KeyError: If the specified source or target language is missing in a translation record.
+    """
     # Load a JSONL translation dataset and extract source/target pairs.
     examples: List[Dict[str, str]] = []
     with path.open("r", encoding="utf-8") as handle:
@@ -63,6 +100,21 @@ def load_split(path: Path, source_lang: str, target_lang: str) -> List[Dict[str,
 
 
 def chunked(iterable: List[Dict[str, str]], size: int) -> Iterable[List[Dict[str, str]]]:
+    """
+    Splits an iterable of dictionaries into consecutive chunks of a specified size.
+
+    Args:
+        iterable (List[Dict[str, str]]): The list of dictionaries to be chunked.
+        size (int): The maximum size of each chunk.
+
+    Yields:
+        List[Dict[str, str]]: Slices of the original iterable, each with up to 'size' elements.
+
+    Example:
+        >>> data = [{'a': '1'}, {'b': '2'}, {'c': '3'}, {'d': '4'}]
+        >>> list(chunked(data, 2))
+        [[{'a': '1'}, {'b': '2'}], [{'c': '3'}, {'d': '4'}]]
+    """
     """Yield chunks of a given size from the iterable."""
     for idx in range(0, len(iterable), size):
         yield iterable[idx : idx + size]
@@ -90,6 +142,26 @@ def evaluate_split(
     device: torch.device,
     show_progress: bool,
 ) -> Dict[str, float]:
+    """Evaluate a translation model on a split of data using BLEU and ChrF++ metrics.
+
+    Args:
+        model: The sequence-to-sequence model used for generation.
+        tokenizer: Tokenizer paired with the model for encoding and decoding text.
+        data (List[Dict[str, str]]): Iterable of samples containing ``"source"`` and ``"target"`` keys.
+        source_prefix (str): String prepended to each source sentence before tokenization.
+        batch_size (int): Number of samples processed per generation batch.
+        max_length (int): Maximum sequence length for generated outputs.
+        num_beams (int): Beam width for beam search decoding.
+        device (torch.device): Device on which tensors and model execution occur.
+        show_progress (bool): Whether to display a progress bar during generation.
+
+    Returns:
+        Tuple[Dict[str, float], List[str], List[str], List[str]]:
+            - Dictionary with rounded BLEU and ChrF++ scores.
+            - List of generated predictions.
+            - List of reference translations.
+            - List of original source sentences.
+    """
     if not data:
         return {}, [], [], []
 
