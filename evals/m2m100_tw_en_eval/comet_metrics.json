@@ -1,0 +1,44 @@
+{
+  "stl": {
+    "model": "masakhane/africomet-stl-1.1",
+    "generated_at": "2025-10-22T17:45:18.592886Z",
+    "files": [
+      {
+        "file": "1_to_m_triples.json",
+        "num_samples": 463,
+        "system_score": 0.6050006076854455
+      },
+      {
+        "file": "m_to_1_triples.json",
+        "num_samples": 400,
+        "system_score": 0.5672852204367519
+      },
+      {
+        "file": "test_triples.json",
+        "num_samples": 3781,
+        "system_score": 0.6684043620888186
+      }
+    ]
+  },
+  "qe": {
+    "model": "masakhane/africomet-qe-stl-1.1",
+    "generated_at": "2025-10-22T17:48:36.796757Z",
+    "files": [
+      {
+        "file": "1_to_m_triples.json",
+        "num_samples": 463,
+        "system_score": 0.4802823326435769
+      },
+      {
+        "file": "m_to_1_triples.json",
+        "num_samples": 400,
+        "system_score": 0.44600404432509094
+      },
+      {
+        "file": "test_triples.json",
+        "num_samples": 3781,
+        "system_score": 0.4900629712897802
+      }
+    ]
+  }
+}

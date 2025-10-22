@@ -1,0 +1,2317 @@
+[
+  {
+    "src": "Anadwo biara ɔfrɛ no.",
+    "mt": "She calls him every night.",
+    "ref": "He calls her every night."
+  },
+  {
+    "src": "Anadwo biara ɔfrɛ no.",
+    "mt": "She calls him every night.",
+    "ref": "He calls him every night."
+  },
+  {
+    "src": "Anadwo biara ɔfrɛ no.",
+    "mt": "She calls him every night.",
+    "ref": "She calls her every night."
+  },
+  {
+    "src": "Anadwo biara ɔfrɛ no.",
+    "mt": "She calls him every night.",
+    "ref": "He calls her every night."
+  },
+  {
+    "src": "Anɔpa yi, ohyiaa no.",
+    "mt": "She met him this morning.",
+    "ref": "She met him this morning."
+  },
+  {
+    "src": "Anɔpa yi, ohyiaa no.",
+    "mt": "She met him this morning.",
+    "ref": "She met her this morning."
+  },
+  {
+    "src": "Anɔpa yi, ohyiaa no.",
+    "mt": "She met him this morning.",
+    "ref": "He met her this morning."
+  },
+  {
+    "src": "Anɔpa yi, ohyiaa no.",
+    "mt": "She met him this morning.",
+    "ref": "He met him this morning."
+  },
+  {
+    "src": "Merenyɛ saa nnɛ.",
+    "mt": "I won't do that today.",
+    "ref": "I'd rather not go out today."
+  },
+  {
+    "src": "Merenyɛ saa nnɛ.",
+    "mt": "I won't do that today.",
+    "ref": "I don't feel like going out today."
+  },
+  {
+    "src": "Merenyɛ saa nnɛ.",
+    "mt": "I won't do that today.",
+    "ref": "I don't want to go out today."
+  },
+  {
+    "src": "Nea ɛwɔ he na meyɛ?",
+    "mt": "Which one should I do?",
+    "ref": "Which is mine?"
+  },
+  {
+    "src": "Nea ɛwɔ he na meyɛ?",
+    "mt": "Which one should I do?",
+    "ref": "Which one belongs to me?"
+  },
+  {
+    "src": "Nea ɛwɔ he na meyɛ?",
+    "mt": "Which one should I do?",
+    "ref": "Which of these is for me?"
+  },
+  {
+    "src": "Nea ɛwɔ he na meyɛ?",
+    "mt": "Which one should I do?",
+    "ref": "Which one is mine?"
+  },
+  {
+    "src": "Misua nnwom.",
+    "mt": "I am studying music.",
+    "ref": "I'm learning music."
+  },
+  {
+    "src": "Misua nnwom.",
+    "mt": "I am studying music.",
+    "ref": "I'm studying music."
+  },
+  {
+    "src": "Misua nnwom.",
+    "mt": "I am studying music.",
+    "ref": "I'm taking music lessons."
+  },
+  {
+    "src": "Otuu no fo sɛ ɔnhwɛ yiye paa.",
+    "mt": "She advised him to be more careful.",
+    "ref": "She was advised by him to be more careful."
+  },
+  {
+    "src": "Otuu no fo sɛ ɔnhwɛ yiye paa.",
+    "mt": "She advised him to be more careful.",
+    "ref": "He advised her to be more careful."
+  },
+  {
+    "src": "Otuu no fo sɛ ɔnhwɛ yiye paa.",
+    "mt": "She advised him to be more careful.",
+    "ref": "He told her to be careful."
+  },
+  {
+    "src": "Otuu no fo sɛ ɔnhwɛ yiye paa.",
+    "mt": "She advised him to be more careful.",
+    "ref": "He cautioned her to take more care."
+  },
+  {
+    "src": "Otuu no fo sɛ ɔnhwɛ yiye paa.",
+    "mt": "She advised him to be more careful.",
+    "ref": "He instructed her to be very careful."
+  },
+  {
+    "src": "Bɔ mmɔden yɛ saa.",
+    "mt": "Try and do it.",
+    "ref": "Try and do it."
+  },
+  {
+    "src": "Bɔ mmɔden yɛ saa.",
+    "mt": "Try and do it.",
+    "ref": "Give it a try."
+  },
+  {
+    "src": "Bɔ mmɔden yɛ saa.",
+    "mt": "Try and do it.",
+    "ref": "Try your best and do it."
+  },
+  {
+    "src": "Bɔ mmɔden yɛ saa.",
+    "mt": "Try and do it.",
+    "ref": "Make an effort and get it done."
+  },
+  {
+    "src": "Wɔfrɛɛ me wɔ telefon so bere a na merema aduan awia no.",
+    "mt": "I was called on the phone when I was eating lunch.",
+    "ref": "The phone rang when I was having lunch."
+  },
+  {
+    "src": "Wɔfrɛɛ me wɔ telefon so bere a na merema aduan awia no.",
+    "mt": "I was called on the phone when I was eating lunch.",
+    "ref": "While I was having lunch, the phone rang."
+  },
+  {
+    "src": "Wɔfrɛɛ me wɔ telefon so bere a na merema aduan awia no.",
+    "mt": "I was called on the phone when I was eating lunch.",
+    "ref": "I was having lunch when the phone rang."
+  },
+  {
+    "src": "Wɔfrɛɛ me wɔ telefon so bere a na merema aduan awia no.",
+    "mt": "I was called on the phone when I was eating lunch.",
+    "ref": "The phone went off while I was having lunch."
+  },
+  {
+    "src": "Yesua honam fam nyansahu.",
+    "mt": "We are studying geography.",
+    "ref": "We're studying physical science."
+  },
+  {
+    "src": "Yesua honam fam nyansahu.",
+    "mt": "We are studying geography.",
+    "ref": "We are learning physical science."
+  },
+  {
+    "src": "Yesua honam fam nyansahu.",
+    "mt": "We are studying geography.",
+    "ref": "We are taking a physical science class."
+  },
+  {
+    "src": "Sɛ mene wo a, anka menyɛ saa.",
+    "mt": "I't do that if I were you.",
+    "ref": "I wouldn't do that if I were you."
+  },
+  {
+    "src": "Sɛ mene wo a, anka menyɛ saa.",
+    "mt": "I't do that if I were you.",
+    "ref": "If I were in your shoes, I wouldn't do that."
+  },
+  {
+    "src": "Sɛ mene wo a, anka menyɛ saa.",
+    "mt": "I't do that if I were you.",
+    "ref": "That is something I will not do if I were you"
+  },
+  {
+    "src": "Sɛ mene wo a, anka menyɛ saa.",
+    "mt": "I't do that if I were you.",
+    "ref": "If I were you, I wouldn't do that."
+  },
+  {
+    "src": "Bere a ade tɔɔ ne so ara pɛ na yɛde no kɔɔ ayaresabea hɔ.",
+    "mt": "As soon as it got dark, we took him to the hospital.",
+    "ref": "We took her straight to the clinic as soon as she fainted."
+  },
+  {
+    "src": "Bere a ade tɔɔ ne so ara pɛ na yɛde no kɔɔ ayaresabea hɔ.",
+    "mt": "As soon as it got dark, we took him to the hospital.",
+    "ref": "As soon as she passed out, we brought her to the clinic."
+  },
+  {
+    "src": "Bere a ade tɔɔ ne so ara pɛ na yɛde no kɔɔ ayaresabea hɔ.",
+    "mt": "As soon as it got dark, we took him to the hospital.",
+    "ref": "Immediately after she fainted, we took her to the hospital."
+  },
+  {
+    "src": "Ɔkyerɛkyerɛfo akatua nnu mmaranimfo de ara kwa.",
+    "mt": "The teacher has just paid the lawyer.",
+    "ref": "A teacher's salary is less than an attorney's."
+  },
+  {
+    "src": "Ɔkyerɛkyerɛfo akatua nnu mmaranimfo de ara kwa.",
+    "mt": "The teacher has just paid the lawyer.",
+    "ref": "Teachers earn less than lawyers."
+  },
+  {
+    "src": "Ɔkyerɛkyerɛfo akatua nnu mmaranimfo de ara kwa.",
+    "mt": "The teacher has just paid the lawyer.",
+    "ref": "A teacher's pay is lower than a lawyer's."
+  },
+  {
+    "src": "Ɔkyerɛkyerɛfo akatua nnu mmaranimfo de ara kwa.",
+    "mt": "The teacher has just paid the lawyer.",
+    "ref": "Teachers make less money than attorneys."
+  },
+  {
+    "src": "Asamoah anhu sɛnea na wobu Esi anim animtiaa no.",
+    "mt": "Asamoah didn't know how to despise Esi.",
+    "ref": "Asamoah didn't notice the look of disdain on Esi's face."
+  },
+  {
+    "src": "Asamoah anhu sɛnea na wobu Esi anim animtiaa no.",
+    "mt": "Asamoah didn't know how to despise Esi.",
+    "ref": "Asamoah didnt see the contempt on Esi's face."
+  },
+  {
+    "src": "Asamoah anhu sɛnea na wobu Esi anim animtiaa no.",
+    "mt": "Asamoah didn't know how to despise Esi.",
+    "ref": "Asamoah didnt realize Esi was looking at him with contempt."
+  },
+  {
+    "src": "Asamoah anhu sɛnea na wobu Esi anim animtiaa no.",
+    "mt": "Asamoah didn't know how to despise Esi.",
+    "ref": "Asamoah didnt notive how Esi looked at him with disdain."
+  },
+  {
+    "src": "Na ɛte sɛ dae bi a abam.",
+    "mt": "It looked like a dark dream.",
+    "ref": "It was like a dream come true."
+  },
+  {
+    "src": "Na ɛte sɛ dae bi a abam.",
+    "mt": "It looked like a dark dream.",
+    "ref": "It was a dream fulfilled."
+  },
+  {
+    "src": "Na ɛte sɛ dae bi a abam.",
+    "mt": "It looked like a dark dream.",
+    "ref": "It seemed like a dream come true."
+  },
+  {
+    "src": "Na ɛte sɛ dae bi a abam.",
+    "mt": "It looked like a dark dream.",
+    "ref": "It felt like a dream come true."
+  },
+  {
+    "src": "Wuhuu sɛnea wɔn fie no sõ fa?",
+    "mt": "Did you see how big their house is?",
+    "ref": "Did you see how big their house is?"
+  },
+  {
+    "src": "Wuhuu sɛnea wɔn fie no sõ fa?",
+    "mt": "Did you see how big their house is?",
+    "ref": "Did you notice how huge their house is?"
+  },
+  {
+    "src": "Wuhuu sɛnea wɔn fie no sõ fa?",
+    "mt": "Did you see how big their house is?",
+    "ref": "Have you seen how big their house is?"
+  },
+  {
+    "src": "Meka ɛno ho asɛm kyerɛ wo.",
+    "mt": "I'm telling you about that.",
+    "ref": "I give you my word on that."
+  },
+  {
+    "src": "Meka ɛno ho asɛm kyerɛ wo.",
+    "mt": "I'm telling you about that.",
+    "ref": "I promise you that."
+  },
+  {
+    "src": "Meka ɛno ho asɛm kyerɛ wo.",
+    "mt": "I'm telling you about that.",
+    "ref": "I assure you of that."
+  },
+  {
+    "src": "Meka ɛno ho asɛm kyerɛ wo.",
+    "mt": "I'm telling you about that.",
+    "ref": "You have my word."
+  },
+  {
+    "src": "Ɛhaw me yiye.",
+    "mt": "I'm really worried.",
+    "ref": "I'm devastated."
+  },
+  {
+    "src": "Ɛhaw me yiye.",
+    "mt": "I'm really worried.",
+    "ref": "I am heartbroken."
+  },
+  {
+    "src": "Ɛhaw me yiye.",
+    "mt": "I'm really worried.",
+    "ref": "I am very upset."
+  },
+  {
+    "src": "Ɛhaw me yiye.",
+    "mt": "I'm really worried.",
+    "ref": "I feel crushed."
+  },
+  {
+    "src": "Na ayi no ye nnora.",
+    "mt": "It was fine yesterday.",
+    "ref": "The funeral was yesterday."
+  },
+  {
+    "src": "Na ayi no ye nnora.",
+    "mt": "It was fine yesterday.",
+    "ref": "The funeral took place yesterday."
+  },
+  {
+    "src": "Na ayi no ye nnora.",
+    "mt": "It was fine yesterday.",
+    "ref": "The funeral was held yesterday."
+  },
+  {
+    "src": "Na ayi no ye nnora.",
+    "mt": "It was fine yesterday.",
+    "ref": "It was yesterday that the funeral happened."
+  },
+  {
+    "src": "Me yere nsɔre m'anim.",
+    "mt": "My wife isn't wake up at me.",
+    "ref": "My wife doesn't get up before me."
+  },
+  {
+    "src": "Me yere nsɔre m'anim.",
+    "mt": "My wife isn't wake up at me.",
+    "ref": "My wife never wakes up before me."
+  },
+  {
+    "src": "Me yere nsɔre m'anim.",
+    "mt": "My wife isn't wake up at me.",
+    "ref": "She never gets up ahead of me."
+  },
+  {
+    "src": "Asamoah betumi abua no.",
+    "mt": "Asamoah can answer it.",
+    "ref": "Asamoah can answer."
+  },
+  {
+    "src": "Asamoah betumi abua no.",
+    "mt": "Asamoah can answer it.",
+    "ref": "Asamoah can respond."
+  },
+  {
+    "src": "Asamoah betumi abua no.",
+    "mt": "Asamoah can answer it.",
+    "ref": "Asamoah is capable of answering."
+  },
+  {
+    "src": "Asamoah betumi abua no.",
+    "mt": "Asamoah can answer it.",
+    "ref": "Asamoah is able to answer."
+  },
+  {
+    "src": "Mekaa hwee kyerɛɛ wɔn.",
+    "mt": "I told them anything.",
+    "ref": "I told them nothing."
+  },
+  {
+    "src": "Mekaa hwee kyerɛɛ wɔn.",
+    "mt": "I told them anything.",
+    "ref": "I didnt tell them anything."
+  },
+  {
+    "src": "Mekaa hwee kyerɛɛ wɔn.",
+    "mt": "I told them anything.",
+    "ref": "I said nothing to them."
+  },
+  {
+    "src": "Mekaa hwee kyerɛɛ wɔn.",
+    "mt": "I told them anything.",
+    "ref": "I gave them no information."
+  },
+  {
+    "src": "Yɛhwɛ kwan sɛ ɔbɛboa yɛn.",
+    "mt": "We expect him to help us.",
+    "ref": "We expect that he'll help us."
+  },
+  {
+    "src": "Yɛhwɛ kwan sɛ ɔbɛboa yɛn.",
+    "mt": "We expect him to help us.",
+    "ref": "We hope he will help us."
+  },
+  {
+    "src": "Yɛhwɛ kwan sɛ ɔbɛboa yɛn.",
+    "mt": "We expect him to help us.",
+    "ref": "We expect that he will come to our aid."
+  },
+  {
+    "src": "Yɛhwɛ kwan sɛ ɔbɛboa yɛn.",
+    "mt": "We expect him to help us.",
+    "ref": "We are counting on him to help."
+  },
+  {
+    "src": "Na ɛyɛ bere pa a ɛsɛ sɛ yɛfew ano.",
+    "mt": "It was the best time to kiss.",
+    "ref": "It was the perfect moment for a kiss."
+  },
+  {
+    "src": "Na ɛyɛ bere pa a ɛsɛ sɛ yɛfew ano.",
+    "mt": "It was the best time to kiss.",
+    "ref": "It was the ideal time to kiss."
+  },
+  {
+    "src": "Na ɛyɛ bere pa a ɛsɛ sɛ yɛfew ano.",
+    "mt": "It was the best time to kiss.",
+    "ref": "The moment was perfect for a kiss."
+  },
+  {
+    "src": "Na ɛyɛ bere pa a ɛsɛ sɛ yɛfew ano.",
+    "mt": "It was the best time to kiss.",
+    "ref": "It was the perfect opportunity to kiss."
+  },
+  {
+    "src": "Dɛn na wobɛka sɛ ɛsɛ sɛ wokɔ nnwonto no ase?",
+    "mt": "What would you say you should go to the concert?",
+    "ref": "What do you say to going to the concert?"
+  },
+  {
+    "src": "Dɛn na wobɛka sɛ ɛsɛ sɛ wokɔ nnwonto no ase?",
+    "mt": "What would you say you should go to the concert?",
+    "ref": "Do you want to go to the concert?"
+  },
+  {
+    "src": "Dɛn na wobɛka sɛ ɛsɛ sɛ wokɔ nnwonto no ase?",
+    "mt": "What would you say you should go to the concert?",
+    "ref": "Shall we go to the concert?"
+  },
+  {
+    "src": "Bere bɛn na wiase no bɛba awiei?",
+    "mt": "When's the end of the world?",
+    "ref": "When will the world come to an end?"
+  },
+  {
+    "src": "Bere bɛn na wiase no bɛba awiei?",
+    "mt": "When's the end of the world?",
+    "ref": "When is the end of the world?"
+  },
+  {
+    "src": "Bere bɛn na wiase no bɛba awiei?",
+    "mt": "When's the end of the world?",
+    "ref": "When will the world end?"
+  },
+  {
+    "src": "Bere bɛn na wiase no bɛba awiei?",
+    "mt": "When's the end of the world?",
+    "ref": "At what time will the world end?"
+  },
+  {
+    "src": "Asamoah yɛ ɔnokwafo.",
+    "mt": "Asamoah is a right man.",
+    "ref": "Asamoah is a sincere person."
+  },
+  {
+    "src": "Asamoah yɛ ɔnokwafo.",
+    "mt": "Asamoah is a right man.",
+    "ref": "Asamoah is an honest person."
+  },
+  {
+    "src": "Asamoah yɛ ɔnokwafo.",
+    "mt": "Asamoah is a right man.",
+    "ref": "Asamoah is genuine."
+  },
+  {
+    "src": "Asamoah yɛ ɔnokwafo.",
+    "mt": "Asamoah is a right man.",
+    "ref": "Asamoah is trustworthy."
+  },
+  {
+    "src": "Awarefo no de sika pii na ɛyɛɛ wɔn fie.",
+    "mt": "The couple made a lot of money doing their home.",
+    "ref": "The couple spent a lot of money on furnishing their house."
+  },
+  {
+    "src": "Awarefo no de sika pii na ɛyɛɛ wɔn fie.",
+    "mt": "The couple made a lot of money doing their home.",
+    "ref": "They spent a fortune decorating their home."
+  },
+  {
+    "src": "Awarefo no de sika pii na ɛyɛɛ wɔn fie.",
+    "mt": "The couple made a lot of money doing their home.",
+    "ref": "They spent a lot on their home furniture."
+  },
+  {
+    "src": "Awarefo no de sika pii na ɛyɛɛ wɔn fie.",
+    "mt": "The couple made a lot of money doing their home.",
+    "ref": "They invested heavily in furnishing their house."
+  },
+  {
+    "src": "Na ne ho ye, na na ɔnom nsa.",
+    "mt": "She was healthy and she was drunk.",
+    "ref": "He was good and drunk."
+  },
+  {
+    "src": "Na ne ho ye, na na ɔnom nsa.",
+    "mt": "She was healthy and she was drunk.",
+    "ref": "He felt fine but was drunk."
+  },
+  {
+    "src": "Na ne ho ye, na na ɔnom nsa.",
+    "mt": "She was healthy and she was drunk.",
+    "ref": "He was happy and intoxicated."
+  },
+  {
+    "src": "Na yɛhwɛ sɛnea asubɔnten no mu dɔ fa.",
+    "mt": "We looked for the deepness of the river.",
+    "ref": "We measured the depth of the river."
+  },
+  {
+    "src": "Na yɛhwɛ sɛnea asubɔnten no mu dɔ fa.",
+    "mt": "We looked for the deepness of the river.",
+    "ref": "We checked how deep the river was."
+  },
+  {
+    "src": "Na yɛhwɛ sɛnea asubɔnten no mu dɔ fa.",
+    "mt": "We looked for the deepness of the river.",
+    "ref": "We found out the depth of the river."
+  },
+  {
+    "src": "Na yɛhwɛ sɛnea asubɔnten no mu dɔ fa.",
+    "mt": "We looked for the deepness of the river.",
+    "ref": "We measured how far down the river went."
+  },
+  {
+    "src": "Me mu reyɛ duru.",
+    "mt": "I'm getting heavily.",
+    "ref": "I'm gaining weight."
+  },
+  {
+    "src": "Me mu reyɛ duru.",
+    "mt": "I'm getting heavily.",
+    "ref": "I am putting on weight."
+  },
+  {
+    "src": "Me mu reyɛ duru.",
+    "mt": "I'm getting heavily.",
+    "ref": "I am getting heavier."
+  },
+  {
+    "src": "Me mu reyɛ duru.",
+    "mt": "I'm getting heavily.",
+    "ref": "I have gaining pounds lately."
+  },
+  {
+    "src": "Yɛsrɛ sɛ fa wo tekiti wɔ ɔpon no ano.",
+    "mt": "Please take your ticket at the door.",
+    "ref": "Please pick up your ticket at the counter."
+  },
+  {
+    "src": "Yɛsrɛ sɛ fa wo tekiti wɔ ɔpon no ano.",
+    "mt": "Please take your ticket at the door.",
+    "ref": "Collect your ticket at the counter."
+  },
+  {
+    "src": "Yɛsrɛ sɛ fa wo tekiti wɔ ɔpon no ano.",
+    "mt": "Please take your ticket at the door.",
+    "ref": "Pick up your ticket from the counter, please."
+  },
+  {
+    "src": "Yɛsrɛ sɛ fa wo tekiti wɔ ɔpon no ano.",
+    "mt": "Please take your ticket at the door.",
+    "ref": "Your ticket is ready at the counter."
+  },
+  {
+    "src": "Sɛ Asamoah no, ɔwɔ dan abien a adan abien wom.",
+    "mt": "Asamoah has swo houses with swo houses.",
+    "ref": "Asamoah has a house with two rooms."
+  },
+  {
+    "src": "Sɛ Asamoah no, ɔwɔ dan abien a adan abien wom.",
+    "mt": "Asamoah has swo houses with swo houses.",
+    "ref": "Asamoah owns a two-room house."
+  },
+  {
+    "src": "Sɛ Asamoah no, ɔwɔ dan abien a adan abien wom.",
+    "mt": "Asamoah has swo houses with swo houses.",
+    "ref": "Asamoah's house has two rooms."
+  },
+  {
+    "src": "Minni sika pii saa bere no.",
+    "mt": "I don't have much money at the moment.",
+    "ref": "I don't have enough money at the moment."
+  },
+  {
+    "src": "Minni sika pii saa bere no.",
+    "mt": "I don't have much money at the moment.",
+    "ref": "I am short on money right now."
+  },
+  {
+    "src": "Minni sika pii saa bere no.",
+    "mt": "I don't have much money at the moment.",
+    "ref": "I don't have much cash at the moment."
+  },
+  {
+    "src": "Minni sika pii saa bere no.",
+    "mt": "I don't have much money at the moment.",
+    "ref": "I don't have sufficient money right now."
+  },
+  {
+    "src": "Sɛ obi a onim nyansa yiye te sɛ Asamoah.",
+    "mt": "Asamoah is a very smart person.",
+    "ref": "Asamoah is a very clever man."
+  },
+  {
+    "src": "Sɛ obi a onim nyansa yiye te sɛ Asamoah.",
+    "mt": "Asamoah is a very smart person.",
+    "ref": "Asamoah is brilliant."
+  },
+  {
+    "src": "Sɛ obi a onim nyansa yiye te sɛ Asamoah.",
+    "mt": "Asamoah is a very smart person.",
+    "ref": "Asamoah is extremely smart."
+  },
+  {
+    "src": "Sɛ obi a onim nyansa yiye te sɛ Asamoah.",
+    "mt": "Asamoah is a very smart person.",
+    "ref": "Asamoah is an intelligent man."
+  },
+  {
+    "src": "Bere a Ɔhemmaa no soo nkuruwa no mu no, ɔde guu adaka no mu.",
+    "mt": "Asamoah threw the glasses and put them in the box.",
+    "ref": "Asamoah rinsed off the plates and put them into the dishwasher."
+  },
+  {
+    "src": "Bere a Ɔhemmaa no soo nkuruwa no mu no, ɔde guu adaka no mu.",
+    "mt": "Asamoah threw the glasses and put them in the box.",
+    "ref": "He washed the plates and put them in the dishwasher."
+  },
+  {
+    "src": "Bere a Ɔhemmaa no soo nkuruwa no mu no, ɔde guu adaka no mu.",
+    "mt": "Asamoah threw the glasses and put them in the box.",
+    "ref": "Asamoah cleaned the dishes and placed them in the dishwasher."
+  },
+  {
+    "src": "Mepɛ sɛ wosan susuw gyinae a woasi no ho.",
+    "mt": "I want you to think again about your decision.",
+    "ref": "I want you to reconsider your decision."
+  },
+  {
+    "src": "Mepɛ sɛ wosan susuw gyinae a woasi no ho.",
+    "mt": "I want you to think again about your decision.",
+    "ref": "I want you to rethink your choice."
+  },
+  {
+    "src": "Mepɛ sɛ wosan susuw gyinae a woasi no ho.",
+    "mt": "I want you to think again about your decision.",
+    "ref": "I would like you to think about your decision again."
+  },
+  {
+    "src": "Ɛyɛ nwonwa yiye.",
+    "mt": "It's so amazing.",
+    "ref": "It's quite remarkable."
+  },
+  {
+    "src": "Ɛyɛ nwonwa yiye.",
+    "mt": "It's so amazing.",
+    "ref": "It is truly amazing."
+  },
+  {
+    "src": "Ɛyɛ nwonwa yiye.",
+    "mt": "It's so amazing.",
+    "ref": "It is quite impressive."
+  },
+  {
+    "src": "Meyɛ aso tie asɛm yiye.",
+    "mt": "I pay attention.",
+    "ref": "I'm attentive."
+  },
+  {
+    "src": "Meyɛ aso tie asɛm yiye.",
+    "mt": "I pay attention.",
+    "ref": "I am paying close attention."
+  },
+  {
+    "src": "Meyɛ aso tie asɛm yiye.",
+    "mt": "I pay attention.",
+    "ref": "I am focused."
+  },
+  {
+    "src": "Meyɛ aso tie asɛm yiye.",
+    "mt": "I pay attention.",
+    "ref": "I am very alert."
+  },
+  {
+    "src": "Wususuw ho dɛn ankasa?",
+    "mt": "What do you really think of it?",
+    "ref": "What do you really think?"
+  },
+  {
+    "src": "Wususuw ho dɛn ankasa?",
+    "mt": "What do you really think of it?",
+    "ref": "What is your honest opinion?"
+  },
+  {
+    "src": "Wususuw ho dɛn ankasa?",
+    "mt": "What do you really think of it?",
+    "ref": "What do you truly think?"
+  },
+  {
+    "src": "Wususuw ho dɛn ankasa?",
+    "mt": "What do you really think of it?",
+    "ref": "How do you really feel about it?"
+  },
+  {
+    "src": "Woyɛ nea wubetumi biara.",
+    "mt": "You do your best.",
+    "ref": "You do what you can."
+  },
+  {
+    "src": "Woyɛ nea wubetumi biara.",
+    "mt": "You do your best.",
+    "ref": "Do what you are able to do."
+  },
+  {
+    "src": "Woyɛ nea wubetumi biara.",
+    "mt": "You do your best.",
+    "ref": "Just do your best."
+  },
+  {
+    "src": "Woyɛ nea wubetumi biara.",
+    "mt": "You do your best.",
+    "ref": "Do all that you can."
+  },
+  {
+    "src": "Sɛnea mihu no, ɛno ne ɔkwan a eye sen biara.",
+    "mt": "As far as I see, that is the best way.",
+    "ref": "As I see it, that is the best way."
+  },
+  {
+    "src": "Sɛnea mihu no, ɛno ne ɔkwan a eye sen biara.",
+    "mt": "As far as I see, that is the best way.",
+    "ref": "In my opinion, that is the best approach."
+  },
+  {
+    "src": "Sɛnea mihu no, ɛno ne ɔkwan a eye sen biara.",
+    "mt": "As far as I see, that is the best way.",
+    "ref": "I think that is the best way."
+  },
+  {
+    "src": "Mepɛ sɛ migye wo sika.",
+    "mt": "I want to borrow your money.",
+    "ref": "I want to hire you."
+  },
+  {
+    "src": "Mepɛ sɛ migye wo sika.",
+    "mt": "I want to borrow your money.",
+    "ref": "I would like to employ you."
+  },
+  {
+    "src": "Mepɛ sɛ migye wo sika.",
+    "mt": "I want to borrow your money.",
+    "ref": "I would like to offer you a job."
+  },
+  {
+    "src": "Mepɛ sɛ migye wo sika.",
+    "mt": "I want to borrow your money.",
+    "ref": "I wan t to bring you on board."
+  },
+  {
+    "src": "Na adetɔfo foforo biara nni sotɔɔ no mu.",
+    "mt": "There were no other customers in the store.",
+    "ref": "There were no other customers in the store."
+  },
+  {
+    "src": "Na adetɔfo foforo biara nni sotɔɔ no mu.",
+    "mt": "There were no other customers in the store.",
+    "ref": "The store had no other customers."
+  },
+  {
+    "src": "Na adetɔfo foforo biara nni sotɔɔ no mu.",
+    "mt": "There were no other customers in the store.",
+    "ref": "The shop was empty of other customers."
+  },
+  {
+    "src": "Ɛyɛ nwonwa sɛ ebetumi aba saa.",
+    "mt": "It's amazing how much it could happen.",
+    "ref": "One wonders how it's possible."
+  },
+  {
+    "src": "Ɛyɛ nwonwa sɛ ebetumi aba saa.",
+    "mt": "It's amazing how much it could happen.",
+    "ref": "How could this be possible?"
+  },
+  {
+    "src": "Ɛyɛ nwonwa sɛ ebetumi aba saa.",
+    "mt": "It's amazing how much it could happen.",
+    "ref": "It is hard to believe this can happen."
+  },
+  {
+    "src": "Asamaoh ye nipa kese.",
+    "mt": "Asamoah is a big man.",
+    "ref": "Asamoah's great."
+  },
+  {
+    "src": "Asamaoh ye nipa kese.",
+    "mt": "Asamoah is a big man.",
+    "ref": "Asamoah is fantastic."
+  },
+  {
+    "src": "Asamaoh ye nipa kese.",
+    "mt": "Asamoah is a big man.",
+    "ref": "Asamoah is wonderful."
+  },
+  {
+    "src": "Asamaoh ye nipa kese.",
+    "mt": "Asamoah is a big man.",
+    "ref": "Asamoah is an amazing person."
+  },
+  {
+    "src": "So wotee nteɛteɛm no?",
+    "mt": "Did you hear the news?",
+    "ref": "Didn't you hear the scream?"
+  },
+  {
+    "src": "So wotee nteɛteɛm no?",
+    "mt": "Did you hear the news?",
+    "ref": "Didn't you hear that scream?"
+  },
+  {
+    "src": "So wotee nteɛteɛm no?",
+    "mt": "Did you hear the news?",
+    "ref": "Didn't you hear the yell?"
+  },
+  {
+    "src": "Na ne fã adwudwo.",
+    "mt": "It was halfway.",
+    "ref": "He had a stroke."
+  },
+  {
+    "src": "Na ne fã adwudwo.",
+    "mt": "It was halfway.",
+    "ref": "He suffered a stroke."
+  },
+  {
+    "src": "Na ne fã adwudwo.",
+    "mt": "It was halfway.",
+    "ref": "He experienced a stroke."
+  },
+  {
+    "src": "Esi bɔɔ ne tirim sɛ ɔbɛyɛ ne fie ho mfonini.",
+    "mt": "Esi intended to take a picture of her house.",
+    "ref": "Esi hired Asamoah to paint her house."
+  },
+  {
+    "src": "Esi bɔɔ ne tirim sɛ ɔbɛyɛ ne fie ho mfonini.",
+    "mt": "Esi intended to take a picture of her house.",
+    "ref": "Esi employed Asamoah to paint her house."
+  },
+  {
+    "src": "Esi bɔɔ ne tirim sɛ ɔbɛyɛ ne fie ho mfonini.",
+    "mt": "Esi intended to take a picture of her house.",
+    "ref": "Esi hired Asamoah for house painting."
+  },
+  {
+    "src": "Medɔ wo paa.",
+    "mt": "I love you a lot.",
+    "ref": "I love you so much."
+  },
+  {
+    "src": "Medɔ wo paa.",
+    "mt": "I love you a lot.",
+    "ref": "I really love you."
+  },
+  {
+    "src": "Medɔ wo paa.",
+    "mt": "I love you a lot.",
+    "ref": "I love you deeply."
+  },
+  {
+    "src": "Medɔ wo paa.",
+    "mt": "I love you a lot.",
+    "ref": "I love you a lot."
+  },
+  {
+    "src": "Megyina w'akyi wɔ ahohia bere mu.",
+    "mt": "I'll stand by you in the summer.",
+    "ref": "I'll stand by you in time of need."
+  },
+  {
+    "src": "Megyina w'akyi wɔ ahohia bere mu.",
+    "mt": "I'll stand by you in the summer.",
+    "ref": "I will support you in difficult times."
+  },
+  {
+    "src": "Megyina w'akyi wɔ ahohia bere mu.",
+    "mt": "I'll stand by you in the summer.",
+    "ref": "I will be there for you whe you need me."
+  },
+  {
+    "src": "Megyina w'akyi wɔ ahohia bere mu.",
+    "mt": "I'll stand by you in the summer.",
+    "ref": "I will stick with you in times of need."
+  },
+  {
+    "src": "Me nuabarima hwɛ television.",
+    "mt": "My brother watches television.",
+    "ref": "My brother watches television."
+  },
+  {
+    "src": "Me nuabarima hwɛ television.",
+    "mt": "My brother watches television.",
+    "ref": "My brother enjoys watching television."
+  },
+  {
+    "src": "Me nuabarima hwɛ television.",
+    "mt": "My brother watches television.",
+    "ref": "My brother is watching television."
+  },
+  {
+    "src": "Na misusuw sɛ sɛ Asamoah hwɛ Esi a, n'ani begye papa.",
+    "mt": "I thought Asamoah would be good if Esi had seen Esi.",
+    "ref": "I thought Asamoah would be glad to see Esi."
+  },
+  {
+    "src": "Na misusuw sɛ sɛ Asamoah hwɛ Esi a, n'ani begye papa.",
+    "mt": "I thought Asamoah would be good if Esi had seen Esi.",
+    "ref": "I thought Asamoah would be happy to see Esi."
+  },
+  {
+    "src": "Na misusuw sɛ sɛ Asamoah hwɛ Esi a, n'ani begye papa.",
+    "mt": "I thought Asamoah would be good if Esi had seen Esi.",
+    "ref": "I expected Asamoah to be pleased to see Esi."
+  },
+  {
+    "src": "Na misusuw sɛ sɛ Asamoah hwɛ Esi a, n'ani begye papa.",
+    "mt": "I thought Asamoah would be good if Esi had seen Esi.",
+    "ref": "I figured Asamoah would enjoy seeing Esi."
+  },
+  {
+    "src": "Mewɔ mmirikatufo nan na ɛyɛ me yaw yiye.",
+    "mt": "I have a runner's leg and it hurts.",
+    "ref": "I have athlete's foot and it's very itchy."
+  },
+  {
+    "src": "Mewɔ mmirikatufo nan na ɛyɛ me yaw yiye.",
+    "mt": "I have a runner's leg and it hurts.",
+    "ref": "I have athlete's foot and it itches badly."
+  },
+  {
+    "src": "Mewɔ mmirikatufo nan na ɛyɛ me yaw yiye.",
+    "mt": "I have a runner's leg and it hurts.",
+    "ref": "I am suffering from itchy athlete's foot."
+  },
+  {
+    "src": "Ɔtoo dwom yiye araa ma ɛyɛ den sɛ obi betumi ate nusu.",
+    "mt": "She singed so much that was hard to hear tears.",
+    "ref": "He sings so well that it's impossible to hold back tears."
+  },
+  {
+    "src": "Ɔtoo dwom yiye araa ma ɛyɛ den sɛ obi betumi ate nusu.",
+    "mt": "She singed so much that was hard to hear tears.",
+    "ref": "He sings so beautifully it is hard not to cry."
+  },
+  {
+    "src": "Ɔtoo dwom yiye araa ma ɛyɛ den sɛ obi betumi ate nusu.",
+    "mt": "She singed so much that was hard to hear tears.",
+    "ref": "His singing moves people to tears."
+  },
+  {
+    "src": "Nsa a wɔnom no ɔha biara mu 5 na ɛwɔ saa aduru yi mu.",
+    "mt": "5 out of the beer is available in this medicine.",
+    "ref": "This beer contains 5% alcohol."
+  },
+  {
+    "src": "Nsa a wɔnom no ɔha biara mu 5 na ɛwɔ saa aduru yi mu.",
+    "mt": "5 out of the beer is available in this medicine.",
+    "ref": "This beer has 5% alcohol."
+  },
+  {
+    "src": "Nsa a wɔnom no ɔha biara mu 5 na ɛwɔ saa aduru yi mu.",
+    "mt": "5 out of the beer is available in this medicine.",
+    "ref": "The alcohol content of this beer is 5%."
+  },
+  {
+    "src": "Nsa a wɔnom no ɔha biara mu 5 na ɛwɔ saa aduru yi mu.",
+    "mt": "5 out of the beer is available in this medicine.",
+    "ref": "There is 5% alcohol is this beer."
+  },
+  {
+    "src": "Na wosusuw hokwan biara a wobenya ho.",
+    "mt": "Any chance was considered.",
+    "ref": "They took every possibility into consideration."
+  },
+  {
+    "src": "Na wosusuw hokwan biara a wobenya ho.",
+    "mt": "Any chance was considered.",
+    "ref": "They considered every possibility."
+  },
+  {
+    "src": "Na wosusuw hokwan biara a wobenya ho.",
+    "mt": "Any chance was considered.",
+    "ref": "All options were taken into account."
+  },
+  {
+    "src": "Na wosusuw hokwan biara a wobenya ho.",
+    "mt": "Any chance was considered.",
+    "ref": "They thought about all possible outcomes"
+  },
+  {
+    "src": "Anigyesɛm ne sɛ, hyɛn no mufo biara anhaw.",
+    "mt": "Fortunately, neither of the ship were injured.",
+    "ref": "Fortunately, no passengers were injured."
+  },
+  {
+    "src": "Anigyesɛm ne sɛ, hyɛn no mufo biara anhaw.",
+    "mt": "Fortunately, neither of the ship were injured.",
+    "ref": "Luckily, none of the passengers were hurt."
+  },
+  {
+    "src": "Anigyesɛm ne sɛ, hyɛn no mufo biara anhaw.",
+    "mt": "Fortunately, neither of the ship were injured.",
+    "ref": "Thankfully, no passengers were harmed."
+  },
+  {
+    "src": "Anigyesɛm ne sɛ, hyɛn no mufo biara anhaw.",
+    "mt": "Fortunately, neither of the ship were injured.",
+    "ref": "Thankfully, all passengers were safe."
+  },
+  {
+    "src": "Mfutuma akata ɔpon no so.",
+    "mt": "The desk is covered with ivy.",
+    "ref": "The desk is covered with dust."
+  },
+  {
+    "src": "Mfutuma akata ɔpon no so.",
+    "mt": "The desk is covered with ivy.",
+    "ref": "The desk is dusty."
+  },
+  {
+    "src": "Mfutuma akata ɔpon no so.",
+    "mt": "The desk is covered with ivy.",
+    "ref": "The desk is coated in dust."
+  },
+  {
+    "src": "So ɛyɛ nokware sɛ na wowɔ TV so besi nnɛ?",
+    "mt": "Is it true that you were on TV yesterday?",
+    "ref": "Is it true that you were on TV yesterday?"
+  },
+  {
+    "src": "So ɛyɛ nokware sɛ na wowɔ TV so besi nnɛ?",
+    "mt": "Is it true that you were on TV yesterday?",
+    "ref": "Were you really on TV yesterday?"
+  },
+  {
+    "src": "So ɛyɛ nokware sɛ na wowɔ TV so besi nnɛ?",
+    "mt": "Is it true that you were on TV yesterday?",
+    "ref": "Is it true you appeared on TV yesterday?"
+  },
+  {
+    "src": "So ɛyɛ nokware sɛ na wowɔ TV so besi nnɛ?",
+    "mt": "Is it true that you were on TV yesterday?",
+    "ref": "Did you actually go on TV yesterday?"
+  },
+  {
+    "src": "Obiara anto nsa frɛɛ me sɛ memmra apontow no ase.",
+    "mt": "No one invited me to the party.",
+    "ref": "Nobody invited me to the party."
+  },
+  {
+    "src": "Obiara anto nsa frɛɛ me sɛ memmra apontow no ase.",
+    "mt": "No one invited me to the party.",
+    "ref": "No one asked me to the party."
+  },
+  {
+    "src": "Obiara anto nsa frɛɛ me sɛ memmra apontow no ase.",
+    "mt": "No one invited me to the party.",
+    "ref": "I wasnt invited to the party by anyone."
+  },
+  {
+    "src": "Minnim bere tenten a saa tebea yi bedi.",
+    "mt": "I don't know how long this situation will take.",
+    "ref": "I don't know how long this situation is going to last."
+  },
+  {
+    "src": "Minnim bere tenten a saa tebea yi bedi.",
+    "mt": "I don't know how long this situation will take.",
+    "ref": "I don't know how long this will continue."
+  },
+  {
+    "src": "Minnim bere tenten a saa tebea yi bedi.",
+    "mt": "I don't know how long this situation will take.",
+    "ref": "I am unsure how long this will last."
+  },
+  {
+    "src": "Minnim bere tenten a saa tebea yi bedi.",
+    "mt": "I don't know how long this situation will take.",
+    "ref": "I don't know when the situation will end."
+  },
+  {
+    "src": "Wasiesie ne ho bere nyinaa.",
+    "mt": "He's always got ready.",
+    "ref": "He is always prepared."
+  },
+  {
+    "src": "Wasiesie ne ho bere nyinaa.",
+    "mt": "He's always got ready.",
+    "ref": "He is always ready."
+  },
+  {
+    "src": "Wasiesie ne ho bere nyinaa.",
+    "mt": "He's always got ready.",
+    "ref": "He is always on top of things."
+  },
+  {
+    "src": "Na onniidi nnanu.",
+    "mt": "She ate dinner for swo days.",
+    "ref": "He hadn't eaten in two days."
+  },
+  {
+    "src": "Na onniidi nnanu.",
+    "mt": "She ate dinner for swo days.",
+    "ref": "He went two days without eating."
+  },
+  {
+    "src": "Na onniidi nnanu.",
+    "mt": "She ate dinner for swo days.",
+    "ref": "It had been two days since he last ate."
+  },
+  {
+    "src": "Esiane sɛ na m'ani so atan me nti, anka mereyɛ akyere me.",
+    "mt": "Since I woke up, I't have been late.",
+    "ref": "Asamoah risked getting in trouble for me."
+  },
+  {
+    "src": "Esiane sɛ na m'ani so atan me nti, anka mereyɛ akyere me.",
+    "mt": "Since I woke up, I't have been late.",
+    "ref": "Asamoah put himself as risk for me."
+  },
+  {
+    "src": "Esiane sɛ na m'ani so atan me nti, anka mereyɛ akyere me.",
+    "mt": "Since I woke up, I't have been late.",
+    "ref": "Asamoah could have gotten into trouble to help me."
+  },
+  {
+    "src": "Ɛsɛ sɛ yɛma yɛn ani da hɔ.",
+    "mt": "We must keep Asamoah up.",
+    "ref": "We must remain vigilant."
+  },
+  {
+    "src": "Ɛsɛ sɛ yɛma yɛn ani da hɔ.",
+    "mt": "We must keep Asamoah up.",
+    "ref": "We have to stay alert."
+  },
+  {
+    "src": "Ɛsɛ sɛ yɛma yɛn ani da hɔ.",
+    "mt": "We must keep Asamoah up.",
+    "ref": "We must keep our eyes open."
+  },
+  {
+    "src": "Ɔfew n'ano.",
+    "mt": "She kissed him.",
+    "ref": "She was kissed by him."
+  },
+  {
+    "src": "Ɔfew n'ano.",
+    "mt": "She kissed him.",
+    "ref": "He kissed her."
+  },
+  {
+    "src": "Ɔfew n'ano.",
+    "mt": "She kissed him.",
+    "ref": "She received a kiss from him."
+  },
+  {
+    "src": "Ɔfew n'ano.",
+    "mt": "She kissed him.",
+    "ref": "He gave her a kiss."
+  },
+  {
+    "src": "Sɛ odu hɔ pɛ a, mɛka akyerɛ no.",
+    "mt": "I'll tell him as soon as he arrives.",
+    "ref": "As soon as he arrives, I'll tell him."
+  },
+  {
+    "src": "Sɛ odu hɔ pɛ a, mɛka akyerɛ no.",
+    "mt": "I'll tell him as soon as he arrives.",
+    "ref": "I will tell him the moment he arrives."
+  },
+  {
+    "src": "Sɛ odu hɔ pɛ a, mɛka akyerɛ no.",
+    "mt": "I'll tell him as soon as he arrives.",
+    "ref": "Once he arrives I will let him know."
+  },
+  {
+    "src": "Sɛ odu hɔ pɛ a, mɛka akyerɛ no.",
+    "mt": "I'll tell him as soon as he arrives.",
+    "ref": "I will inform him as soon as he gets here."
+  },
+  {
+    "src": "Wokae no, ɛnte saa?",
+    "mt": "You remember him, don't you?",
+    "ref": "You remember him, don't you?"
+  },
+  {
+    "src": "Wokae no, ɛnte saa?",
+    "mt": "You remember him, don't you?",
+    "ref": "You remember him, right?"
+  },
+  {
+    "src": "Wokae no, ɛnte saa?",
+    "mt": "You remember him, don't you?",
+    "ref": "You do remember him, don't you?"
+  },
+  {
+    "src": "Wokae no, ɛnte saa?",
+    "mt": "You remember him, don't you?",
+    "ref": "He is familiar to you, isn't he?"
+  },
+  {
+    "src": "Minni sika nnɛ.",
+    "mt": "I don't have money today.",
+    "ref": "I have no money today."
+  },
+  {
+    "src": "Minni sika nnɛ.",
+    "mt": "I don't have money today.",
+    "ref": "I don't have any money today."
+  },
+  {
+    "src": "Minni sika nnɛ.",
+    "mt": "I don't have money today.",
+    "ref": "I am out of money today."
+  },
+  {
+    "src": "M'ani begye ho sɛ mehu Asamoah bio.",
+    "mt": "I'd like to see Asamoah again.",
+    "ref": "I'd like to see Asamoah one more time."
+  },
+  {
+    "src": "M'ani begye ho sɛ mehu Asamoah bio.",
+    "mt": "I'd like to see Asamoah again.",
+    "ref": "I want to see Asamoah again."
+  },
+  {
+    "src": "M'ani begye ho sɛ mehu Asamoah bio.",
+    "mt": "I'd like to see Asamoah again.",
+    "ref": "I would like one more meeting with Asamoah."
+  },
+  {
+    "src": "M'ani begye ho sɛ mehu Asamoah bio.",
+    "mt": "I'd like to see Asamoah again.",
+    "ref": "I wish to see Asamoah once more."
+  },
+  {
+    "src": "Sɛ ade sa a, na wo ho ntɔ wo.",
+    "mt": "You weren't well when it happens.",
+    "ref": "You had better not go after dark."
+  },
+  {
+    "src": "Sɛ ade sa a, na wo ho ntɔ wo.",
+    "mt": "You weren't well when it happens.",
+    "ref": "It is best if you don't go after dark."
+  },
+  {
+    "src": "Sɛ ade sa a, na wo ho ntɔ wo.",
+    "mt": "You weren't well when it happens.",
+    "ref": "Don't go out after dark."
+  },
+  {
+    "src": "Ɔkɔɔ so sɔɔ no hwɛe.",
+    "mt": "She kept to take a look at him.",
+    "ref": "He carried on with his experiment."
+  },
+  {
+    "src": "Ɔkɔɔ so sɔɔ no hwɛe.",
+    "mt": "She kept to take a look at him.",
+    "ref": "He continued his experiment."
+  },
+  {
+    "src": "Ɔkɔɔ so sɔɔ no hwɛe.",
+    "mt": "She kept to take a look at him.",
+    "ref": "He kept working on his experiment."
+  },
+  {
+    "src": "Ɔkɔɔ so sɔɔ no hwɛe.",
+    "mt": "She kept to take a look at him.",
+    "ref": "He went on with the experiment."
+  },
+  {
+    "src": "Me telefon foforo no ye sen me telefon dedaw no.",
+    "mt": "My new phone is better than my old phone.",
+    "ref": "My new phone is thinner than my old phone."
+  },
+  {
+    "src": "Me telefon foforo no ye sen me telefon dedaw no.",
+    "mt": "My new phone is better than my old phone.",
+    "ref": "My new phone is slimmer than my old one."
+  },
+  {
+    "src": "Me telefon foforo no ye sen me telefon dedaw no.",
+    "mt": "My new phone is better than my old phone.",
+    "ref": "This phone is thinner than my previous phone."
+  },
+  {
+    "src": "Me telefon foforo no ye sen me telefon dedaw no.",
+    "mt": "My new phone is better than my old phone.",
+    "ref": "My old phone was thicker than the new one."
+  },
+  {
+    "src": "Amerika atubrafo a wodi kan no duu hɔ wɔ afeha a ɛto so 17 no mu.",
+    "mt": "The first American enemy arrived at the seventeen.",
+    "ref": "The first American colonists arrived in the 17th century."
+  },
+  {
+    "src": "Amerika atubrafo a wodi kan no duu hɔ wɔ afeha a ɛto so 17 no mu.",
+    "mt": "The first American enemy arrived at the seventeen.",
+    "ref": "The first settlers came to America in the 1600s."
+  },
+  {
+    "src": "Amerika atubrafo a wodi kan no duu hɔ wɔ afeha a ɛto so 17 no mu.",
+    "mt": "The first American enemy arrived at the seventeen.",
+    "ref": "America was first colonized in the 17th century."
+  },
+  {
+    "src": "Amerika atubrafo a wodi kan no duu hɔ wɔ afeha a ɛto so 17 no mu.",
+    "mt": "The first American enemy arrived at the seventeen.",
+    "ref": "The first American colonists landed in the 17th century."
+  },
+  {
+    "src": "So wo kraman no kyerɛ biribi?",
+    "mt": "Does your dog show something?",
+    "ref": "Is your dog mean?"
+  },
+  {
+    "src": "So wo kraman no kyerɛ biribi?",
+    "mt": "Does your dog show something?",
+    "ref": "Is your dog aggressive?"
+  },
+  {
+    "src": "So wo kraman no kyerɛ biribi?",
+    "mt": "Does your dog show something?",
+    "ref": "Does your dog bite?"
+  },
+  {
+    "src": "So wo kraman no kyerɛ biribi?",
+    "mt": "Does your dog show something?",
+    "ref": "Is your dog unfriendly?"
+  },
+  {
+    "src": "Manim Asamoah bere tenten.",
+    "mt": "I've known Asamoah a long time.",
+    "ref": "I've known Asamoah for a long time."
+  },
+  {
+    "src": "Manim Asamoah bere tenten.",
+    "mt": "I've known Asamoah a long time.",
+    "ref": "I have been friends with Asamoah for a long time."
+  },
+  {
+    "src": "Manim Asamoah bere tenten.",
+    "mt": "I've known Asamoah a long time.",
+    "ref": "I have known Asamoah for years."
+  },
+  {
+    "src": "Ɛno yɛ anigyesɛm ma me.",
+    "mt": "That's interesting for me.",
+    "ref": "That's good news to me."
+  },
+  {
+    "src": "Ɛno yɛ anigyesɛm ma me.",
+    "mt": "That's interesting for me.",
+    "ref": "That is great news for me."
+  },
+  {
+    "src": "Ɛno yɛ anigyesɛm ma me.",
+    "mt": "That's interesting for me.",
+    "ref": "I am happy to hear that."
+  },
+  {
+    "src": "Ɛyɛ pɛ!",
+    "mt": "It's perfect!",
+    "ref": "Perfect!"
+  },
+  {
+    "src": "Ɛyɛ pɛ!",
+    "mt": "It's perfect!",
+    "ref": "Spot on!"
+  },
+  {
+    "src": "Ɛyɛ pɛ!",
+    "mt": "It's perfect!",
+    "ref": "Exactly!"
+  },
+  {
+    "src": "Ɛyɛ pɛ!",
+    "mt": "It's perfect!",
+    "ref": "Just right!"
+  },
+  {
+    "src": "Wiase no mu hena na wususuw sɛ woyɛ bi?",
+    "mt": "Who in the world do you think you're one?",
+    "ref": "Who in the world do you think you are?"
+  },
+  {
+    "src": "Wiase no mu hena na wususuw sɛ woyɛ bi?",
+    "mt": "Who in the world do you think you're one?",
+    "ref": "Who do you think you are?"
+  },
+  {
+    "src": "Wiase no mu hena na wususuw sɛ woyɛ bi?",
+    "mt": "Who in the world do you think you're one?",
+    "ref": "Who do you think you are kidding?"
+  },
+  {
+    "src": "Mekɔɔ adidibea hɔ kodii awia.",
+    "mt": "I went to the bar for lunch.",
+    "ref": "I entered the restaurant and had lunch."
+  },
+  {
+    "src": "Mekɔɔ adidibea hɔ kodii awia.",
+    "mt": "I went to the bar for lunch.",
+    "ref": "I came into the restaurant and had my lunch."
+  },
+  {
+    "src": "Mekɔɔ adidibea hɔ kodii awia.",
+    "mt": "I went to the bar for lunch.",
+    "ref": "I went into the restaurant and ate lunch."
+  },
+  {
+    "src": "Sɛnea Asamoah ka kyerɛɛ Esi no, ɔkae sɛ ɔmma John kɔfe kuruwa biako.",
+    "mt": "Asamoah told Esi that he didn't give John a cup of coffee.",
+    "ref": "\"Asamoah suggested to Esi that she offer John a cup of coffee.\""
+  },
+  {
+    "src": "Sɛnea Asamoah ka kyerɛɛ Esi no, ɔkae sɛ ɔmma John kɔfe kuruwa biako.",
+    "mt": "Asamoah told Esi that he didn't give John a cup of coffee.",
+    "ref": "Asamoah told Esi to offer John a cup of coffee."
+  },
+  {
+    "src": "Sɛnea Asamoah ka kyerɛɛ Esi no, ɔkae sɛ ɔmma John kɔfe kuruwa biako.",
+    "mt": "Asamoah told Esi that he didn't give John a cup of coffee.",
+    "ref": "He suggested that Esi give John a cup of coffee."
+  },
+  {
+    "src": "Sɛnea Asamoah ka kyerɛɛ Esi no, ɔkae sɛ ɔmma John kɔfe kuruwa biako.",
+    "mt": "Asamoah told Esi that he didn't give John a cup of coffee.",
+    "ref": "Asamoah recommended Esi serve John coffee."
+  },
+  {
+    "src": "Onyaa ne ti didii mu wɔ akwanhyia bi a esii afe a etwaam no mu, nanso na ɔda so ara de n'ani kyerɛ soro.",
+    "mt": "He survived an accident yesterday, but he was still upstairs.",
+    "ref": "He survived an accident last year, but still drives recklessly."
+  },
+  {
+    "src": "Onyaa ne ti didii mu wɔ akwanhyia bi a esii afe a etwaam no mu, nanso na ɔda so ara de n'ani kyerɛ soro.",
+    "mt": "He survived an accident yesterday, but he was still upstairs.",
+    "ref": "Last year he survived a crash yet he still drives carelessly."
+  },
+  {
+    "src": "Onyaa ne ti didii mu wɔ akwanhyia bi a esii afe a etwaam no mu, nanso na ɔda so ara de n'ani kyerɛ soro.",
+    "mt": "He survived an accident yesterday, but he was still upstairs.",
+    "ref": "He had an accident last yer but continues to drive dangerously."
+  },
+  {
+    "src": "Mikyinkyin kakra.",
+    "mt": "I'm a bit jealous.",
+    "ref": "I wandered around for a while."
+  },
+  {
+    "src": "Mikyinkyin kakra.",
+    "mt": "I'm a bit jealous.",
+    "ref": "I walked around for a bit."
+  },
+  {
+    "src": "Mikyinkyin kakra.",
+    "mt": "I'm a bit jealous.",
+    "ref": "I strolled around for a while."
+  },
+  {
+    "src": "Makɔ nea ɛto so abien.",
+    "mt": "I have gone to the second floor.",
+    "ref": "I've gone to Kyoto swce."
+  },
+  {
+    "src": "Makɔ nea ɛto so abien.",
+    "mt": "I have gone to the second floor.",
+    "ref": "I have visited Kyoto two times."
+  },
+  {
+    "src": "Makɔ nea ɛto so abien.",
+    "mt": "I have gone to the second floor.",
+    "ref": "I have been to Kyoto swce."
+  },
+  {
+    "src": "Makɔ nea ɛto so abien.",
+    "mt": "I have gone to the second floor.",
+    "ref": "I went to Kyoto on two occasions."
+  },
+  {
+    "src": "Wɔyɛɛ me sɛ metwɛn mmoro simma 30.",
+    "mt": "I was made to wait for over 30 minutes.",
+    "ref": "I was made to wait for over 30 minutes."
+  },
+  {
+    "src": "Wɔyɛɛ me sɛ metwɛn mmoro simma 30.",
+    "mt": "I was made to wait for over 30 minutes.",
+    "ref": "I had to wait more than 30 minutes."
+  },
+  {
+    "src": "Wɔyɛɛ me sɛ metwɛn mmoro simma 30.",
+    "mt": "I was made to wait for over 30 minutes.",
+    "ref": "They made me wait for over half an hour."
+  },
+  {
+    "src": "Wɔyɛɛ me sɛ metwɛn mmoro simma 30.",
+    "mt": "I was made to wait for over 30 minutes.",
+    "ref": "I ended up waiting for 30 minutes or more."
+  },
+  {
+    "src": "Ɛsɛ sɛ mekɔ so tra hɔ.",
+    "mt": "I have to stay.",
+    "ref": "I've got to keep going."
+  },
+  {
+    "src": "Ɛsɛ sɛ mekɔ so tra hɔ.",
+    "mt": "I have to stay.",
+    "ref": "I have to keep moving."
+  },
+  {
+    "src": "Ɛsɛ sɛ mekɔ so tra hɔ.",
+    "mt": "I have to stay.",
+    "ref": "I need to keep going."
+  },
+  {
+    "src": "Ɛsɛ sɛ mekɔ so tra hɔ.",
+    "mt": "I have to stay.",
+    "ref": "I must carry on."
+  },
+  {
+    "src": "Me botae ne sɛ mɛyɛ ɔkyerɛkyerɛfo.",
+    "mt": "It is my dream to become a teacher.",
+    "ref": "My dream is to become a teacher."
+  },
+  {
+    "src": "Me botae ne sɛ mɛyɛ ɔkyerɛkyerɛfo.",
+    "mt": "It is my dream to become a teacher.",
+    "ref": "I dream of becoming a teacher."
+  },
+  {
+    "src": "Me botae ne sɛ mɛyɛ ɔkyerɛkyerɛfo.",
+    "mt": "It is my dream to become a teacher.",
+    "ref": "My goal is to be a teacher."
+  },
+  {
+    "src": "Esiane ahum no nti, hyɛn no antumi amfi po so hyɛn gyinabea hɔ.",
+    "mt": "Asamoah couldn't leave port because of the storm.",
+    "ref": "Because of the storm, the should couldn't leave port."
+  },
+  {
+    "src": "Esiane ahum no nti, hyɛn no antumi amfi po so hyɛn gyinabea hɔ.",
+    "mt": "Asamoah couldn't leave port because of the storm.",
+    "ref": "The storm prevented the ship from leaving port."
+  },
+  {
+    "src": "Esiane ahum no nti, hyɛn no antumi amfi po so hyɛn gyinabea hɔ.",
+    "mt": "Asamoah couldn't leave port because of the storm.",
+    "ref": "The ship was unable to depart because of the storm."
+  },
+  {
+    "src": "Esiane ahum no nti, hyɛn no antumi amfi po so hyɛn gyinabea hɔ.",
+    "mt": "Asamoah couldn't leave port because of the storm.",
+    "ref": "Due to the storm the ship could not sail."
+  },
+  {
+    "src": "Wɔkyerɛ sɛ asase so hyew a ayɛ no fi carbon dioxide ankasa.",
+    "mt": "The temperature on earth is said to be a real carbon dioxide.",
+    "ref": "It is said that global warming is directly related to carbon dioxide emissions."
+  },
+  {
+    "src": "Wɔkyerɛ sɛ asase so hyew a ayɛ no fi carbon dioxide ankasa.",
+    "mt": "The temperature on earth is said to be a real carbon dioxide.",
+    "ref": "They say global warming is caused by carbon dioxide emissions."
+  },
+  {
+    "src": "Wɔkyerɛ sɛ asase so hyew a ayɛ no fi carbon dioxide ankasa.",
+    "mt": "The temperature on earth is said to be a real carbon dioxide.",
+    "ref": "Global warming is reportedly linked directly to CO emissions."
+  },
+  {
+    "src": "Wɔkyerɛ sɛ asase so hyew a ayɛ no fi carbon dioxide ankasa.",
+    "mt": "The temperature on earth is said to be a real carbon dioxide.",
+    "ref": "It is believed that carbon dioxide emissions are a major cause of global warming."
+  },
+  {
+    "src": "Ɔmaa me nsa kaa ne kyerɛwtohɔ ahorow.",
+    "mt": "He gave me his handwriting.",
+    "ref": "She gave me access to her records."
+  },
+  {
+    "src": "Ɔmaa me nsa kaa ne kyerɛwtohɔ ahorow.",
+    "mt": "He gave me his handwriting.",
+    "ref": "She allowed me to see her records."
+  },
+  {
+    "src": "Ɔmaa me nsa kaa ne kyerɛwtohɔ ahorow.",
+    "mt": "He gave me his handwriting.",
+    "ref": "She let me access her records."
+  },
+  {
+    "src": "Ɔmaa me nsa kaa ne kyerɛwtohɔ ahorow.",
+    "mt": "He gave me his handwriting.",
+    "ref": "I was granted access to her records by her."
+  },
+  {
+    "src": "So wohyɛɛ no nkuran sɛ ɔnkɔ polisifo hɔ?",
+    "mt": "Did you encourage him to go to the police?",
+    "ref": "Did you advise him to go to the police?"
+  },
+  {
+    "src": "So wohyɛɛ no nkuran sɛ ɔnkɔ polisifo hɔ?",
+    "mt": "Did you encourage him to go to the police?",
+    "ref": "Did you suggest he go to the police?"
+  },
+  {
+    "src": "So wohyɛɛ no nkuran sɛ ɔnkɔ polisifo hɔ?",
+    "mt": "Did you encourage him to go to the police?",
+    "ref": "Did you tell him to contact the police?"
+  },
+  {
+    "src": "Mepɛ sɛ meyɛ obi a ɔhwehwɛ nneɛma mu.",
+    "mt": "I want to be a detective.",
+    "ref": "I want to be an actress."
+  },
+  {
+    "src": "Mepɛ sɛ meyɛ obi a ɔhwehwɛ nneɛma mu.",
+    "mt": "I want to be a detective.",
+    "ref": "My ambition is to be an actress."
+  },
+  {
+    "src": "Mepɛ sɛ meyɛ obi a ɔhwehwɛ nneɛma mu.",
+    "mt": "I want to be a detective.",
+    "ref": "I hopre to pursue a career as an actress."
+  },
+  {
+    "src": "Hena na ɔka kyerɛɛ wo sɛ mintumi nnom nsu?",
+    "mt": "Who told you I couldn't drink water?",
+    "ref": "Who told you I wasn't able to swim?"
+  },
+  {
+    "src": "Hena na ɔka kyerɛɛ wo sɛ mintumi nnom nsu?",
+    "mt": "Who told you I couldn't drink water?",
+    "ref": "Who said I could not swim?"
+  },
+  {
+    "src": "Hena na ɔka kyerɛɛ wo sɛ mintumi nnom nsu?",
+    "mt": "Who told you I couldn't drink water?",
+    "ref": "Who told you I could not go swimming?"
+  },
+  {
+    "src": "Hena na ɔka kyerɛɛ wo sɛ mintumi nnom nsu?",
+    "mt": "Who told you I couldn't drink water?",
+    "ref": "Who claimed I was not able to swim?"
+  },
+  {
+    "src": "Mifii ase tee nea enti a wonhaw wo ho sɛ wobɛkyerɛkyerɛ nneɛma mu akyerɛ Noh no ase.",
+    "mt": "I'm starting to understand why you don't hurt Asamoah.",
+    "ref": "I'm beginning to understand why you don't bother to try to explain things to Asamoah."
+  },
+  {
+    "src": "Mifii ase tee nea enti a wonhaw wo ho sɛ wobɛkyerɛkyerɛ nneɛma mu akyerɛ Noh no ase.",
+    "mt": "I'm starting to understand why you don't hurt Asamoah.",
+    "ref": "I am beginning to realize why you avoid explaining things to Asamoah."
+  },
+  {
+    "src": "Mifii ase tee nea enti a wonhaw wo ho sɛ wobɛkyerɛkyerɛ nneɛma mu akyerɛ Noh no ase.",
+    "mt": "I'm starting to understand why you don't hurt Asamoah.",
+    "ref": "I am starting to see why you don't try explaining things to Asamoah."
+  },
+  {
+    "src": "Ɔwɔ sakre.",
+    "mt": "He has a bicycle.",
+    "ref": "She has a bicycle."
+  },
+  {
+    "src": "Ɔwɔ sakre.",
+    "mt": "He has a bicycle.",
+    "ref": "She owns a bicycle."
+  },
+  {
+    "src": "Ɔwɔ sakre.",
+    "mt": "He has a bicycle.",
+    "ref": "She has a bike."
+  },
+  {
+    "src": "Obi ho a obekum yɛ adeyɛ a anibere wom.",
+    "mt": "Kwabena is a serious matter.",
+    "ref": "Suicide is a desperate act."
+  },
+  {
+    "src": "Obi ho a obekum yɛ adeyɛ a anibere wom.",
+    "mt": "Kwabena is a serious matter.",
+    "ref": "Taking one's own life is an act of desperation."
+  },
+  {
+    "src": "Obi ho a obekum yɛ adeyɛ a anibere wom.",
+    "mt": "Kwabena is a serious matter.",
+    "ref": "Suicide is an act done out of despair."
+  },
+  {
+    "src": "Obi ho a obekum yɛ adeyɛ a anibere wom.",
+    "mt": "Kwabena is a serious matter.",
+    "ref": "Ending one's life is a desperate measure."
+  },
+  {
+    "src": "Na Esi yɛ nkɔmmɔbɔ a ɛyɛ anigye.",
+    "mt": "Esi was an interesting conversation.",
+    "ref": "Asamoah had a nice chat with Esi."
+  },
+  {
+    "src": "Na Esi yɛ nkɔmmɔbɔ a ɛyɛ anigye.",
+    "mt": "Esi was an interesting conversation.",
+    "ref": "Asamoah talked pleasantly with Esi."
+  },
+  {
+    "src": "Na Esi yɛ nkɔmmɔbɔ a ɛyɛ anigye.",
+    "mt": "Esi was an interesting conversation.",
+    "ref": "He had a friendly chat with Esi."
+  },
+  {
+    "src": "Na Esi yɛ nkɔmmɔbɔ a ɛyɛ anigye.",
+    "mt": "Esi was an interesting conversation.",
+    "ref": "Asamoah enjoyed a pleasnat conversation with Esi."
+  },
+  {
+    "src": "Mepɛ sɛ wo ne me san ba.",
+    "mt": "I want you to come back with me.",
+    "ref": "I want you to come back with me."
+  },
+  {
+    "src": "Mepɛ sɛ wo ne me san ba.",
+    "mt": "I want you to come back with me.",
+    "ref": "I would like you to come back with me."
+  },
+  {
+    "src": "Mepɛ sɛ wo ne me san ba.",
+    "mt": "I want you to come back with me.",
+    "ref": "I want you to return with me."
+  },
+  {
+    "src": "Ɛsɛ sɛ mekɔ nnɛyi nhyiam.",
+    "mt": "I have to attend today's meeting.",
+    "ref": "I should've gone to yesterday's meeting."
+  },
+  {
+    "src": "Ɛsɛ sɛ mekɔ nnɛyi nhyiam.",
+    "mt": "I have to attend today's meeting.",
+    "ref": "I ought to have attended yesterday's meeting."
+  },
+  {
+    "src": "Ɛsɛ sɛ mekɔ nnɛyi nhyiam.",
+    "mt": "I have to attend today's meeting.",
+    "ref": "I regret not going to the meeting yesterday."
+  },
+  {
+    "src": "Ɛsɛ sɛ mekɔ nnɛyi nhyiam.",
+    "mt": "I have to attend today's meeting.",
+    "ref": "I should have been at the meeting yesterday."
+  },
+  {
+    "src": "Yɛn kyerɛkyerɛfo no ma yenya sukuu dwumadi pii.",
+    "mt": "Our teacher makes us a lot of homework.",
+    "ref": "Our teacher gives us a lot of homework."
+  },
+  {
+    "src": "Yɛn kyerɛkyerɛfo no ma yenya sukuu dwumadi pii.",
+    "mt": "Our teacher makes us a lot of homework.",
+    "ref": "Our teachers assigns us a lot of homework."
+  },
+  {
+    "src": "Yɛn kyerɛkyerɛfo no ma yenya sukuu dwumadi pii.",
+    "mt": "Our teacher makes us a lot of homework.",
+    "ref": "We get a lot of homework from our teacher."
+  },
+  {
+    "src": "Ɔbea bi a ne mfe akɔ anim ka kyerɛɛ Asamoah sɛ ɔte sɛ Charles Darwin.",
+    "mt": "A older woman told Asamoah that she looks like a Charles Darwin.",
+    "ref": "Some old lady told Asamoah that he looked like Charles Darwin."
+  },
+  {
+    "src": "Ɔbea bi a ne mfe akɔ anim ka kyerɛɛ Asamoah sɛ ɔte sɛ Charles Darwin.",
+    "mt": "A older woman told Asamoah that she looks like a Charles Darwin.",
+    "ref": "An elderly woman told Asamoah he resembled Charles Darwin."
+  },
+  {
+    "src": "Ɔbea bi a ne mfe akɔ anim ka kyerɛɛ Asamoah sɛ ɔte sɛ Charles Darwin.",
+    "mt": "A older woman told Asamoah that she looks like a Charles Darwin.",
+    "ref": "Some old lady said Asamoah looked like Charles Darwin."
+  },
+  {
+    "src": "Ɔbea bi a ne mfe akɔ anim ka kyerɛɛ Asamoah sɛ ɔte sɛ Charles Darwin.",
+    "mt": "A older woman told Asamoah that she looks like a Charles Darwin.",
+    "ref": "An older woman remarked that Asamoah reminded her of Charles Darwin."
+  },
+  {
+    "src": "Nnipa baahe na wɔte wo kurom?",
+    "mt": "How many people live in your town?",
+    "ref": "How many people live in your town?"
+  },
+  {
+    "src": "Nnipa baahe na wɔte wo kurom?",
+    "mt": "How many people live in your town?",
+    "ref": "What is the population of your town?"
+  },
+  {
+    "src": "Nnipa baahe na wɔte wo kurom?",
+    "mt": "How many people live in your town?",
+    "ref": "How many people live where you live?"
+  },
+  {
+    "src": "Nnipa baahe na wɔte wo kurom?",
+    "mt": "How many people live in your town?",
+    "ref": "How many residents are in your town"
+  },
+  {
+    "src": "Wɔasi gyinae sɛ wɔbɛbɛn saa adwinnan no.",
+    "mt": "They've decided to close that factory.",
+    "ref": "They've decided to close that factory."
+  },
+  {
+    "src": "Wɔasi gyinae sɛ wɔbɛbɛn saa adwinnan no.",
+    "mt": "They've decided to close that factory.",
+    "ref": "They have made the decision to shut down that factory."
+  },
+  {
+    "src": "Wɔasi gyinae sɛ wɔbɛbɛn saa adwinnan no.",
+    "mt": "They've decided to close that factory.",
+    "ref": "The factory is going to be closed by their decision."
+  },
+  {
+    "src": "Wɔasi gyinae sɛ wɔbɛbɛn saa adwinnan no.",
+    "mt": "They've decided to close that factory.",
+    "ref": "They have agreed to close that factory."
+  },
+  {
+    "src": "Mede nsu hyɛɛ kuku bi mu ma.",
+    "mt": "I wetted a vase with water.",
+    "ref": "I filled a vase with water."
+  },
+  {
+    "src": "Mede nsu hyɛɛ kuku bi mu ma.",
+    "mt": "I wetted a vase with water.",
+    "ref": "I put water in a vase."
+  },
+  {
+    "src": "Mede nsu hyɛɛ kuku bi mu ma.",
+    "mt": "I wetted a vase with water.",
+    "ref": "I filled up a vase with water."
+  },
+  {
+    "src": "Kwaku ntumi ntu ntɛm sɛnea Abena betumi ayɛ no.",
+    "mt": "Kwaku can't move as quickly as Abena can.",
+    "ref": "Kwaku can't move as quickly as Abena can."
+  },
+  {
+    "src": "Kwaku ntumi ntu ntɛm sɛnea Abena betumi ayɛ no.",
+    "mt": "Kwaku can't move as quickly as Abena can.",
+    "ref": "Kwaku is not as fast as Abena."
+  },
+  {
+    "src": "Kwaku ntumi ntu ntɛm sɛnea Abena betumi ayɛ no.",
+    "mt": "Kwaku can't move as quickly as Abena can.",
+    "ref": "Kwaku cant keep up with Abena."
+  },
+  {
+    "src": "Kwaku ntumi ntu ntɛm sɛnea Abena betumi ayɛ no.",
+    "mt": "Kwaku can't move as quickly as Abena can.",
+    "ref": "Kwaku moves slower than Abena does."
+  },
+  {
+    "src": "Minim sɛ ade biako a yebetumi ayɛ ne anigye.",
+    "mt": "I know one thing we could do that might be fun.",
+    "ref": "I know one thing we could do that might be fun."
+  },
+  {
+    "src": "Minim sɛ ade biako a yebetumi ayɛ ne anigye.",
+    "mt": "I know one thing we could do that might be fun.",
+    "ref": "I know one thing we could do that would be enjoyable."
+  },
+  {
+    "src": "Minim sɛ ade biako a yebetumi ayɛ ne anigye.",
+    "mt": "I know one thing we could do that might be fun.",
+    "ref": "I have an idea for something fun we could try."
+  },
+  {
+    "src": "Minim sɛ ade biako a yebetumi ayɛ ne anigye.",
+    "mt": "I know one thing we could do that might be fun.",
+    "ref": "I know something we could do for fun."
+  },
+  {
+    "src": "Nyansahu yɛ den dodo.",
+    "mt": "Science is too complicated.",
+    "ref": "Science is too hard."
+  },
+  {
+    "src": "Nyansahu yɛ den dodo.",
+    "mt": "Science is too complicated.",
+    "ref": "Science is tough."
+  },
+  {
+    "src": "Nyansahu yɛ den dodo.",
+    "mt": "Science is too complicated.",
+    "ref": "Science is difficult."
+  },
+  {
+    "src": "Nyansahu yɛ den dodo.",
+    "mt": "Science is too complicated.",
+    "ref": "Science is challenging."
+  },
+  {
+    "src": "Kwaku anyɛ bɔne biara.",
+    "mt": "Kwaku did nothing wrong.",
+    "ref": "Kwaku didn't mean any harm."
+  },
+  {
+    "src": "Kwaku anyɛ bɔne biara.",
+    "mt": "Kwaku did nothing wrong.",
+    "ref": "Kwaku meant no harm."
+  },
+  {
+    "src": "Kwaku anyɛ bɔne biara.",
+    "mt": "Kwaku did nothing wrong.",
+    "ref": "Kwaku didnt intend to hurt anyone."
+  },
+  {
+    "src": "Mamfa me ho anto wo so.",
+    "mt": "I didn't hang up on you.",
+    "ref": "I didn't hang up on you."
+  },
+  {
+    "src": "Mamfa me ho anto wo so.",
+    "mt": "I didn't hang up on you.",
+    "ref": "I didnt end the call on you."
+  },
+  {
+    "src": "Mamfa me ho anto wo so.",
+    "mt": "I didn't hang up on you.",
+    "ref": "I didnt hang up the phone on you."
+  },
+  {
+    "src": "Mamfa me ho anto wo so.",
+    "mt": "I didn't hang up on you.",
+    "ref": "I didnt cut you off."
+  },
+  {
+    "src": "Kwaku dii akɔneaba.",
+    "mt": "Kwaku went back and forth.",
+    "ref": "Kwaku waved."
+  },
+  {
+    "src": "Kwaku dii akɔneaba.",
+    "mt": "Kwaku went back and forth.",
+    "ref": "Kwaku waved his hand."
+  },
+  {
+    "src": "Kwaku dii akɔneaba.",
+    "mt": "Kwaku went back and forth.",
+    "ref": "Kwaku gave a wave."
+  },
+  {
+    "src": "Minnim nipa ko a ɔyɛ.",
+    "mt": "I don't know what kind of person he is.",
+    "ref": "I don't know what kind of person he is."
+  },
+  {
+    "src": "Minnim nipa ko a ɔyɛ.",
+    "mt": "I don't know what kind of person he is.",
+    "ref": "I don't know his character."
+  },
+  {
+    "src": "Minnim nipa ko a ɔyɛ.",
+    "mt": "I don't know what kind of person he is.",
+    "ref": "I cant tell what kind of person he is."
+  },
+  {
+    "src": "Mepɛ mmuae tee, nanso biribiara nni hɔ bio.",
+    "mt": "I want to answer right, but there is no more.",
+    "ref": "I just want a straight answer. Nothing more."
+  },
+  {
+    "src": "Mepɛ mmuae tee, nanso biribiara nni hɔ bio.",
+    "mt": "I want to answer right, but there is no more.",
+    "ref": "I just want a clear answer, nothing else."
+  },
+  {
+    "src": "Mepɛ mmuae tee, nanso biribiara nni hɔ bio.",
+    "mt": "I want to answer right, but there is no more.",
+    "ref": "Give me a straight answer, that's all."
+  },
+  {
+    "src": "Mepɛ mmuae tee, nanso biribiara nni hɔ bio.",
+    "mt": "I want to answer right, but there is no more.",
+    "ref": "I only want a direct answer, nothing more."
+  },
+  {
+    "src": "So na wunim sɛ wɔn mu binom te bepɔw yi so?",
+    "mt": "Did you know that some foxes lived on this mountain?",
+    "ref": "Did you know that some foxes lived on this mountain?"
+  },
+  {
+    "src": "So na wunim sɛ wɔn mu binom te bepɔw yi so?",
+    "mt": "Did you know that some foxes lived on this mountain?",
+    "ref": "Were you aware that foxes once lived on this mountain?"
+  },
+  {
+    "src": "So na wunim sɛ wɔn mu binom te bepɔw yi so?",
+    "mt": "Did you know that some foxes lived on this mountain?",
+    "ref": "Did you hear that foxes used to live up here?"
+  },
+  {
+    "src": "So wunim ɔkwan bi a wɔfa so tete akraman?",
+    "mt": "Do you know anything about training dogs?",
+    "ref": "Do you know anything about training dogs?"
+  },
+  {
+    "src": "So wunim ɔkwan bi a wɔfa so tete akraman?",
+    "mt": "Do you know anything about training dogs?",
+    "ref": "Are you familiar with how to train dogs?"
+  },
+  {
+    "src": "So wunim ɔkwan bi a wɔfa so tete akraman?",
+    "mt": "Do you know anything about training dogs?",
+    "ref": "Do you have any knowledge about dog training?"
+  },
+  {
+    "src": "Nokwarem no, nsɛm ho amanneɛbɔ Kwame Jackson nyɛ adwuma no so panyin.",
+    "mt": "Kwame Jackson is actually not the manager.",
+    "ref": "Kwame Jackson is actually not the manager."
+  },
+  {
+    "src": "Nokwarem no, nsɛm ho amanneɛbɔ Kwame Jackson nyɛ adwuma no so panyin.",
+    "mt": "Kwame Jackson is actually not the manager.",
+    "ref": "In fact, Kwame Jackson is not the manager."
+  },
+  {
+    "src": "Nokwarem no, nsɛm ho amanneɛbɔ Kwame Jackson nyɛ adwuma no so panyin.",
+    "mt": "Kwame Jackson is actually not the manager.",
+    "ref": "The truth is, Kwame Jackson is not the boss."
+  },
+  {
+    "src": "Ɔyɛ yɔnko a n'asɛm yɛ mmɔbɔ.",
+    "mt": "He is an unpleasant fellow.",
+    "ref": "He is an unpleasant fellow."
+  },
+  {
+    "src": "Ɔyɛ yɔnko a n'asɛm yɛ mmɔbɔ.",
+    "mt": "He is an unpleasant fellow.",
+    "ref": "He is not a nice person."
+  },
+  {
+    "src": "Ɔyɛ yɔnko a n'asɛm yɛ mmɔbɔ.",
+    "mt": "He is an unpleasant fellow.",
+    "ref": "He is raher disagreeable."
+  },
+  {
+    "src": "Mayɛ biribiara a woka kyerɛɛ me no.",
+    "mt": "I've done everything you told me.",
+    "ref": "I've done everything you asked me to."
+  },
+  {
+    "src": "Mayɛ biribiara a woka kyerɛɛ me no.",
+    "mt": "I've done everything you told me.",
+    "ref": "I have completed all the tasks you gave me."
+  },
+  {
+    "src": "Mayɛ biribiara a woka kyerɛɛ me no.",
+    "mt": "I've done everything you told me.",
+    "ref": "I did everything you told me to."
+  },
+  {
+    "src": "Mma aboa no kwan mma ɔnkɔ.",
+    "mt": "Don't let the cat out.",
+    "ref": "Don't let the cat out."
+  },
+  {
+    "src": "Mma aboa no kwan mma ɔnkɔ.",
+    "mt": "Don't let the cat out.",
+    "ref": "Keep the cat inside."
+  },
+  {
+    "src": "Mma aboa no kwan mma ɔnkɔ.",
+    "mt": "Don't let the cat out.",
+    "ref": "Don't allow the cat to go out."
+  },
+  {
+    "src": "Ɔkɔm rekum yɛn.",
+    "mt": "We're starving.",
+    "ref": "We're starving."
+  },
+  {
+    "src": "Ɔkɔm rekum yɛn.",
+    "mt": "We're starving.",
+    "ref": "We are famished."
+  },
+  {
+    "src": "Ɔkɔm rekum yɛn.",
+    "mt": "We're starving.",
+    "ref": "We are really hungry."
+  },
+  {
+    "src": "Ɔbɛsan aba nnansa yi ara.",
+    "mt": "He will come back soon.",
+    "ref": "She will come back before long."
+  },
+  {
+    "src": "Ɔbɛsan aba nnansa yi ara.",
+    "mt": "He will come back soon.",
+    "ref": "She will return soon."
+  },
+  {
+    "src": "Ɔbɛsan aba nnansa yi ara.",
+    "mt": "He will come back soon.",
+    "ref": "It wont be long before she comes back."
+  },
+  {
+    "src": "Egye obi na wahu emu biako.",
+    "mt": "It takes someone to find one of these.",
+    "ref": "It takes one to know one."
+  },
+  {
+    "src": "Egye obi na wahu emu biako.",
+    "mt": "It takes someone to find one of these.",
+    "ref": "Only someone like that would recognize it in another."
+  },
+  {
+    "src": "Egye obi na wahu emu biako.",
+    "mt": "It takes someone to find one of these.",
+    "ref": "You would have to be the smae to spot it."
+  },
+  {
+    "src": "Efi saa bere no, minni adagyew koraa.",
+    "mt": "I've been busy since then.",
+    "ref": "I have not been busy since yesterday."
+  },
+  {
+    "src": "Efi saa bere no, minni adagyew koraa.",
+    "mt": "I've been busy since then.",
+    "ref": "I havent had anything to do since yesterday."
+  },
+  {
+    "src": "Efi saa bere no, minni adagyew koraa.",
+    "mt": "I've been busy since then.",
+    "ref": "I have been free since yesterday."
+  },
+  {
+    "src": "M'ani wɔ me ho so paa.",
+    "mt": "I'm awake.",
+    "ref": "I'm seeing ghosts."
+  },
+  {
+    "src": "M'ani wɔ me ho so paa.",
+    "mt": "I'm awake.",
+    "ref": "I keep imagining spirits."
+  },
+  {
+    "src": "M'ani wɔ me ho so paa.",
+    "mt": "I'm awake.",
+    "ref": "I feel like I am seeing apparitions."
+  },
+  {
+    "src": "Mebɔɔ mmɔden mprenu, nanso emu biara anyɛ yiye.",
+    "mt": "I tried swce, but neither try worked.",
+    "ref": "I tried swce, but neither try worked."
+  },
+  {
+    "src": "Mebɔɔ mmɔden mprenu, nanso emu biara anyɛ yiye.",
+    "mt": "I tried swce, but neither try worked.",
+    "ref": "I made two attempts but both failed."
+  },
+  {
+    "src": "Mebɔɔ mmɔden mprenu, nanso emu biara anyɛ yiye.",
+    "mt": "I tried swce, but neither try worked.",
+    "ref": "I tried two times but it did not work either time."
+  },
+  {
+    "src": "Ɔyɛ me babea a meso no dae.",
+    "mt": "She is my dream daughter.",
+    "ref": "She is my dream girl."
+  },
+  {
+    "src": "Ɔyɛ me babea a meso no dae.",
+    "mt": "She is my dream daughter.",
+    "ref": "She is the girl of my dreams."
+  },
+  {
+    "src": "Ɔyɛ me babea a meso no dae.",
+    "mt": "She is my dream daughter.",
+    "ref": "She is the one I have always wished for."
+  },
+  {
+    "src": "Wɔyɛ mmofra pa.",
+    "mt": "They're nice kids.",
+    "ref": "They're nice kids."
+  },
+  {
+    "src": "Wɔyɛ mmofra pa.",
+    "mt": "They're nice kids.",
+    "ref": "They are good children."
+  },
+  {
+    "src": "Wɔyɛ mmofra pa.",
+    "mt": "They're nice kids.",
+    "ref": "They are really sweet kids."
+  },
+  {
+    "src": "ɔyarehwɛfo no bɛkyerɛ wo ɔkwan a wobɛfa so ayɛ saa.",
+    "mt": "The nurse will show you how to do that.",
+    "ref": "The nurse will tell you how to do it."
+  },
+  {
+    "src": "ɔyarehwɛfo no bɛkyerɛ wo ɔkwan a wobɛfa so ayɛ saa.",
+    "mt": "The nurse will show you how to do that.",
+    "ref": "The nurse will explain the procedure to you."
+  },
+  {
+    "src": "ɔyarehwɛfo no bɛkyerɛ wo ɔkwan a wobɛfa so ayɛ saa.",
+    "mt": "The nurse will show you how to do that.",
+    "ref": "The nurse will show you what to do."
+  },
+  {
+    "src": "Mmea ani gye ho saa.",
+    "mt": "Women love that.",
+    "ref": "Women love that."
+  },
+  {
+    "src": "Mmea ani gye ho saa.",
+    "mt": "Women love that.",
+    "ref": "Ladies really like that."
+  },
+  {
+    "src": "Mmea ani gye ho saa.",
+    "mt": "Women love that.",
+    "ref": "Most women enjoy that."
+  },
+  {
+    "src": "M'ani gye nhoma akenkan ho.",
+    "mt": "I like reading books.",
+    "ref": "I like reading books."
+  },
+  {
+    "src": "M'ani gye nhoma akenkan ho.",
+    "mt": "I like reading books.",
+    "ref": "I enjoy reading."
+  },
+  {
+    "src": "M'ani gye nhoma akenkan ho.",
+    "mt": "I like reading books.",
+    "ref": "Reading books is something I like."
+  },
+  {
+    "src": "Ɔwɔ suban pa ankasa.",
+    "mt": "She has a very good figure.",
+    "ref": "She has a very good figure."
+  },
+  {
+    "src": "Ɔwɔ suban pa ankasa.",
+    "mt": "She has a very good figure.",
+    "ref": "She has a nice body shape."
+  },
+  {
+    "src": "Ɔwɔ suban pa ankasa.",
+    "mt": "She has a very good figure.",
+    "ref": "She is well built."
+  },
+  {
+    "src": "Nokwarem no, osu bɛtɔ.",
+    "mt": "It's going to rain, for sure.",
+    "ref": "It's going to rain, for sure."
+  },
+  {
+    "src": "Nokwarem no, osu bɛtɔ.",
+    "mt": "It's going to rain, for sure.",
+    "ref": "It is definitely going to rain."
+  },
+  {
+    "src": "Nokwarem no, osu bɛtɔ.",
+    "mt": "It's going to rain, for sure.",
+    "ref": "Rain is surely on the way."
+  },
+  {
+    "src": "Ɛsɛ sɛ yehu akokoaa foforo bi a wɔawo no foforo.",
+    "mt": "We've got to find a new babysitter.",
+    "ref": "We've got to find a new babysitter."
+  },
+  {
+    "src": "Ɛsɛ sɛ yehu akokoaa foforo bi a wɔawo no foforo.",
+    "mt": "We've got to find a new babysitter.",
+    "ref": "We need to look for another babysitter."
+  },
+  {
+    "src": "Ɛsɛ sɛ yehu akokoaa foforo bi a wɔawo no foforo.",
+    "mt": "We've got to find a new babysitter.",
+    "ref": "It is necessary we find another babysitter."
+  }
+]

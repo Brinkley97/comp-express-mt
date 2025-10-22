@@ -86,7 +86,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--overall_subset",
         default=None,
-        help="Comma-separated list of file basenames (e.g., '1_to_m_triples.json,m_to_1_triples.json') to include in the OVERALL aggregation. If not set, all files are used."
+        help="Comma-separated list of file basenames (e.g.,' 1_to_m_triples.json,m_to_1_triples.json') to include in the OVERALL aggregation. If not set, all files are used."
     )
     parser.add_argument(
         "--expansive_files",

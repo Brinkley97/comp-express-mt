@@ -1,0 +1,2002 @@
+[
+  {
+    "src": "I belong here.",
+    "mt": "Mewɔ ha.",
+    "ref": "Me na mewɔ ha."
+  },
+  {
+    "src": "I belong here.",
+    "mt": "Mewɔ ha.",
+    "ref": "Me fata sɛ mewɔ ha."
+  },
+  {
+    "src": "I belong here.",
+    "mt": "Mewɔ ha.",
+    "ref": "Ha na me wɔ."
+  },
+  {
+    "src": "Kwaku sings quite well.",
+    "mt": "Kwaku sɔre yiye.",
+    "ref": "Kwaku to dwom yiye."
+  },
+  {
+    "src": "Kwaku sings quite well.",
+    "mt": "Kwaku sɔre yiye.",
+    "ref": "Kwaku nim nwom to."
+  },
+  {
+    "src": "He calls her up every night.",
+    "mt": "Ɔfrɛ no anadwo biara.",
+    "ref": "Anadwo biara ɔfrɛ no."
+  },
+  {
+    "src": "He calls her up every night.",
+    "mt": "Ɔfrɛ no anadwo biara.",
+    "ref": "Ɔfrɛ no anadwo biara"
+  },
+  {
+    "src": "I don't have any money at all.",
+    "mt": "Minni sika koraa.",
+    "ref": "Minni sika koraa."
+  },
+  {
+    "src": "I don't have any money at all.",
+    "mt": "Minni sika koraa.",
+    "ref": "Sika biara nni me ho."
+  },
+  {
+    "src": "I love your dress.",
+    "mt": "M'ani gye w'atade ho.",
+    "ref": "M'ani gye wo ntadehyɛ ho."
+  },
+  {
+    "src": "I love your dress.",
+    "mt": "M'ani gye w'atade ho.",
+    "ref": "M'ani gye w'ataadeɛ no ho."
+  },
+  {
+    "src": "I love your dress.",
+    "mt": "M'ani gye w'atade ho.",
+    "ref": "W'ataadeɛ no yɛ fɛ."
+  },
+  {
+    "src": "This is what I can do for you.",
+    "mt": "Eyi ne ade a metumi ayɛ ama wo.",
+    "ref": "Eyi na metumi ayɛ ama wo."
+  },
+  {
+    "src": "This is what I can do for you.",
+    "mt": "Eyi ne ade a metumi ayɛ ama wo.",
+    "ref": "Deɛ mɛtumi ayɛ ama wo ara nie."
+  },
+  {
+    "src": "This is what I can do for you.",
+    "mt": "Eyi ne ade a metumi ayɛ ama wo.",
+    "ref": "Deɛ mɛtumi ayɛ aboa wo no no."
+  },
+  {
+    "src": "She met him this morning.",
+    "mt": "Ohuu no anɔpa yi.",
+    "ref": "Anɔpa yi, ohyiaa no."
+  },
+  {
+    "src": "She met him this morning.",
+    "mt": "Ohuu no anɔpa yi.",
+    "ref": "Ɔhyiaa no anɔpa yi."
+  },
+  {
+    "src": "She met him this morning.",
+    "mt": "Ohuu no anɔpa yi.",
+    "ref": "Anopa yi ara na ɔne no redi ahyiam."
+  },
+  {
+    "src": "I'd rather not go out today.",
+    "mt": "M'ani rennye ho nnɛ.",
+    "ref": "Merenyɛ saa nnɛ."
+  },
+  {
+    "src": "I'd rather not go out today.",
+    "mt": "M'ani rennye ho nnɛ.",
+    "ref": "Mempɛ sɛ mɛpue nnɛ."
+  },
+  {
+    "src": "I'd rather not go out today.",
+    "mt": "M'ani rennye ho nnɛ.",
+    "ref": "Ɛnni me mu sɛ mɛkɔ abɔntene nnɛ."
+  },
+  {
+    "src": "What time will you leave?",
+    "mt": "Bere bɛn na wobɛkɔ?",
+    "ref": "Bere bɛn na wubefi hɔ?"
+  },
+  {
+    "src": "What time will you leave?",
+    "mt": "Bere bɛn na wobɛkɔ?",
+    "ref": "Berɛ bɛn na wobɛkɔ?"
+  },
+  {
+    "src": "What time will you leave?",
+    "mt": "Bere bɛn na wobɛkɔ?",
+    "ref": "Wobɛfiri ha berɛ bɛn?"
+  },
+  {
+    "src": "Don't lose your temper.",
+    "mt": "Mma wo bo mfuw.",
+    "ref": "Mma wo bo mfuw."
+  },
+  {
+    "src": "Don't lose your temper.",
+    "mt": "Mma wo bo mfuw.",
+    "ref": "Hyɛ wo ho so."
+  },
+  {
+    "src": "Don't lose your temper.",
+    "mt": "Mma wo bo mfuw.",
+    "ref": "Ka w'akoma to wo yam."
+  },
+  {
+    "src": "Don't lose your temper.",
+    "mt": "Mma wo bo mfuw.",
+    "ref": "Adwoberɛw."
+  },
+  {
+    "src": "Which is mine?",
+    "mt": "Emu nea ɛwɔ he na mewɔ?",
+    "ref": "Nea ɛwɔ he na meyɛ?"
+  },
+  {
+    "src": "Which is mine?",
+    "mt": "Emu nea ɛwɔ he na mewɔ?",
+    "ref": "Deɛ ɛwc hen na yɛ me dea?"
+  },
+  {
+    "src": "Which is mine?",
+    "mt": "Emu nea ɛwɔ he na mewɔ?",
+    "ref": "Ɛmu nea ɛwɔ hen na ɛwɔ me?"
+  },
+  {
+    "src": "We left at 2:30.",
+    "mt": "Yɛkɔɔ hɔ wɔ 2:30.",
+    "ref": "Yefii hɔ 2:30."
+  },
+  {
+    "src": "We left at 2:30.",
+    "mt": "Yɛkɔɔ hɔ wɔ 2:30.",
+    "ref": "Ɛbɔɔ 2:30 na yɛfirii hɔ."
+  },
+  {
+    "src": "We left at 2:30.",
+    "mt": "Yɛkɔɔ hɔ wɔ 2:30.",
+    "ref": "Yɔrefiri hɔ no na 2:30 abɔ."
+  },
+  {
+    "src": "She likes animals, you know?",
+    "mt": "So wunim sɛ ɔpɛ mmoa?",
+    "ref": "Ɔte sɛ mmoa, wunim?"
+  },
+  {
+    "src": "She likes animals, you know?",
+    "mt": "So wunim sɛ ɔpɛ mmoa?",
+    "ref": "Wonim sɛ n'ani gye mmoa ho?"
+  },
+  {
+    "src": "She likes animals, you know?",
+    "mt": "So wunim sɛ ɔpɛ mmoa?",
+    "ref": "Wonim sɛ ɔpɛ mmoa asɛm?"
+  },
+  {
+    "src": "You haven't got much time.",
+    "mt": "Wo nsa nni bere pii.",
+    "ref": "Wonni mmre."
+  },
+  {
+    "src": "You haven't got much time.",
+    "mt": "Wo nsa nni bere pii.",
+    "ref": "Mmerɛ nni hɔ ma wo."
+  },
+  {
+    "src": "You haven't got much time.",
+    "mt": "Wo nsa nni bere pii.",
+    "ref": "Wo mmerɛ a aka sua."
+  },
+  {
+    "src": "Sooner or later, we all are going to die.",
+    "mt": "Ɛrenkyɛ koraa, yɛn nyinaa bewu.",
+    "ref": "Ɛrenkyɛ koraa na yɛn nyinaa bɛwu."
+  },
+  {
+    "src": "Sooner or later, we all are going to die.",
+    "mt": "Ɛrenkyɛ koraa, yɛn nyinaa bewu.",
+    "ref": "Ɔbra twa owuo."
+  },
+  {
+    "src": "Sooner or later, we all are going to die.",
+    "mt": "Ɛrenkyɛ koraa, yɛn nyinaa bewu.",
+    "ref": "Ɛberɛ bi bɛba a yɛn nyinaa bɛwu."
+  },
+  {
+    "src": "Kwaku has next to nothing in his wallet.",
+    "mt": "Kwaku nni biribiara wɔ ne sika kotoku mu.",
+    "ref": "Kwaku nni biribiara wɔ ne bag mu."
+  },
+  {
+    "src": "Kwaku has next to nothing in his wallet.",
+    "mt": "Kwaku nni biribiara wɔ ne sika kotoku mu.",
+    "ref": "Kwaku bɔtom awe."
+  },
+  {
+    "src": "Kwaku has next to nothing in his wallet.",
+    "mt": "Kwaku nni biribiara wɔ ne sika kotoku mu.",
+    "ref": "Kwaku nni ne ho hwee."
+  },
+  {
+    "src": "Kwaku has next to nothing in his wallet.",
+    "mt": "Kwaku nni biribiara wɔ ne sika kotoku mu.",
+    "ref": "Kwaku nni sika wɔ ne walɛt mu."
+  },
+  {
+    "src": "I'm Kwaku's boss.",
+    "mt": "Meyɛ Kwaku adwumam panyin.",
+    "ref": "Meyɛ Kwaku adwumam panyin."
+  },
+  {
+    "src": "I'm Kwaku's boss.",
+    "mt": "Meyɛ Kwaku adwumam panyin.",
+    "ref": "Kwaku adwuma mu panin ne me."
+  },
+  {
+    "src": "I'm Kwaku's boss.",
+    "mt": "Meyɛ Kwaku adwumam panyin.",
+    "ref": "Me na mehwɛ Kwaku so wɔ adwuma mu."
+  },
+  {
+    "src": "I'm Kwaku's boss.",
+    "mt": "Meyɛ Kwaku adwumam panyin.",
+    "ref": "Meyɛ Kwaku panin wɔ adwuma mu."
+  },
+  {
+    "src": "It's their job.",
+    "mt": "Ɛyɛ wɔn adwuma.",
+    "ref": "Ɛyɛ wɔn adwuma."
+  },
+  {
+    "src": "It's their job.",
+    "mt": "Ɛyɛ wɔn adwuma.",
+    "ref": "Wɔn adwuma no no."
+  },
+  {
+    "src": "It's their job.",
+    "mt": "Ɛyɛ wɔn adwuma.",
+    "ref": "Adwuma a wɔyɛ no no."
+  },
+  {
+    "src": "That's your problem.",
+    "mt": "Ɛno ne wo haw.",
+    "ref": "Ɛno ne wo haw."
+  },
+  {
+    "src": "That's your problem.",
+    "mt": "Ɛno ne wo haw.",
+    "ref": "Ɛno deɛ, w'asɛm."
+  },
+  {
+    "src": "Kwaku recognized me.",
+    "mt": "Kwaku huu me.",
+    "ref": "Kwaku huu me."
+  },
+  {
+    "src": "Kwaku recognized me.",
+    "mt": "Kwaku huu me.",
+    "ref": "Kwaku kaee me."
+  },
+  {
+    "src": "Kwaku recognized me.",
+    "mt": "Kwaku huu me.",
+    "ref": "Kwaku werɛ amfi me."
+  },
+  {
+    "src": "Kwaku recognized me.",
+    "mt": "Kwaku huu me.",
+    "ref": "Kwaku hunuu sɛ ɛyɛ me a."
+  },
+  {
+    "src": "What language do they speak in Switzerland?",
+    "mt": "Kasa bɛn na wɔka wɔ switzerland?",
+    "ref": "Kasa bɛn na wɔka wɔ Switzerland?"
+  },
+  {
+    "src": "What language do they speak in Switzerland?",
+    "mt": "Kasa bɛn na wɔka wɔ switzerland?",
+    "ref": "Wɔka kasa bɛn wɔ Switzerland?"
+  },
+  {
+    "src": "Almost three thousand people died.",
+    "mt": "Ɛkame ayɛ sɛ nnipa mpem abiɛsa wuwui.",
+    "ref": "Nnipa bɛyɛ mpensa wuwui."
+  },
+  {
+    "src": "Almost three thousand people died.",
+    "mt": "Ɛkame ayɛ sɛ nnipa mpem abiɛsa wuwui.",
+    "ref": "Nnipa a wɔwui no bɛduru mpem mmiɛnsa."
+  },
+  {
+    "src": "Almost three thousand people died.",
+    "mt": "Ɛkame ayɛ sɛ nnipa mpem abiɛsa wuwui.",
+    "ref": "Nnipa a wɔwui no bɛyɛ mpem mmiɛnsa."
+  },
+  {
+    "src": "We'll notify Kwaku.",
+    "mt": "Yɛbɛbɔ Kwaku ho amanneɛ.",
+    "ref": "Yɛrenni kan nka Kwaku ho asɛm."
+  },
+  {
+    "src": "We'll notify Kwaku.",
+    "mt": "Yɛbɛbɔ Kwaku ho amanneɛ.",
+    "ref": "Yɛbɛyi Kwaku asotire."
+  },
+  {
+    "src": "We'll notify Kwaku.",
+    "mt": "Yɛbɛbɔ Kwaku ho amanneɛ.",
+    "ref": "Yɛbɛbɔ Kwaku amanneɛ."
+  },
+  {
+    "src": "We'll notify Kwaku.",
+    "mt": "Yɛbɛbɔ Kwaku ho amanneɛ.",
+    "ref": "Yɛne Kwaku bɛdi ho nkɔmmɔ."
+  },
+  {
+    "src": "I don't have time to be sick.",
+    "mt": "Minni bere a mede bɛyare.",
+    "ref": "Minni bere a mede bɛsa."
+  },
+  {
+    "src": "I don't have time to be sick.",
+    "mt": "Minni bere a mede bɛyare.",
+    "ref": "Menni berɛ na mede ayare."
+  },
+  {
+    "src": "I don't have time to be sick.",
+    "mt": "Minni bere a mede bɛyare.",
+    "ref": "Mmerɛ nni na mede ayare."
+  },
+  {
+    "src": "Her son's death broke Abena's heart.",
+    "mt": "Ne ba no wu no bubuu Abena koma mu.",
+    "ref": "Ne babarima no wu no maa Abena koma tui."
+  },
+  {
+    "src": "Her son's death broke Abena's heart.",
+    "mt": "Ne ba no wu no bubuu Abena koma mu.",
+    "ref": "Abena babarima wuo no aha no yie."
+  },
+  {
+    "src": "Her son's death broke Abena's heart.",
+    "mt": "Ne ba no wu no bubuu Abena koma mu.",
+    "ref": "Abena adi ne babarima wuo no ho yaw pa ara."
+  },
+  {
+    "src": "That isn't Kwaku's bicycle.",
+    "mt": "Ɛnyɛ Kwaku sakre.",
+    "ref": "Ɛno nyɛ Kwaku sakre."
+  },
+  {
+    "src": "That isn't Kwaku's bicycle.",
+    "mt": "Ɛnyɛ Kwaku sakre.",
+    "ref": "Sakre wei nni Kwaku."
+  },
+  {
+    "src": "That isn't Kwaku's bicycle.",
+    "mt": "Ɛnyɛ Kwaku sakre.",
+    "ref": "Sakre wei nyɛ Kwaku dea."
+  },
+  {
+    "src": "That isn't Kwaku's bicycle.",
+    "mt": "Ɛnyɛ Kwaku sakre.",
+    "ref": "Ɛnyɛ Kwaku sakre no nie."
+  },
+  {
+    "src": "No one showed up.",
+    "mt": "Obiara ankyerɛɛ mu.",
+    "ref": "Obiara amma."
+  },
+  {
+    "src": "No one showed up.",
+    "mt": "Obiara ankyerɛɛ mu.",
+    "ref": "Obiara ansi hɔ."
+  },
+  {
+    "src": "She made friends with Asamoah at the party.",
+    "mt": "Ɔyɛɛ nnamfo wɔ apontow no ase.",
+    "ref": "Onyaa nnamfo wɔ apontow no ase."
+  },
+  {
+    "src": "She made friends with Asamoah at the party.",
+    "mt": "Ɔyɛɛ nnamfo wɔ apontow no ase.",
+    "ref": "Apontoɔ no ase na ɔne Asamoah faa nnamfoɔ."
+  },
+  {
+    "src": "She made friends with Asamoah at the party.",
+    "mt": "Ɔyɛɛ nnamfo wɔ apontow no ase.",
+    "ref": "Apontoɔ no ase na ɔne Asamoah nyaa ayɔnkofa."
+  },
+  {
+    "src": "Cain was evil.",
+    "mt": "Na cain yɛ abofra.",
+    "ref": "Na Kain yɛ ɔbɔnefo."
+  },
+  {
+    "src": "Cain was evil.",
+    "mt": "Na cain yɛ abofra.",
+    "ref": "Na Cain tirimu yɛ sum."
+  },
+  {
+    "src": "Cain was evil.",
+    "mt": "Na cain yɛ abofra.",
+    "ref": "Na Cain yɛ nipabɔne ni."
+  },
+  {
+    "src": "I've been sick for a very long time.",
+    "mt": "Mayare mfe pii.",
+    "ref": "Mayare bere tenten."
+  },
+  {
+    "src": "I've been sick for a very long time.",
+    "mt": "Mayare mfe pii.",
+    "ref": "Mayare akyɛ."
+  },
+  {
+    "src": "I've been sick for a very long time.",
+    "mt": "Mayare mfe pii.",
+    "ref": "Mmerɛ tenten nie na mayare."
+  },
+  {
+    "src": "I've been sick for a very long time.",
+    "mt": "Mayare mfe pii.",
+    "ref": "Yareɛ yi atena me so akyɛ."
+  },
+  {
+    "src": "Who told you the story?",
+    "mt": "Hena na ɔkaa asɛm no kyerɛɛ wo?",
+    "ref": "Hena na ɔkaa asɛm no kyerɛɛ wo?"
+  },
+  {
+    "src": "Who told you the story?",
+    "mt": "Hena na ɔkaa asɛm no kyerɛɛ wo?",
+    "ref": "Hwan na bɔɔ wo amaneɛ?"
+  },
+  {
+    "src": "Who told you the story?",
+    "mt": "Hena na ɔkaa asɛm no kyerɛɛ wo?",
+    "ref": "Hwan na bɔɔ wo asɛm no mu?"
+  },
+  {
+    "src": "We'll lose everything.",
+    "mt": "Biribiara bɛsɛe.",
+    "ref": "Yɛbɛsɛe biribiara."
+  },
+  {
+    "src": "We'll lose everything.",
+    "mt": "Biribiara bɛsɛe.",
+    "ref": "Yɛbɛhwere biribiara."
+  },
+  {
+    "src": "We'll lose everything.",
+    "mt": "Biribiara bɛsɛe.",
+    "ref": "Biribiara bɛhwere yɛn."
+  },
+  {
+    "src": "We'll lose everything.",
+    "mt": "Biribiara bɛsɛe.",
+    "ref": "Ne nyinaa bɛfiri yɛn nsa."
+  },
+  {
+    "src": "Shall I go on?",
+    "mt": "So mɛkɔ so ayɛ?",
+    "ref": "So mɛkɔ so ayɛ?"
+  },
+  {
+    "src": "Shall I go on?",
+    "mt": "So mɛkɔ so ayɛ?",
+    "ref": "Metumi toa so anaa?"
+  },
+  {
+    "src": "Shall I go on?",
+    "mt": "So mɛkɔ so ayɛ?",
+    "ref": "Mentoa so anaa?"
+  },
+  {
+    "src": "Kwame isn't happy about what's happened.",
+    "mt": "Kwame ani nnye nea esii no ho.",
+    "ref": "Nea esii no,  nea asi no,  n'ani nnye ho."
+  },
+  {
+    "src": "Kwame isn't happy about what's happened.",
+    "mt": "Kwame ani nnye nea esii no ho.",
+    "ref": "Kwame ani annye nea ɛsiiɛ no ho."
+  },
+  {
+    "src": "I thought it was Kwame.",
+    "mt": "Ná misusuw sɛ ɛyɛ Kwame.",
+    "ref": "Na ɛyɛ me sɛ me na me ne no nam."
+  },
+  {
+    "src": "I thought it was Kwame.",
+    "mt": "Ná misusuw sɛ ɛyɛ Kwame.",
+    "ref": "Na ɛyɛ me sɛ ɛyɛ Kwame a."
+  },
+  {
+    "src": "I thought it was Kwame.",
+    "mt": "Ná misusuw sɛ ɛyɛ Kwame.",
+    "ref": "Na medwene sɛ Kwame a."
+  },
+  {
+    "src": "What kind of dreams do you have?",
+    "mt": "Anidaso bɛn na wowɔ?",
+    "ref": "Anidaso bɛn na wowɔ?"
+  },
+  {
+    "src": "What kind of dreams do you have?",
+    "mt": "Anidaso bɛn na wowɔ?",
+    "ref": "Wo daeɛso ne sɛn?"
+  },
+  {
+    "src": "What kind of dreams do you have?",
+    "mt": "Anidaso bɛn na wowɔ?",
+    "ref": "Wo tirimpɔ ne sɛn?"
+  },
+  {
+    "src": "What kind of dreams do you have?",
+    "mt": "Anidaso bɛn na wowɔ?",
+    "ref": "Wo botaeɛ ne sɛn?"
+  },
+  {
+    "src": "He came all the way from Nikko to see me off.",
+    "mt": "Ná ɔfrɛ Nikko nyinaa hwɛɛ me.",
+    "ref": "Ɔbaa hɔ bɛhwɛɛ me."
+  },
+  {
+    "src": "He came all the way from Nikko to see me off.",
+    "mt": "Ná ɔfrɛ Nikko nyinaa hwɛɛ me.",
+    "ref": "Ɔbɔɔ anamɔn firii Nikko bɛgyaa me kwan."
+  },
+  {
+    "src": "He came all the way from Nikko to see me off.",
+    "mt": "Ná ɔfrɛ Nikko nyinaa hwɛɛ me.",
+    "ref": "Ɔfirii Nikko bɛgyaa me kwan."
+  },
+  {
+    "src": "Don't be sad.",
+    "mt": "Nyɛ wo werɛ nhow.",
+    "ref": "Mma w'abam mmu."
+  },
+  {
+    "src": "Don't be sad.",
+    "mt": "Nyɛ wo werɛ nhow.",
+    "ref": "Mma wo werɛ nho."
+  },
+  {
+    "src": "Don't be sad.",
+    "mt": "Nyɛ wo werɛ nhow.",
+    "ref": "Nni awerɛhoɔ."
+  },
+  {
+    "src": "He can't control his desires.",
+    "mt": "Ontumi nni n'apɛde so.",
+    "ref": "Ontumi nni n'akɔnnɔ ahorow so."
+  },
+  {
+    "src": "He can't control his desires.",
+    "mt": "Ontumi nni n'apɛde so.",
+    "ref": "Ɔntumi nhyɛ n'akɔnnɔ so."
+  },
+  {
+    "src": "I didn't say anything.",
+    "mt": "Ná menka hwee.",
+    "ref": "Mantumi anka hwee."
+  },
+  {
+    "src": "I didn't say anything.",
+    "mt": "Ná menka hwee.",
+    "ref": "Manka hwee."
+  },
+  {
+    "src": "I didn't say anything.",
+    "mt": "Ná menka hwee.",
+    "ref": "Manka biribiara."
+  },
+  {
+    "src": "Asamoah isn't my father.",
+    "mt": "Asamoa nyɛ me papa.",
+    "ref": "Me papa a wɔfrɛ no ulah no nyɛ me papa."
+  },
+  {
+    "src": "Asamoah isn't my father.",
+    "mt": "Asamoa nyɛ me papa.",
+    "ref": "Asamoah nyɛ me papa."
+  },
+  {
+    "src": "Asamoah isn't my father.",
+    "mt": "Asamoa nyɛ me papa.",
+    "ref": "Ɛnyɛ me papa ne Asamoah."
+  },
+  {
+    "src": "Asamoah isn't my father.",
+    "mt": "Asamoa nyɛ me papa.",
+    "ref": "Me papa nyɛ Asamoah."
+  },
+  {
+    "src": "He likes singing.",
+    "mt": "N'ani gye nnwonto ho.",
+    "ref": "N'ani gye nnwonto ho."
+  },
+  {
+    "src": "He likes singing.",
+    "mt": "N'ani gye nnwonto ho.",
+    "ref": "Ɔpɛ nnwontoɔ."
+  },
+  {
+    "src": "He likes singing.",
+    "mt": "N'ani gye nnwonto ho.",
+    "ref": "Adeɛ a ɔpɛ ne nnwontoɔ."
+  },
+  {
+    "src": "Who's your favorite teacher?",
+    "mt": "Hena ne ɔkyerɛkyerɛfo a w'ani gye ne ho paa?",
+    "ref": "Hena ne kyerɛkyerɛni a w'ani gye ne ho paa?"
+  },
+  {
+    "src": "Who's your favorite teacher?",
+    "mt": "Hena ne ɔkyerɛkyerɛfo a w'ani gye ne ho paa?",
+    "ref": "Kyerɛkyerɛni bɛn na wopɛ n'asɛm?"
+  },
+  {
+    "src": "Who's your favorite teacher?",
+    "mt": "Hena ne ɔkyerɛkyerɛfo a w'ani gye ne ho paa?",
+    "ref": "Hwan ne ɔkyerkyerɛni a wopɛ n'asɛm?"
+  },
+  {
+    "src": "Be respectful to your superiors, if you have any.",
+    "mt": "Hwɛ w'adwumam panyin so, sɛ wowɔ bi a.",
+    "ref": "Sɛ wowɔ bi a,  bu wo mpanyimfo."
+  },
+  {
+    "src": "Be respectful to your superiors, if you have any.",
+    "mt": "Hwɛ w'adwumam panyin so, sɛ wowɔ bi a.",
+    "ref": "Sɛ wowɔ akannifoɔ a,  fa anidie ma wɔn."
+  },
+  {
+    "src": "Be respectful to your superiors, if you have any.",
+    "mt": "Hwɛ w'adwumam panyin so, sɛ wowɔ bi a.",
+    "ref": "Sɛ wowɔ mpanimfoɔ a,  bu wɔn."
+  },
+  {
+    "src": "How many friends do you have on Facebook?",
+    "mt": "Nnamfo dodow ahe na wowɔ wɔ Facebook?",
+    "ref": "Nnamfo dodow ahe na wowɔ wɔ Fcaebook so?"
+  },
+  {
+    "src": "How many friends do you have on Facebook?",
+    "mt": "Nnamfo dodow ahe na wowɔ wɔ Facebook?",
+    "ref": "Wo nnamfonom a ɛwɔ Facebook yɛ sɛn?"
+  },
+  {
+    "src": "How many friends do you have on Facebook?",
+    "mt": "Nnamfo dodow ahe na wowɔ wɔ Facebook?",
+    "ref": "Wo Facebook nnamfonom yɛ dodoɔ sɛn?"
+  },
+  {
+    "src": "Children mostly lack patience.",
+    "mt": "Mmofra dodow no ara nni abotare.",
+    "ref": "Mmere pii,  mmofra nni ntoboase."
+  },
+  {
+    "src": "Children mostly lack patience.",
+    "mt": "Mmofra dodow no ara nni abotare.",
+    "ref": "Abotare yɛ adeɛ a mpɛn pii no ara mmɔfra nni."
+  },
+  {
+    "src": "Children mostly lack patience.",
+    "mt": "Mmofra dodow no ara nni abotare.",
+    "ref": "Adeɛ a mmɔfra nni ne abotare."
+  },
+  {
+    "src": "I can't keep lying to Osei.",
+    "mt": "Mintumi nni atoro nkyerɛ Ose.",
+    "ref": "Mentumi nkɔso nni atoro nkyerɛ Osei."
+  },
+  {
+    "src": "I can't keep lying to Osei.",
+    "mt": "Mintumi nni atoro nkyerɛ Ose.",
+    "ref": "Mentumi ntoa so ntwa Osei ntorɔ."
+  },
+  {
+    "src": "I can't keep lying to Osei.",
+    "mt": "Mintumi nni atoro nkyerɛ Ose.",
+    "ref": "Mentumi nni Osei atorɔ bio."
+  },
+  {
+    "src": "That is not what I want.",
+    "mt": "Ɛnyɛ saa na mepɛ.",
+    "ref": "Ɛnyɛ eyi na mepɛ."
+  },
+  {
+    "src": "That is not what I want.",
+    "mt": "Ɛnyɛ saa na mepɛ.",
+    "ref": "Ɛnyɛ nea mepɛ nie."
+  },
+  {
+    "src": "That is not what I want.",
+    "mt": "Ɛnyɛ saa na mepɛ.",
+    "ref": "Ɛnyɛ nea merehwehwɛ nie."
+  },
+  {
+    "src": "That is not what I want.",
+    "mt": "Ɛnyɛ saa na mepɛ.",
+    "ref": "Wei nyɛ nea mepɛ."
+  },
+  {
+    "src": "That is not what I want.",
+    "mt": "Ɛnyɛ saa na mepɛ.",
+    "ref": "Nea mepɛ no nyɛ wei."
+  },
+  {
+    "src": "I just want to thank you for all of your help.",
+    "mt": "Mepɛ sɛ meda mo ase wɔ mo mmoa nyinaa ho.",
+    "ref": "Mepɛ sɛ meda mo ase wɔ mo mmoa nyinaa ho."
+  },
+  {
+    "src": "I just want to thank you for all of your help.",
+    "mt": "Mepɛ sɛ meda mo ase wɔ mo mmoa nyinaa ho.",
+    "ref": "Mepɛ sɛ meda wo ase wɔ nea woayɛ ama me nyinaa."
+  },
+  {
+    "src": "I just want to thank you for all of your help.",
+    "mt": "Mepɛ sɛ meda mo ase wɔ mo mmoa nyinaa ho.",
+    "ref": "Mepɛ sɛ meda wo ase wɔ w'adɔeɛ nyinaa ho."
+  },
+  {
+    "src": "Can I go in there now?",
+    "mt": "So metumi akɔ hɔ seesei?",
+    "ref": "So metumi akɔ hɔ seesei?"
+  },
+  {
+    "src": "Can I go in there now?",
+    "mt": "So metumi akɔ hɔ seesei?",
+    "ref": "Afei mɛtumi akɔ mu?"
+  },
+  {
+    "src": "Can I go in there now?",
+    "mt": "So metumi akɔ hɔ seesei?",
+    "ref": "Afei mɛtumi awura mu?"
+  },
+  {
+    "src": "Can I go in there now?",
+    "mt": "So metumi akɔ hɔ seesei?",
+    "ref": "Mɛtumi awura mu seesei?"
+  },
+  {
+    "src": "Kwabena gave thanks to God.",
+    "mt": "Kwabena daa Onyankopɔn ase.",
+    "ref": "Kwabena daa Onyankopɔn ase."
+  },
+  {
+    "src": "Kwabena gave thanks to God.",
+    "mt": "Kwabena daa Onyankopɔn ase.",
+    "ref": "Kwabena de aseda maa Onyankopɔn."
+  },
+  {
+    "src": "Kwabena gave thanks to God.",
+    "mt": "Kwabena daa Onyankopɔn ase.",
+    "ref": "Kwabena de Onyankopɔn aseda maa no."
+  },
+  {
+    "src": "He devoted his life to his study.",
+    "mt": "Ɔde ne nkwa nna nyinaa suaa ade.",
+    "ref": "Ɔde ne bere nyinaa suaa ade."
+  },
+  {
+    "src": "He devoted his life to his study.",
+    "mt": "Ɔde ne nkwa nna nyinaa suaa ade.",
+    "ref": "Watu ne ho asi hɔ ama n'adesua."
+  },
+  {
+    "src": "He devoted his life to his study.",
+    "mt": "Ɔde ne nkwa nna nyinaa suaa ade.",
+    "ref": "Wagyae birbiara mu ama n'adesua."
+  },
+  {
+    "src": "Kwabena is very intelligent.",
+    "mt": "Kwabena nim ade yiye.",
+    "ref": "Kwabena nim ade paa."
+  },
+  {
+    "src": "Kwabena is very intelligent.",
+    "mt": "Kwabena nim ade yiye.",
+    "ref": "Kwabena nim nwoma pa ara."
+  },
+  {
+    "src": "Kwabena is very intelligent.",
+    "mt": "Kwabena nim ade yiye.",
+    "ref": "Kwabena adwene mu dɔ yie."
+  },
+  {
+    "src": "Kwabena is very intelligent.",
+    "mt": "Kwabena nim ade yiye.",
+    "ref": "Kwabena yɛ onimdefoɔ."
+  },
+  {
+    "src": "That bridge is made of stone.",
+    "mt": "Wɔde abo na ɛyɛɛ saa swene no.",
+    "ref": "Wɔde abo na ɛyɛɛ saa twene no."
+  },
+  {
+    "src": "That bridge is made of stone.",
+    "mt": "Wɔde abo na ɛyɛɛ saa swene no.",
+    "ref": "Aboɔ na wɔde yɛɛ saa twene no."
+  },
+  {
+    "src": "That bridge is made of stone.",
+    "mt": "Wɔde abo na ɛyɛɛ saa swene no.",
+    "ref": "Saa twene no yɛ aboɔ twene."
+  },
+  {
+    "src": "I can't believe you’re doing this to me.",
+    "mt": "Mannye anni sɛ woreyɛ eyi ama me.",
+    "ref": "Woayɛ m'ade ama me ho adwiriw me."
+  },
+  {
+    "src": "I can't believe you’re doing this to me.",
+    "mt": "Mannye anni sɛ woreyɛ eyi ama me.",
+    "ref": "Ɛyɛ me nwanwa sɛ woatumi ayɛ me sei."
+  },
+  {
+    "src": "I can't believe you’re doing this to me.",
+    "mt": "Mannye anni sɛ woreyɛ eyi ama me.",
+    "ref": "Mannwene ho da sɛ wobɛtumi ayɛ me sei."
+  },
+  {
+    "src": "I can't believe you’re doing this to me.",
+    "mt": "Mannye anni sɛ woreyɛ eyi ama me.",
+    "ref": "Enti me na woayɛ me sei yi."
+  },
+  {
+    "src": "Kwabena was shocked by what Abena said.",
+    "mt": "Nea Abena kae no maa Kwabena ho dwiriw no.",
+    "ref": "Nea Abena kae no maa Kwabena ho dwiriw no."
+  },
+  {
+    "src": "Kwabena was shocked by what Abena said.",
+    "mt": "Nea Abena kae no maa Kwabena ho dwiriw no.",
+    "ref": "Abena nsɛm a ɔkaeɛ no maa Kwabena ho dwirii no."
+  },
+  {
+    "src": "Kwabena was shocked by what Abena said.",
+    "mt": "Nea Abena kae no maa Kwabena ho dwiriw no.",
+    "ref": "Kwabena ho dwirii no wɔ nsɛm a Abena kaeɛ no."
+  },
+  {
+    "src": "He lived in Ankara for six years.",
+    "mt": "Ɔtraa Ankara mfe asia.",
+    "ref": "Ɔde mfe asia traa Ankara."
+  },
+  {
+    "src": "He lived in Ankara for six years.",
+    "mt": "Ɔtraa Ankara mfe asia.",
+    "ref": "Ɔtenaa Ankara mfeɛ nsia."
+  },
+  {
+    "src": "He lived in Ankara for six years.",
+    "mt": "Ɔtraa Ankara mfe asia.",
+    "ref": "Mfeɛ nsia mu na ɔtenaa Ankara."
+  },
+  {
+    "src": "He lived in Ankara for six years.",
+    "mt": "Ɔtraa Ankara mfe asia.",
+    "ref": "Ankara ha na ɔtenaa mfeɛ nsia."
+  },
+  {
+    "src": "She is a pleasant person.",
+    "mt": "Ɔyɛ obi a n'asɛm yɛ anika.",
+    "ref": "N'anim tew."
+  },
+  {
+    "src": "She is a pleasant person.",
+    "mt": "Ɔyɛ obi a n'asɛm yɛ anika.",
+    "ref": "Ɔyɛ obi a ɔpɛ nipa."
+  },
+  {
+    "src": "She is a pleasant person.",
+    "mt": "Ɔyɛ obi a n'asɛm yɛ anika.",
+    "ref": "Ɔdɔ nipa."
+  },
+  {
+    "src": "She is a pleasant person.",
+    "mt": "Ɔyɛ obi a n'asɛm yɛ anika.",
+    "ref": "Ɔka ne ho bɛn nipa."
+  },
+  {
+    "src": "I was about to go.",
+    "mt": "Na merebɛkɔ.",
+    "ref": "Na merebɛkɔ."
+  },
+  {
+    "src": "I was about to go.",
+    "mt": "Na merebɛkɔ.",
+    "ref": "Anka merebɛkɔ ara no no."
+  },
+  {
+    "src": "I can't get her out of my mind.",
+    "mt": "Mintumi nnya no mfi m'adwenem.",
+    "ref": "Mintumi nnyi m'adwene mfi ne so."
+  },
+  {
+    "src": "I can't get her out of my mind.",
+    "mt": "Mintumi nnya no mfi m'adwenem.",
+    "ref": "Mentumi nyi no mfiri m'adwene mu."
+  },
+  {
+    "src": "I can't get her out of my mind.",
+    "mt": "Mintumi nnya no mfi m'adwenem.",
+    "ref": "Mentumi nyi ne ho adwendwene mfiri me mu."
+  },
+  {
+    "src": "I can't get her out of my mind.",
+    "mt": "Mintumi nnya no mfi m'adwenem.",
+    "ref": "Ne ho adwene wɔ me tirim."
+  },
+  {
+    "src": "The road's in bad condition.",
+    "mt": "Kwan no wɔ tebea bɔne mu.",
+    "ref": "Kwan no nnye."
+  },
+  {
+    "src": "The road's in bad condition.",
+    "mt": "Kwan no wɔ tebea bɔne mu.",
+    "ref": "Kwan no asɛe."
+  },
+  {
+    "src": "The road's in bad condition.",
+    "mt": "Kwan no wɔ tebea bɔne mu.",
+    "ref": "Kwan no nyɛ papa."
+  },
+  {
+    "src": "She works at the bank.",
+    "mt": "Ɔyɛ adwuma wɔ sikakorabea.",
+    "ref": "Ɔyɛ adwuma wɔ sikakorabea."
+  },
+  {
+    "src": "She works at the bank.",
+    "mt": "Ɔyɛ adwuma wɔ sikakorabea.",
+    "ref": "N'adwumabea ne sikakorabea hɔ."
+  },
+  {
+    "src": "She works at the bank.",
+    "mt": "Ɔyɛ adwuma wɔ sikakorabea.",
+    "ref": "Sikakorabea hɔ na ɔyɛ adwuma."
+  },
+  {
+    "src": "She works at the bank.",
+    "mt": "Ɔyɛ adwuma wɔ sikakorabea.",
+    "ref": "Ɔyɛ n'adwuma wɔ sikakorabea hɔ."
+  },
+  {
+    "src": "What happened last month?",
+    "mt": "Dɛn na esii ɔsram a eswaam no?",
+    "ref": "Dɛn na esii ɔsram a etwaam no mu?"
+  },
+  {
+    "src": "What happened last month?",
+    "mt": "Dɛn na esii ɔsram a eswaam no?",
+    "ref": "Bosome a ɛtwaa mu no ɛdeɛn na siiɛ?"
+  },
+  {
+    "src": "What happened last month?",
+    "mt": "Dɛn na esii ɔsram a eswaam no?",
+    "ref": "Nsɛm bɛn na sii bosome a ɛtwaa mu no?"
+  },
+  {
+    "src": "I do the laundry on Sundays.",
+    "mt": "Meyɛ nsu no Kwasida biara.",
+    "ref": "Mehoro nneɛma Kwasida biara."
+  },
+  {
+    "src": "I do the laundry on Sundays.",
+    "mt": "Meyɛ nsu no Kwasida biara.",
+    "ref": "Mesi nneɛma Kwasiada biara."
+  },
+  {
+    "src": "I do the laundry on Sundays.",
+    "mt": "Meyɛ nsu no Kwasida biara.",
+    "ref": "Kwasiada biara na mesi nneɛma."
+  },
+  {
+    "src": "I do the laundry on Sundays.",
+    "mt": "Meyɛ nsu no Kwasida biara.",
+    "ref": "Nneɛma mesi no yɛ Kwasiada biara."
+  },
+  {
+    "src": "Kwabena is already in Boston.",
+    "mt": "Kwabena wɔ Boston dedaw.",
+    "ref": "Kwabena wɔ Boston dedaw."
+  },
+  {
+    "src": "Kwabena is already in Boston.",
+    "mt": "Kwabena wɔ Boston dedaw.",
+    "ref": "Kwabena adi kan wɔ Boston."
+  },
+  {
+    "src": "Kwabena is already in Boston.",
+    "mt": "Kwabena wɔ Boston dedaw.",
+    "ref": "Kwabena aduru Boston dada."
+  },
+  {
+    "src": "Whose pencil is this?",
+    "mt": "Hena pɛnsere ni?",
+    "ref": "Hena pɛnsere ni?"
+  },
+  {
+    "src": "Whose pencil is this?",
+    "mt": "Hena pɛnsere ni?",
+    "ref": "Pɛnsere yi wɔ hwan?"
+  },
+  {
+    "src": "Whose pencil is this?",
+    "mt": "Hena pɛnsere ni?",
+    "ref": "Hwan na pɛnsere no yɛ ne dea?"
+  },
+  {
+    "src": "Don't be stupid.",
+    "mt": "Nyɛ ɔkwasea.",
+    "ref": "Nnyimi."
+  },
+  {
+    "src": "Don't be stupid.",
+    "mt": "Nyɛ ɔkwasea.",
+    "ref": "Nni nkwaseasɛm."
+  },
+  {
+    "src": "Don't be stupid.",
+    "mt": "Nyɛ ɔkwasea.",
+    "ref": "Ma w'ani nna hɔ."
+  },
+  {
+    "src": "Don't be stupid.",
+    "mt": "Nyɛ ɔkwasea.",
+    "ref": "Nni agyimisɛm biara."
+  },
+  {
+    "src": "She is interested in jazz.",
+    "mt": "N'ani gye jazz ho.",
+    "ref": "N'ani gye jazz ho."
+  },
+  {
+    "src": "She is interested in jazz.",
+    "mt": "N'ani gye jazz ho.",
+    "ref": "N'ani di jazz akyi."
+  },
+  {
+    "src": "She is interested in jazz.",
+    "mt": "N'ani gye jazz ho.",
+    "ref": "Ɔpɛ jazz."
+  },
+  {
+    "src": "She is interested in jazz.",
+    "mt": "N'ani gye jazz ho.",
+    "ref": "Jazz yɛ adeɛ a n'ani gye ho."
+  },
+  {
+    "src": "Kwabena went along with the scheme.",
+    "mt": "Kwabena ne nhyehyɛe no kɔe.",
+    "ref": "Kwabena dii nhyehyɛe no akyi."
+  },
+  {
+    "src": "Kwabena went along with the scheme.",
+    "mt": "Kwabena ne nhyehyɛe no kɔe.",
+    "ref": "Kwabena de nhyehyɛeɛ n dii dwuma."
+  },
+  {
+    "src": "Kwabena went along with the scheme.",
+    "mt": "Kwabena ne nhyehyɛe no kɔe.",
+    "ref": "Kwabena gyee nhyehyɛeɛ no too mu."
+  },
+  {
+    "src": "My father works for a bank.",
+    "mt": "Me papa yɛ adwuma ma sikakorabea bi.",
+    "ref": "Me papa yɛ adwuma ma sikakorabea bi."
+  },
+  {
+    "src": "My father works for a bank.",
+    "mt": "Me papa yɛ adwuma ma sikakorabea bi.",
+    "ref": "Sikakorabea bi na me papa yɛ adwuma ma wɔn."
+  },
+  {
+    "src": "My father works for a bank.",
+    "mt": "Me papa yɛ adwuma ma sikakorabea bi.",
+    "ref": "Me papa di ne dwuma ma sikakorabea bi."
+  },
+  {
+    "src": "My father works for a bank.",
+    "mt": "Me papa yɛ adwuma ma sikakorabea bi.",
+    "ref": "Sikakorabea bi na me papa ne wɔn yɛ adwuma."
+  },
+  {
+    "src": "What's that letter about?",
+    "mt": "Dɛn na saa krataa no kyerɛ?",
+    "ref": "Dɛn na saa krataa no ka ho asɛm?"
+  },
+  {
+    "src": "What's that letter about?",
+    "mt": "Dɛn na saa krataa no kyerɛ?",
+    "ref": "Krataa no kasa fa deɛn ho?"
+  },
+  {
+    "src": "What's that letter about?",
+    "mt": "Dɛn na saa krataa no kyerɛ?",
+    "ref": "Krataa no mu nsɛm ne sɛn?"
+  },
+  {
+    "src": "What's that letter about?",
+    "mt": "Dɛn na saa krataa no kyerɛ?",
+    "ref": "Amannebɔsɛm bɛn na krataa no ka ho asɛm?"
+  },
+  {
+    "src": "I am disappointed that my friends are not here.",
+    "mt": "Ɛyɛ me yaw sɛ me nnamfo nni ha.",
+    "ref": "Ɛyɛ me yaw sɛ me nnamfo nni ha."
+  },
+  {
+    "src": "I am disappointed that my friends are not here.",
+    "mt": "Ɛyɛ me yaw sɛ me nnamfo nni ha.",
+    "ref": "Madi me nnamfonom ho yaw sɛ wɔnni ha."
+  },
+  {
+    "src": "I am disappointed that my friends are not here.",
+    "mt": "Ɛyɛ me yaw sɛ me nnamfo nni ha.",
+    "ref": "Ɛha me sɛ me nnamfonom nni ha."
+  },
+  {
+    "src": "I am disappointed that my friends are not here.",
+    "mt": "Ɛyɛ me yaw sɛ me nnamfo nni ha.",
+    "ref": "Me werɛ aho sɛ me nnamfonom nni ha."
+  },
+  {
+    "src": "It was cloudy yesterday.",
+    "mt": "Ná wim ayɛ kusuu nnera.",
+    "ref": "Ɛnnɛra, na omununkum wɔ wim paa."
+  },
+  {
+    "src": "It was cloudy yesterday.",
+    "mt": "Ná wim ayɛ kusuu nnera.",
+    "ref": "Na ewiem ayɛ kusuu nnora."
+  },
+  {
+    "src": "It was cloudy yesterday.",
+    "mt": "Ná wim ayɛ kusuu nnera.",
+    "ref": "Nnora na ewiem ani nyɛ fɛ."
+  },
+  {
+    "src": "Kwabena's useless.",
+    "mt": "Kwabena mfaso biara nni so.",
+    "ref": "Kwabena so nni mfaso."
+  },
+  {
+    "src": "Kwabena's useless.",
+    "mt": "Kwabena mfaso biara nni so.",
+    "ref": "Mfasoɔ biara nni Kwabena so."
+  },
+  {
+    "src": "Kwabena's useless.",
+    "mt": "Kwabena mfaso biara nni so.",
+    "ref": "Kwabena nni botaeɛ biara."
+  },
+  {
+    "src": "Kwabena's useless.",
+    "mt": "Kwabena mfaso biara nni so.",
+    "ref": "Kwabena nemnam hɔ saa ara kwa."
+  },
+  {
+    "src": "You taught us that.",
+    "mt": "Wokyerɛɛ yɛn saa.",
+    "ref": "Wokyerɛɛ yɛn saa."
+  },
+  {
+    "src": "You taught us that.",
+    "mt": "Wokyerɛɛ yɛn saa.",
+    "ref": "Nea wokyerɛɛ yɛn ara no no."
+  },
+  {
+    "src": "You taught us that.",
+    "mt": "Wokyerɛɛ yɛn saa.",
+    "ref": "Saa ara na wokyerɛɛ yɛn."
+  },
+  {
+    "src": "What makes us human?",
+    "mt": "Dɛn na ɛma yɛanya nnipa?",
+    "ref": "Dɛn na ɛma yɛyɛ nnipa?"
+  },
+  {
+    "src": "What makes us human?",
+    "mt": "Dɛn na ɛma yɛanya nnipa?",
+    "ref": "Deɛ ɛma yɛyɛ nnipa ne deɛn?"
+  },
+  {
+    "src": "What makes us human?",
+    "mt": "Dɛn na ɛma yɛanya nnipa?",
+    "ref": "Deɛn na ma nnipa yɛ nnipa?"
+  },
+  {
+    "src": "What makes us human?",
+    "mt": "Dɛn na ɛma yɛanya nnipa?",
+    "ref": "Yɛn nnipaban ne deɛn?"
+  },
+  {
+    "src": "I love you just as you are.",
+    "mt": "Medɔ wo sɛnea woyɛ ara.",
+    "ref": "Medɔ wo sɛnea wote pɛpɛɛpɛ."
+  },
+  {
+    "src": "I love you just as you are.",
+    "mt": "Medɔ wo sɛnea woyɛ ara.",
+    "ref": "Sɛnea woteɛ no ara no, medɔ wo."
+  },
+  {
+    "src": "I love you just as you are.",
+    "mt": "Medɔ wo sɛnea woyɛ ara.",
+    "ref": "Nea woteɛ biara medɔ wo."
+  },
+  {
+    "src": "People in Taiwan work hard.",
+    "mt": "Nnipa a wɔwɔ Taiwan no yɛ adwumaden.",
+    "ref": "Nnipa a wɔwɔ Taiwan no yɛ adwumaden."
+  },
+  {
+    "src": "People in Taiwan work hard.",
+    "mt": "Nnipa a wɔwɔ Taiwan no yɛ adwumaden.",
+    "ref": "Taiwanfoɔ yɛ nnipa a wɔyɛ adwumaden."
+  },
+  {
+    "src": "People in Taiwan work hard.",
+    "mt": "Nnipa a wɔwɔ Taiwan no yɛ adwumaden.",
+    "ref": "Wɔn a wɔwɔ pɛ adwuma."
+  },
+  {
+    "src": "People in Taiwan work hard.",
+    "mt": "Nnipa a wɔwɔ Taiwan no yɛ adwumaden.",
+    "ref": "Nnipa a wɔte Taiwan yɛ wɔn a wɔpɛ adwumaden."
+  },
+  {
+    "src": "It was drizzling.",
+    "mt": "Ná ɛyɛ huam.",
+    "ref": "Na nsu retɔ nketenkete."
+  },
+  {
+    "src": "It was drizzling.",
+    "mt": "Ná ɛyɛ huam.",
+    "ref": "Nsuo no repete."
+  },
+  {
+    "src": "Kwabena is a very good friend.",
+    "mt": "Kwabena yɛ adamfo pa paa.",
+    "ref": "Kwabena yɛ adamfo pa paa."
+  },
+  {
+    "src": "Kwabena is a very good friend.",
+    "mt": "Kwabena yɛ adamfo pa paa.",
+    "ref": "Me yɔnko paa ne Kwabena."
+  },
+  {
+    "src": "Kwabena is a very good friend.",
+    "mt": "Kwabena yɛ adamfo pa paa.",
+    "ref": "Kwabena yɛ me yɔnko prɛko pɛ."
+  },
+  {
+    "src": "Kwabena is a very good friend.",
+    "mt": "Kwabena yɛ adamfo pa paa.",
+    "ref": "Me yɔnko brɛboɔ ne Kwabena."
+  },
+  {
+    "src": "Was this letter written by Abena?",
+    "mt": "So na Abena na ɔkyerɛw krataa yi?",
+    "ref": "Abena na ɔkyerɛwee saa krataa yi?"
+  },
+  {
+    "src": "Was this letter written by Abena?",
+    "mt": "So na Abena na ɔkyerɛw krataa yi?",
+    "ref": "Wei ne krataa a Abena twerɛeɛ?"
+  },
+  {
+    "src": "Was this letter written by Abena?",
+    "mt": "So na Abena na ɔkyerɛw krataa yi?",
+    "ref": "Krataa a Abenaa twerɛeɛ nie?"
+  },
+  {
+    "src": "I'm very frightened.",
+    "mt": "Me ho yeraw me yiye.",
+    "ref": "Ehu aka me yiye."
+  },
+  {
+    "src": "I'm very frightened.",
+    "mt": "Me ho yeraw me yiye.",
+    "ref": "M'aboto."
+  },
+  {
+    "src": "I'm very frightened.",
+    "mt": "Me ho yeraw me yiye.",
+    "ref": "Ehu abɔ me."
+  },
+  {
+    "src": "I'm very frightened.",
+    "mt": "Me ho yeraw me yiye.",
+    "ref": "Mabɔ hu."
+  },
+  {
+    "src": "I feel betrayed.",
+    "mt": "Mete nka sɛ woyii me adi.",
+    "ref": "Mete nka sɛ wɔayi me ama."
+  },
+  {
+    "src": "I feel betrayed.",
+    "mt": "Mete nka sɛ woyii me adi.",
+    "ref": "Wadi me hwammɔ."
+  },
+  {
+    "src": "I feel betrayed.",
+    "mt": "Mete nka sɛ woyii me adi.",
+    "ref": "Mete nka sɛ wɔde m'akyi aka fam."
+  },
+  {
+    "src": "Kwabena is older than Abena.",
+    "mt": "Kwabena anyin sen Abena.",
+    "ref": "Kwabena anyin sen Abena."
+  },
+  {
+    "src": "Kwabena is older than Abena.",
+    "mt": "Kwabena anyin sen Abena.",
+    "ref": "Ɛnyɛ Abena tipɛn ne Kwabena."
+  },
+  {
+    "src": "Kwabena is older than Abena.",
+    "mt": "Kwabena anyin sen Abena.",
+    "ref": "Ɛnyɛ Abena yɔnko ne Kwabena"
+  },
+  {
+    "src": "Kwabena is older than Abena.",
+    "mt": "Kwabena anyin sen Abena.",
+    "ref": "Kwabena mfeɛ wɔ anim kyɛn Abena."
+  },
+  {
+    "src": "I'll lend it to you.",
+    "mt": "Mede bɛma wo.",
+    "ref": "Mede bɛma wo."
+  },
+  {
+    "src": "I'll lend it to you.",
+    "mt": "Mede bɛma wo.",
+    "ref": "Mede bɛfɛm wo."
+  },
+  {
+    "src": "I love coffee.",
+    "mt": "M'ani gye kɔfe ho.",
+    "ref": "M'ani gye kɔfe ho."
+  },
+  {
+    "src": "I love coffee.",
+    "mt": "M'ani gye kɔfe ho.",
+    "ref": "Mepɛ kɔfe."
+  },
+  {
+    "src": "I love coffee.",
+    "mt": "M'ani gye kɔfe ho.",
+    "ref": "Kɔfe yɛ adeɛ a mepɛ."
+  },
+  {
+    "src": "I love coffee.",
+    "mt": "M'ani gye kɔfe ho.",
+    "ref": "Kɔfe yɛ adeɛ a m'ani gye ho."
+  },
+  {
+    "src": "I want to go to the movies today.",
+    "mt": "Mepɛ sɛ mekɔ sini nnɛ.",
+    "ref": "Mepɛ sɛ mekɔhwɛ sini nnɛ."
+  },
+  {
+    "src": "I want to go to the movies today.",
+    "mt": "Mepɛ sɛ mekɔ sini nnɛ.",
+    "ref": "Nnɛ mepɛ sɛ metwa m'ani so mfonin."
+  },
+  {
+    "src": "I want to go to the movies today.",
+    "mt": "Mepɛ sɛ mekɔ sini nnɛ.",
+    "ref": "Nnɛ mepɛ sɛ mekɔhweɛ sini."
+  },
+  {
+    "src": "I'd never hit a woman.",
+    "mt": "Memmɔɔ ɔbea bi da.",
+    "ref": "Meremmɔ ɔbea da."
+  },
+  {
+    "src": "I'd never hit a woman.",
+    "mt": "Memmɔɔ ɔbea bi da.",
+    "ref": "Memmfa me nsa nnka ɔbaa da."
+  },
+  {
+    "src": "I'd never hit a woman.",
+    "mt": "Memmɔɔ ɔbea bi da.",
+    "ref": "Merentene me nsa wɔ ɔbaa so da."
+  },
+  {
+    "src": "You are a mean person.",
+    "mt": "Woyɛ obi a wode n'adwenem da hɔ.",
+    "ref": "Woyɛ obi a wo tirim yɛ den."
+  },
+  {
+    "src": "You are a mean person.",
+    "mt": "Woyɛ obi a wode n'adwenem da hɔ.",
+    "ref": "Wo hwenem bɔn wo."
+  },
+  {
+    "src": "You are a mean person.",
+    "mt": "Woyɛ obi a wode n'adwenem da hɔ.",
+    "ref": "Wompɛ nipa."
+  },
+  {
+    "src": "He was given an important mission.",
+    "mt": "Wɔmaa no adwuma titiriw bi.",
+    "ref": "Wɔmaa no dwumadi titiriw bi."
+  },
+  {
+    "src": "He was given an important mission.",
+    "mt": "Wɔmaa no adwuma titiriw bi.",
+    "ref": "Wɔmaa no dwumasono bi."
+  },
+  {
+    "src": "He was given an important mission.",
+    "mt": "Wɔmaa no adwuma titiriw bi.",
+    "ref": "Wɔde dwuma titire bi hyɛɛ ne nsa."
+  },
+  {
+    "src": "Do you think I'm made of money?",
+    "mt": "Wususuw sɛ sika na wɔyɛ me?",
+    "ref": "Wususuw sɛ meyɛ obi a mewɔ sika?"
+  },
+  {
+    "src": "Do you think I'm made of money?",
+    "mt": "Wususuw sɛ sika na wɔyɛ me?",
+    "ref": "Ɛyɛ wo sp mewɔ sika?"
+  },
+  {
+    "src": "Do you think I'm made of money?",
+    "mt": "Wususuw sɛ sika na wɔyɛ me?",
+    "ref": "Wokaa sɛ mewɔ sika?"
+  },
+  {
+    "src": "Don't come near me. You're filthy.",
+    "mt": "Mmmɛn me nkyɛn, wo ho pere wo paa.",
+    "ref": "Nmmɛn me, wo ho ntew."
+  },
+  {
+    "src": "Don't come near me. You're filthy.",
+    "mt": "Mmmɛn me nkyɛn, wo ho pere wo paa.",
+    "ref": "Mfa wo ho fin no mmɛn me."
+  },
+  {
+    "src": "Don't come near me. You're filthy.",
+    "mt": "Mmmɛn me nkyɛn, wo ho pere wo paa.",
+    "ref": "Wo ho yɛ fin, mmɛn me."
+  },
+  {
+    "src": "Memorize this.",
+    "mt": "Fa eyi sie.",
+    "ref": "Si eyi so dua."
+  },
+  {
+    "src": "Memorize this.",
+    "mt": "Fa eyi sie.",
+    "ref": "We wei gu wo tirim."
+  },
+  {
+    "src": "Memorize this.",
+    "mt": "Fa eyi sie.",
+    "ref": "Ma wei nka wo tirim."
+  },
+  {
+    "src": "I'm rich.",
+    "mt": "Meyɛ ɔdefo.",
+    "ref": "Meyɛ ɔdefo."
+  },
+  {
+    "src": "I'm rich.",
+    "mt": "Meyɛ ɔdefo.",
+    "ref": "Mede me ho."
+  },
+  {
+    "src": "I'm rich.",
+    "mt": "Meyɛ ɔdefo.",
+    "ref": "Meyɛ sikani."
+  },
+  {
+    "src": "I'm rich.",
+    "mt": "Meyɛ ɔdefo.",
+    "ref": "Mewɔ de."
+  },
+  {
+    "src": "What's your favorite Beatles song?",
+    "mt": "Beae bɛn na w'ani gye ho paa?",
+    "ref": "Nnwom bɛn na w'ani gye ho paa?"
+  },
+  {
+    "src": "What's your favorite Beatles song?",
+    "mt": "Beae bɛn na w'ani gye ho paa?",
+    "ref": "Beatles nnwom bɛn na yɛ wo dɛ?"
+  },
+  {
+    "src": "What's your favorite Beatles song?",
+    "mt": "Beae bɛn na w'ani gye ho paa?",
+    "ref": "Beatles nnwom bɛn na w'ani gye ho?"
+  },
+  {
+    "src": "She scolded him because he left the door open.",
+    "mt": "Ɔhyɛɛ no abufuw efisɛ obuee pon no.",
+    "ref": "\"Esiane sɛ ofii pon no mu nti,"
+  },
+  {
+    "src": "She scolded him because he left the door open.",
+    "mt": "Ɔhyɛɛ no abufuw efisɛ obuee pon no.",
+    "ref": "Ɔswi n'anim esiane ɛpono no a ɔgyae too hɔ no."
+  },
+  {
+    "src": "She scolded him because he left the door open.",
+    "mt": "Ɔhyɛɛ no abufuw efisɛ obuee pon no.",
+    "ref": "Ɛpono a wantom nti ɔswi n'anim."
+  },
+  {
+    "src": "Act like a man.",
+    "mt": "Di dwuma te sɛ ɔbarima.",
+    "ref": "Yɛ w'ade te sɛ onipa."
+  },
+  {
+    "src": "Act like a man.",
+    "mt": "Di dwuma te sɛ ɔbarima.",
+    "ref": "Di wo dwuma sɛ ɔbarima."
+  },
+  {
+    "src": "Act like a man.",
+    "mt": "Di dwuma te sɛ ɔbarima.",
+    "ref": "Ma mmarisɛm mmra wo mu."
+  },
+  {
+    "src": "Act like a man.",
+    "mt": "Di dwuma te sɛ ɔbarima.",
+    "ref": "Yɛ ɔkokoɔdurufoɔ."
+  },
+  {
+    "src": "Do you like that song?",
+    "mt": "So w'ani gye saa dwom no ho?",
+    "ref": "So w'ani gye saa dwom no ho?"
+  },
+  {
+    "src": "Do you like that song?",
+    "mt": "So w'ani gye saa dwom no ho?",
+    "ref": "Saa nnwom no na wopɛ?"
+  },
+  {
+    "src": "Do you like that song?",
+    "mt": "So w'ani gye saa dwom no ho?",
+    "ref": "Nnwom a wopɛ nie?"
+  },
+  {
+    "src": "Asamoah didn't tell Abena his secret.",
+    "mt": "Asamoah anka ne ahintasɛm ankyerɛ Abena.",
+    "ref": "Asamoah anka ne kokoam asɛm ankyerɛ Abena."
+  },
+  {
+    "src": "Asamoah didn't tell Abena his secret.",
+    "mt": "Asamoah anka ne ahintasɛm ankyerɛ Abena.",
+    "ref": "Asamoah anka n'ahintasɛm ankyerɛ Abena."
+  },
+  {
+    "src": "Asamoah didn't tell Abena his secret.",
+    "mt": "Asamoah anka ne ahintasɛm ankyerɛ Abena.",
+    "ref": "Asamoah de nsɛm sumaa Abena."
+  },
+  {
+    "src": "Asamoah is not serious about his studies.",
+    "mt": "Asamoa nyɛ ade titiriw wɔ n'adesua no ho",
+    "ref": "\"Sɛ Yalah no, n'adesua no ho nhia no kɛse."
+  },
+  {
+    "src": "Asamoah is not serious about his studies.",
+    "mt": "Asamoa nyɛ ade titiriw wɔ n'adesua no ho",
+    "ref": "Asamoah ani nku n'adesua ho."
+  },
+  {
+    "src": "Asamoah is not serious about his studies.",
+    "mt": "Asamoa nyɛ ade titiriw wɔ n'adesua no ho",
+    "ref": "Asamoah atoto n'adesua ase."
+  },
+  {
+    "src": "Asamoah is not serious about his studies.",
+    "mt": "Asamoa nyɛ ade titiriw wɔ n'adesua no ho",
+    "ref": "Asamoah adesua nyɛ adeɛ a ɛho hia no."
+  },
+  {
+    "src": "Get ready.",
+    "mt": "Mayɛ krado.",
+    "ref": "Siesie wo ho."
+  },
+  {
+    "src": "Get ready.",
+    "mt": "Mayɛ krado.",
+    "ref": "Yɛ krado."
+  },
+  {
+    "src": "Tell Asamoah I love him.",
+    "mt": "Ka kyerɛ Asamoah sɛ medɔ no.",
+    "ref": "Ka kyerɛ Asamoah sɛ medɔ no."
+  },
+  {
+    "src": "Tell Asamoah I love him.",
+    "mt": "Ka kyerɛ Asamoah sɛ medɔ no.",
+    "ref": "Ma Asamoah nte sɛ m'ani gye ne ho."
+  },
+  {
+    "src": "Tell Asamoah I love him.",
+    "mt": "Ka kyerɛ Asamoah sɛ medɔ no.",
+    "ref": "Ka kyerɛ Asamoah sɛ medɔ no."
+  },
+  {
+    "src": "Tell Asamoah I love him.",
+    "mt": "Ka kyerɛ Asamoah sɛ medɔ no.",
+    "ref": "Ka kyerɛ Asamoah sɛ m'ani gye ne ho."
+  },
+  {
+    "src": "Some dogs are very smart.",
+    "mt": "Nkraman binom nim ade yiye.",
+    "ref": "Nkraman no bi nim nyansa paa."
+  },
+  {
+    "src": "Some dogs are very smart.",
+    "mt": "Nkraman binom nim ade yiye.",
+    "ref": "Nkraman no bi ani ate."
+  },
+  {
+    "src": "Don't tell my wife.",
+    "mt": "Nka nkyerɛ me yere.",
+    "ref": "Nka nkyerɛ me yere."
+  },
+  {
+    "src": "Don't tell my wife.",
+    "mt": "Nka nkyerɛ me yere.",
+    "ref": "Mmɔ me yere amanneɛ."
+  },
+  {
+    "src": "Don't tell my wife.",
+    "mt": "Nka nkyerɛ me yere.",
+    "ref": "Mma me yere aso nte asɛm yi."
+  },
+  {
+    "src": "What do I have?",
+    "mt": "Dɛn na mewɔ?",
+    "ref": "Dɛn na mewɔ?"
+  },
+  {
+    "src": "What do I have?",
+    "mt": "Dɛn na mewɔ?",
+    "ref": "Na mewɔ deɛn?"
+  },
+  {
+    "src": "Both of my parents aren't alive.",
+    "mt": "M'awofo baanu nyinaa nte ase.",
+    "ref": "M'awofo baanu nyinaa nte nkwa mu."
+  },
+  {
+    "src": "Both of my parents aren't alive.",
+    "mt": "M'awofo baanu nyinaa nte ase.",
+    "ref": "M'awofoɔ afiri mu."
+  },
+  {
+    "src": "Both of my parents aren't alive.",
+    "mt": "M'awofo baanu nyinaa nte ase.",
+    "ref": "M'awofoɔ nte ase."
+  },
+  {
+    "src": "Both of my parents aren't alive.",
+    "mt": "M'awofo baanu nyinaa nte ase.",
+    "ref": "M'awofoɔ awu."
+  },
+  {
+    "src": "Don't pull my leg!",
+    "mt": "Ntow me nan so!",
+    "ref": "Mfa me nan nsi fam!"
+  },
+  {
+    "src": "Don't pull my leg!",
+    "mt": "Ntow me nan so!",
+    "ref": "Nsere me!"
+  },
+  {
+    "src": "Don't pull my leg!",
+    "mt": "Ntow me nan so!",
+    "ref": "Mfa me nni agorɔ!"
+  },
+  {
+    "src": "I'm not your son.",
+    "mt": "Ɛnyɛ me wo ba.",
+    "ref": "Menyɛ wo ba."
+  },
+  {
+    "src": "I'm not your son.",
+    "mt": "Ɛnyɛ me wo ba.",
+    "ref": "Ɛnyɛ wo babarima ne me."
+  },
+  {
+    "src": "I'm not your son.",
+    "mt": "Ɛnyɛ me wo ba.",
+    "ref": "Wo babarima nyɛ me."
+  },
+  {
+    "src": "Kwasi asked for a discount.",
+    "mt": "Kwasi bisae sɛ wɔmma no sika pii.",
+    "ref": "Kwasi bisae sɛ wɔmma no aduru bi a wɔde siw awo ano."
+  },
+  {
+    "src": "Kwasi asked for a discount.",
+    "mt": "Kwasi bisae sɛ wɔmma no sika pii.",
+    "ref": "Kwasi srɛɛ ntesoɔ."
+  },
+  {
+    "src": "Kwasi asked for a discount.",
+    "mt": "Kwasi bisae sɛ wɔmma no sika pii.",
+    "ref": "Kwasi pree ntesoɔ."
+  },
+  {
+    "src": "Would you care for more cookies?",
+    "mt": "So wobɛhwɛ cookies pii?",
+    "ref": "So wobɛhwɛ wo ho yiye?"
+  },
+  {
+    "src": "Would you care for more cookies?",
+    "mt": "So wobɛhwɛ cookies pii?",
+    "ref": "Memma wo cookies no biom?"
+  },
+  {
+    "src": "Would you care for more cookies?",
+    "mt": "So wobɛhwɛ cookies pii?",
+    "ref": "Wobɛdi cookies no biom?"
+  },
+  {
+    "src": "Do they live with you?",
+    "mt": "So wɔte wo nka?",
+    "ref": "So wɔne wo te?"
+  },
+  {
+    "src": "Do they live with you?",
+    "mt": "So wɔte wo nka?",
+    "ref": "Wɔtenaa wo nkyɛn?"
+  },
+  {
+    "src": "Do they live with you?",
+    "mt": "So wɔte wo nka?",
+    "ref": "Wo ne wɔn na tenaeɛ?"
+  },
+  {
+    "src": "Don't be so reserved.",
+    "mt": "Ɛnsɛ sɛ wɔakora wo ho saa.",
+    "ref": "Mma w'ani nnyɛ wo totɔtotɔ."
+  },
+  {
+    "src": "Don't be so reserved.",
+    "mt": "Ɛnsɛ sɛ wɔakora wo ho saa.",
+    "ref": "Ka wo ho kɔ nipa."
+  },
+  {
+    "src": "Don't be so reserved.",
+    "mt": "Ɛnsɛ sɛ wɔakora wo ho saa.",
+    "ref": "Ka wo ho bɛn nipa."
+  },
+  {
+    "src": "Don't be so reserved.",
+    "mt": "Ɛnsɛ sɛ wɔakora wo ho saa.",
+    "ref": "Kentene wo ho."
+  },
+  {
+    "src": "I'll be back soon.",
+    "mt": "Mɛsan aba nnansa yi ara.",
+    "ref": "Mɛsan aba nnansa yi ara."
+  },
+  {
+    "src": "I'll be back soon.",
+    "mt": "Mɛsan aba nnansa yi ara.",
+    "ref": "Merenkyɛ."
+  },
+  {
+    "src": "I'll be back soon.",
+    "mt": "Mɛsan aba nnansa yi ara.",
+    "ref": "Mɛba seisei ara."
+  },
+  {
+    "src": "She married him when she was 20.",
+    "mt": "Ɔwaree no bere a na wadi mfe 20.",
+    "ref": "Ɔwaree no bere a na wadi mfe 20."
+  },
+  {
+    "src": "She married him when she was 20.",
+    "mt": "Ɔwaree no bere a na wadi mfe 20.",
+    "ref": "Ɔdii mfeɛ aduonu na ɔwaree no."
+  },
+  {
+    "src": "She married him when she was 20.",
+    "mt": "Ɔwaree no bere a na wadi mfe 20.",
+    "ref": "Ɔwaree no no na wadi mfeɛ aduonu."
+  },
+  {
+    "src": "We gather together every Friday.",
+    "mt": "Fida biara yɛbom hyiam.",
+    "ref": "Na yehyiam Fida biara."
+  },
+  {
+    "src": "We gather together every Friday.",
+    "mt": "Fida biara yɛbom hyiam.",
+    "ref": "Fiada biara yɛhyiam."
+  },
+  {
+    "src": "We gather together every Friday.",
+    "mt": "Fida biara yɛbom hyiam.",
+    "ref": "Yɛdi ahyiam Fiada biara."
+  },
+  {
+    "src": "Could I borrow a pencil?",
+    "mt": "So metumi agye pɛnsere?",
+    "ref": "So na metumi atɔn pɛnsere?"
+  },
+  {
+    "src": "Could I borrow a pencil?",
+    "mt": "So metumi agye pɛnsere?",
+    "ref": "Mɛtumi afɛm wo pɛnsere no?"
+  },
+  {
+    "src": "Could I borrow a pencil?",
+    "mt": "So metumi agye pɛnsere?",
+    "ref": "Wobɛtumi de wo pɛnsere no afɛm me?"
+  },
+  {
+    "src": "We can pay 200 dollars at most.",
+    "mt": "Yebetumi atua dɔla 200 sen biara.",
+    "ref": "Yebetumi atua dɔla 200."
+  },
+  {
+    "src": "We can pay 200 dollars at most.",
+    "mt": "Yebetumi atua dɔla 200 sen biara.",
+    "ref": "Yɛatua ama no ak] soro ara na 200 dɔlas."
+  },
+  {
+    "src": "We can pay 200 dollars at most.",
+    "mt": "Yebetumi atua dɔla 200 sen biara.",
+    "ref": "Yɛatua ama no aboro so na 200 dɔlas."
+  },
+  {
+    "src": "I like fruit.",
+    "mt": "M'ani gye aduaba ho.",
+    "ref": "M'ani gye nnuaba ho."
+  },
+  {
+    "src": "I like fruit.",
+    "mt": "M'ani gye aduaba ho.",
+    "ref": "Mepɛ nnuaba."
+  },
+  {
+    "src": "I like fruit.",
+    "mt": "M'ani gye aduaba ho.",
+    "ref": "Nnuaba yɛ adeɛ a m'ani gye ho."
+  },
+  {
+    "src": "I don't trust you anymore.",
+    "mt": "Minni wo mu ahotoso bio.",
+    "ref": "Minni wo mu ahotoso bio."
+  },
+  {
+    "src": "I don't trust you anymore.",
+    "mt": "Minni wo mu ahotoso bio.",
+    "ref": "Mennye wo nni bio."
+  },
+  {
+    "src": "I don't trust you anymore.",
+    "mt": "Minni wo mu ahotoso bio.",
+    "ref": "Wo mu gyidie afiri me mu."
+  },
+  {
+    "src": "Kwame left the house shortly after Abena left.",
+    "mt": "Bere tiaa bi a Abena fii fie no, Kwame fii fie hɔ kɔe.",
+    "ref": "Bere a Abena fii fie hɔ bere tiaa bi akyi na Kwame nso fii fie."
+  },
+  {
+    "src": "Kwame left the house shortly after Abena left.",
+    "mt": "Bere tiaa bi a Abena fii fie no, Kwame fii fie hɔ kɔe.",
+    "ref": "Abena firii fie no ankyɛ biara na Kwame nso kɔeɛ."
+  },
+  {
+    "src": "Kwame left the house shortly after Abena left.",
+    "mt": "Bere tiaa bi a Abena fii fie no, Kwame fii fie hɔ kɔe.",
+    "ref": "Kwame tiaa Abena akyi berɛ tiawa bi mu a Abena kɔeɛ."
+  },
+  {
+    "src": "Kwame isn't happy about what's happened.",
+    "mt": "Kwame ani nnye nea esii no ho.",
+    "ref": "Nea esii no nti, Kwame ani nnye ho."
+  },
+  {
+    "src": "Kwame isn't happy about what's happened.",
+    "mt": "Kwame ani nnye nea esii no ho.",
+    "ref": "Kwame ani annye deɛ esiiɛ no ho."
+  },
+  {
+    "src": "Kwame isn't happy about what's happened.",
+    "mt": "Kwame ani nnye nea esii no ho.",
+    "ref": "Deɛ esiiɛ no amma Kwame ani annye."
+  },
+  {
+    "src": "I'm leaving.",
+    "mt": "Merefi hɔ.",
+    "ref": "Merefi hɔ."
+  },
+  {
+    "src": "I'm leaving.",
+    "mt": "Merefi hɔ.",
+    "ref": "Merekɔ."
+  },
+  {
+    "src": "I'm leaving.",
+    "mt": "Merefi hɔ.",
+    "ref": "Merefiri adi."
+  },
+  {
+    "src": "Don't mess with me.",
+    "mt": "Mmu me huammɔ.",
+    "ref": "Wo ne me nnyɛ basaa."
+  },
+  {
+    "src": "Don't mess with me.",
+    "mt": "Mmu me huammɔ.",
+    "ref": "Mfa me nni agorɔ."
+  },
+  {
+    "src": "Don't mess with me.",
+    "mt": "Mmu me huammɔ.",
+    "ref": "Mfa me nnyimi."
+  },
+  {
+    "src": "What's it like?",
+    "mt": "Ɛte dɛn?",
+    "ref": "Ɛte dɛn?"
+  },
+  {
+    "src": "What's it like?",
+    "mt": "Ɛte dɛn?",
+    "ref": "Sɛn na ɛte"
+  },
+  {
+    "src": "What's it like?",
+    "mt": "Ɛte dɛn?",
+    "ref": "Ne su te sɛn?"
+  },
+  {
+    "src": "I ran out of ideas.",
+    "mt": "Ná m'adwene atu afra.",
+    "ref": "Na minhu nea menyɛ."
+  },
+  {
+    "src": "I ran out of ideas.",
+    "mt": "Ná m'adwene atu afra.",
+    "ref": "Me nsusuiɛ asa."
+  },
+  {
+    "src": "I ran out of ideas.",
+    "mt": "Ná m'adwene atu afra.",
+    "ref": "Menni adwene biara bio."
+  },
+  {
+    "src": "I ran out of ideas.",
+    "mt": "Ná m'adwene atu afra.",
+    "ref": "Menni tirimpɔ biara bio."
+  }
+]

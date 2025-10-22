@@ -170,8 +170,5 @@ cython_debug/
 
 lafand-mt/*
 mt_env/*
-m2m100_en_tw_*/*
-m2m100_en_tw/*
-m2m100_tw_en/*
-m2m100_tw_en_*/*
+models/*
 wandb/*

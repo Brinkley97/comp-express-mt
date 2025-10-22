@@ -1,0 +1,401 @@
+idx,src,mt,ref,stl,qe,stl_minus_qe
+0,Me na mewɔ ha.,I'm here.,I belong here.,0.5843323469161987,0.4672350287437439,0.11709731817245483
+1,Me fata sɛ mewɔ ha.,I'm proud of being here.,I belong here.,0.6719106435775757,0.6541286706924438,0.017781972885131836
+2,Ha na me wɔ.,Here I am.,I belong here.,0.42563629150390625,0.270969420671463,0.15466687083244324
+3,Kwaku to dwom yiye.,Kwaku singes well.,Kwaku sings quite well.,0.8212881684303284,0.4986855387687683,0.32260262966156006
+4,Kwaku nim nwom to.,Kwaku knows how to sing a book.,Kwaku sings quite well.,0.47171473503112793,0.23549413681030273,0.2362205982208252
+5,Anadwo biara ɔfrɛ no.,She calls him every night.,He calls her up every night.,0.660872757434845,0.31533849239349365,0.3455342650413513
+6,Ɔfrɛ no anadwo biara,Call him every night.,He calls her up every night.,0.507612407207489,0.5657542943954468,-0.058141887187957764
+7,Minni sika koraa.,I don't have enough money.,I don't have any money at all.,0.7473952174186707,0.6277086734771729,0.1196865439414978
+8,Sika biara nni me ho.,I don't have any money.,I don't have any money at all.,0.838039219379425,0.5127964019775391,0.325242817401886
+9,M'ani gye wo ntadehyɛ ho.,I like your clothes.,I love your dress.,0.712568998336792,0.5154085159301758,0.1971604824066162
+10,M'ani gye w'ataadeɛ no ho.,I like your shirt.,I love your dress.,0.5676519274711609,0.4963533282279968,0.07129859924316406
+11,W'ataadeɛ no yɛ fɛ.,Your shirt is beautiful.,I love your dress.,0.6096900105476379,0.4775850772857666,0.13210493326187134
+12,Eyi na metumi ayɛ ama wo.,This is what I can do for you.,This is what I can do for you.,0.9170258641242981,0.47047626972198486,0.44654959440231323
+13,Deɛ mɛtumi ayɛ ama wo ara nie.,I'll do it just for you.,This is what I can do for you.,0.4822006821632385,0.3166835904121399,0.16551709175109863
+14,Deɛ mɛtumi ayɛ aboa wo no no.,I can help you.,This is what I can do for you.,0.7157320380210876,0.36743617057800293,0.3482958674430847
+15,"Anɔpa yi, ohyiaa no.",She met him this morning.,She met him this morning.,0.9121668338775635,0.5406984090805054,0.3714684247970581
+16,Ɔhyiaa no anɔpa yi.,She met him this morning.,She met him this morning.,0.9008036255836487,0.37108975648880005,0.5297138690948486
+17,Anopa yi ara na ɔne no redi ahyiam.,She is having a meeting with him this morning.,She met him this morning.,0.6249585747718811,0.4559358060359955,0.16902276873588562
+18,Merenyɛ saa nnɛ.,I won't do that today.,I'd rather not go out today.,0.666511058807373,0.6921039819717407,-0.025592923164367676
+19,Mempɛ sɛ mɛpue nnɛ.,I don't want to go out today.,I'd rather not go out today.,0.865572988986969,0.6023598909378052,0.2632130980491638
+20,Ɛnni me mu sɛ mɛkɔ abɔntene nnɛ.,I'm not in the mood today than usual.,I'd rather not go out today.,0.3686978816986084,0.27086859941482544,0.09782928228378296
+21,Bere bɛn na wubefi hɔ?,When will you leave?,What time will you leave?,0.7950348258018494,0.5734294652938843,0.2216053605079651
+22,Berɛ bɛn na wobɛkɔ?,What time will you go?,What time will you leave?,0.7075971961021423,0.41994422674179077,0.28765296936035156
+23,Wobɛfiri ha berɛ bɛn?,How long will you get out of here?,What time will you leave?,0.3198826313018799,0.17435294389724731,0.14552968740463257
+24,Mma wo bo mfuw.,Don't get angry.,Don't lose your temper.,0.5078819990158081,0.43071311712265015,0.07716888189315796
+25,Hyɛ wo ho so.,Restrain your impulses.,Don't lose your temper.,0.5707738995552063,0.7416154146194458,-0.1708415150642395
+26,Ka w'akoma to wo yam.,Say good at your book.,Don't lose your temper.,0.2361011952161789,0.37710121273994446,-0.14100001752376556
+27,Adwoberɛw.,It's going to work.,Don't lose your temper.,0.36130279302597046,0.4926600456237793,-0.13135725259780884
+28,Nea ɛwɔ he na meyɛ?,Which one should I do?,Which is mine?,0.3101215958595276,0.439189076423645,-0.12906748056411743
+29,Deɛ ɛwc hen na yɛ me dea?,What's yours?,Which is mine?,0.41526806354522705,0.13962170481681824,0.2756463587284088
+30,Ɛmu nea ɛwɔ hen na ɛwɔ me?,Which one is mine?,Which is mine?,0.8029190301895142,0.36175626516342163,0.44116276502609253
+31,Yefii hɔ 2:30.,We left at 2:30.,We left at 2:30.,0.9192575812339783,0.6137163639068604,0.3055412173271179
+32,Ɛbɔɔ 2:30 na yɛfirii hɔ.,We left at 2:30.,We left at 2:30.,0.9233814477920532,0.6314504146575928,0.29193103313446045
+33,Yɔrefiri hɔ no na 2:30 abɔ.,2:30 is off.,We left at 2:30.,0.36899417638778687,0.24746879935264587,0.12152537703514099
+34,"Ɔte sɛ mmoa, wunim?","He looks like help, do you know?","She likes animals, you know?",0.20269615948200226,0.27015239000320435,-0.06745623052120209
+35,Wonim sɛ n'ani gye mmoa ho?,Do you know that he likes animals?,"She likes animals, you know?",0.6406850218772888,0.6328397393226624,0.007845282554626465
+36,Wonim sɛ ɔpɛ mmoa asɛm?,Do you know he likes animals?,"She likes animals, you know?",0.6422435641288757,0.4154621362686157,0.22678142786026
+37,Wonni mmre.,They're not old.,You haven't got much time.,0.2810673117637634,0.4078693389892578,-0.12680202722549438
+38,Mmerɛ nni hɔ ma wo.,Let's not go there for you.,You haven't got much time.,0.3472188711166382,0.31911370158195496,0.028105169534683228
+39,Wo mmerɛ a aka sua.,Your weaknesses are small.,You haven't got much time.,0.38155442476272583,0.559801459312439,-0.17824703454971313
+40,Ɛrenkyɛ koraa na yɛn nyinaa bɛwu.,We'll all die soon.,"Sooner or later, we all are going to die.",0.5636891722679138,0.5522317886352539,0.011457383632659912
+41,Ɔbra twa owuo.,He came to death.,"Sooner or later, we all are going to die.",0.24914416670799255,0.3250892758369446,-0.07594510912895203
+42,Ɛberɛ bi bɛba a yɛn nyinaa bɛwu.,Sometimes we will all die.,"Sooner or later, we all are going to die.",0.629018247127533,0.4111044704914093,0.21791377663612366
+43,Kwaku nni biribiara wɔ ne bag mu.,Kwaku has nothing in his bag.,Kwaku has next to nothing in his wallet.,0.7266828417778015,0.5413960218429565,0.18528681993484497
+44,Kwaku bɔtom awe.,Kwaku will admit it.,Kwaku has next to nothing in his wallet.,0.2572660744190216,0.24004656076431274,0.017219513654708862
+45,Kwaku nni ne ho hwee.,Kwaku has nothing to do with him.,Kwaku has next to nothing in his wallet.,0.4681761860847473,0.501264214515686,-0.03308802843093872
+46,Kwaku nni sika wɔ ne walɛt mu.,Kwaku doesn't have money in his walt.,Kwaku has next to nothing in his wallet.,0.6288231611251831,0.6051871180534363,0.023636043071746826
+47,Meyɛ Kwaku adwumam panyin.,I'm Kwaku's boss.,I'm Kwaku's boss.,0.94028639793396,0.5990874767303467,0.3411989212036133
+48,Kwaku adwuma mu panin ne me.,Kwaku's boss is me.,I'm Kwaku's boss.,0.6807534098625183,0.2910771369934082,0.3896762728691101
+49,Me na mehwɛ Kwaku so wɔ adwuma mu.,I'm the one who takes care of Kwaku at work.,I'm Kwaku's boss.,0.5249471068382263,0.567289412021637,-0.042342305183410645
+50,Meyɛ Kwaku panin wɔ adwuma mu.,I'm Kwaku's boss at work.,I'm Kwaku's boss.,0.79728764295578,0.4867607355117798,0.31052690744400024
+51,Ɛyɛ wɔn adwuma.,It's their job.,It's their job.,0.9331784844398499,0.5846608877182007,0.34851759672164917
+52,Wɔn adwuma no no.,Their work is done.,It's their job.,0.5375692844390869,0.5807031393051147,-0.04313385486602783
+53,Adwuma a wɔyɛ no no.,It's the work they've done.,It's their job.,0.607498288154602,0.4550577402114868,0.15244054794311523
+54,Ɛno ne wo haw.,That's your problem.,That's your problem.,0.9416670203208923,0.4553467035293579,0.4863203167915344
+55,"Ɛno deɛ, w'asɛm.",That's yours.,That's your problem.,0.5535191297531128,0.41088300943374634,0.14263612031936646
+56,Kwaku huu me.,Kwaku saw me.,Kwaku recognized me.,0.7103893160820007,0.4639211893081665,0.24646812677383423
+57,Kwaku kaee me.,Kwaku remembered me.,Kwaku recognized me.,0.7749359011650085,0.361284464597702,0.4136514365673065
+58,Kwaku werɛ amfi me.,Kwaku didn't forget me.,Kwaku recognized me.,0.4560452103614807,0.3469160199165344,0.10912919044494629
+59,Kwaku hunuu sɛ ɛyɛ me a.,Kwaku wondered if it was me.,Kwaku recognized me.,0.593012273311615,0.28497400879859924,0.30803826451301575
+60,Kasa bɛn na wɔka wɔ Switzerland?,What language is spoken in switzerland?,What language do they speak in Switzerland?,0.6563432216644287,0.6365715265274048,0.019771695137023926
+61,Wɔka kasa bɛn wɔ Switzerland?,What language is spoken in switzerland?,What language do they speak in Switzerland?,0.66424161195755,0.7277493476867676,-0.06350773572921753
+62,Nnipa bɛyɛ mpensa wuwui.,More and more people died.,Almost three thousand people died.,0.42030036449432373,0.3326646387577057,0.08763572573661804
+63,Nnipa a wɔwui no bɛduru mpem mmiɛnsa.,The dead people would be treated for three thousand years.,Almost three thousand people died.,0.26318785548210144,0.16586804389953613,0.09731981158256531
+64,Nnipa a wɔwui no bɛyɛ mpem mmiɛnsa.,Those who died were three thousand.,Almost three thousand people died.,0.7507637143135071,0.6655461192131042,0.08521759510040283
+65,Yɛrenni kan nka Kwaku ho asɛm.,We'll never talk about Kwaku first.,We'll notify Kwaku.,0.4563397467136383,0.5563818216323853,-0.10004207491874695
+66,Yɛbɛyi Kwaku asotire.,Kwaku will be discharged.,We'll notify Kwaku.,0.4244295656681061,0.3949623703956604,0.02946719527244568
+67,Yɛbɛbɔ Kwaku amanneɛ.,We'll announce Kwaku.,We'll notify Kwaku.,0.48801541328430176,0.22094081342220306,0.2670745998620987
+68,Yɛne Kwaku bɛdi ho nkɔmmɔ.,We'll talk to Kwaku about it.,We'll notify Kwaku.,0.6620537638664246,0.5806340575218201,0.08141970634460449
+69,Minni bere a mede bɛsa.,I don't have time to drink.,I don't have time to be sick.,0.5279280543327332,0.4606103003025055,0.06731775403022766
+70,Menni berɛ na mede ayare.,I have no time to get sick.,I don't have time to be sick.,0.8259550929069519,0.5344616770744324,0.29149341583251953
+71,Mmerɛ nni na mede ayare.,I'm not sick yet.,I don't have time to be sick.,0.635453999042511,0.4830954074859619,0.15235859155654907
+72,Ne babarima no wu no maa Abena koma tui.,Abena was fed up with his son's death.,Her son's death broke Abena's heart.,0.5717595219612122,0.5480611324310303,0.023698389530181885
+73,Abena babarima wuo no aha no yie.,Abena's son's wheel is full.,Her son's death broke Abena's heart.,0.23576147854328156,0.15575964748859406,0.0800018310546875
+74,Abena adi ne babarima wuo no ho yaw pa ara.,Abena is very sorry for her son's murder.,Her son's death broke Abena's heart.,0.6405006051063538,0.5829267501831055,0.05757385492324829
+75,Ɛno nyɛ Kwaku sakre.,That isn't Kwaku's bicycle.,That isn't Kwaku's bicycle.,0.9209012985229492,0.5056295394897461,0.4152717590332031
+76,Sakre wei nni Kwaku.,Kwaku is absent from the bike.,That isn't Kwaku's bicycle.,0.4812575578689575,0.28209176659584045,0.19916579127311707
+77,Sakre wei nyɛ Kwaku dea.,This bicycle isn't Kwaku's.,That isn't Kwaku's bicycle.,0.763452410697937,0.42855823040008545,0.33489418029785156
+78,Ɛnyɛ Kwaku sakre no nie.,It's not Kwaku's bicycle.,That isn't Kwaku's bicycle.,0.8345083594322205,0.4347785711288452,0.39972978830337524
+79,Obiara amma.,No one came.,No one showed up.,0.6440107226371765,0.5134438872337341,0.13056683540344238
+80,Obiara ansi hɔ.,No one was there.,No one showed up.,0.5182708501815796,0.5190900564193726,-0.0008192062377929688
+81,Onyaa nnamfo wɔ apontow no ase.,He got friends at the party.,She made friends with Asamoah at the party.,0.5301787257194519,0.5556711554527283,-0.025492429733276367
+82,Apontoɔ no ase na ɔne Asamoah faa nnamfoɔ.,Asamoah and he got friends with the panther.,She made friends with Asamoah at the party.,0.3650088608264923,0.3735230267047882,-0.008514165878295898
+83,Apontoɔ no ase na ɔne Asamoah nyaa ayɔnkofa.,Asamoah was eaten by the panther.,She made friends with Asamoah at the party.,0.3402789235115051,0.49197661876678467,-0.15169769525527954
+84,Na Kain yɛ ɔbɔnefo.,Kain was an evil man.,Cain was evil.,0.7799268364906311,0.791529655456543,-0.011602818965911865
+85,Na Cain tirimu yɛ sum.,The head of cain was dark.,Cain was evil.,0.34349536895751953,0.3644476532936096,-0.020952284336090088
+86,Na Cain yɛ nipabɔne ni.,cain was a hoax.,Cain was evil.,0.2887019217014313,0.2716085910797119,0.01709333062171936
+87,Mayare bere tenten.,I have been sick for a long time.,I've been sick for a very long time.,0.8605033755302429,0.5031378269195557,0.35736554861068726
+88,Mayare akyɛ.,I've been sick long.,I've been sick for a very long time.,0.7352977395057678,0.3710102140903473,0.36428752541542053
+89,Mmerɛ tenten nie na mayare.,I have been sick for over a long time.,I've been sick for a very long time.,0.8168990612030029,0.29952698945999146,0.5173720717430115
+90,Yareɛ yi atena me so akyɛ.,This illness has ended up from me.,I've been sick for a very long time.,0.24403654038906097,0.18397341668605804,0.06006312370300293
+91,Hena na ɔkaa asɛm no kyerɛɛ wo?,Who told you the story?,Who told you the story?,0.940807044506073,0.5952650904655457,0.34554195404052734
+92,Hwan na bɔɔ wo amaneɛ?,Who barricaded you?,Who told you the story?,0.3808911144733429,0.44874143600463867,-0.06785032153129578
+93,Hwan na bɔɔ wo asɛm no mu?,Who broke your story?,Who told you the story?,0.6131563782691956,0.4582464098930359,0.15490996837615967
+94,Yɛbɛsɛe biribiara.,We'll destroy everything.,We'll lose everything.,0.7907459735870361,0.59291672706604,0.1978292465209961
+95,Yɛbɛhwere biribiara.,We'll lose everything.,We'll lose everything.,0.929025411605835,0.5782586336135864,0.35076677799224854
+96,Biribiara bɛhwere yɛn.,Anything will lose us.,We'll lose everything.,0.501031756401062,0.41500207781791687,0.08602967858314514
+97,Ne nyinaa bɛfiri yɛn nsa.,We'll all get rid of him.,We'll lose everything.,0.40326642990112305,0.3651878833770752,0.03807854652404785
+98,So mɛkɔ so ayɛ?,Shall I go on?,Shall I go on?,0.9204807281494141,0.47746098041534424,0.4430197477340698
+99,Metumi toa so anaa?,Might I have a bottle?,Shall I go on?,0.2419494092464447,0.18317806720733643,0.058771342039108276
+100,Mentoa so anaa?,Haven't I answer yet?,Shall I go on?,0.3197076916694641,0.25397640466690063,0.06573128700256348
+101,"Nea esii no,  nea asi no,  n'ani nnye ho.",Asamoah hates what has happened.,Kwame isn't happy about what's happened.,0.5651184916496277,0.4865916967391968,0.07852679491043091
+102,Kwame ani annye nea ɛsiiɛ no ho.,Kwame didn't like what had happened.,Kwame isn't happy about what's happened.,0.8186079263687134,0.6008778810501099,0.21773004531860352
+103,Na ɛyɛ me sɛ me na me ne no nam.,I thought I was the one who meant.,I thought it was Kwame.,0.3674837350845337,0.22231189906597137,0.14517183601856232
+104,Na ɛyɛ me sɛ ɛyɛ Kwame a.,I thought it was Kwame.,I thought it was Kwame.,0.9337725043296814,0.453921914100647,0.4798505902290344
+105,Na medwene sɛ Kwame a.,I thought Kwame was.,I thought it was Kwame.,0.7434428334236145,0.5663948059082031,0.17704802751541138
+106,Anidaso bɛn na wowɔ?,What kind of dreams do you have?,What kind of dreams do you have?,0.9185925722122192,0.48900699615478516,0.4295855760574341
+107,Wo daeɛso ne sɛn?,What's your dreams?,What kind of dreams do you have?,0.6247189044952393,0.410807341337204,0.21391156315803528
+108,Wo tirimpɔ ne sɛn?,What's your purpose?,What kind of dreams do you have?,0.3376784920692444,0.37351906299591064,-0.03584057092666626
+109,Wo botaeɛ ne sɛn?,What's your dream?,What kind of dreams do you have?,0.5623902082443237,0.527925968170166,0.034464240074157715
+110,Ɔbaa hɔ bɛhwɛɛ me.,He came in and looked at me.,He came all the way from Nikko to see me off.,0.3309170603752136,0.4017350673675537,-0.07081800699234009
+111,Ɔbɔɔ anamɔn firii Nikko bɛgyaa me kwan.,He caught up from Nikko and caught up with me.,He came all the way from Nikko to see me off.,0.4058524966239929,0.3062209486961365,0.09963154792785645
+112,Ɔfirii Nikko bɛgyaa me kwan.,He left Nikko and left my way.,He came all the way from Nikko to see me off.,0.36557331681251526,0.34178242087364197,0.02379089593887329
+113,Mma w'abam mmu.,Don't shut up.,Don't be sad.,0.3887076675891876,0.39987853169441223,-0.01117086410522461
+114,Mma wo werɛ nho.,Don't forget it.,Don't be sad.,0.3455858826637268,0.39232319593429565,-0.04673731327056885
+115,Nni awerɛhoɔ.,Don't have any sad people.,Don't be sad.,0.47617852687835693,0.3179921805858612,0.15818634629249573
+116,Ontumi nni n'akɔnnɔ ahorow so.,He can't control his arrogance.,He can't control his desires.,0.6367310285568237,0.5942866802215576,0.04244434833526611
+117,Ɔntumi nhyɛ n'akɔnnɔ so.,He can't fulfill his prophecy.,He can't control his desires.,0.36587798595428467,0.4433348774909973,-0.07745689153671265
+118,Mantumi anka hwee.,I could not say a word.,I didn't say anything.,0.6420075297355652,0.5207637548446655,0.12124377489089966
+119,Manka hwee.,I didn't say a word.,I didn't say anything.,0.7932918667793274,0.4897605776786804,0.303531289100647
+120,Manka biribiara.,I didn't say anything.,I didn't say anything.,0.9358135461807251,0.5513843297958374,0.3844292163848877
+121,Me papa a wɔfrɛ no ulah no nyɛ me papa.,My father-in-law isn't my father.,Asamoah isn't my father.,0.5374457240104675,0.5804439783096313,-0.04299825429916382
+122,Asamoah nyɛ me papa.,Asamoah isn't my father.,Asamoah isn't my father.,0.918573796749115,0.7174701690673828,0.20110362768173218
+123,Ɛnyɛ me papa ne Asamoah.,Asamoah isn't my father.,Asamoah isn't my father.,0.9183826446533203,0.6862465739250183,0.232136070728302
+124,Me papa nyɛ Asamoah.,My father isn't Asamoah.,Asamoah isn't my father.,0.683937132358551,0.5855084657669067,0.09842866659164429
+125,N'ani gye nnwonto ho.,She likes singing.,He likes singing.,0.6714054942131042,0.4243246614933014,0.24708083271980286
+126,Ɔpɛ nnwontoɔ.,She likes singing.,He likes singing.,0.7071541547775269,0.5973870754241943,0.10976707935333252
+127,Adeɛ a ɔpɛ ne nnwontoɔ.,What she likes is singing.,He likes singing.,0.5748454332351685,0.5543890595436096,0.020456373691558838
+128,Hena ne kyerɛkyerɛni a w'ani gye ne ho paa?,Who's your favorite teacher?,Who's your favorite teacher?,0.9369922280311584,0.5162216424942017,0.4207705855369568
+129,Kyerɛkyerɛni bɛn na wopɛ n'asɛm?,Which teacher do you like?,Who's your favorite teacher?,0.644400954246521,0.39303773641586304,0.25136321783065796
+130,Hwan ne ɔkyerkyerɛni a wopɛ n'asɛm?,Who's your favorite teacher?,Who's your favorite teacher?,0.933905839920044,0.44694948196411133,0.4869563579559326
+131,"Sɛ wowɔ bi a,  bu wo mpanyimfo.",Be your older when you have one.,"Be respectful to your superiors, if you have any.",0.237966388463974,0.18310734629631042,0.054859042167663574
+132,"Sɛ wowɔ akannifoɔ a,  fa anidie ma wɔn.","If you have any competitors, give them hope.","Be respectful to your superiors, if you have any.",0.34001702070236206,0.42011505365371704,-0.08009803295135498
+133,"Sɛ wowɔ mpanimfoɔ a,  bu wɔn.",respect them when you have Knowers.,"Be respectful to your superiors, if you have any.",0.4082454442977905,0.39780619740486145,0.010439246892929077
+134,Nnamfo dodow ahe na wowɔ wɔ Fcaebook so?,How many friends do you have on Mt. Fuji?,How many friends do you have on Facebook?,0.5035548806190491,0.595406174659729,-0.09185129404067993
+135,Wo nnamfonom a ɛwɔ Facebook yɛ sɛn?,How are your Facebook friends?,How many friends do you have on Facebook?,0.45889919996261597,0.4606618583202362,-0.0017626583576202393
+136,Wo Facebook nnamfonom yɛ dodoɔ sɛn?,How many Facebook friends are there?,How many friends do you have on Facebook?,0.7502716779708862,0.4360172152519226,0.3142544627189636
+137,"Mmere pii,  mmofra nni ntoboase.","In many times, children have no patience.",Children mostly lack patience.,0.7243884205818176,0.5657035112380981,0.15868490934371948
+138,Abotare yɛ adeɛ a mpɛn pii no ara mmɔfra nni.,Patience is a rare virtue among children.,Children mostly lack patience.,0.5871872901916504,0.5784731507301331,0.008714139461517334
+139,Adeɛ a mmɔfra nni ne abotare.,The thing that children don't have is patience.,Children mostly lack patience.,0.4339481294155121,0.5191045999526978,-0.08515647053718567
+140,Mentumi nkɔso nni atoro nkyerɛ Osei.,I can't make a lie to Asamoah.,I can't keep lying to Osei.,0.5204035639762878,0.38161781430244446,0.13878574967384338
+141,Mentumi ntoa so ntwa Osei ntorɔ.,I can't persuade Asamoah's liar.,I can't keep lying to Osei.,0.3650335669517517,0.29042384028434753,0.07460972666740417
+142,Mentumi nni Osei atorɔ bio.,I can't tell Asamoah a lie anymore.,I can't keep lying to Osei.,0.6149875521659851,0.5611502528190613,0.05383729934692383
+143,Ɛnyɛ eyi na mepɛ.,This is not what I want.,That is not what I want.,0.9029344916343689,0.5972778797149658,0.3056566119194031
+144,Ɛnyɛ nea mepɛ nie.,It's not what I want.,That is not what I want.,0.810430109500885,0.5743246078491211,0.23610550165176392
+145,Ɛnyɛ nea merehwehwɛ nie.,It's not what I'm looking for.,That is not what I want.,0.7115516662597656,0.6935979127883911,0.01795375347137451
+146,Wei nyɛ nea mepɛ.,This isn't what I want.,That is not what I want.,0.8554454445838928,0.7057499885559082,0.14969545602798462
+147,Nea mepɛ no nyɛ wei.,I don't want this.,That is not what I want.,0.6137772798538208,0.5416738390922546,0.07210344076156616
+148,Mepɛ sɛ meda mo ase wɔ mo mmoa nyinaa ho.,I want to thank you for all your help.,I just want to thank you for all of your help.,0.869428813457489,0.5925924181938171,0.2768363952636719
+149,Mepɛ sɛ meda wo ase wɔ nea woayɛ ama me nyinaa.,I want to thank you for all you've done for me.,I just want to thank you for all of your help.,0.7237502932548523,0.514814019203186,0.20893627405166626
+150,Mepɛ sɛ meda wo ase wɔ w'adɔeɛ nyinaa ho.,I want to thank you for all your love.,I just want to thank you for all of your help.,0.6446079611778259,0.3699302077293396,0.27467775344848633
+151,So metumi akɔ hɔ seesei?,May I go there now?,Can I go in there now?,0.726016640663147,0.66771399974823,0.05830264091491699
+152,Afei mɛtumi akɔ mu?,Then I can go in?,Can I go in there now?,0.6424635052680969,0.41916853189468384,0.22329497337341309
+153,Afei mɛtumi awura mu?,May I get in?,Can I go in there now?,0.39874622225761414,0.2682803273200989,0.13046589493751526
+154,Mɛtumi awura mu seesei?,Might I get in it now?,Can I go in there now?,0.405906617641449,0.21842138469219208,0.1874852329492569
+155,Kwabena daa Onyankopɔn ase.,Kwabena thanked God.,Kwabena gave thanks to God.,0.7545692324638367,0.5523990988731384,0.20217013359069824
+156,Kwabena de aseda maa Onyankopɔn.,Kwabena gave a medal to God.,Kwabena gave thanks to God.,0.6220638751983643,0.441295325756073,0.18076854944229126
+157,Kwabena de Onyankopɔn aseda maa no.,Kwabena gave him God's Thanks.,Kwabena gave thanks to God.,0.7015441656112671,0.37037479877471924,0.33116936683654785
+158,Ɔde ne bere nyinaa suaa ade.,She devoted her life to education.,He devoted his life to his study.,0.5705954432487488,0.543836236000061,0.026759207248687744
+159,Watu ne ho asi hɔ ama n'adesua.,He was restless for his study.,He devoted his life to his study.,0.5005680322647095,0.4459683299064636,0.05459970235824585
+160,Wagyae birbiara mu ama n'adesua.,He gave up everything for his study.,He devoted his life to his study.,0.6140949130058289,0.44815459847450256,0.1659403145313263
+161,Kwabena nim ade paa.,Kwabena is extremely intelligent.,Kwabena is very intelligent.,0.8607180714607239,0.551801860332489,0.30891621112823486
+162,Kwabena nim nwoma pa ara.,Kwabena knows very good books.,Kwabena is very intelligent.,0.4469819664955139,0.29118573665618896,0.15579622983932495
+163,Kwabena adwene mu dɔ yie.,Kwabena is deeply in love.,Kwabena is very intelligent.,0.34565800428390503,0.32360780239105225,0.022050201892852783
+164,Kwabena yɛ onimdefoɔ.,Kwabena is a genius.,Kwabena is very intelligent.,0.7263460159301758,0.6287433505058289,0.09760266542434692
+165,Wɔde abo na ɛyɛɛ saa twene no.,That bridge is made of stone.,That bridge is made of stone.,0.9241613745689392,0.47112905979156494,0.45303231477737427
+166,Aboɔ na wɔde yɛɛ saa twene no.,Man is the one who made up that bridge.,That bridge is made of stone.,0.45957767963409424,0.3411490321159363,0.11842864751815796
+167,Saa twene no yɛ aboɔ twene.,Those bridges are bridges.,That bridge is made of stone.,0.329595148563385,0.1492953896522522,0.1802997589111328
+168,Woayɛ m'ade ama me ho adwiriw me.,You've hurt me.,I can't believe you’re doing this to me.,0.3367947041988373,0.22281506657600403,0.11397963762283325
+169,Ɛyɛ me nwanwa sɛ woatumi ayɛ me sei.,I'm afraid you can do me.,I can't believe you’re doing this to me.,0.46925345063209534,0.20022724568843842,0.2690262049436569
+170,Mannwene ho da sɛ wobɛtumi ayɛ me sei.,I never thought you could do me ache.,I can't believe you’re doing this to me.,0.3826998472213745,0.40997934341430664,-0.02727949619293213
+171,Enti me na woayɛ me sei yi.,,I can't believe you’re doing this to me.,0.21989868581295013,0.2424449622631073,-0.022546276450157166
+172,Nea Abena kae no maa Kwabena ho dwiriw no.,Kwabena was appalled by what Abena said.,Kwabena was shocked by what Abena said.,0.8133756518363953,0.566848635673523,0.24652701616287231
+173,Abena nsɛm a ɔkaeɛ no maa Kwabena ho dwirii no.,Kwabena was appalled by what Abena said.,Kwabena was shocked by what Abena said.,0.8258208632469177,0.5130425095558167,0.3127783536911011
+174,Kwabena ho dwirii no wɔ nsɛm a Abena kaeɛ no.,Kwabena was appalled at what Abena said.,Kwabena was shocked by what Abena said.,0.8219437599182129,0.5607123970985413,0.26123136281967163
+175,Ɔde mfe asia traa Ankara.,She lived in Ankara for six years.,He lived in Ankara for six years.,0.7687415480613708,0.6241726875305176,0.14456886053085327
+176,Ɔtenaa Ankara mfeɛ nsia.,She lived in Ankara for six years.,He lived in Ankara for six years.,0.7693567872047424,0.5498747825622559,0.21948200464248657
+177,Mfeɛ nsia mu na ɔtenaa Ankara.,"In years of emergency, he lived in Ankara.",He lived in Ankara for six years.,0.5077828168869019,0.24437397718429565,0.2634088397026062
+178,Ankara ha na ɔtenaa mfeɛ nsia.,Makara here to stay for six years.,He lived in Ankara for six years.,0.5069509148597717,0.37102097272872925,0.13592994213104248
+179,N'anim tew.,His face is clean.,She is a pleasant person.,0.34946584701538086,0.47951579093933105,-0.1300499439239502
+180,Ɔyɛ obi a ɔpɛ nipa.,He's a friendly person.,She is a pleasant person.,0.6004911065101624,0.5672955513000488,0.033195555210113525
+181,Ɔdɔ nipa.,He loves a man.,She is a pleasant person.,0.19341030716896057,0.31662341952323914,-0.12321311235427856
+182,Ɔka ne ho bɛn nipa.,He is close to a man.,She is a pleasant person.,0.24655357003211975,0.20805974304676056,0.03849382698535919
+183,Na merebɛkɔ.,I was about to go.,I was about to go.,0.9117001295089722,0.4252026081085205,0.48649752140045166
+184,Anka merebɛkɔ ara no no.,I't have gone.,I was about to go.,0.3541772961616516,0.3640814423561096,-0.009904146194458008
+185,Mintumi nnyi m'adwene mfi ne so.,I can't get out of his mind.,I can't get her out of my mind.,0.5512381196022034,0.31758683919906616,0.2336512804031372
+186,Mentumi nyi no mfiri m'adwene mu.,I can't put him out of my mind.,I can't get her out of my mind.,0.7848905324935913,0.5252461433410645,0.25964438915252686
+187,Mentumi nyi ne ho adwendwene mfiri me mu.,I can't cling to him.,I can't get her out of my mind.,0.3429824709892273,0.4564284682273865,-0.11344599723815918
+188,Ne ho adwene wɔ me tirim.,Asamoah is in my head.,I can't get her out of my mind.,0.2973006069660187,0.3584829568862915,-0.06118234992027283
+189,Kwan no nnye.,The street isn't fair.,The road's in bad condition.,0.3965284526348114,0.4444222152233124,-0.04789376258850098
+190,Kwan no asɛe.,The road is worn out.,The road's in bad condition.,0.6959766149520874,0.47623908519744873,0.21973752975463867
+191,Kwan no nyɛ papa.,The street isn't very good.,The road's in bad condition.,0.726712167263031,0.5193403959274292,0.2073717713356018
+192,Ɔyɛ adwuma wɔ sikakorabea.,He works at the bank.,She works at the bank.,0.6974621415138245,0.5654509663581848,0.13201117515563965
+193,N'adwumabea ne sikakorabea hɔ.,His bank is in the bank.,She works at the bank.,0.264004111289978,0.23043125867843628,0.03357285261154175
+194,Sikakorabea hɔ na ɔyɛ adwuma.,Is there in the bank?,She works at the bank.,0.21120136976242065,0.17675982415676117,0.034441545605659485
+195,Ɔyɛ n'adwuma wɔ sikakorabea hɔ.,He works at the bank.,She works at the bank.,0.6917719841003418,0.5419487953186035,0.14982318878173828
+196,Dɛn na esii ɔsram a etwaam no mu?,What happened yesterday?,What happened last month?,0.6114467978477478,0.6238981485366821,-0.012451350688934326
+197,Bosome a ɛtwaa mu no ɛdeɛn na siiɛ?,What was the last month?,What happened last month?,0.7455118894577026,0.3692336678504944,0.37627822160720825
+198,Nsɛm bɛn na sii bosome a ɛtwaa mu no?,What were the results of the month?,What happened last month?,0.7118175029754639,0.40983736515045166,0.3019801378250122
+199,Mehoro nneɛma Kwasida biara.,I wash up every Sunday.,I do the laundry on Sundays.,0.43855172395706177,0.39959272742271423,0.038958996534347534
+200,Mesi nneɛma Kwasiada biara.,I hear everything on Sundays.,I do the laundry on Sundays.,0.3235700726509094,0.32721957564353943,-0.003649502992630005
+201,Kwasiada biara na mesi nneɛma.,I eat things every Sunday.,I do the laundry on Sundays.,0.39609038829803467,0.5154011249542236,-0.11931073665618896
+202,Nneɛma mesi no yɛ Kwasiada biara.,I've heard of Kwasiada every Sunday.,I do the laundry on Sundays.,0.26887279748916626,0.4026378393173218,-0.13376504182815552
+203,Kwabena wɔ Boston dedaw.,Kwabena is in Boston already.,Kwabena is already in Boston.,0.8805298209190369,0.7211291790008545,0.15940064191818237
+204,Kwabena adi kan wɔ Boston.,Kwabena is in Boston.,Kwabena is already in Boston.,0.8399267196655273,0.5981751680374146,0.2417515516281128
+205,Kwabena aduru Boston dada.,Kwabena has been in Boston every day.,Kwabena is already in Boston.,0.6288499236106873,0.5506865978240967,0.07816332578659058
+206,Hena pɛnsere ni?,Whose pencil is this?,Whose pencil is this?,0.9005350470542908,0.49576759338378906,0.4047674536705017
+207,Pɛnsere yi wɔ hwan?,Is this pencil available?,Whose pencil is this?,0.4936180114746094,0.3125349283218384,0.181083083152771
+208,Hwan na pɛnsere no yɛ ne dea?,Who's the owner of the pencil?,Whose pencil is this?,0.49406003952026367,0.45885857939720154,0.035201460123062134
+209,Nnyimi.,Don't cry.,Don't be stupid.,0.4738786518573761,0.6137441992759705,-0.13986554741859436
+210,Nni nkwaseasɛm.,Don't be stupid.,Don't be stupid.,0.9258210062980652,0.4803348183631897,0.4454861879348755
+211,Ma w'ani nna hɔ.,Stay alert.,Don't be stupid.,0.34285712242126465,0.4760705828666687,-0.13321346044540405
+212,Nni agyimisɛm biara.,Don't joke anything.,Don't be stupid.,0.42844492197036743,0.530428409576416,-0.10198348760604858
+213,N'ani gye jazz ho.,jazz is her favorite jazz.,She is interested in jazz.,0.4346892535686493,0.42652446031570435,0.008164793252944946
+214,N'ani di jazz akyi.,After jazz.,She is interested in jazz.,0.25530388951301575,0.4093281030654907,-0.15402421355247498
+215,Ɔpɛ jazz.,She likes jazz.,She is interested in jazz.,0.8020281195640564,0.7197756767272949,0.08225244283676147
+216,Jazz yɛ adeɛ a n'ani gye ho.,jazz is a hobby.,She is interested in jazz.,0.42861172556877136,0.31264978647232056,0.1159619390964508
+217,Kwabena dii nhyehyɛe no akyi.,Kwabena followed the plan.,Kwabena went along with the scheme.,0.6025804877281189,0.35861653089523315,0.24396395683288574
+218,Kwabena de nhyehyɛeɛ n dii dwuma.,Kwabena is planning to use it.,Kwabena went along with the scheme.,0.5756459832191467,0.5077369809150696,0.06790900230407715
+219,Kwabena gyee nhyehyɛeɛ no too mu.,Kwabena accepted the plan.,Kwabena went along with the scheme.,0.6757693886756897,0.48848259449005127,0.18728679418563843
+220,Me papa yɛ adwuma ma sikakorabea bi.,My father works for a bank.,My father works for a bank.,0.931667149066925,0.6262441873550415,0.30542296171188354
+221,Sikakorabea bi na me papa yɛ adwuma ma wɔn.,A bank my father works for them.,My father works for a bank.,0.6612690091133118,0.450328528881073,0.21094048023223877
+222,Me papa di ne dwuma ma sikakorabea bi.,My father uses him for a bank.,My father works for a bank.,0.5689704418182373,0.2158026546239853,0.353167787194252
+223,Sikakorabea bi na me papa ne wɔn yɛ adwuma.,"A bank, whose father works with them.",My father works for a bank.,0.4591406285762787,0.34027111530303955,0.11886951327323914
+224,Dɛn na saa krataa no ka ho asɛm?,What's that paper about?,What's that letter about?,0.7093581557273865,0.5490782260894775,0.16027992963790894
+225,Krataa no kasa fa deɛn ho?,What's the language of the letter?,What's that letter about?,0.530795693397522,0.4730740189552307,0.05772167444229126
+226,Krataa no mu nsɛm ne sɛn?,What are the details of the paper?,What's that letter about?,0.46221697330474854,0.47868627309799194,-0.016469299793243408
+227,Amannebɔsɛm bɛn na krataa no ka ho asɛm?,What's the report about the report?,What's that letter about?,0.3584679067134857,0.16263499855995178,0.19583290815353394
+228,Ɛyɛ me yaw sɛ me nnamfo nni ha.,"I'm sorry, my friends are not here.",I am disappointed that my friends are not here.,0.7781668305397034,0.5121428966522217,0.2660239338874817
+229,Madi me nnamfonom ho yaw sɛ wɔnni ha.,I'm sorry for my friends for their absences.,I am disappointed that my friends are not here.,0.5374520421028137,0.497209370136261,0.040242671966552734
+230,Ɛha me sɛ me nnamfonom nni ha.,I'm afraid my friends are not here.,I am disappointed that my friends are not here.,0.7450737953186035,0.560950517654419,0.18412327766418457
+231,Me werɛ aho sɛ me nnamfonom nni ha.,"I'm sorry, my friends are not here.",I am disappointed that my friends are not here.,0.778420090675354,0.5438352823257446,0.23458480834960938
+232,"Ɛnnɛra, na omununkum wɔ wim paa.",,It was cloudy yesterday.,0.2117626667022705,0.2551393508911133,-0.04337668418884277
+233,Na ewiem ayɛ kusuu nnora.,It was cloudy yesterday.,It was cloudy yesterday.,0.9190803170204163,0.39599284529685974,0.5230874717235565
+234,Nnora na ewiem ani nyɛ fɛ.,,It was cloudy yesterday.,0.21478353440761566,0.20612110197544098,0.008662432432174683
+235,Kwabena so nni mfaso.,Kwabena is useless.,Kwabena's useless.,0.8165591359138489,0.4271121025085449,0.38944703340530396
+236,Mfasoɔ biara nni Kwabena so.,Kwabena is useless.,Kwabena's useless.,0.8385759592056274,0.48733627796173096,0.3512396812438965
+237,Kwabena nni botaeɛ biara.,Kwabena doesn't have a goal.,Kwabena's useless.,0.42562997341156006,0.4305148124694824,-0.004884839057922363
+238,Kwabena nemnam hɔ saa ara kwa.,Kwabena isn't going to be there anyway.,Kwabena's useless.,0.5403450727462769,0.5913460850715637,-0.051001012325286865
+239,Wokyerɛɛ yɛn saa.,You taught us that.,You taught us that.,0.9201088547706604,0.49740511178970337,0.42270374298095703
+240,Nea wokyerɛɛ yɛn ara no no.,Asamoah.,You taught us that.,0.29660138487815857,0.3797589838504791,-0.08315759897232056
+241,Saa ara na wokyerɛɛ yɛn.,It's the same thing you told us.,You taught us that.,0.4438199996948242,0.4738236367702484,-0.030003637075424194
+242,Dɛn na ɛma yɛyɛ nnipa?,What's the secret ingredient?,What makes us human?,0.20613649487495422,0.18655547499656677,0.01958101987838745
+243,Deɛ ɛma yɛyɛ nnipa ne deɛn?,What's the secret ingredient?,What makes us human?,0.2172054499387741,0.22121858596801758,-0.004013136029243469
+244,Deɛn na ma nnipa yɛ nnipa?,What makes people humiliate?,What makes us human?,0.3939841687679291,0.44180622696876526,-0.04782205820083618
+245,Yɛn nnipaban ne deɛn?,What are our crowds?,What makes us human?,0.2801605463027954,0.2552967667579651,0.024863779544830322
+246,Medɔ wo sɛnea wote pɛpɛɛpɛ.,I love you as perfectly as you.,I love you just as you are.,0.5898672938346863,0.23333343863487244,0.35653385519981384
+247,"Sɛnea woteɛ no ara no, medɔ wo.",I love you as much as you do.,I love you just as you are.,0.600818932056427,0.43482697010040283,0.16599196195602417
+248,Nea woteɛ biara medɔ wo.,I love you for everything you do.,I love you just as you are.,0.5971217155456543,0.503828227519989,0.09329348802566528
+249,Nnipa a wɔwɔ Taiwan no yɛ adwumaden.,The people in Taiwan are hardworking.,People in Taiwan work hard.,0.6981416344642639,0.6673676371574402,0.03077399730682373
+250,Taiwanfoɔ yɛ nnipa a wɔyɛ adwumaden.,The Tajanians are hardworking people.,People in Taiwan work hard.,0.5266277194023132,0.6881424188613892,-0.16151469945907593
+251,Wɔn a wɔwɔ pɛ adwuma.,Whoever works.,People in Taiwan work hard.,0.24399857223033905,0.3691560924053192,-0.12515752017498016
+252,Nnipa a wɔte Taiwan yɛ wɔn a wɔpɛ adwumaden.,anianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianiani,People in Taiwan work hard.,0.1497018039226532,0.25569719076156616,-0.10599538683891296
+253,Na nsu retɔ nketenkete.,It was raining yesterday.,It was drizzling.,0.4749859869480133,0.5282313823699951,-0.05324539542198181
+254,Nsuo no repete.,The water is running out.,It was drizzling.,0.3514317274093628,0.5053002238273621,-0.15386849641799927
+255,Kwabena yɛ adamfo pa paa.,Kwabena is a very good friend.,Kwabena is a very good friend.,0.9126076102256775,0.516566812992096,0.39604079723358154
+256,Me yɔnko paa ne Kwabena.,Kwabena is the best one to me.,Kwabena is a very good friend.,0.4911225438117981,0.48579996824264526,0.005322575569152832
+257,Kwabena yɛ me yɔnko prɛko pɛ.,Kwabena is my only-up fellow.,Kwabena is a very good friend.,0.3698616921901703,0.27696892619132996,0.09289276599884033
+258,Me yɔnko brɛboɔ ne Kwabena.,Kwabena and I brushed up.,Kwabena is a very good friend.,0.35011088848114014,0.3813633322715759,-0.03125244379043579
+259,Abena na ɔkyerɛwee saa krataa yi?,Who wrote this letter?,Was this letter written by Abena?,0.6119669079780579,0.5641568899154663,0.04781001806259155
+260,Wei ne krataa a Abena twerɛeɛ?,This is the letter Abena sent?,Was this letter written by Abena?,0.6979008316993713,0.5311051607131958,0.16679567098617554
+261,Krataa a Abenaa twerɛeɛ nie?,What's Abena's letter?,Was this letter written by Abena?,0.4608059525489807,0.33880800008773804,0.12199795246124268
+262,Ehu aka me yiye.,I was really scared.,I'm very frightened.,0.8222811818122864,0.45371896028518677,0.3685622215270996
+263,M'aboto.,I'm disappointed.,I'm very frightened.,0.5875881910324097,0.4997926950454712,0.08779549598693848
+264,Ehu abɔ me.,I'm nervous.,I'm very frightened.,0.7718889117240906,0.4548189640045166,0.317069947719574
+265,Mabɔ hu.,I've been terrified.,I'm very frightened.,0.7556807398796082,0.5628705024719238,0.19281023740768433
+266,Mete nka sɛ wɔayi me ama.,I feel disappointed in you.,I feel betrayed.,0.5789980292320251,0.5269761681556702,0.05202186107635498
+267,Wadi me hwammɔ.,He has disappointed me.,I feel betrayed.,0.372744083404541,0.4505365192890167,-0.07779243588447571
+268,Mete nka sɛ wɔde m'akyi aka fam.,I feel like lying on my back.,I feel betrayed.,0.2280762791633606,0.3159351348876953,-0.08785885572433472
+269,Kwabena anyin sen Abena.,Kwabena is older than Abena.,Kwabena is older than Abena.,0.9068412780761719,0.5756629109382629,0.33117836713790894
+270,Ɛnyɛ Abena tipɛn ne Kwabena.,Kwabena isn't the type of Abena.,Kwabena is older than Abena.,0.4744616150856018,0.4023919999599457,0.07206961512565613
+271,Ɛnyɛ Abena yɔnko ne Kwabena,Kwabena isn't Abena's join.,Kwabena is older than Abena.,0.3888978064060211,0.26904839277267456,0.11984941363334656
+272,Kwabena mfeɛ wɔ anim kyɛn Abena.,Kwabena is old in front of Abena.,Kwabena is older than Abena.,0.5606268048286438,0.2882799804210663,0.2723468244075775
+273,Mede bɛma wo.,I'll give it to you.,I'll lend it to you.,0.742856502532959,0.4747014045715332,0.2681550979614258
+274,Mede bɛfɛm wo.,I'll lend you up.,I'll lend it to you.,0.4407733678817749,0.14692053198814392,0.293852835893631
+275,M'ani gye kɔfe ho.,I like coffee.,I love coffee.,0.8206184506416321,0.45766913890838623,0.36294931173324585
+276,Mepɛ kɔfe.,I want coffee.,I love coffee.,0.694330632686615,0.4411277770996094,0.2532028555870056
+277,Kɔfe yɛ adeɛ a mepɛ.,coffee is all I want.,I love coffee.,0.49898761510849,0.4563002586364746,0.04268735647201538
+278,Kɔfe yɛ adeɛ a m'ani gye ho.,coffee is a good thing I like.,I love coffee.,0.5645284652709961,0.3643815815448761,0.20014688372612
+279,Mepɛ sɛ mekɔhwɛ sini nnɛ.,I want to go to a movie today.,I want to go to the movies today.,0.8282992839813232,0.4893902540206909,0.3389090299606323
+280,Nnɛ mepɛ sɛ metwa m'ani so mfonin.,I don't want to take a picture of my eyes.,I want to go to the movies today.,0.27519920468330383,0.5536009073257446,-0.2784017026424408
+281,Nnɛ mepɛ sɛ mekɔhweɛ sini.,I don't want to go for a movie today.,I want to go to the movies today.,0.6813490986824036,0.5140379667282104,0.16731113195419312
+282,Meremmɔ ɔbea da.,I've never named a woman.,I'd never hit a woman.,0.34699928760528564,0.1842419058084488,0.16275738179683685
+283,Memmfa me nsa nnka ɔbaa da.,I've never caught up with my hands.,I'd never hit a woman.,0.3071151673793793,0.22199727594852448,0.0851178914308548
+284,Merentene me nsa wɔ ɔbaa so da.,I'll never turn up with my hands on him.,I'd never hit a woman.,0.3265913724899292,0.32102257013320923,0.005568802356719971
+285,Woyɛ obi a wo tirim yɛ den.,You're a cruel guy.,You are a mean person.,0.7225042581558228,0.4804735779762268,0.24203068017959595
+286,Wo hwenem bɔn wo.,You're sick of it.,You are a mean person.,0.29458415508270264,0.24017459154129028,0.054409563541412354
+287,Wompɛ nipa.,You don't want a man.,You are a mean person.,0.2535025477409363,0.3646072745323181,-0.11110472679138184
+288,Wɔmaa no dwumadi titiriw bi.,It was made to her a special occasion.,He was given an important mission.,0.24000120162963867,0.2220265418291092,0.01797465980052948
+289,Wɔmaa no dwumasono bi.,It was given him a seat.,He was given an important mission.,0.41258102655410767,0.3309101164340973,0.08167091012001038
+290,Wɔde dwuma titire bi hyɛɛ ne nsa.,A bandage was put in his hands.,He was given an important mission.,0.27663570642471313,0.517548680305481,-0.24091297388076782
+291,Wususuw sɛ meyɛ obi a mewɔ sika?,Do you think I'm a millionaire?,Do you think I'm made of money?,0.44435423612594604,0.6741234064102173,-0.22976917028427124
+292,Ɛyɛ wo sp mewɔ sika?,"Is that your sp, I?",Do you think I'm made of money?,0.1987336277961731,0.16382817924022675,0.03490544855594635
+293,Wokaa sɛ mewɔ sika?,Did you say I have some money?,Do you think I'm made of money?,0.3995223045349121,0.6332640051841736,-0.23374170064926147
+294,"Nmmɛn me, wo ho ntew.",.,Don't come near me. You're filthy.,0.16552734375,0.20030929148197174,-0.03478194773197174
+295,Mfa wo ho fin no mmɛn me.,Don't cling to me.,Don't come near me. You're filthy.,0.2693607211112976,0.33656132221221924,-0.06720060110092163
+296,"Wo ho yɛ fin, mmɛn me.","You look fine, don't come to me.",Don't come near me. You're filthy.,0.4641769528388977,0.4085303544998169,0.05564659833908081
+297,Si eyi so dua.,Drop this on a tree.,Memorize this.,0.27131733298301697,0.4555061459541321,-0.1841888129711151
+298,We wei gu wo tirim.,We're cruel.,Memorize this.,0.2757152020931244,0.3580682575702667,-0.08235305547714233
+299,Ma wei nka wo tirim.,Let's make you know.,Memorize this.,0.26495420932769775,0.23194605112075806,0.0330081582069397
+300,Meyɛ ɔdefo.,I'm rich.,I'm rich.,0.9423500895500183,0.3952529728412628,0.5470971167087555
+301,Mede me ho.,I'm taking care of myself.,I'm rich.,0.44580864906311035,0.7011734247207642,-0.2553647756576538
+302,Meyɛ sikani.,I'm a siker.,I'm rich.,0.3157716393470764,0.2426893413066864,0.07308229804039001
+303,Mewɔ de.,I have it.,I'm rich.,0.33519139885902405,0.5586295127868652,-0.2234381139278412
+304,Nnwom bɛn na w'ani gye ho paa?,What's your favorite music?,What's your favorite Beatles song?,0.6354503035545349,0.4543062448501587,0.18114405870437622
+305,Beatles nnwom bɛn na yɛ wo dɛ?,What's your favorite Beatles song?,What's your favorite Beatles song?,0.9253877997398376,0.5968931317329407,0.328494668006897
+306,Beatles nnwom bɛn na w'ani gye ho?,What's your favorite Beatles song?,What's your favorite Beatles song?,0.9150038361549377,0.5282882452011108,0.3867155909538269
+307,"""Esiane sɛ ofii pon no mu nti,","""It's because he went out of the door.""",She scolded him because he left the door open.,0.448819637298584,0.29618752002716064,0.15263211727142334
+308,Ɔswi n'anim esiane ɛpono no a ɔgyae too hɔ no.,He leaped his face because of the door he stopped.,She scolded him because he left the door open.,0.2879124879837036,0.17349080741405487,0.11442168056964874
+309,Ɛpono a wantom nti ɔswi n'anim.,He cheeked his face because of the breaking door.,She scolded him because he left the door open.,0.3576626777648926,0.34987667202949524,0.007786005735397339
+310,Yɛ w'ade te sɛ onipa.,Be as if you were a man.,Act like a man.,0.6480517387390137,0.5287443995475769,0.11930733919143677
+311,Di wo dwuma sɛ ɔbarima.,Eat you as a man.,Act like a man.,0.2699936032295227,0.25065386295318604,0.01933974027633667
+312,Ma mmarisɛm mmra wo mu.,Let's be in.,Act like a man.,0.17311987280845642,-0.0038744863122701645,0.17699435912072659
+313,Yɛ ɔkokoɔdurufoɔ.,We are cousins.,Act like a man.,0.2648363411426544,0.48615705966949463,-0.2213207185268402
+314,So w'ani gye saa dwom no ho?,Do you like that song?,Do you like that song?,0.9211100935935974,0.5923694372177124,0.328740656375885
+315,Saa nnwom no na wopɛ?,What kind of music do you like?,Do you like that song?,0.6558816432952881,0.6072481870651245,0.048633456230163574
+316,Nnwom a wopɛ nie?,Is your favorite music?,Do you like that song?,0.483323335647583,0.40673908591270447,0.07658424973487854
+317,Asamoah anka ne kokoam asɛm ankyerɛ Abena.,Asamoah didn't tell Abena his privacy.,Asamoah didn't tell Abena his secret.,0.6511533856391907,0.4707278609275818,0.1804255247116089
+318,Asamoah anka n'ahintasɛm ankyerɛ Abena.,Asamoah didn't tell Abena his secret.,Asamoah didn't tell Abena his secret.,0.9091280102729797,0.6291338205337524,0.2799941897392273
+319,Asamoah de nsɛm sumaa Abena.,Asamoah buried Abena up.,Asamoah didn't tell Abena his secret.,0.29898902773857117,0.42869699001312256,-0.1297079622745514
+320,"""Sɛ Yalah no, n'adesua no ho nhia no kɛse.",Asamoah isn't very important with his study.,Asamoah is not serious about his studies.,0.5479251742362976,0.3617303669452667,0.18619480729103088
+321,Asamoah ani nku n'adesua ho.,Asamoah isn't interested in studying.,Asamoah is not serious about his studies.,0.6640264391899109,0.6625233888626099,0.0015030503273010254
+322,Asamoah atoto n'adesua ase.,Asamoah is misleading his study.,Asamoah is not serious about his studies.,0.5516806244850159,0.43683144450187683,0.11484917998313904
+323,Asamoah adesua nyɛ adeɛ a ɛho hia no.,Asamoah's learning is not necessary.,Asamoah is not serious about his studies.,0.4680003523826599,0.4366950988769531,0.03130525350570679
+324,Siesie wo ho.,You're ready.,Get ready.,0.6586952805519104,0.320814311504364,0.3378809690475464
+325,Yɛ krado.,Be ready.,Get ready.,0.8501490354537964,0.4736695885658264,0.37647944688796997
+326,Ka kyerɛ Asamoah sɛ medɔ no.,Tell Asamoah I love him.,Tell Asamoah I love him.,0.920129120349884,0.46802735328674316,0.45210176706314087
+327,Ma Asamoah nte sɛ m'ani gye ne ho.,Let Asamoah hear that I like him.,Tell Asamoah I love him.,0.6706402897834778,0.5603045225143433,0.11033576726913452
+328,Ka kyerɛ Asamoah sɛ medɔ no.,Tell Asamoah I love him.,Tell Asamoah I love him.,0.920129120349884,0.46802735328674316,0.45210176706314087
+329,Ka kyerɛ Asamoah sɛ m'ani gye ne ho.,Tell Asamoah I like him.,Tell Asamoah I love him.,0.7906438708305359,0.4901784658432007,0.3004654049873352
+330,Nkraman no bi nim nyansa paa.,Some of the dogs are very smart.,Some dogs are very smart.,0.9062957167625427,0.5914471745491028,0.31484854221343994
+331,Nkraman no bi ani ate.,Some of the dogs are upset.,Some dogs are very smart.,0.5767343044281006,0.5022035837173462,0.0745307207107544
+332,Nka nkyerɛ me yere.,Don't tell my wife.,Don't tell my wife.,0.9002594351768494,0.6207584142684937,0.2795010209083557
+333,Mmɔ me yere amanneɛ.,Don't trust my wife.,Don't tell my wife.,0.5538522601127625,0.5520724058151245,0.0017798542976379395
+334,Mma me yere aso nte asɛm yi.,Don't make my wife hear this story.,Don't tell my wife.,0.632256805896759,0.5969148278236389,0.03534197807312012
+335,Dɛn na mewɔ?,What do I have?,What do I have?,0.9010591506958008,0.33582234382629395,0.5652368068695068
+336,Na mewɔ deɛn?,What did I have?,What do I have?,0.8338718414306641,0.2932867407798767,0.5405851006507874
+337,M'awofo baanu nyinaa nte nkwa mu.,Both of my parents live.,Both of my parents aren't alive.,0.38062459230422974,0.1819862574338913,0.19863833487033844
+338,M'awofoɔ afiri mu.,My parents are in the trap.,Both of my parents aren't alive.,0.3075525462627411,0.4702664613723755,-0.1627139151096344
+339,M'awofoɔ nte ase.,My parents don't understand.,Both of my parents aren't alive.,0.4339975118637085,0.6015066504478455,-0.16750913858413696
+340,M'awofoɔ awu.,My parents are dead.,Both of my parents aren't alive.,0.5945920348167419,0.6536757946014404,-0.059083759784698486
+341,Mfa me nan nsi fam!,Don't put my legs down!,Don't pull my leg!,0.4373698830604553,0.335754930973053,0.10161495208740234
+342,Nsere me!,Stay out of my way!,Don't pull my leg!,0.3951370418071747,0.5865086317062378,-0.1913715898990631
+343,Mfa me nni agorɔ!,Don't play with me!,Don't pull my leg!,0.4031059145927429,0.4599052667617798,-0.056799352169036865
+344,Menyɛ wo ba.,I'm not your son.,I'm not your son.,0.9146068692207336,0.3980521261692047,0.5165547430515289
+345,Ɛnyɛ wo babarima ne me.,Your son isn't me.,I'm not your son.,0.4843449890613556,0.4009101986885071,0.08343479037284851
+346,Wo babarima nyɛ me.,Your son isn't mine.,I'm not your son.,0.6274204850196838,0.5512909293174744,0.07612955570220947
+347,Kwasi bisae sɛ wɔmma no aduru bi a wɔde siw awo ano.,Kwasi asked for a sedative.,Kwasi asked for a discount.,0.5857066512107849,0.41640353202819824,0.16930311918258667
+348,Kwasi srɛɛ ntesoɔ.,Kwasi apologized.,Kwasi asked for a discount.,0.41579872369766235,0.2677527666091919,0.14804595708847046
+349,Kwasi pree ntesoɔ.,Kwasi has a headache.,Kwasi asked for a discount.,0.37094491720199585,0.3257768750190735,0.04516804218292236
+350,So wobɛhwɛ wo ho yiye?,Will you take care of yourself?,Would you care for more cookies?,0.312653511762619,0.3903058171272278,-0.07765230536460876
+351,Memma wo cookies no biom?,May I return your cookies?,Would you care for more cookies?,0.4891086518764496,0.5548325777053833,-0.06572392582893372
+352,Wobɛdi cookies no biom?,Will you eat the cookies again?,Would you care for more cookies?,0.5666155219078064,0.5738825798034668,-0.0072670578956604
+353,So wɔne wo te?,Do they live with you?,Do they live with you?,0.9099130034446716,0.4920358657836914,0.4178771376609802
+354,Wɔtenaa wo nkyɛn?,Were you escaped?,Do they live with you?,0.28131139278411865,0.266898512840271,0.014412879943847656
+355,Wo ne wɔn na tenaeɛ?,Were you the one who made up?,Do they live with you?,0.2206299602985382,0.20446869730949402,0.01616126298904419
+356,Mma w'ani nnyɛ wo totɔtotɔ.,Don't cry. Crying doesn't solve anything.,Don't be so reserved.,0.40499064326286316,0.5324873924255371,-0.12749674916267395
+357,Ka wo ho kɔ nipa.,Say a man.,Don't be so reserved.,0.24055902659893036,0.19741494953632355,0.04314407706260681
+358,Ka wo ho bɛn nipa.,Say close to someone.,Don't be so reserved.,0.2806178033351898,0.3134746551513672,-0.03285685181617737
+359,Kentene wo ho.,I won't understand you.,Don't be so reserved.,0.34959930181503296,0.4837214946746826,-0.13412219285964966
+360,Mɛsan aba nnansa yi ara.,I'll be back sooner or later.,I'll be back soon.,0.8690398335456848,0.6011141538619995,0.2679256796836853
+361,Merenkyɛ.,I'm not going to go away.,I'll be back soon.,0.4978499710559845,0.43460115790367126,0.06324881315231323
+362,Mɛba seisei ara.,I'll come right now.,I'll be back soon.,0.7002514004707336,0.5773144960403442,0.1229369044303894
+363,Ɔwaree no bere a na wadi mfe 20.,She got married when she was 20 years old.,She married him when she was 20.,0.729701817035675,0.7312018871307373,-0.0015000700950622559
+364,Ɔdii mfeɛ aduonu na ɔwaree no.,She married him for swenty years.,She married him when she was 20.,0.3071339726448059,0.3861902952194214,-0.07905632257461548
+365,Ɔwaree no no na wadi mfeɛ aduonu.,She married him and she was swenty years old.,She married him when she was 20.,0.494326114654541,0.4464595317840576,0.0478665828704834
+366,Na yehyiam Fida biara.,We met every Friday.,We gather together every Friday.,0.6404120326042175,0.5253800749778748,0.11503195762634277
+367,Fiada biara yɛhyiam.,Every Friday we meet.,We gather together every Friday.,0.6638294458389282,0.4936051368713379,0.17022430896759033
+368,Yɛdi ahyiam Fiada biara.,We meet every Friday.,We gather together every Friday.,0.7469393610954285,0.5722012519836426,0.1747381091117859
+369,So na metumi atɔn pɛnsere?,Might I sell a pencil?,Could I borrow a pencil?,0.44179391860961914,0.23798438906669617,0.20380952954292297
+370,Mɛtumi afɛm wo pɛnsere no?,May I borrow your pencil?,Could I borrow a pencil?,0.7810500860214233,0.34079426527023315,0.4402558207511902
+371,Wobɛtumi de wo pɛnsere no afɛm me?,Could you lend me your pencil?,Could I borrow a pencil?,0.7427331805229187,0.45946136116981506,0.28327181935310364
+372,Yebetumi atua dɔla 200.,We can pay 200 dollars.,We can pay 200 dollars at most.,0.7731372714042664,0.5197070837020874,0.25343018770217896
+373,Yɛatua ama no ak] soro ara na 200 dɔlas.,It's only 200 dollars to paid for him.,We can pay 200 dollars at most.,0.4215232729911804,0.3530656099319458,0.06845766305923462
+374,Yɛatua ama no aboro so na 200 dɔlas.,200 dollars is paid for him.,We can pay 200 dollars at most.,0.5037533044815063,0.44654253125190735,0.057210773229599
+375,M'ani gye nnuaba ho.,I love fruit.,I like fruit.,0.8029701709747314,0.4620031416416168,0.3409670293331146
+376,Mepɛ nnuaba.,I like fruit.,I like fruit.,0.9055352807044983,0.4909011721611023,0.414634108543396
+377,Nnuaba yɛ adeɛ a m'ani gye ho.,fruit is a fruit that I like.,I like fruit.,0.40719157457351685,0.15969067811965942,0.24750089645385742
+378,Minni wo mu ahotoso bio.,I no longer trust you.,I don't trust you anymore.,0.8390913605690002,0.6602133512496948,0.17887800931930542
+379,Mennye wo nni bio.,I won't believe you anymore.,I don't trust you anymore.,0.822741687297821,0.6406160593032837,0.18212562799453735
+380,Wo mu gyidie afiri me mu.,I'm tired of faith in you.,I don't trust you anymore.,0.48320016264915466,0.3959501087665558,0.08725005388259888
+381,Bere a Abena fii fie hɔ bere tiaa bi akyi na Kwame nso fii fie.,Kwame left home just a moment after Abena left home.,Kwame left the house shortly after Abena left.,0.7143889665603638,0.6872298121452332,0.027159154415130615
+382,Abena firii fie no ankyɛ biara na Kwame nso kɔeɛ.,Kwame went away with Abena every time she left the house.,Kwame left the house shortly after Abena left.,0.5417578220367432,0.48411381244659424,0.057644009590148926
+383,Kwame tiaa Abena akyi berɛ tiawa bi mu a Abena kɔeɛ.,Kwame didn't follow Abena in a little while ago.,Kwame left the house shortly after Abena left.,0.40287986397743225,0.3723451495170593,0.030534714460372925
+384,"Nea esii no nti, Kwame ani nnye ho.",Kwame isn't happy because of what happened.,Kwame isn't happy about what's happened.,0.8334612250328064,0.5851244926452637,0.24833673238754272
+385,Kwame ani annye deɛ esiiɛ no ho.,Kwame denied having done it.,Kwame isn't happy about what's happened.,0.5537958741188049,0.4702530801296234,0.08354279398918152
+386,Deɛ esiiɛ no amma Kwame ani annye.,Kwame was embarrassed by what happened.,Kwame isn't happy about what's happened.,0.6829671859741211,0.5115007758140564,0.1714664101600647
+387,Merefi hɔ.,I'm going out.,I'm leaving.,0.5728363990783691,0.63277268409729,-0.0599362850189209
+388,Merekɔ.,I am going.,I'm leaving.,0.532403290271759,0.5491013526916504,-0.016698062419891357
+389,Merefiri adi.,I'm going out.,I'm leaving.,0.54564368724823,0.5671600103378296,-0.02151632308959961
+390,Wo ne me nnyɛ basaa.,You and I are not in common.,Don't mess with me.,0.3233511745929718,0.38187265396118164,-0.05852147936820984
+391,Mfa me nni agorɔ.,Don't play with me.,Don't mess with me.,0.5482820868492126,0.41896867752075195,0.1293134093284607
+392,Mfa me nnyimi.,Don't insult me.,Don't mess with me.,0.5311954021453857,0.508673906326294,0.022521495819091797
+393,Ɛte dɛn?,What's the way?,What's it like?,0.3786863088607788,0.29797571897506714,0.08071058988571167
+394,Sɛn na ɛte,What's wrong?,What's it like?,0.4789670705795288,0.35710662603378296,0.12186044454574585
+395,Ne su te sɛn?,What's his hair?,What's it like?,0.30864325165748596,0.34972769021987915,-0.04108443856239319
+396,Na minhu nea menyɛ.,I didn't know what to do.,I ran out of ideas.,0.5903512835502625,0.6877915859222412,-0.09744030237197876
+397,Me nsusuiɛ asa.,I don't thinks.,I ran out of ideas.,0.2542015612125397,0.2604827284812927,-0.006281167268753052
+398,Menni adwene biara bio.,I no longer have any intentions.,I ran out of ideas.,0.4522016644477844,0.4839157462120056,-0.03171408176422119
+399,Menni tirimpɔ biara bio.,I don't have any more purpose.,I ran out of ideas.,0.4329480826854706,0.5185810923576355,-0.08563300967216492
