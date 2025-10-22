@@ -1,0 +1,152 @@
+{
+  "files": [
+    {
+      "file": "1_to_m_triples.json",
+      "num_segments": 463,
+      "stl_system": 0.7141571205841543,
+      "qe_system": 0.6250512504680625,
+      "pearson": 0.5067383551194873,
+      "spearman": 0.5021858215516515,
+      "mean_diff_stl_minus_qe": 0.0891058701160917,
+      "p_value_mean_diff": 0.0,
+      "p_value_pearson": 0.0,
+      "p_value_spearman": 0.0
+    },
+    {
+      "file": "m_to_1_triples.json",
+      "num_segments": 400,
+      "stl_system": 0.6907659438997507,
+      "qe_system": 0.624411758184433,
+      "pearson": 0.5498696509032313,
+      "spearman": 0.5501143757148482,
+      "mean_diff_stl_minus_qe": 0.06635418571531773,
+      "p_value_mean_diff": 0.0,
+      "p_value_pearson": 0.0,
+      "p_value_spearman": 0.0
+    },
+    {
+      "file": "test_triples.json",
+      "num_segments": 3781,
+      "stl_system": 0.7678411313226947,
+      "qe_system": 0.6290548155544864,
+      "pearson": 0.46840705676351446,
+      "spearman": 0.44481040109696907,
+      "mean_diff_stl_minus_qe": 0.13878631576820832,
+      "p_value_mean_diff": 0.0,
+      "p_value_pearson": 0.0,
+      "p_value_spearman": 0.0
+    }
+  ],
+  "overall": {
+    "num_segments": 863,
+    "pearson": 0.5239231288030841,
+    "spearman": 0.5268317763863236,
+    "mean_diff_stl_minus_qe": 0.07856047757807363,
+    "mean_diff_95ci": [
+      0.0684775891060901,
+      0.08844163608138352
+    ],
+    "p_value_mean_diff": 0.0,
+    "p_value_pearson": 0.0,
+    "p_value_spearman": 0.0,
+    "files_used": [
+      "1_to_m_triples.json",
+      "m_to_1_triples.json"
+    ]
+  },
+  "buckets": {
+    "expansive": {
+      "num_segments": 463,
+      "stl_mean": 0.7141571205841543,
+      "qe_mean": 0.6250512504680625,
+      "pearson": 0.5067383551194873,
+      "spearman": 0.5021858215516515,
+      "mean_diff_stl_minus_qe": 0.0891058701160917,
+      "mean_diff_95ci": [
+        0.07454968125239561,
+        0.10351961840096999
+      ],
+      "p_value_mean_diff": 0.0,
+      "p_value_pearson": 0.0,
+      "p_value_spearman": 0.0,
+      "files_used": [
+        "1_to_m_triples.json"
+      ]
+    },
+    "compressive": {
+      "num_segments": 400,
+      "stl_mean": 0.6907659438997507,
+      "qe_mean": 0.624411758184433,
+      "pearson": 0.5498696509032313,
+      "spearman": 0.5501143757148482,
+      "mean_diff_stl_minus_qe": 0.06635418571531773,
+      "mean_diff_95ci": [
+        0.05318982585705817,
+        0.07996057746745647
+      ],
+      "p_value_mean_diff": 0.0,
+      "p_value_pearson": 0.0,
+      "p_value_spearman": 0.0,
+      "files_used": [
+        "m_to_1_triples.json"
+      ]
+    },
+    "general": {
+      "num_segments": 3781,
+      "stl_mean": 0.7678411313226947,
+      "qe_mean": 0.6290548155544864,
+      "pearson": 0.46840705676351446,
+      "spearman": 0.44481040109696907,
+      "mean_diff_stl_minus_qe": 0.13878631576820832,
+      "mean_diff_95ci": [
+        0.13404130752537574,
+        0.14354408756568457
+      ],
+      "p_value_mean_diff": 0.0,
+      "p_value_pearson": 0.0,
+      "p_value_spearman": 0.0,
+      "files_used": [
+        "test_triples.json"
+      ]
+    },
+    "exp_plus_comp": {
+      "num_segments": 863,
+      "stl_mean": 0.7033153237431793,
+      "qe_mean": 0.6247548461651056,
+      "pearson": 0.5239231288030841,
+      "spearman": 0.5268317763863236,
+      "mean_diff_stl_minus_qe": 0.07856047757807363,
+      "mean_diff_95ci": [
+        0.0684775891060901,
+        0.08844163608138352
+      ],
+      "p_value_mean_diff": 0.0,
+      "p_value_pearson": 0.0,
+      "p_value_spearman": 0.0,
+      "files_used": [
+        "1_to_m_triples.json",
+        "m_to_1_triples.json"
+      ]
+    }
+  },
+  "comparisons": {
+    "mean_stl": {
+      "exp_plus_comp": 0.7033153237431793,
+      "general": 0.7678411313226947,
+      "delta": -0.06452580757951543,
+      "p_value": 0.0
+    },
+    "mean_qe": {
+      "exp_plus_comp": 0.6247548461651056,
+      "general": 0.6290548155544864,
+      "delta": -0.00429996938938082,
+      "p_value": 0.413
+    },
+    "mean_diff_stl_minus_qe": {
+      "exp_plus_comp": 0.07856047757807363,
+      "general": 0.13878631576820832,
+      "delta": -0.06022583819013469,
+      "p_value": 0.0
+    }
+  }
+}
