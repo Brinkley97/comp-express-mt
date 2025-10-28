@@ -1,14 +1,20 @@
 {
   "m_to_1": {
     "bleu": 24.8557,
-    "chrfpp": 42.2352
+    "sacrebleu": 24.8557,
+    "chrfpp": 42.2352,
+    "gleu": 28.5395
   },
   "1_to_m": {
     "bleu": 25.5249,
-    "chrfpp": 42.5154
+    "sacrebleu": 25.5249,
+    "chrfpp": 42.5154,
+    "gleu": 29.309
   },
   "test": {
     "bleu": 38.1215,
-    "chrfpp": 54.8266
+    "sacrebleu": 38.1215,
+    "chrfpp": 54.8266,
+    "gleu": 40.9703
   }
 }

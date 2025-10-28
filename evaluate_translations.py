@@ -164,9 +164,10 @@ def evaluate_split(
     """
     if not data:
         return {}, [], [], []
-
-    bleu_metric = evaluate.load("sacrebleu")
+    bleu_metric = evaluate.load("bleu")
+    sacrebleu_metric = evaluate.load("sacrebleu")
     chrf_metric = evaluate.load("chrf")
+    gleu_metric = evaluate.load("google_bleu")
 
     predictions: List[str] = []
     references: List[str] = []
@@ -199,13 +200,17 @@ def evaluate_split(
             )
             decoded = tokenizer.batch_decode(generated, skip_special_tokens=True)
             predictions.extend(decoded)
-
-    sacrebleu = bleu_metric.compute(predictions=predictions, references=[[ref] for ref in references])
+    bleu = bleu_metric.compute(predictions=predictions, references=[[ref] for ref in references])
+    sacrebleu = sacrebleu_metric.compute(predictions=predictions, references=[[ref] for ref in references])
     chrf = chrf_metric.compute(predictions=predictions, references=[[ref] for ref in references], word_order=2)
+    gleu = gleu_metric.compute(predictions=predictions, references=[[ref] for ref in references])
+
 
     results = {
-        "bleu": round(sacrebleu["score"], 4),
+        "bleu": round(bleu["bleu"]*100, 4),
+        "sacrebleu": round(sacrebleu["score"], 4),
         "chrfpp": round(chrf["score"], 4),
+        "gleu": round(gleu["google_bleu"]* 100, 4)
     }
     return results, predictions, references, sources_all
 
@@ -260,7 +265,9 @@ def main() -> None:
         summary[split_name] = metrics
         print(f"Split: {split_name}")
         print("  BLEU   :", metrics["bleu"])
+        print("  sacreBLEU:", metrics["sacrebleu"])
         print("  chrF++ :", metrics["chrfpp"])
+        print(" Google BLEU", metrics["gleu"])
 
         if output_dir is not None:
             if args.save_predictions:
