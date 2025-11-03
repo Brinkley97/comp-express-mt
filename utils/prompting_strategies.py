@@ -4,8 +4,8 @@ class BasePromptFactory(ABC):
     def get_numbered_prompt(self, sentences):
         # Build a numbered list from the translations
         numbered_options = [
-            f"\t{i}. {translation}"          # i starts at 1
-            for i, translation in enumerate(sentences, start=1)
+            f"\t{i}. {translation}"
+            for i, translation in enumerate(sentences)
         ]
 
         # Join the list into a single block of text, each option on its own line
@@ -19,9 +19,9 @@ class ZeroShotPromptFactory(BasePromptFactory):
 
     def get_name(self):
         if self.type == "direct":
-            return "direct"
+            return "zero_shot-direct"
         elif self.type == "context":
-            return "context"
+            return "zero_shot-context"
 
     def get_role_prompt(self):
         if self.type == "direct":
@@ -90,7 +90,7 @@ class FewShotPromptFactory(BasePromptFactory):
 
     def get_name(self):
         if self.type == "direct":
-            return "direct"
+            return "few_shot-direct"
         elif self.type == "context":
             return "context"
 
