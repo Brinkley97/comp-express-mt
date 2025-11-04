@@ -256,7 +256,7 @@ def spearman_corr(a: List[float], b: List[float]) -> float:
     return float(np.corrcoef(ra, rb)[0, 1])
 
 
-#
+
 # Permutation helpers
 def signflip_pvalue_mean_diff(diffs: np.ndarray, *, B: int = 2000, seed: int = 123) -> float:
     """
