@@ -45,9 +45,21 @@ class ZeroShotPromptFactory(BasePromptFactory):
 
             Then, based on these inferred tags, select the most appropriate translation by number.
 
-            Respond in this format:
-            TAGS: Audience=X, Status=X, Age=X, Formality=X, Gender=X, Animacy=X, Speech_Act=X
-            SELECTION: [number]
+            You MUST respond with valid JSON only. Do not include any text before or after the JSON.
+            
+            Respond in JSON format:
+            {
+            "tags": {
+                "Audience": "X",
+                "Status": "X",
+                "Age": "X",
+                "Formality": "X",
+                "Gender": "X",
+                "Animacy": "X",
+                "Speech_Act": "X"
+            },
+            "selection": number
+            }
             """
 
             return context_format
@@ -92,7 +104,7 @@ class FewShotPromptFactory(BasePromptFactory):
         if self.type == "direct":
             return "few_shot-direct"
         elif self.type == "context":
-            return "context"
+            return "few_shot-context"
 
     def get_role_prompt(self):
         if self.type == "direct":
@@ -119,15 +131,66 @@ class FewShotPromptFactory(BasePromptFactory):
             Akan: "Ɔyɛ me mpena"
             Options: 1. He is my boyfriend 2. She is my girlfriend 3. They are my lover
             Analysis: The term "mpena" suggests romantic relationship (casual register), "Ɔ" is 3rd person singular
-            TAGS: Audience=Individual, Status=Equal, Age=Peer, Formality=Casual, Gender=Masculine, Animacy=Animate, Speech_Act=Statement
-            SELECTION: 1
+
+            First, infer the pragmatic context by selecting ONE value for each dimension:
+            - Audience: [Individual | Small_Group | Large_Group | Broadcast]
+            - Status: [Equal | Superior | Subordinate]
+            - Age: [Peer | Elder | Younger]
+            - Formality: [Formal | Casual]
+            - Gender: [Masculine | Feminine | Neutral]
+            - Animacy: [Animate | Inanimate]
+            - Speech_Act: [Question | Answer | Statement | Command | Request | Greeting]
+
+            Then, based on these inferred tags, select the most appropriate translation by number.
+
+            You MUST respond with valid JSON only. Do not include any text before or after the JSON.
+            
+            Respond in JSON format:
+            {
+            "tags": {
+                "Audience": "Individual",
+                "Status": "Equal",
+                "Age": "Peer",
+                "Formality": "Casual",
+                "Gender": "Masculine",
+                "Animacy": "Animate",
+                "Speech_Act": "Statement"
+            },
+            "selection": 1
+            }
 
             Example 2:
             Akan: "Yɛfrɛ wo sɛn?"
             Options: 1. What is your name? 2. What do they call you? 3. How do we call you?
             Analysis: Direct question format, likely addressing individual, neutral formality
-            TAGS: Audience=Individual, Status=Equal, Age=Peer, Formality=Casual, Gender=Neutral, Animacy=Animate, Speech_Act=Question
-            SELECTION: 1"""
+            
+            First, infer the pragmatic context by selecting ONE value for each dimension:
+            - Audience: [Individual | Small_Group | Large_Group | Broadcast]
+            - Status: [Equal | Superior | Subordinate]
+            - Age: [Peer | Elder | Younger]
+            - Formality: [Formal | Casual]
+            - Gender: [Masculine | Feminine | Neutral]
+            - Animacy: [Animate | Inanimate]
+            - Speech_Act: [Question | Answer | Statement | Command | Request | Greeting]
+
+            Then, based on these inferred tags, select the most appropriate translation by number.
+
+            You MUST respond with valid JSON only. Do not include any text before or after the JSON.
+            
+            Respond in JSON format:
+            {
+            "tags": {
+                "Audience": "Individual",
+                "Status": "Equal",
+                "Age": "Peer",
+                "Formality": "Casual",
+                "Gender": "Neutral",
+                "Animacy": "Animate",
+                "Speech_Act": "Question"
+            },
+            "selection": 1
+            }            
+            """
         else:
             raise ValueError(f"Unknown prompt type: {self.type}")
     
