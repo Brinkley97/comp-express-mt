@@ -119,11 +119,15 @@ class FewShotPromptFactory(BasePromptFactory):
             return """Examples:
             Akan: "Ɔyɛ me maame"
             Options: 1. He is my mother 2. She is my mother 3. They are my mother
-            Selection: 2
+            Selection: 2 (must be an integer)
 
             Akan: "Mema wo akwaaba"
             Options: 1. I welcome you (singular) 2. We welcome you (plural) 3. I welcomed you
-            Selection: 1"""
+            Selection: 1 (must be an integer)
+
+            Return only integers!
+            
+            """
         
         elif self.type == "context":
             # Two richer examples with Analysis + TAGS + SELECTION
@@ -242,8 +246,17 @@ class FewShotPromptFactory(BasePromptFactory):
 
         return prompt
     
-class ChainOfThoughtPrompt:
-     def get_base_prompt(akan_sentence: str, english_sentences: list[str]) -> str:
+class ChainOfThoughtPrompt(BasePromptFactory):
+    def __init__(self, type):
+        self.type = type
+
+    def get_name(self):
+        if self.type == "direct":
+            return "chain_of_thought-direct"
+        elif self.type == "context":
+            return "chain_of_thought-context"
+        
+    def get_base_prompt(self, akan_sentence: str, english_sentences: list[str]):
         """
         Build a complete few‑shot translation prompt.
 
@@ -259,12 +272,7 @@ class ChainOfThoughtPrompt:
         str
             The full prompt text ready to be sent to the model.
         """
-        # Numbered list of the translation options (tab‑indented for readability)
-        numbered_options = [
-            f"\t{i}. {translation}"
-            for i, translation in enumerate(english_sentences, start=1)
-        ]
-        options_block = "\n".join(numbered_options)
+        options_block = self.get_numbered_prompt(english_sentences)
 
         prompt = f"""
         You are translating from Akan to English. Follow these reasoning steps to select the most appropriate translation:
@@ -276,9 +284,9 @@ class ChainOfThoughtPrompt:
         Step 1: Analyze the Akan sentence structure and identify key linguistic features.
         Step 2: Consider what each translation option implies about the context.
         Step 3: Determine which option best matches the likely intended meaning.
-        Step 4: Select the best translation by number.
+        Step 4: Select the best translation by number. Respond with just the number (1, 2, 3, etc.) as an integer."
 
-        Provide your reasoning for steps 1-3, then state your final selection as "SELECTION: [number]"
+        Do NOT provide your reasoning for steps 1-3.
         """
 
         return prompt
