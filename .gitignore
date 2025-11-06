@@ -169,8 +169,7 @@ cython_debug/
 .DS_Store
 
 lafand-mt/*
-blue/*
-m2m100_en_tw/*
-uv.lock
-pyproject.toml
-main.py
+mt_env/*
+models/*
+wandb/*
+.github/*
