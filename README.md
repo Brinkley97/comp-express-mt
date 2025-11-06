@@ -1,125 +1,166 @@
 # CompExpress-MT
 
-African machine translation research codebase focused on low-resource African languages (LAFAND-MT). Provides training, evaluation, and generation pipelines using HuggingFace Transformers and JoeyNMT.
+African machine translation research codebase with a focus on low-resource African languages (LAFAND-MT). The repo now bundles fine-tuning, evaluation, data analysis, and LLM-assisted prompt selection experiments in one place.
 
 - Paper: A Few Thousand Translations Go a Long Way (LAFAND-MT)
-- Models: MT5, ByT5, MBART50, M2M100 (plus Afri variants)
+- Supported models: MT5, ByT5, MBART50, M2M100, Afri variants, + external LLMs via prompt factories
 
 ## Repository layout
 
-- Training and generation
-  - [run_translation.py](run_translation.py) — main HF script (fine-tuning and inference)
-  - [generate_topk_translations.py](generate_topk_translations.py) — top-k candidates generation
+- Training & generation scripts
+  - `run_translation.py` (HF fine-tuning/inference with experiment logging)
+  - `generate_topk_translations.py` (top-k candidate generation via beam or sampling)
 - Evaluation
-  - [evaluate_translations.py](evaluate_translations.py)
-  - [comet_evaluations.py](comet_evaluations.py)
-- Data and artifacts
-  - [data/](data) — CSVs/JSONs and pairs (e.g., `en-tw/`)
-  - [lafand-mt/](lafand-mt) — extended pipeline, datasets, predictions, JoeyNMT, pretraining
-  - [lafand-mt/model_predictions/](lafand-mt/model_predictions) — saved model outputs
-  - [models/](models) — checkpoints
-  - [evals/](evals) — evaluation outputs and configs
+  - `evaluate_translations.py` (BLEU/chrF++/GLEU with JSONL inputs, batch options, export utilities)
+  - `comet_evaluations.py` (COMET STL + optional QE analysis, statistics, plots)
+- Data & artifacts
+  - `data/finetune_data/<src-tgt>/` (training JSONL/CSV pairs)
+  - `data/tagged_data/` + `data/misc_data/` (gold standards, context tags, aggregation exports)
+  - `evals/` (archived metrics, triples, comparison summaries)
+  - `models/` (HF checkpoints e.g. `m2m100_en_tw_418M/`, `baselines/`)
+- Experiments & notebooks
+  - `experiments/` (analysis scripts)
+  - `experiments/notebooks/` (pandas + viz workflows for creating labels, QA, etc.)
+- Utilities
+  - `utils/data_processing.py` (pandas helpers for context datasets)
+  - `utils/prompting_strategies.py` (prompt factories: zero/few-shot, chain-of-thought)
+  - `utils/llms.py` (LLM factory for Groq/OpenAI-compatible deployments)
+  - `utils/metrics.py` (classification metrics wrappers)
 - Project config
-  - [requirements.txt](requirements.txt)
+  - `requirements.txt`
+  - `.env` (optional, for API keys consumed by `utils/llms.py`)
 
 ## Setup
 
-- Python: 3.9–3.11
-- Install deps:
-  - Preferred: `pip install -r requirements.txt`
-  - Or (pinned HF stack): `pip install "transformers==4.31.0" datasets sentencepiece sacrebleu accelerate torch`
-- Optional distributed:
-  - Configure Accelerate: `accelerate config`
+- Python 3.9–3.11 recommended
+- Install dependencies: `pip install -r requirements.txt`
+- Optional HF stack pin: `pip install "transformers==4.31.0" datasets sentencepiece sacrebleu accelerate torch`
+- Enable distributed/Accelerate: `accelerate config`
+- For LLM experiments add environment keys in `.env` (`GROQ_CLOUD_API_KEY`, `NAVI_GATOR_API_KEY`, `HUGGING_FACE_API_KEY`)
 
-## Data format
+### Data format
 
-HuggingFace JSON lines:
+Primary training/eval data uses HuggingFace JSON lines:
+
 ```json
 {"translation": {"en": "source text", "twi": "target text"}}
 ```
-- Language codes: ISO 639-3 (e.g., `twi`, `ewe`, `fon`)
-- Directory naming: `{src}-{tgt}/` (e.g., `en-twi/`)
-- Typical locations:
-  - [data/](data)
-  - lafand-mt-style: `lafand-mt/data/json_files/{src}-{tgt}/` (train.json, dev.json, test.json)
 
-## Quickstart: HuggingFace training
+- Language codes follow ISO 639-3 (e.g. `twi`, `ewe`, `fon`)
+- Directory naming: `{src}-{tgt}/` (e.g. `en-tw/`)
+- Additional CSV assets for human labels live under `data/tagged_data/`
 
-- MT5 / ByT5 (use source_prefix)
-```bash
-python run_translation.py \
-  --model_name_or_path google/byt5-base \
-  --source_lang en --target_lang twi \
-  --source_prefix "translate English to Twi: " \
-  --train_file data/json_files/en-twi/train.json \
-  --validation_file data/json_files/en-twi/dev.json \
-  --test_file data/json_files/en-twi/test.json \
-  --output_dir models/byt5_en_twi \
-  --per_device_train_batch_size 8 --per_device_eval_batch_size 8 \
-  --num_train_epochs 5 --learning_rate 3e-4 \
-  --predict_with_generate --fp16
-```
+## Training with `run_translation.py`
 
-- MBART50 / M2M100 (use forced_bos_token; use closest/fake code if unsupported)
+`run_translation.py` wraps the HF Seq2Seq trainer and adds experiment logging controls.
+
 ```bash
 python run_translation.py \
   --model_name_or_path facebook/m2m100_418M \
   --source_lang en --target_lang twi \
-  --forced_bos_token twi \
-  --train_file data/json_files/en-twi/train.json \
-  --validation_file data/json_files/en-twi/dev.json \
-  --test_file data/json_files/en-twi/test.json \
-  --output_dir models/m2m100_en_twi \
-  --predict_with_generate --fp16
+  --train_file data/finetune_data/en-tw/train.json \
+  --validation_file data/finetune_data/en-tw/dev.json \
+  --test_file data/finetune_data/en-tw/test.json \
+  --output_dir models/m2m100_en_tw_ep10 \
+  --per_device_train_batch_size 8 --per_device_eval_batch_size 8 \
+  --predict_with_generate --fp16 \
+  --log_backend wandb --wandb_project comp-express --wandb_entity research
 ```
+
+Key additions:
+
+- `--log_backend {file,wandb}` toggles JSONL logging vs. direct W&B logging
+- `--metrics_log_file` customizes the JSONL sink (defaults to `<output_dir>/metrics_log.jsonl`)
+- `--wandb_project` / `--wandb_entity` control W&B targets when `--log_backend wandb`
+- `--epochs` overrides trainer epochs and appends `_ep{N}` suffix to `output_dir` and `run_name`
 
 Tips:
-- Low memory: reduce `--per_device_train_batch_size`, increase `--gradient_accumulation_steps`
-- African languages often benefit from ByT5 (character-level) vs. MT5 (subword)
 
-## Generate predictions
+- Reduce `--per_device_train_batch_size` or add `--gradient_accumulation_steps` for low-memory cards
+- For ByT5-style models include `--source_prefix "translate English to Twi: "`
+- Use `--forced_bos_token twi` for MBART/M2M bilingual decoding
 
-- Standard generation via `--predict_with_generate` during eval/test saves outputs to `output_dir`
-- Top-k candidates:
+## Batch evaluation (`evaluate_translations.py`)
+
+`evaluate_translations.py` loads HF checkpoints, runs generation on named JSONL splits, and reports BLEU, sacreBLEU, chrF++, and Google BLEU. Predictions and src/mt/ref triples can be persisted for downstream COMET analysis.
+
 ```bash
-python generate_topk_translations.py \
-  --model_dir models/byt5_en_twi \
-  --input_json data/json_files/en-twi/test.json \
-  --k 5 \
-  --out_file lafand-mt/model_predictions/twi/byt5_en_twi_topk.txt
+python evaluate_translations.py \
+  --model_path models/m2m100_en_tw_ep10 \
+  --source_lang en --target_lang twi \
+  --datasets dev=data/finetune_data/en-tw/dev.json test=data/finetune_data/en-tw/test.json \
+  --output_dir evals/m2m100_en_tw_eval \
+  --batch_size 16 --num_beams 5 --precision fp16 \
+  --save_predictions --save_json --progress
 ```
 
-## Evaluate
+- Accepts multiple splits via `NAME=PATH` pairs
+- `--precision {fp32,bf16,fp16}` controls generation dtype
+- Outputs `metrics.json`, optional `<split>_predictions.txt`, and `<split>_triples.json`
 
-- BLEU (SacreBLEU integrated when using `--predict_with_generate`)
-- Custom evaluation scripts:
-  - See [evaluate_translations.py](evaluate_translations.py)
-  - See [comet_evaluations.py](comet_evaluations.py)
+## Top-k candidate generation (`generate_topk_translations.py`)
 
-## JoeyNMT alternative
+Generate n-best lists from a fine-tuned model using either deterministic beam search or stochastic sampling.
 
-Workflow (see configs/scripts under [lafand-mt/](lafand-mt)):
-1) Train SentencePiece tokenizer  
-2) Apply tokenization  
-3) Create config  
-4) Train model
+```bash
+python generate_topk_translations.py \
+  --model_path models/m2m100_en_tw_ep10 \
+  --inputs data/misc_data/akuapem_dataset - verified_data.csv \
+  --output evals/m2m100_en_tw_eval/test_topk.jsonl \
+  --source_prefix "translate English to Twi: " \
+  --source_lang en --target_lang twi \
+  --top_k 5 --strategy beam --batch_size 8
+```
+
+- Supports stdin/stdout streaming when `--inputs`/`--output` are omitted
+- Switch to sampling with `--strategy sample --top_p 0.9 --temperature 0.7`
+
+## COMET & statistical analysis (`comet_evaluations.py`)
+
+Run reference-based COMET STL scoring, optional QE scoring, and paired statistical tests on exported triples.
+
+```bash
+python comet_evaluations.py \
+  --input_dir evals/m2m100_en_tw_eval \
+  --model masakhane/africomet-stl-1.1 \
+  --qe_model Unbabel/wmt22-cometkiwi-da \
+  --batch_size 16 --gpus 1 \
+  --store_segment_scores --export_segments --make_plots \
+  --overall_subset test_triples.json \
+  --perm_samples 5000
+```
+
+- Aggregates STL/QE metrics per file plus OVERALL, 1→M, M→1 buckets
+- Writes `comet_metrics.json`, optional CSV exports, and comparison plots
+- Includes permutation/sign-flip tests for system differences and correlations
+
+## Prompting experiments
+
+- `utils/prompting_strategies.py` supplies zero-shot, few-shot, and chain-of-thought prompt builders.
+- `three_prompt_strategies.md` outlines the evaluation protocol.
+- `utils/llms.py` provides a Factory Method wrapper for Groq/OpenAI-compatible chat endpoints; configure API keys in `.env` before use.
+
+## Data processing helpers
+
+- `utils/data_processing.py` streamlines CSV loading, column renaming, pivot construction, and NaN handling for the Akan pragmatics datasets.
+- `utils/metrics.py` adds quick accuracy/precision/recall/F1 helpers for classification experiments that complement prompt evaluations.
+
+## Notebooks and analyses
+
+- `experiments/notebooks/create_correct_labels.ipynb` – correct/augment gold labels
+- `experiments/notebooks/data_analysis.ipynb` – exploratory data analysis for Akan ↔ English pairs
+- `experiments/notebooks/data_analysis_play.ipynb` – scratchpad for hypothesis testing and plotting
 
 ## Troubleshooting
 
-- Repetitive/looping outputs (seen in some files under [lafand-mt/model_predictions/](lafand-mt/model_predictions)):
-  - Decode params: `--no_repeat_ngram_size 3 --repetition_penalty 1.2 --length_penalty 1.0 --early_stopping true --top_p 0.9 --top_k 50`
-  - Data issues: verify language codes and prefix formatting
-  - Model choice: try ByT5 if subword models repeat
-
-## Pretrained African models
-
-- AfriMT5: `masakhane/afri-mt5-base`
-- AfriByT5: `masakhane/afri-byt5-base`
-- AfriMBART: `masakhane/afri-mbart50`
+- Repetitive or looping generations: adjust decoding (`--no_repeat_ngram_size 3 --repetition_penalty 1.2 --length_penalty 1.0 --top_p 0.9 --top_k 50`)
+- Verify ISO language codes and `--source_prefix` formatting when switching models
+- Ensure COMET inputs are JSON lists of `{src, mt, ref}` objects; use `evaluate_translations.py --save_json` to export
 
 ## Citation
 
-LAFAND-MT paper:
+Please cite the LAFAND-MT paper when using this repository:
+
 ```
 @inproceedings{adelani-etal-2022-thousand,
     title = "A Few Thousand Translations Go a Long Way! Leveraging Pre-trained Models for {A}frican News Translation",
@@ -175,7 +216,6 @@ LAFAND-MT paper:
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2022.naacl-main.223",
     doi = "10.18653/v1/2022.naacl-main.223",
-    pages = "3053--3070",
-    abstract = "Recent advances in the pre-training for language models leverage large-scale datasets to create multilingual models. However, low-resource languages are mostly left out in these datasets. This is primarily because many widely spoken languages that are not well represented on the web and therefore excluded from the large-scale crawls for datasets. Furthermore, downstream users of these models are restricted to the selection of languages originally chosen for pre-training. This work investigates how to optimally leverage existing pre-trained models to create low-resource translation systems for 16 African languages. We focus on two questions: 1) How can pre-trained models be used for languages not included in the initial pretraining? and 2) How can the resulting translation models effectively transfer to new domains? To answer these questions, we create a novel African news corpus covering 16 languages, of which eight languages are not part of any existing evaluation dataset. We demonstrate that the most effective strategy for transferring both additional languages and additional domains is to leverage small quantities of high-quality translation data to fine-tune large pre-trained models.",
+    pages = "3053--3070"
 }
 ```
