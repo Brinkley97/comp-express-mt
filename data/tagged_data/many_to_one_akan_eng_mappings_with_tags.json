@@ -1,0 +1,1366 @@
+{
+    "I belong here.": {
+        "Ha na me wɔ.": [
+            "INDIVIDUAL",
+            "EQUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Kwaku sings quite well.": {
+        "Kwaku nim nwom to.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "He calls her up every night.": {
+        "Ɔfrɛ no anadwo biara": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I don't have any money at all.": {
+        "Sika biara nni me ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I love your dress.": {
+        "W'ataadeɛ no yɛ fɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "This is what I can do for you.": {
+        "Deɛ mɛtumi ayɛ aboa wo no no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "She met him this morning.": {
+        "Anopa yi ara na ɔne no redi ahyiam.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I'd rather not go out today.": {
+        "Ɛnni me mu sɛ mɛkɔ abɔntene nnɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "What time will you leave?": {
+        "Wobɛfiri ha berɛ bɛn?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "Don't lose your temper.": {
+        "Adwoberɛw.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Which is mine?": {
+        "Ɛmu nea ɛwɔ hen na ɛwɔ me?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "We left at 2:30.": {
+        "Yɔrefiri hɔ no na 2:30 abɔ.": [
+            "SMALL GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "She likes animals, you know?": {
+        "Wonim sɛ ɔpɛ mmoa asɛm?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "FEMININE",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "You haven't got much time.": {
+        "Wo mmerɛ a aka sua.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Sooner or later, we all are going to die.": {
+        "Ɛberɛ bi bɛba a yɛn nyinaa bɛwu.": [
+            "LARGE GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Kwaku has next to nothing in his wallet.": {
+        "Kwaku nni sika wɔ ne walɛt mu.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I'm Kwaku's boss.": {
+        "Meyɛ Kwaku panin wɔ adwuma mu.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "It's their job.": {
+        "Adwuma a wɔyɛ no no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "That's your problem.": {
+        "Ɛno deɛ, w'asɛm.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Kwaku recognized me.": {
+        "Kwaku hunuu sɛ ɛyɛ me a.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "What language do they speak in Switzerland?": {
+        "Wɔka kasa bɛn wɔ Switzerland?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "Almost three thousand people died.": {
+        "Nnipa a wɔwui no bɛyɛ mpem mmiɛnsa.": [
+            "LARGE GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "We'll notify Kwaku.": {
+        "Yɛne Kwaku bɛdi ho nkɔmmɔ.": [
+            "SMALL GROUP",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I don't have time to be sick.": {
+        "Mmerɛ nni na mede ayare.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Her son's death broke Abena's heart.": {
+        "Abena adi ne babarima wuo no ho yaw pa ara.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "That isn't Kwaku's bicycle.": {
+        "Ɛnyɛ Kwaku sakre no nie.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "No one showed up.": {
+        "Obiara ansi hɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "She made friends with Asamoah at the party.": {
+        "Apontoɔ no ase na ɔne Asamoah nyaa ayɔnkofa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Cain was evil.": {
+        "Na Cain yɛ nipabɔne ni.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I've been sick for a very long time.": {
+        "Yareɛ yi atena me so akyɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Who told you the story?": {
+        "Hwan na bɔɔ wo asɛm no mu?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "We'll lose everything.": {
+        "Ne nyinaa bɛfiri yɛn nsa.": [
+            "SMALL GROUP",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Shall I go on?": {
+        "Mentoa so anaa?": [
+            "INDIVIDUAL",
+            "YOUNGER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "Kwame isn't happy about what's happened.": {
+        "Deɛ esiiɛ no amma Kwame ani annye.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I thought it was Kwame.": {
+        "Na medwene sɛ Kwame a.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "What kind of dreams do you have?": {
+        "Wo botaeɛ ne sɛn?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "He came all the way from Nikko to see me off.": {
+        "Ɔfirii Nikko bɛgyaa me kwan.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Don't be sad.": {
+        "Nni awerɛhoɔ.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ]
+    },
+    "He can't control his desires.": {
+        "Ɔntumi nhyɛ n'akɔnnɔ so.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I didn't say anything.": {
+        "Manka biribiara.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Asamoah isn't my father.": {
+        "Me papa nyɛ Asamoah.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "He likes singing.": {
+        "Adeɛ a ɔpɛ ne nnwontoɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Who's your favorite teacher?": {
+        "Hwan ne ɔkyerkyerɛni a wopɛ n'asɛm?": [
+            "INDIVIDUAL",
+            "YOUNGER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "Be respectful to your superiors, if you have any.": {
+        " Sɛ wowɔ mpanimfoɔ a,  bu wɔn.": [
+            "SMALL GROUP",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "How many friends do you have on Facebook?": {
+        "Wo Facebook nnamfonom yɛ dodoɔ sɛn?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "Children mostly lack patience.": {
+        "Adeɛ a mmɔfra nni ne abotare.": [
+            "LARGE GROUP",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I can't keep lying to Osei.": {
+        "Mentumi nni Osei atorɔ bio.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "That is not what I want.": {
+        "Nea mepɛ no nyɛ wei.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I just want to thank you for all of your help.": {
+        "Mepɛ sɛ meda wo ase wɔ w'adɔeɛ nyinaa ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Can I go in there now?": {
+        "Mɛtumi awura mu seesei?": [
+            "INDIVIDUAL",
+            "YOUNGER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "Kwabena gave thanks to God.": {
+        "Kwabena de Onyankopɔn aseda maa no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "He devoted his life to his study.": {
+        "Wagyae birbiara mu ama n'adesua.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Kwabena is very intelligent.": {
+        "Kwabena yɛ onimdefoɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "That bridge is made of stone.": {
+        "Saa twene no yɛ aboɔ twene.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I can't believe you’re doing this to me.": {
+        "Enti me na woayɛ me sei yi.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Kwabena was shocked by what Abena said.": {
+        "Kwabena ho dwirii no wɔ nsɛm a Abena kaeɛ no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "He lived in Ankara for six years.": {
+        "Ankara ha na ɔtenaa mfeɛ nsia.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "She is a pleasant person.": {
+        "Ɔka ne ho bɛn nipa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I was about to go.": {
+        "Anka merebɛkɔ ara no no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I can't get her out of my mind.": {
+        "Ne ho adwene wɔ me tirim.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "The road's in bad condition.": {
+        "Kwan no nyɛ papa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "She works at the bank.": {
+        "Ɔyɛ n'adwuma wɔ sikakorabea hɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "What happened last month?": {
+        "Nsɛm bɛn na sii bosome a ɛtwaa mu no?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "I do the laundry on Sundays.": {
+        "Nneɛma mesi no yɛ Kwasiada biara.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Kwabena is already in Boston.": {
+        "Kwabena aduru Boston dada.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Whose pencil is this?": {
+        "Hwan na pɛnsere no yɛ ne dea?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "QUESTION"
+        ]
+    },
+    "Don't be stupid.": {
+        "Nni agyimisɛm biara.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ]
+    },
+    "She is interested in jazz.": {
+        "Jazz yɛ adeɛ a n'ani gye ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Kwabena went along with the scheme.": {
+        "Kwabena gyee nhyehyɛeɛ no too mu.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "My father works for a bank.": {
+        "Sikakorabea bi na me papa ne wɔn yɛ adwuma.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "What's that letter about?": {
+        "Amannebɔsɛm bɛn na krataa no ka ho asɛm?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "QUESTION"
+        ]
+    },
+    "I am disappointed that my friends are not here.": {
+        "Me werɛ aho sɛ me nnamfonom nni ha.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "It was cloudy yesterday.": {
+        "Nnora na ewiem ani nyɛ fɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Kwabena's useless.": {
+        "Kwabena nemnam hɔ saa ara kwa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "You taught us that.": {
+        "Saa ara na wokyerɛɛ yɛn.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "What makes us human?": {
+        "Yɛn nnipaban ne deɛn?": [
+            "LARGE GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "I love you just as you are.": {
+        "Nea woteɛ biara medɔ wo.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "People in Taiwan work hard.": {
+        "Nnipa a wɔte Taiwan yɛ wɔn a wɔpɛ adwumaden.": [
+            "LARGE GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "It was drizzling.": {
+        "Nsuo no repete.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Kwabena is a very good friend.": {
+        "Me yɔnko brɛboɔ ne Kwabena.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Was this letter written by Abena?": {
+        "Krataa a Abenaa twerɛeɛ nie?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "FEMININE",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "I'm very frightened.": {
+        "Mabɔ hu.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I feel betrayed.": {
+        "Mete nka sɛ wɔde m'akyi aka fam.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Kwabena is older than Abena.": {
+        "Kwabena mfeɛ wɔ anim kyɛn Abena.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I'll lend it to you.": {
+        "Mede bɛfɛm wo.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I love coffee.": {
+        "Kɔfe yɛ adeɛ a m'ani gye ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I want to go to the movies today.": {
+        "Nnɛ mepɛ sɛ mekɔhweɛ sini.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I'd never hit a woman.": {
+        "Merentene me nsa wɔ ɔbaa so da.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "You are a mean person.": {
+        "Wompɛ nipa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "He was given an important mission.": {
+        "Wɔde dwuma titire bi hyɛɛ ne nsa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Do you think I'm made of money?": {
+        "Wokaa sɛ mewɔ sika?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "Don't come near me. You're filthy.": {
+        " Wo ho yɛ fin, mmɛn me.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ]
+    },
+    "Memorize this.": {
+        "Ma wei nka wo tirim.": [
+            "INDIVIDUAL",
+            "YOUNGER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ]
+    },
+    "I'm rich.": {
+        "Mewɔ de.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "What's your favorite Beatles song?": {
+        "Beatles nnwom bɛn na w'ani gye ho?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "She scolded him because he left the door open.": {
+        "Ɛpono a wantom nti ɔtwii n'anim.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "FEMININE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Act like a man.": {
+        "Yɛ ɔkokoɔdurufoɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "COMMAND"
+        ]
+    },
+    "Do you like that song?": {
+        "Nnwom a wopɛ nie?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "Asamoah didn't tell Abena his secret.": {
+        "Asamoah de nsɛm sumaa Abena.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Asamoah is not serious about his studies.": {
+        "Asamoah adesua nyɛ adeɛ a ɛho hia no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Get ready.": {
+        "Yɛ krado.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "FEMININE",
+            "ANIMATE",
+            "COMMAND"
+        ]
+    },
+    "Tell Asamoah I love him.": {
+        "Ka kyerɛ Asamoah sɛ m'ani gye ne ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Some dogs are very smart.": {
+        "Nkraman no bi ani ate.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Don't tell my wife.": {
+        "Mma me yere aso nte asɛm yi.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "FEMININE",
+            "ANIMATE",
+            "COMMAND"
+        ]
+    },
+    "What do I have?": {
+        "Na mewɔ deɛn?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "Both of my parents aren't alive.": {
+        "M'awofoɔ awu.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Don't pull my leg!": {
+        "Mfa me nni agorɔ!": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ]
+    },
+    "I'm not your son.": {
+        "Wo babarima nyɛ me.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Kwasi asked for a discount.": {
+        "Kwasi pree ntesoɔ.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Would you care for more cookies?": {
+        "Wobɛdi cookies no biom?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "Do they live with you?": {
+        "Wo ne wɔn na tenaeɛ?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "Don't be so reserved.": {
+        "Kentene wo ho.": [
+            "INDIVIDUAL",
+            "YOUNGER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ]
+    },
+    "I'll be back soon.": {
+        "Mɛba seisei ara.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "She married him when she was 20.": {
+        "Ɔwaree no no na wadi mfeɛ aduonu.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "We gather together every Friday.": {
+        "Yɛdi ahyiam Fiada biara.": [
+            "SMALL GROUP",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Could I borrow a pencil?": {
+        "Wobɛtumi de wo pɛnsere no afɛm me?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "QUESTION"
+        ]
+    },
+    "We can pay 200 dollars at most.": {
+        "Yɛatua ama no aboro so na 200 dɔlas.": [
+            "SMALL GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I like fruit.": {
+        "Nnuaba yɛ adeɛ a m'ani gye ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I don't trust you anymore.": {
+        "Wo mu gyidie afiri me mu.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Kwame left the house shortly after Abena left.": {
+        "Kwame tiaa Abena akyi berɛ tiawa bi mu a Abena kɔeɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "I'm leaving.": {
+        "Merefiri adi.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    },
+    "Don't mess with me.": {
+        "Mfa me nnyimi.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ]
+    },
+    "What's it like?": {
+        "Ne su te sɛn?": [
+            "INDIVIDUAL",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ]
+    },
+    "I ran out of ideas.": {
+        "Menni tirimpɔ biara bio.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ]
+    }
+}
