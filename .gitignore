@@ -172,3 +172,4 @@ lafand-mt/*
 mt_env/*
 models/*
 wandb/*
+.github/*
