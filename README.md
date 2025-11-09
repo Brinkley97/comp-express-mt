@@ -33,10 +33,96 @@ African machine translation research codebase with a focus on low-resource Afric
 ## Setup
 
 - Python 3.9–3.11 recommended
-- Install dependencies: `pip install -r requirements.txt`
+- Create an isolated environment (conda or `python -m venv .venv && source .venv/bin/activate`)
+- Install core dependencies: `pip install -r requirements.txt`
 - Optional HF stack pin: `pip install "transformers==4.31.0" datasets sentencepiece sacrebleu accelerate torch`
 - Enable distributed/Accelerate: `accelerate config`
 - For LLM experiments add environment keys in `.env` (`GROQ_CLOUD_API_KEY`, `NAVI_GATOR_API_KEY`, `HUGGING_FACE_API_KEY`)
+
+### Quickstart
+
+1. Clone and enter the repo:
+   ```bash
+   git clone https://github.com/Brinkley97/comp_express_mt.git
+   cd comp_express_mt
+   ```
+2. Set up Python (3.9–3.11) and install requirements:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   ```
+3. Configure Hugging Face and (optionally) Weights & Biases:
+   ```bash
+   huggingface-cli login          # needed for gated checkpoints
+   wandb login                    # optional if using W&B logging
+   ```
+4. Run `accelerate config` once, then you can launch trainer/eval scripts with `accelerate launch` when using multi-GPU or mixed precision.
+
+### Environment variables
+
+- Copy `.env.example` (if present) to `.env`, or create it manually with the API keys you need. The scripts read via `python-dotenv`.
+- Recommended variables:
+  - `GROQ_CLOUD_API_KEY`, `NAVI_GATOR_API_KEY`, `HUGGING_FACE_API_KEY` for LLM endpoints
+  - `WANDB_PROJECT`, `WANDB_ENTITY` if you consistently log to W&B
+
+### Data preparation
+
+- Ensure fine-tuning JSON files follow the structure in `data/finetune_data/<src-tgt>/`.
+- Convert CSV gold data to JSON using `utils/csv_to_json.py`:
+  ```bash
+  python utils/csv_to_json.py \
+    --input_csv data/tagged_data/akuapem_with_tags_dataset-verified_data.csv \
+    --src_col en --tgt_col twi \
+    --output_json data/finetune_data/en-tw/train.json
+  ```
+- Use `utils/create_en_tw_json.py` or other helpers in `utils/data_processing.py` to standardize schema (see docstrings for options).
+- After creating training/validation/test splits, place them under `data/finetune_data/<src-tgt>/`. Sample splits already exist for Twi ↔ English.
+- For evaluation artifacts, create a folder under `evals/<experiment_name>/` where metrics and predictions will be written.
+
+### GPU requirements
+
+- Scripts leverage PyTorch; NVIDIA GPU with >=12GB VRAM recommended for training M2M100/MT5 variants.
+- Install CUDA-enabled `torch` that matches your system (pip may install CPU by default).
+- For Apple Silicon, install `torch` with `pip install torch==<version> --extra-index-url https://download.pytorch.org/whl/cpu` and rely on CPU or Metal (depending on support).
+
+### Running experiments end-to-end
+
+1. **Fine-tune / run inference** with `run_translation.py`. Include `--predict_with_generate` to output translations during validation.
+2. **Evaluate** with `evaluate_translations.py`, pointing to the saved checkpoint directory.
+3. **Generate top-k candidates** when you need n-best lists for human annotation via `generate_topk_translations.py`.
+4. **Score with COMET** by feeding the exported triples to `comet_evaluations.py`.
+5. **Prompting experiments** can be executed via custom scripts that import `utils/prompting_strategies.py` and `utils/llms.py`.
+
+Example fine-tune + eval sequence:
+```bash
+# Train / finetune
+accelerate launch run_translation.py \
+  --model_name_or_path facebook/m2m100_418M \
+  --source_lang en --target_lang twi \
+  --train_file data/finetune_data/en-tw/train.json \
+  --validation_file data/finetune_data/en-tw/dev.json \
+  --test_file data/finetune_data/en-tw/test.json \
+  --output_dir models/m2m100_en_tw_ep10 \
+  --per_device_train_batch_size 8 --per_device_eval_batch_size 8 \
+  --gradient_accumulation_steps 2 \
+  --predict_with_generate --fp16
+
+# Evaluate saved checkpoint
+accelerate launch evaluate_translations.py \
+  --model_path models/m2m100_en_tw_ep10 \
+  --source_lang en --target_lang twi \
+  --datasets test=data/finetune_data/en-tw/test.json \
+  --output_dir evals/m2m100_en_tw_eval \
+  --batch_size 16 --num_beams 5 --precision fp16 \
+  --save_predictions --save_json --progress
+
+# Optional COMET scoring
+python comet_evaluations.py \
+  --input_dir evals/m2m100_en_tw_eval \
+  --model masakhane/africomet-stl-1.1 \
+  --batch_size 16 --gpus 1
+```
 
 ### Data format
 
