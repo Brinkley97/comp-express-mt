@@ -159,7 +159,7 @@ python comet_evaluations.py \
 
 ## Citation
 
-Please cite the LAFAND-MT paper when using this repository:
+We are thank for LAFAND-MT paper for giving us the base code to finetune our models.
 
 ```
 @inproceedings{adelani-etal-2022-thousand,
