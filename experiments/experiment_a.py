@@ -65,14 +65,9 @@ def run_zero_shot_experiment(model_name: List[str], dataset: Dict, source_lang='
                 'src': index,
                 'tgts': [{sentence: output} for sentence, output in row_results.items()]
             })
-
-            break
     
-        # check if current model results exist in outputs
-        if current_model not in outputs:
-            outputs[current_model] = results
-        else:
-            outputs[current_model].extend(results) 
+        # results for the current model
+        outputs[current_model] = results
 
     # write to json file
     if experiment_name is not None:
@@ -81,7 +76,7 @@ def run_zero_shot_experiment(model_name: List[str], dataset: Dict, source_lang='
         if output_dir:
             os.makedirs(output_dir, exist_ok=True)
         with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(results, f, ensure_ascii=False, indent=4)
+            json.dump(outputs, f, ensure_ascii=False, indent=4)
     return outputs
 
 
