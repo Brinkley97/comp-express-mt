@@ -30,40 +30,46 @@ def load_json(filepath: str) -> Dict:
         data = json.load(file)
     return data
 
-def run_zero_shot_experiment(model_name: str, dataset: Dict, source_lang='akan', target_lang='english', prompts: [ZeroShotPromptFactory, FewShotPromptFactory, ChainOfThoughtPrompt]=ZeroShotPromptFactory) ->Dict:
-    # Initialize the text generation model
-    llm_instance = TextGenerationModelFactory
-    model = llm_instance.create_instance(model_name)
-
-    results = []
+def run_zero_shot_experiment(model_name: List[str], dataset: Dict, source_lang='akan', target_lang='english', prompts: [ZeroShotPromptFactory, FewShotPromptFactory, ChainOfThoughtPrompt]=ZeroShotPromptFactory) ->Dict:
     outputs = {}
 
-    for index, row in tqdm(dataset.items(), total=len(dataset)):
-        row_results = {}
-        sentence_list = list(row.keys())
-        for idx, sentence in enumerate(sentence_list):
-            prompt = prompts.get_base_prompt(index, sentence_list)
+    # Initialize the text generation model
+    for current_model in model_name:
+        print(f"Running Zero Shot experiment with {current_model}",
+              f"\n**********************************************\n")
+        llm_instance = TextGenerationModelFactory
+        model = llm_instance.create_instance(current_model)
 
-            print(f"Prompt: {prompt}")
-            output = model.generate(prompt)
+        results = []
+        
 
-            # write to row results
-            row_results[sentence] = {'gold_selection': idx, 'llm_selection': output}
+        for index, row in tqdm(dataset.items(), total=len(dataset)):
+            row_results = {}
+            sentence_list = list(row.keys())
+            for idx, sentence in enumerate(sentence_list):
+                prompt = prompts.get_base_prompt(index, sentence_list)
 
-        # write to results
-        # {
-        #     'src': index,
-        #     'tgts': [{ 'sentence': output }, ...]
-        # }
-        results.append({
-            'src': index,
-            'tgts': [{sentence: output} for sentence, output in row_results.items()]
-        })
+                print(f"Prompt: {prompt}")
+                output = model.generate(prompt)
 
-        break
+                # write to row results
+                row_results[sentence] = {'gold_selection': idx, 'llm_selection': output}
+
+            # write to results
+            # {
+            #     'src': index,
+            #     'tgts': [{ 'sentence': output }, ...]
+            # }
+            results.append({
+                'src': index,
+                'tgts': [{sentence: output} for sentence, output in row_results.items()]
+            })
+
+            break
     
-
-    print(f"Sample results: {results}")
+        # initialize output dicts with results for each model
+        outputs[current_model] = results
+        print(f"Sample results for {current_model}: {results}")
 
     #     # Generate the model's response
     #     response = model.generate_text(prompt)
@@ -90,6 +96,8 @@ if __name__ == "__main__":
     data_path = 'data/tagged_data/one_to_many_akan_eng_mappings_with_tags.json'
     dataset_dict = load_json(data_path)
 
+    selected_models = ["llama-3.3-70b-instruct", "mistral-small-3.1", "gpt-oss-120b", "gemma-3-27b-it"]
+
     zero_shot_direct_prompt = ZeroShotPromptFactory("direct")
 
-    run_zero_shot_experiment(model_name=model_name, dataset=dataset_dict, prompts=zero_shot_direct_prompt)
+    run_zero_shot_experiment(model_name=selected_models, dataset=dataset_dict, prompts=zero_shot_direct_prompt)
