@@ -5,9 +5,11 @@ from typing import List, Optional
 from .base import BasePromptFactory
 
 ZERO_SHOT_INSTRUCTIONS = (
-    "You are selecting translation from Akan to English. "
-    "Select the most appropriate English translation from the options provided." \
-    "YOU MUST ALWAYS SELECT AN OPTION."
+    "You are selecting translation from Akuapem Twi to English."
+    "All sentences you receive came from native speakers of Akuapem Twi."
+    "Therefore, accuracy is verified, hence your knowledge might be for a different dialect like Asante Twi or Fante and might not be accurate."
+    "Go on and select the most appropriate English translation from the options provided."
+    "YOU MUST ALWAYS SELECT A NUMERICAL OPTION."
 )
 
 ZERO_SHOT_TASK = (
