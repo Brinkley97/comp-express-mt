@@ -78,24 +78,6 @@ def run_zero_shot_experiment(model_name: List[str], dataset: Dict, source_lang='
             json.dump(results, f, ensure_ascii=False, indent=4)
     return outputs
 
-    #     # Generate the model's response
-    #     response = model.generate_text(prompt)
-
-    #     # Evaluate the response
-    #     metric = EvaluationMetric(target_text, response)
-    #     bleu_score = metric.compute_bleu()
-    #     rouge_score = metric.compute_rouge()
-
-    #     results.append({
-    #         'source_text': source_text,
-    #         'target_text': target_text,
-    #         'model_response': response,
-    #         'bleu_score': bleu_score,
-    #         'rouge_score': rouge_score
-    #     })
-
-    # return pd.DataFrame(results)
-
 
 if __name__ == "__main__":
 
