@@ -71,7 +71,7 @@ def _run_prompt_experiment(
 
             for idx, sentence in enumerate(sentence_list):
                 prompt = prompt_factory.get_base_prompt(idx_key, sentence_list)
-                print(f"Prompt: {prompt}")
+                # print(f"Prompt: {prompt}")
                 output = model.generate(prompt)
                 row_results[sentence] = {
                     'gold_selection': idx,
@@ -152,12 +152,12 @@ if __name__ == "__main__":
     few_shot_prompt = FewShotPromptFactory()
     cot_prompt = ChainOfThoughtPromptFactory()
 
-    run_zero_shot_experiment(
-        model_names=selected_models,
-        dataset=dataset_dict,
-        prompt_factory=zero_shot_prompt,
-        experiment_name="1_to_many_experiment_a",
-    )
+    # run_zero_shot_experiment(
+    #     model_names=selected_models,
+    #     dataset=dataset_dict,
+    #     prompt_factory=zero_shot_prompt,
+    #     experiment_name="1_to_many_experiment_a",
+    # )
 
     run_few_shot_experiment(
         model_names=selected_models,

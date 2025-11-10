@@ -1,5 +1,25 @@
 {
     "I belong here.": {
+        "Me na mewɔ ha.": [
+            "INDIVIDUAL",
+            "EQUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Me fata sɛ mewɔ ha.": [
+            "INDIVIDUAL",
+            "EQUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "ANSWER"
+        ],
         "Ha na me wɔ.": [
             "INDIVIDUAL",
             "EQUAL",
@@ -12,6 +32,14 @@
         ]
     },
     "Kwaku sings quite well.": {
+        "Kwaku to dwom yiye.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Kwaku nim nwom to.": [
             "INDIVIDUAL",
             "PEER",
@@ -22,6 +50,15 @@
         ]
     },
     "He calls her up every night.": {
+        "Anadwo biara ɔfrɛ no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Ɔfrɛ no anadwo biara": [
             "INDIVIDUAL",
             "PEER",
@@ -33,6 +70,15 @@
         ]
     },
     "I don't have any money at all.": {
+        "Minni sika koraa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
         "Sika biara nni me ho.": [
             "INDIVIDUAL",
             "PEER",
@@ -44,6 +90,24 @@
         ]
     },
     "I love your dress.": {
+        "M'ani gye wo ntadehyɛ ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
+        "M'ani gye w'ataadeɛ no ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
         "W'ataadeɛ no yɛ fɛ.": [
             "INDIVIDUAL",
             "PEER",
@@ -55,6 +119,24 @@
         ]
     },
     "This is what I can do for you.": {
+        "Eyi na metumi ayɛ ama wo.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Deɛ mɛtumi ayɛ ama wo ara nie.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Deɛ mɛtumi ayɛ aboa wo no no.": [
             "INDIVIDUAL",
             "PEER",
@@ -66,6 +148,24 @@
         ]
     },
     "She met him this morning.": {
+        "Anɔpa yi, ohyiaa no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɔhyiaa no anɔpa yi.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "FEMININE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Anopa yi ara na ɔne no redi ahyiam.": [
             "INDIVIDUAL",
             "PEER",
@@ -77,6 +177,24 @@
         ]
     },
     "I'd rather not go out today.": {
+        "Merenyɛ saa nnɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Mempɛ sɛ mɛpue nnɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Ɛnni me mu sɛ mɛkɔ abɔntene nnɛ.": [
             "INDIVIDUAL",
             "PEER",
@@ -88,6 +206,24 @@
         ]
     },
     "What time will you leave?": {
+        "Bere bɛn na wubefi hɔ?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Berɛ bɛn na wobɛkɔ?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Wobɛfiri ha berɛ bɛn?": [
             "INDIVIDUAL",
             "PEER",
@@ -99,6 +235,33 @@
         ]
     },
     "Don't lose your temper.": {
+        "Mma wo bo mfuw.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Hyɛ wo ho so.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ka w'akoma to wo yam.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Adwoberɛw.": [
             "INDIVIDUAL",
             "ELDER",
@@ -110,6 +273,24 @@
         ]
     },
     "Which is mine?": {
+        "Nea ɛwɔ he na meyɛ?": [
+            "INDIVIDUAL",
+            "YOUNGER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Deɛ ɛwc hen na yɛ me dea?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Ɛmu nea ɛwɔ hen na ɛwɔ me?": [
             "INDIVIDUAL",
             "PEER",
@@ -121,6 +302,24 @@
         ]
     },
     "We left at 2:30.": {
+        "Yefii hɔ 2:30.": [
+            "SMALL GROUP",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɛbɔɔ 2:30 na yɛfirii hɔ.": [
+            "SMALL GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Yɔrefiri hɔ no na 2:30 abɔ.": [
             "SMALL GROUP",
             "PEER",
@@ -132,6 +331,24 @@
         ]
     },
     "She likes animals, you know?": {
+        "Ɔte sɛ mmoa, wunim?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "FEMININE",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Wonim sɛ n'ani gye mmoa ho?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "FEMININE",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Wonim sɛ ɔpɛ mmoa asɛm?": [
             "INDIVIDUAL",
             "PEER",
@@ -143,6 +360,24 @@
         ]
     },
     "You haven't got much time.": {
+        "Wonni mmre.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Mmerɛ nni hɔ ma wo.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Wo mmerɛ a aka sua.": [
             "INDIVIDUAL",
             "ELDER",
@@ -154,6 +389,24 @@
         ]
     },
     "Sooner or later, we all are going to die.": {
+        "Ɛrenkyɛ koraa na yɛn nyinaa bɛwu.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɔbra twa owuo.": [
+            "LARGE GROUP",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Ɛberɛ bi bɛba a yɛn nyinaa bɛwu.": [
             "LARGE GROUP",
             "PEER",
@@ -165,6 +418,33 @@
         ]
     },
     "Kwaku has next to nothing in his wallet.": {
+        "Kwaku nni biribiara wɔ ne bag mu.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwaku bɔtom awe.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwaku nni ne ho hwee.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Kwaku nni sika wɔ ne walɛt mu.": [
             "INDIVIDUAL",
             "PEER",
@@ -176,6 +456,33 @@
         ]
     },
     "I'm Kwaku's boss.": {
+        "Meyɛ Kwaku adwumam panyin.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwaku adwuma mu panin ne me.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Me na mehwɛ Kwaku so wɔ adwuma mu.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Meyɛ Kwaku panin wɔ adwuma mu.": [
             "INDIVIDUAL",
             "ELDER",
@@ -187,6 +494,24 @@
         ]
     },
     "It's their job.": {
+        "Ɛyɛ wɔn adwuma.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Wɔn adwuma no no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Adwuma a wɔyɛ no no.": [
             "INDIVIDUAL",
             "PEER",
@@ -198,6 +523,15 @@
         ]
     },
     "That's your problem.": {
+        "Ɛno ne wo haw.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Ɛno deɛ, w'asɛm.": [
             "INDIVIDUAL",
             "PEER",
@@ -209,6 +543,33 @@
         ]
     },
     "Kwaku recognized me.": {
+        "Kwaku huu me.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwaku kaee me.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwaku werɛ amfi me.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Kwaku hunuu sɛ ɛyɛ me a.": [
             "INDIVIDUAL",
             "PEER",
@@ -220,6 +581,15 @@
         ]
     },
     "What language do they speak in Switzerland?": {
+        "Kasa bɛn na wɔka wɔ Switzerland?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Wɔka kasa bɛn wɔ Switzerland?": [
             "INDIVIDUAL",
             "PEER",
@@ -231,6 +601,24 @@
         ]
     },
     "Almost three thousand people died.": {
+        "Nnipa bɛyɛ mpensa wuwui.": [
+            "LARGE GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Nnipa a wɔwui no bɛduru mpem mmiɛnsa.": [
+            "LARGE GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Nnipa a wɔwui no bɛyɛ mpem mmiɛnsa.": [
             "LARGE GROUP",
             "PEER",
@@ -242,6 +630,33 @@
         ]
     },
     "We'll notify Kwaku.": {
+        "Yɛrenni kan nka Kwaku ho asɛm.": [
+            "SMALL GROUP",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Yɛbɛyi Kwaku asotire.": [
+            "SMALL GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Yɛbɛbɔ Kwaku amanneɛ.": [
+            "SMALL GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Yɛne Kwaku bɛdi ho nkɔmmɔ.": [
             "SMALL GROUP",
             "PEER",
@@ -253,6 +668,24 @@
         ]
     },
     "I don't have time to be sick.": {
+        "Minni bere a mede bɛsa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Menni berɛ na mede ayare.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Mmerɛ nni na mede ayare.": [
             "INDIVIDUAL",
             "PEER",
@@ -264,6 +697,24 @@
         ]
     },
     "Her son's death broke Abena's heart.": {
+        "Ne babarima no wu no maa Abena koma tui.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Abena babarima wuo no aha no yie.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Abena adi ne babarima wuo no ho yaw pa ara.": [
             "INDIVIDUAL",
             "PEER",
@@ -275,6 +726,33 @@
         ]
     },
     "That isn't Kwaku's bicycle.": {
+        "Ɛno nyɛ Kwaku sakre.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Sakre wei nni Kwaku.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Sakre wei nyɛ Kwaku dea.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Ɛnyɛ Kwaku sakre no nie.": [
             "INDIVIDUAL",
             "PEER",
@@ -286,6 +764,15 @@
         ]
     },
     "No one showed up.": {
+        "Obiara amma.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Obiara ansi hɔ.": [
             "INDIVIDUAL",
             "PEER",
@@ -297,6 +784,24 @@
         ]
     },
     "She made friends with Asamoah at the party.": {
+        "Onyaa nnamfo wɔ apontow no ase.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Apontoɔ no ase na ɔne Asamoah faa nnamfoɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Apontoɔ no ase na ɔne Asamoah nyaa ayɔnkofa.": [
             "INDIVIDUAL",
             "PEER",
@@ -308,6 +813,24 @@
         ]
     },
     "Cain was evil.": {
+        "Ná Kain yɛ ɔbɔnefo.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Na Cain tirimu yɛ sum.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Na Cain yɛ nipabɔne ni.": [
             "INDIVIDUAL",
             "PEER",
@@ -319,6 +842,33 @@
         ]
     },
     "I've been sick for a very long time.": {
+        "Mayare bere tenten.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Mayare akyɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Mmerɛ tenten nie na mayare.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Yareɛ yi atena me so akyɛ.": [
             "INDIVIDUAL",
             "PEER",
@@ -330,6 +880,24 @@
         ]
     },
     "Who told you the story?": {
+        "Hena na ɔkaa asɛm no kyerɛɛ wo?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Hwan na bɔɔ wo amaneɛ?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Hwan na bɔɔ wo asɛm no mu?": [
             "INDIVIDUAL",
             "PEER",
@@ -341,6 +909,33 @@
         ]
     },
     "We'll lose everything.": {
+        "Yɛbɛsɛe biribiara.": [
+            "SMALL GROUP",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Yɛbɛhwere biribiara.": [
+            "SMALL GROUP",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Biribiara bɛhwere yɛn.": [
+            "LARGE GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Ne nyinaa bɛfiri yɛn nsa.": [
             "SMALL GROUP",
             "PEER",
@@ -352,6 +947,24 @@
         ]
     },
     "Shall I go on?": {
+        "So mɛkɔ so ayɛ?": [
+            "INDIVIDUAL",
+            "YOUNGER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Metumi toa so anaa?": [
+            "INDIVIDUAL",
+            "YOUNGER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Mentoa so anaa?": [
             "INDIVIDUAL",
             "YOUNGER",
@@ -363,6 +976,42 @@
         ]
     },
     "Kwame isn't happy about what's happened.": {
+        " Nea esii no,  nea asi no,  n'ani nnye ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwame ani annye nea ɛsiiɛ no ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        " Nea esii no nti, Kwame ani nnye ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwame ani annye deɛ esiiɛ no ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Deɛ esiiɛ no amma Kwame ani annye.": [
             "INDIVIDUAL",
             "PEER",
@@ -374,6 +1023,24 @@
         ]
     },
     "I thought it was Kwame.": {
+        "Na ɛyɛ me sɛ me na me ne no nam.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Na ɛyɛ me sɛ ɛyɛ Kwame a.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Na medwene sɛ Kwame a.": [
             "INDIVIDUAL",
             "PEER",
@@ -385,6 +1052,33 @@
         ]
     },
     "What kind of dreams do you have?": {
+        "Anidaso bɛn na wowɔ?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Wo daeɛso ne sɛn?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Wo tirimpɔ ne sɛn?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Wo botaeɛ ne sɛn?": [
             "INDIVIDUAL",
             "PEER",
@@ -396,6 +1090,24 @@
         ]
     },
     "He came all the way from Nikko to see me off.": {
+        "Ɔbaa hɔ bɛhwɛɛ me.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɔbɔɔ anamɔn firii Nikko bɛgyaa me kwan.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Ɔfirii Nikko bɛgyaa me kwan.": [
             "INDIVIDUAL",
             "PEER",
@@ -407,6 +1119,24 @@
         ]
     },
     "Don't be sad.": {
+        "Mma w'abam mmu.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ],
+        "Mma wo werɛ nho.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ],
         "Nni awerɛhoɔ.": [
             "INDIVIDUAL",
             "ELDER",
@@ -418,6 +1148,15 @@
         ]
     },
     "He can't control his desires.": {
+        "Ontumi nni n'akɔnnɔ ahorow so.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Ɔntumi nhyɛ n'akɔnnɔ so.": [
             "INDIVIDUAL",
             "PEER",
@@ -429,6 +1168,24 @@
         ]
     },
     "I didn't say anything.": {
+        "Mantumi anka hwee.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Manka hwee.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Manka biribiara.": [
             "INDIVIDUAL",
             "PEER",
@@ -440,6 +1197,33 @@
         ]
     },
     "Asamoah isn't my father.": {
+        "Me papa a wɔfrɛ no ulah no nyɛ me papa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Asamoah nyɛ me papa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɛnyɛ me papa ne Asamoah.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Me papa nyɛ Asamoah.": [
             "INDIVIDUAL",
             "PEER",
@@ -451,6 +1235,24 @@
         ]
     },
     "He likes singing.": {
+        "N'ani gye nnwonto ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɔpɛ nnwontoɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Adeɛ a ɔpɛ ne nnwontoɔ.": [
             "INDIVIDUAL",
             "PEER",
@@ -462,6 +1264,24 @@
         ]
     },
     "Who's your favorite teacher?": {
+        "Hena ne kyerɛkyerɛni a w'ani gye ne ho paa?": [
+            "INDIVIDUAL",
+            "YOUNGER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Kyerɛkyerɛni bɛn na wopɛ n'asɛm?": [
+            "INDIVIDUAL",
+            "YOUNGER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Hwan ne ɔkyerkyerɛni a wopɛ n'asɛm?": [
             "INDIVIDUAL",
             "YOUNGER",
@@ -473,6 +1293,24 @@
         ]
     },
     "Be respectful to your superiors, if you have any.": {
+        " Sɛ wowɔ bi a,  bu wo mpanyimfo.": [
+            "SMALL GROUP",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        " Sɛ wowɔ akannifoɔ a,  fa anidie ma wɔn.": [
+            "SMALL GROUP",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         " Sɛ wowɔ mpanimfoɔ a,  bu wɔn.": [
             "SMALL GROUP",
             "ELDER",
@@ -484,6 +1322,24 @@
         ]
     },
     "How many friends do you have on Facebook?": {
+        "Nnamfo dodow ahe na wowɔ wɔ Fcaebook so?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Wo nnamfonom a ɛwɔ Facebook yɛ sɛn?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Wo Facebook nnamfonom yɛ dodoɔ sɛn?": [
             "INDIVIDUAL",
             "PEER",
@@ -495,6 +1351,24 @@
         ]
     },
     "Children mostly lack patience.": {
+        " Mmere pii,  mmofra nni ntoboase.": [
+            "LARGE GROUP",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Abotare yɛ adeɛ a mpɛn pii no ara mmɔfra nni.": [
+            "LARGE GROUP",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Adeɛ a mmɔfra nni ne abotare.": [
             "LARGE GROUP",
             "ELDER",
@@ -506,6 +1380,24 @@
         ]
     },
     "I can't keep lying to Osei.": {
+        "Mentumi nkɔso nni atoro nkyerɛ Osei.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Mentumi ntoa so ntwa Osei ntorɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Mentumi nni Osei atorɔ bio.": [
             "INDIVIDUAL",
             "PEER",
@@ -517,6 +1409,42 @@
         ]
     },
     "That is not what I want.": {
+        "Ɛnyɛ eyi na mepɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɛnyɛ nea mepɛ nie.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɛnyɛ nea merehwehwɛ nie.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Wei nyɛ nea mepɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Nea mepɛ no nyɛ wei.": [
             "INDIVIDUAL",
             "PEER",
@@ -528,6 +1456,24 @@
         ]
     },
     "I just want to thank you for all of your help.": {
+        "Mepɛ sɛ meda mo ase wɔ mo mmoa nyinaa ho.": [
+            "LARGE GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Mepɛ sɛ meda wo ase wɔ nea woayɛ ama me nyinaa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Mepɛ sɛ meda wo ase wɔ w'adɔeɛ nyinaa ho.": [
             "INDIVIDUAL",
             "PEER",
@@ -539,6 +1485,33 @@
         ]
     },
     "Can I go in there now?": {
+        "So metumi akɔ hɔ seesei?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Afei mɛtumi akɔ mu?": [
+            "INDIVIDUAL",
+            "YOUNGER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Afei mɛtumi awura mu?": [
+            "INDIVIDUAL",
+            "YOUNGER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Mɛtumi awura mu seesei?": [
             "INDIVIDUAL",
             "YOUNGER",
@@ -550,6 +1523,24 @@
         ]
     },
     "Kwabena gave thanks to God.": {
+        "Kwabena daa Onyankopɔn ase.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwabena de aseda maa Onyankopɔn.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Kwabena de Onyankopɔn aseda maa no.": [
             "INDIVIDUAL",
             "PEER",
@@ -561,6 +1552,24 @@
         ]
     },
     "He devoted his life to his study.": {
+        "Ɔde ne bere nyinaa suaa ade.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Watu ne ho asi hɔ ama n'adesua.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Wagyae birbiara mu ama n'adesua.": [
             "INDIVIDUAL",
             "PEER",
@@ -572,6 +1581,33 @@
         ]
     },
     "Kwabena is very intelligent.": {
+        "Kwabena nim ade paa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwabena nim nwoma pa ara.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwabena adwene mu dɔ yie.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Kwabena yɛ onimdefoɔ.": [
             "INDIVIDUAL",
             "PEER",
@@ -583,6 +1619,24 @@
         ]
     },
     "That bridge is made of stone.": {
+        "Wɔde abo na ɛyɛɛ saa twene no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
+        "Aboɔ na wɔde yɛɛ saa twene no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
         "Saa twene no yɛ aboɔ twene.": [
             "INDIVIDUAL",
             "PEER",
@@ -594,6 +1648,33 @@
         ]
     },
     "I can't believe you’re doing this to me.": {
+        "Woayɛ m'ade ama me ho adwiriw me.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɛyɛ me nwanwa sɛ woatumi ayɛ me sei.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Mannwene ho da sɛ wobɛtumi ayɛ me sei.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Enti me na woayɛ me sei yi.": [
             "INDIVIDUAL",
             "PEER",
@@ -605,6 +1686,24 @@
         ]
     },
     "Kwabena was shocked by what Abena said.": {
+        "Nea Abena kae no maa Kwabena ho dwiriw no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Abena nsɛm a ɔkaeɛ no maa Kwabena ho dwirii no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Kwabena ho dwirii no wɔ nsɛm a Abena kaeɛ no.": [
             "INDIVIDUAL",
             "PEER",
@@ -616,6 +1715,33 @@
         ]
     },
     "He lived in Ankara for six years.": {
+        "Ɔde mfe asia traa Ankara.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɔtenaa Ankara mfeɛ nsia.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Mfeɛ nsia mu na ɔtenaa Ankara.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Ankara ha na ɔtenaa mfeɛ nsia.": [
             "INDIVIDUAL",
             "PEER",
@@ -627,6 +1753,33 @@
         ]
     },
     "She is a pleasant person.": {
+        "N'anim tew.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɔyɛ obi a ɔpɛ nipa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "FEMININE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɔdɔ nipa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Ɔka ne ho bɛn nipa.": [
             "INDIVIDUAL",
             "PEER",
@@ -638,6 +1791,15 @@
         ]
     },
     "I was about to go.": {
+        "Na merebɛkɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Anka merebɛkɔ ara no no.": [
             "INDIVIDUAL",
             "PEER",
@@ -649,6 +1811,33 @@
         ]
     },
     "I can't get her out of my mind.": {
+        "Mintumi nnyi m'adwene mfi ne so.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Mentumi nyi no mfiri m'adwene mu.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Mentumi nyi ne ho adwendwene mfiri me mu.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Ne ho adwene wɔ me tirim.": [
             "INDIVIDUAL",
             "PEER",
@@ -660,6 +1849,24 @@
         ]
     },
     "The road's in bad condition.": {
+        "Kwan no nnye.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
+        "Kwan no asɛe.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
         "Kwan no nyɛ papa.": [
             "INDIVIDUAL",
             "PEER",
@@ -671,6 +1878,33 @@
         ]
     },
     "She works at the bank.": {
+        "Ɔyɛ adwuma wɔ sikakorabea.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "FEMININE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "N'adwumabea ne sikakorabea hɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Sikakorabea hɔ na ɔyɛ adwuma.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Ɔyɛ n'adwuma wɔ sikakorabea hɔ.": [
             "INDIVIDUAL",
             "PEER",
@@ -682,6 +1916,24 @@
         ]
     },
     "What happened last month?": {
+        "Dɛn na esii ɔsram a etwaam no mu?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Bosome a ɛtwaa mu no ɛdeɛn na siiɛ?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Nsɛm bɛn na sii bosome a ɛtwaa mu no?": [
             "INDIVIDUAL",
             "PEER",
@@ -693,6 +1945,33 @@
         ]
     },
     "I do the laundry on Sundays.": {
+        "Mehoro nneɛma Kwasida biara.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Mesi nneɛma Kwasiada biara.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwasiada biara na mesi nneɛma.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Nneɛma mesi no yɛ Kwasiada biara.": [
             "INDIVIDUAL",
             "PEER",
@@ -704,6 +1983,24 @@
         ]
     },
     "Kwabena is already in Boston.": {
+        "Kwabena wɔ Boston dedaw.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwabena adi kan wɔ Boston.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Kwabena aduru Boston dada.": [
             "INDIVIDUAL",
             "PEER",
@@ -715,6 +2012,24 @@
         ]
     },
     "Whose pencil is this?": {
+        "Hena pɛnsere ni?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "QUESTION"
+        ],
+        "Pɛnsere yi wɔ hwan?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "QUESTION"
+        ],
         "Hwan na pɛnsere no yɛ ne dea?": [
             "INDIVIDUAL",
             "PEER",
@@ -726,6 +2041,33 @@
         ]
     },
     "Don't be stupid.": {
+        "Nnyimi.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ],
+        "Nni nkwaseasɛm.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ],
+        "Ma w'ani nna hɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ],
         "Nni agyimisɛm biara.": [
             "INDIVIDUAL",
             "PEER",
@@ -737,6 +2079,33 @@
         ]
     },
     "She is interested in jazz.": {
+        "N'ani gye jazz ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "FEMININE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "N'ani di jazz akyi.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɔpɛ jazz.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "FEMININE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Jazz yɛ adeɛ a n'ani gye ho.": [
             "INDIVIDUAL",
             "PEER",
@@ -748,6 +2117,24 @@
         ]
     },
     "Kwabena went along with the scheme.": {
+        "Kwabena dii nhyehyɛe no akyi.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwabena de nhyehyɛeɛ n dii dwuma.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Kwabena gyee nhyehyɛeɛ no too mu.": [
             "INDIVIDUAL",
             "PEER",
@@ -759,6 +2146,33 @@
         ]
     },
     "My father works for a bank.": {
+        "Me papa yɛ adwuma ma sikakorabea bi.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Sikakorabea bi na me papa yɛ adwuma ma wɔn.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Me papa di ne dwuma ma sikakorabea bi.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Sikakorabea bi na me papa ne wɔn yɛ adwuma.": [
             "INDIVIDUAL",
             "PEER",
@@ -770,6 +2184,33 @@
         ]
     },
     "What's that letter about?": {
+        "Dɛn na saa krataa no ka ho asɛm?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "QUESTION"
+        ],
+        "Krataa no kasa fa deɛn ho?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "QUESTION"
+        ],
+        "Krataa no mu nsɛm ne sɛn?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "QUESTION"
+        ],
         "Amannebɔsɛm bɛn na krataa no ka ho asɛm?": [
             "INDIVIDUAL",
             "PEER",
@@ -781,6 +2222,33 @@
         ]
     },
     "I am disappointed that my friends are not here.": {
+        "Ɛyɛ me yaw sɛ me nnamfo nni ha.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Madi me nnamfonom ho yaw sɛ wɔnni ha.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɛha me sɛ me nnamfonom nni ha.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Me werɛ aho sɛ me nnamfonom nni ha.": [
             "INDIVIDUAL",
             "PEER",
@@ -792,6 +2260,24 @@
         ]
     },
     "It was cloudy yesterday.": {
+        " Ɛnnɛra, na omununkum wɔ wim paa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
+        "Na ewiem ayɛ kusuu nnora.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
         "Nnora na ewiem ani nyɛ fɛ.": [
             "INDIVIDUAL",
             "PEER",
@@ -803,6 +2289,33 @@
         ]
     },
     "Kwabena's useless.": {
+        "Kwabena so nni mfaso.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Mfasoɔ biara nni Kwabena so.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwabena nni botaeɛ biara.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Kwabena nemnam hɔ saa ara kwa.": [
             "INDIVIDUAL",
             "PEER",
@@ -814,6 +2327,24 @@
         ]
     },
     "You taught us that.": {
+        "Wokyerɛɛ yɛn saa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Nea wokyerɛɛ yɛn ara no no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Saa ara na wokyerɛɛ yɛn.": [
             "INDIVIDUAL",
             "PEER",
@@ -825,6 +2356,33 @@
         ]
     },
     "What makes us human?": {
+        "Dɛn na ɛma yɛyɛ nnipa?": [
+            "LARGE GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Deɛ ɛma yɛyɛ nnipa ne deɛn?": [
+            "LARGE GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Deɛn na ma nnipa yɛ nnipa?": [
+            "LARGE GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Yɛn nnipaban ne deɛn?": [
             "LARGE GROUP",
             "PEER",
@@ -836,6 +2394,24 @@
         ]
     },
     "I love you just as you are.": {
+        "Medɔ wo sɛnea wote pɛpɛɛpɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        " Sɛnea woteɛ no ara no, medɔ wo.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Nea woteɛ biara medɔ wo.": [
             "INDIVIDUAL",
             "PEER",
@@ -847,6 +2423,33 @@
         ]
     },
     "People in Taiwan work hard.": {
+        "Nnipa a wɔwɔ Taiwan no yɛ adwumaden.": [
+            "LARGE GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Taiwanfoɔ yɛ nnipa a wɔyɛ adwumaden.": [
+            "LARGE GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Wɔn a wɔwɔ pɛ adwuma.": [
+            "LARGE GROUP",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Nnipa a wɔte Taiwan yɛ wɔn a wɔpɛ adwumaden.": [
             "LARGE GROUP",
             "PEER",
@@ -858,6 +2461,15 @@
         ]
     },
     "It was drizzling.": {
+        "Na nsu retɔ nketenkete.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
         "Nsuo no repete.": [
             "INDIVIDUAL",
             "PEER",
@@ -869,6 +2481,33 @@
         ]
     },
     "Kwabena is a very good friend.": {
+        "Kwabena yɛ adamfo pa paa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Me yɔnko paa ne Kwabena.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwabena yɛ me yɔnko prɛko pɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Me yɔnko brɛboɔ ne Kwabena.": [
             "INDIVIDUAL",
             "PEER",
@@ -880,6 +2519,24 @@
         ]
     },
     "Was this letter written by Abena?": {
+        "Abena na ɔkyerɛwee saa krataa yi?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Wei ne krataa a Abena twerɛeɛ?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "FEMININE",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Krataa a Abenaa twerɛeɛ nie?": [
             "INDIVIDUAL",
             "PEER",
@@ -891,6 +2548,33 @@
         ]
     },
     "I'm very frightened.": {
+        "Ehu aka me yiye.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "M'aboto.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ehu abɔ me.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Mabɔ hu.": [
             "INDIVIDUAL",
             "PEER",
@@ -902,6 +2586,24 @@
         ]
     },
     "I feel betrayed.": {
+        "Mete nka sɛ wɔayi me ama.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Wadi me hwammɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Mete nka sɛ wɔde m'akyi aka fam.": [
             "INDIVIDUAL",
             "PEER",
@@ -913,6 +2615,33 @@
         ]
     },
     "Kwabena is older than Abena.": {
+        "Kwabena anyin sen Abena.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɛnyɛ Abena tipɛn ne Kwabena.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɛnyɛ Abena yɔnko ne Kwabena": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Kwabena mfeɛ wɔ anim kyɛn Abena.": [
             "INDIVIDUAL",
             "PEER",
@@ -924,6 +2653,15 @@
         ]
     },
     "I'll lend it to you.": {
+        "Mede bɛma wo.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Mede bɛfɛm wo.": [
             "INDIVIDUAL",
             "PEER",
@@ -935,6 +2673,33 @@
         ]
     },
     "I love coffee.": {
+        "M'ani gye kɔfe ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
+        "Mepɛ kɔfe.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
+        "Kɔfe yɛ adeɛ a mepɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
         "Kɔfe yɛ adeɛ a m'ani gye ho.": [
             "INDIVIDUAL",
             "PEER",
@@ -946,6 +2711,24 @@
         ]
     },
     "I want to go to the movies today.": {
+        "Mepɛ sɛ mekɔhwɛ sini nnɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Nnɛ mepɛ sɛ metwa m'ani so mfonin.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Nnɛ mepɛ sɛ mekɔhweɛ sini.": [
             "INDIVIDUAL",
             "PEER",
@@ -957,6 +2740,24 @@
         ]
     },
     "I'd never hit a woman.": {
+        "Meremmɔ ɔbea da.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Memmfa me nsa nnka ɔbaa da.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Merentene me nsa wɔ ɔbaa so da.": [
             "INDIVIDUAL",
             "PEER",
@@ -968,6 +2769,24 @@
         ]
     },
     "You are a mean person.": {
+        "Woyɛ obi a wo tirim yɛ den.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Wo hwenem bɔn wo.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Wompɛ nipa.": [
             "INDIVIDUAL",
             "PEER",
@@ -979,6 +2798,24 @@
         ]
     },
     "He was given an important mission.": {
+        "Wɔmaa no dwumadi titiriw bi.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Wɔmaa no dwumasono bi.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Wɔde dwuma titire bi hyɛɛ ne nsa.": [
             "INDIVIDUAL",
             "PEER",
@@ -990,6 +2827,24 @@
         ]
     },
     "Do you think I'm made of money?": {
+        "Wususuw sɛ meyɛ obi a mewɔ sika?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Ɛyɛ wo sp mewɔ sika?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Wokaa sɛ mewɔ sika?": [
             "INDIVIDUAL",
             "PEER",
@@ -1001,6 +2856,24 @@
         ]
     },
     "Don't come near me. You're filthy.": {
+        " Nmmɛn me, wo ho ntew.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ],
+        "Mfa wo ho fin no mmɛn me.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ],
         " Wo ho yɛ fin, mmɛn me.": [
             "INDIVIDUAL",
             "PEER",
@@ -1012,6 +2885,24 @@
         ]
     },
     "Memorize this.": {
+        "Si eyi so dua.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ],
+        "We wei gu wo tirim.": [
+            "INDIVIDUAL",
+            "YOUNGER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ],
         "Ma wei nka wo tirim.": [
             "INDIVIDUAL",
             "YOUNGER",
@@ -1023,6 +2914,33 @@
         ]
     },
     "I'm rich.": {
+        "Meyɛ ɔdefo.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Mede me ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Meyɛ sikani.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Mewɔ de.": [
             "INDIVIDUAL",
             "PEER",
@@ -1034,6 +2952,24 @@
         ]
     },
     "What's your favorite Beatles song?": {
+        "Nnwom bɛn na w'ani gye ho paa?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Beatles nnwom bɛn na yɛ wo dɛ?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Beatles nnwom bɛn na w'ani gye ho?": [
             "INDIVIDUAL",
             "PEER",
@@ -1045,6 +2981,24 @@
         ]
     },
     "She scolded him because he left the door open.": {
+        " \"Esiane sɛ ofii pon no mu nti, ": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɔtwii n'anim esiane ɛpono no a ɔgyae too hɔ no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Ɛpono a wantom nti ɔtwii n'anim.": [
             "INDIVIDUAL",
             "PEER",
@@ -1056,6 +3010,33 @@
         ]
     },
     "Act like a man.": {
+        "Yɛ w'ade te sɛ onipa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Di wo dwuma sɛ ɔbarima.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "COMMAND"
+        ],
+        "Ma mmarisɛm mmra wo mu.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "MASCULINE",
+            "ANIMATE",
+            "COMMAND"
+        ],
         "Yɛ ɔkokoɔdurufoɔ.": [
             "INDIVIDUAL",
             "PEER",
@@ -1067,6 +3048,24 @@
         ]
     },
     "Do you like that song?": {
+        "So w'ani gye saa dwom no ho?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Saa nnwom no na wopɛ?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Nnwom a wopɛ nie?": [
             "INDIVIDUAL",
             "PEER",
@@ -1078,6 +3077,24 @@
         ]
     },
     "Asamoah didn't tell Abena his secret.": {
+        "Asamoah anka ne kokoam asɛm ankyerɛ Abena.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Asamoah anka n'ahintasɛm ankyerɛ Abena.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Asamoah de nsɛm sumaa Abena.": [
             "INDIVIDUAL",
             "PEER",
@@ -1089,6 +3106,33 @@
         ]
     },
     "Asamoah is not serious about his studies.": {
+        " \"Sɛ Yalah no, n'adesua no ho nhia no kɛse.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Asamoah ani nku n'adesua ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Asamoah atoto n'adesua ase.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Asamoah adesua nyɛ adeɛ a ɛho hia no.": [
             "INDIVIDUAL",
             "PEER",
@@ -1100,6 +3144,15 @@
         ]
     },
     "Get ready.": {
+        "Siesie wo ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ],
         "Yɛ krado.": [
             "INDIVIDUAL",
             "PEER",
@@ -1111,6 +3164,24 @@
         ]
     },
     "Tell Asamoah I love him.": {
+        "Ka kyerɛ Asamoah sɛ medɔ no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ma Asamoah nte sɛ m'ani gye ne ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Ka kyerɛ Asamoah sɛ m'ani gye ne ho.": [
             "INDIVIDUAL",
             "PEER",
@@ -1122,6 +3193,15 @@
         ]
     },
     "Some dogs are very smart.": {
+        "Nkraman no bi nim nyansa paa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Nkraman no bi ani ate.": [
             "INDIVIDUAL",
             "PEER",
@@ -1133,6 +3213,24 @@
         ]
     },
     "Don't tell my wife.": {
+        "Nka nkyerɛ me yere.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "FEMININE",
+            "ANIMATE",
+            "REQUEST"
+        ],
+        "Mmɔ me yere amanneɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "FEMININE",
+            "ANIMATE",
+            "COMMAND"
+        ],
         "Mma me yere aso nte asɛm yi.": [
             "INDIVIDUAL",
             "PEER",
@@ -1144,6 +3242,15 @@
         ]
     },
     "What do I have?": {
+        "Dɛn na mewɔ?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Na mewɔ deɛn?": [
             "INDIVIDUAL",
             "PEER",
@@ -1155,6 +3262,33 @@
         ]
     },
     "Both of my parents aren't alive.": {
+        "M'awofo baanu nyinaa nte nkwa mu.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "M'awofoɔ afiri mu.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "M'awofoɔ nte ase.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "M'awofoɔ awu.": [
             "INDIVIDUAL",
             "PEER",
@@ -1166,6 +3300,24 @@
         ]
     },
     "Don't pull my leg!": {
+        "Mfa me nan nsi fam!": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ],
+        "Nsere me!": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ],
         "Mfa me nni agorɔ!": [
             "INDIVIDUAL",
             "PEER",
@@ -1177,6 +3329,24 @@
         ]
     },
     "I'm not your son.": {
+        "Menyɛ wo ba.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɛnyɛ wo babarima ne me.": [
+            "INDIVIDUAL",
+            "ELDER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Wo babarima nyɛ me.": [
             "INDIVIDUAL",
             "ELDER",
@@ -1188,6 +3358,24 @@
         ]
     },
     "Kwasi asked for a discount.": {
+        "Kwasi bisae sɛ wɔmma no aduru bi a wɔde siw awo ano.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Kwasi srɛɛ ntesoɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Kwasi pree ntesoɔ.": [
             "INDIVIDUAL",
             "ELDER",
@@ -1199,6 +3387,24 @@
         ]
     },
     "Would you care for more cookies?": {
+        "So wobɛhwɛ wo ho yiye?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Memma wo cookies no biom?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Wobɛdi cookies no biom?": [
             "INDIVIDUAL",
             "PEER",
@@ -1210,6 +3416,24 @@
         ]
     },
     "Do they live with you?": {
+        "So wɔne wo te?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Wɔtenaa wo nkyɛn?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Wo ne wɔn na tenaeɛ?": [
             "INDIVIDUAL",
             "PEER",
@@ -1221,6 +3445,33 @@
         ]
     },
     "Don't be so reserved.": {
+        "Mma w'ani nnyɛ wo totɔtotɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ],
+        "Ka wo ho kɔ nipa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ka wo ho bɛn nipa.": [
+            "INDIVIDUAL",
+            "YOUNGER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Kentene wo ho.": [
             "INDIVIDUAL",
             "YOUNGER",
@@ -1232,6 +3483,24 @@
         ]
     },
     "I'll be back soon.": {
+        "Mɛsan aba nnansa yi ara.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Merenkyɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Mɛba seisei ara.": [
             "INDIVIDUAL",
             "PEER",
@@ -1243,6 +3512,24 @@
         ]
     },
     "She married him when she was 20.": {
+        "Ɔwaree no bere a na wadi mfe 20.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "FEMININE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Ɔdii mfeɛ aduonu na ɔwaree no.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "FEMININE",
+            "MASCULINE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Ɔwaree no no na wadi mfeɛ aduonu.": [
             "INDIVIDUAL",
             "PEER",
@@ -1254,6 +3541,24 @@
         ]
     },
     "We gather together every Friday.": {
+        "Na yehyiam Fida biara.": [
+            "SMALL GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Fiada biara yɛhyiam.": [
+            "SMALL GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Yɛdi ahyiam Fiada biara.": [
             "SMALL GROUP",
             "PEER",
@@ -1265,6 +3570,24 @@
         ]
     },
     "Could I borrow a pencil?": {
+        "So na metumi atɔn pɛnsere?": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Mɛtumi afɛm wo pɛnsere no?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "QUESTION"
+        ],
         "Wobɛtumi de wo pɛnsere no afɛm me?": [
             "INDIVIDUAL",
             "PEER",
@@ -1276,6 +3599,24 @@
         ]
     },
     "We can pay 200 dollars at most.": {
+        "Yebetumi atua dɔla 200.": [
+            "SMALL GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
+        "Yɛatua ama no ak] soro ara na 200 dɔlas.": [
+            "SMALL GROUP",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
         "Yɛatua ama no aboro so na 200 dɔlas.": [
             "SMALL GROUP",
             "PEER",
@@ -1287,6 +3628,24 @@
         ]
     },
     "I like fruit.": {
+        "M'ani gye nnuaba ho.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
+        "Mepɛ nnuaba.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "INANIMATE",
+            "STATEMENT"
+        ],
         "Nnuaba yɛ adeɛ a m'ani gye ho.": [
             "INDIVIDUAL",
             "PEER",
@@ -1298,6 +3657,24 @@
         ]
     },
     "I don't trust you anymore.": {
+        "Minni wo mu ahotoso bio.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Mennye wo nni bio.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Wo mu gyidie afiri me mu.": [
             "INDIVIDUAL",
             "PEER",
@@ -1309,6 +3686,24 @@
         ]
     },
     "Kwame left the house shortly after Abena left.": {
+        "Bere a Abena fii fie hɔ bere tiaa bi akyi na Kwame nso fii fie.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Abena firii fie no ankyɛ biara na Kwame nso kɔeɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "MASCULINE",
+            "FEMININE",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Kwame tiaa Abena akyi berɛ tiawa bi mu a Abena kɔeɛ.": [
             "INDIVIDUAL",
             "PEER",
@@ -1320,6 +3715,24 @@
         ]
     },
     "I'm leaving.": {
+        "Merefi hɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Merekɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Merefiri adi.": [
             "INDIVIDUAL",
             "PEER",
@@ -1331,6 +3744,24 @@
         ]
     },
     "Don't mess with me.": {
+        "Wo ne me nnyɛ basaa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Mfa me nni agorɔ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "COMMAND"
+        ],
         "Mfa me nnyimi.": [
             "INDIVIDUAL",
             "PEER",
@@ -1342,6 +3773,24 @@
         ]
     },
     "What's it like?": {
+        "Ɛte dɛn?": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
+        "Sɛn na ɛte": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "QUESTION"
+        ],
         "Ne su te sɛn?": [
             "INDIVIDUAL",
             "ELDER",
@@ -1353,6 +3802,33 @@
         ]
     },
     "I ran out of ideas.": {
+        "Na minhu nea menyɛ.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Me nsusuiɛ asa.": [
+            "INDIVIDUAL",
+            "PEER",
+            "INFORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
+        "Menni adwene biara bio.": [
+            "INDIVIDUAL",
+            "PEER",
+            "FORMAL",
+            "NEUTRAL",
+            "NEUTRAL",
+            "ANIMATE",
+            "STATEMENT"
+        ],
         "Menni tirimpɔ biara bio.": [
             "INDIVIDUAL",
             "PEER",
