@@ -13,5 +13,5 @@ class BasePromptFactory(ABC):
         return "\n".join(f"{idx}. {text}" for idx, text in enumerate(options, start=1))
 
     @abstractmethod
-    def get_base_prompt(self, akan_sentence: str, english_sentences: List[str]) -> str:
+    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str]) -> str:
         """Return the final prompt string for the given sentence/options pair."""
