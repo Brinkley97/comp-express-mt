@@ -181,9 +181,6 @@ if __name__ == "__main__":
     # ]
 
     selected_models = [
-        "gpt-oss-120b",
-        "llama-3.3-70b-instruct",
-        "mistral-small-3.1",
         "gemma-3-27b-it",
     ]
 
