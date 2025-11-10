@@ -1,0 +1,25 @@
+[
+    {
+        "src": "Anadwo biara ɔfrɛ no.",
+        "tgts": [
+            {
+                "He calls her every night.": {
+                    "gold_selection": 0,
+                    "llm_selection": "0"
+                }
+            },
+            {
+                "He calls him every night.": {
+                    "gold_selection": 1,
+                    "llm_selection": "0"
+                }
+            },
+            {
+                "She calls her every night.": {
+                    "gold_selection": 2,
+                    "llm_selection": "0"
+                }
+            }
+        ]
+    }
+]

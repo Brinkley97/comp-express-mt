@@ -54,7 +54,7 @@ def run_zero_shot_experiment(model_name: List[str], dataset: Dict, source_lang='
                 output = model.generate(prompt)
 
                 # write to row results
-                row_results[sentence] = {'gold_selection': idx, 'llm_selection': output}
+                row_results[sentence] = {'gold_selection': idx, 'llm_selection': int(output)}
 
             # write to results
             # {
@@ -68,9 +68,12 @@ def run_zero_shot_experiment(model_name: List[str], dataset: Dict, source_lang='
 
             break
     
-        # initialize output dicts with results for each model
-        outputs[current_model] = results
-        
+        # check if current model results exist in outputs
+        if current_model not in outputs:
+            outputs[current_model] = results
+        else:
+            outputs[current_model].extend(results) 
+
     # write to json file
     if experiment_name is not None:
         output_path = f"experiments/results/{experiment_name}_zero_shot_results.json"
