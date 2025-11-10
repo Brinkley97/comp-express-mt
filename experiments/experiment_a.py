@@ -1,8 +1,9 @@
 import json
 import os
+import re
 import sys
 import warnings
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 from tqdm import tqdm
 
@@ -23,6 +24,8 @@ from prompting_strategies.experiment_a import (
 
 warnings.filterwarnings('ignore')
 
+MAX_SELECTION_RETRIES = 3
+
 
 def load_json(filepath: str) -> Dict:
     """Load a JSON file and return its contents as a dictionary."""
@@ -30,12 +33,41 @@ def load_json(filepath: str) -> Dict:
         return json.load(file)
 
 
-def _coerce_selection(raw_selection) -> int:
-    """Ensure the model output is parsed into an integer option index."""
+def _parse_selection(raw_selection) -> Optional[int]:
+    """Attempt to extract an integer selection from the model output."""
+    if raw_selection is None:
+        return None
+
+    text = str(raw_selection).strip()
+    if not text:
+        return None
+
     try:
-        return int(str(raw_selection).strip())
-    except (TypeError, ValueError) as exc:
-        raise ValueError(f"Model output must be an integer selection, got: {raw_selection}") from exc
+        return int(text)
+    except ValueError:
+        match = re.search(r'\b(\d+)\b', text)
+        if match:
+            return int(match.group(1))
+    return None
+
+
+def _generate_with_retry(model, prompt: str) -> Tuple[int, str]:
+    """Retry generation until a numeric selection is returned or retries exhausted."""
+    last_output = ""
+    for attempt in range(1, MAX_SELECTION_RETRIES + 1):
+        output = model.generate(prompt)
+        selection = _parse_selection(output)
+        if selection is not None:
+            return selection, str(output)
+        last_output = str(output)
+        print(
+            f"[warn] Attempt {attempt} returned non-numeric selection. Retrying..."
+        )
+
+    raise ValueError(
+        f"Model failed to return a numeric selection after "
+        f"{MAX_SELECTION_RETRIES} attempts. Last output: {last_output}"
+    )
 
 
 def _write_results(outputs: Dict, experiment_name: Optional[str], label: str) -> None:
@@ -71,11 +103,11 @@ def _run_prompt_experiment(
 
             for idx, sentence in enumerate(sentence_list):
                 prompt = prompt_factory.get_base_prompt(idx_key, sentence_list)
-                # print(f"Prompt: {prompt}")
-                output = model.generate(prompt)
+                selection, raw_output = _generate_with_retry(model, prompt)
                 row_results[sentence] = {
                     'gold_selection': idx,
-                    'llm_selection': _coerce_selection(output),
+                    'llm_selection': selection,
+                    'raw_output': raw_output,
                 }
 
             model_results.append({
