@@ -61,7 +61,7 @@ class TextGenerationModelFactory(ABC):
         """In the init method (also called constructor), initialize our class with variables or attributes."""
         # Create instance variables or attributes
         # Standardized model parameters
-        self.temperature = 0.6
+        self.temperature = 0.0
         self.top_p = 0.9
         self.model_name = None
    
