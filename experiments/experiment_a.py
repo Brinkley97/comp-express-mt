@@ -126,8 +126,15 @@ def run_zero_shot_experiment(
     dataset: Dict,
     prompt_factory: Optional[ZeroShotPromptFactory] = None,
     experiment_name: Optional[str] = None,
+    source_language: str = "Akuapem Twi",
+    target_language: str = "English",
+    akan_variant: str = "Akuapem Twi",
 ) -> Dict:
-    prompt_factory = prompt_factory or ZeroShotPromptFactory()
+    prompt_factory = prompt_factory or ZeroShotPromptFactory(
+        source_language=source_language,
+        target_language=target_language,
+        akan_variant=akan_variant,
+    )
     return _run_prompt_experiment(
         model_names=model_names,
         dataset=dataset,
@@ -142,8 +149,15 @@ def run_few_shot_experiment(
     dataset: Dict,
     prompt_factory: Optional[FewShotPromptFactory] = None,
     experiment_name: Optional[str] = None,
+    source_language: str = "Akuapem Twi",
+    target_language: str = "English",
+    akan_variant: str = "Akuapem Twi",
 ) -> Dict:
-    prompt_factory = prompt_factory or FewShotPromptFactory()
+    prompt_factory = prompt_factory or FewShotPromptFactory(
+        source_language=source_language,
+        target_language=target_language,
+        akan_variant=akan_variant,
+    )
     return _run_prompt_experiment(
         model_names=model_names,
         dataset=dataset,
@@ -158,8 +172,15 @@ def run_chain_of_thought_experiment(
     dataset: Dict,
     prompt_factory: Optional[ChainOfThoughtPromptFactory] = None,
     experiment_name: Optional[str] = None,
+    source_language: str = "Akuapem Twi",
+    target_language: str = "English",
+    akan_variant: str = "Akuapem Twi",
 ) -> Dict:
-    prompt_factory = prompt_factory or ChainOfThoughtPromptFactory()
+    prompt_factory = prompt_factory or ChainOfThoughtPromptFactory(
+        source_language=source_language,
+        target_language=target_language,
+        akan_variant=akan_variant,
+    )
     return _run_prompt_experiment(
         model_names=model_names,
         dataset=dataset,
@@ -169,42 +190,42 @@ def run_chain_of_thought_experiment(
     )
 
 
+def _infer_languages_from_path(data_path: str) -> Tuple[str, str]:
+    lower = data_path.lower()
+    if "many_to_one" in lower:
+        return "English", "Akuapem Twi"
+    return "Akuapem Twi", "English"
+
+
 if __name__ == "__main__":
     data_path = 'data/tagged_data/one_to_many_akan_eng_mappings_with_tags.json'
     dataset_dict = load_json(data_path)
-
-    # selected_models = [
-    #     "gpt-oss-120b",
-    #     "llama-3.3-70b-instruct",
-    #     "mistral-small-3.1",
-    #     "gemma-3-27b-it",
-    # ]
+    default_source, default_target = _infer_languages_from_path(data_path)
 
     selected_models = [
         "gemma-3-27b-it",
     ]
 
-    zero_shot_prompt = ZeroShotPromptFactory()
-    few_shot_prompt = FewShotPromptFactory()
-    cot_prompt = ChainOfThoughtPromptFactory()
-
     run_zero_shot_experiment(
         model_names=selected_models,
         dataset=dataset_dict,
-        prompt_factory=zero_shot_prompt,
         experiment_name="1_to_many_experiment_a",
+        source_language=default_source,
+        target_language=default_target,
     )
 
     # run_few_shot_experiment(
     #     model_names=selected_models,
     #     dataset=dataset_dict,
-    #     prompt_factory=few_shot_prompt,
     #     experiment_name="1_to_many_experiment_a",
+    #     source_language=default_source,
+    #     target_language=default_target,
     # )
 
     # run_chain_of_thought_experiment(
     #     model_names=selected_models,
     #     dataset=dataset_dict,
-    #     prompt_factory=cot_prompt,
     #     experiment_name="1_to_many_experiment_a",
+    #     source_language=default_source,
+    #     target_language=default_target,
     # )
