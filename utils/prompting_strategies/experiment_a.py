@@ -5,12 +5,13 @@ from typing import List, Optional
 from .base import BasePromptFactory
 
 ZERO_SHOT_INSTRUCTIONS = (
-    "You are translating from Akan to English. "
-    "Select the most appropriate English translation from the options provided."
+    "You are selecting translation from Akan to English. "
+    "Select the most appropriate English translation from the options provided." \
+    "YOU MUST ALWAYS SELECT AN OPTION."
 )
 
 ZERO_SHOT_TASK = (
-    "Select the best translation by number only. "
+    "Select the most appropriate translation by number only."
     "Respond with just the number (1, 2, 3, etc.)."
 )
 
@@ -45,6 +46,8 @@ Step 3: Determine which option best matches the likely intended meaning.
 Step 4: Select the best translation by number.
 
 Use your reasoning for steps 1-3 internally, then state your final selection as "SELECTION: [number]".
+
+Respond with just the number (1, 2, 3, etc.)
 """
 
 

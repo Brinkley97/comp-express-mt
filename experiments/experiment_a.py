@@ -58,7 +58,7 @@ def _run_prompt_experiment(
 
     for current_model in model_names:
         print(
-            "\n***********************************************************",
+            "\n***********************************************************\n",
             f"Running {label.replace('_', ' ').title()} experiment with {current_model}",
             "\n***********************************************************\n",
         )
@@ -142,9 +142,9 @@ if __name__ == "__main__":
     dataset_dict = load_json(data_path)
 
     selected_models = [
+        "gpt-oss-120b",
         "llama-3.3-70b-instruct",
         "mistral-small-3.1",
-        "gpt-oss-120b",
         "gemma-3-27b-it",
     ]
 
@@ -152,23 +152,23 @@ if __name__ == "__main__":
     few_shot_prompt = FewShotPromptFactory()
     cot_prompt = ChainOfThoughtPromptFactory()
 
-    # run_zero_shot_experiment(
+    run_zero_shot_experiment(
+        model_names=selected_models,
+        dataset=dataset_dict,
+        prompt_factory=zero_shot_prompt,
+        experiment_name="1_to_many_experiment_a",
+    )
+
+    # run_few_shot_experiment(
     #     model_names=selected_models,
     #     dataset=dataset_dict,
-    #     prompt_factory=zero_shot_prompt,
+    #     prompt_factory=few_shot_prompt,
     #     experiment_name="1_to_many_experiment_a",
     # )
 
-    run_few_shot_experiment(
-        model_names=selected_models,
-        dataset=dataset_dict,
-        prompt_factory=few_shot_prompt,
-        experiment_name="1_to_many_experiment_a",
-    )
-
-    run_chain_of_thought_experiment(
-        model_names=selected_models,
-        dataset=dataset_dict,
-        prompt_factory=cot_prompt,
-        experiment_name="1_to_many_experiment_a",
-    )
+    # run_chain_of_thought_experiment(
+    #     model_names=selected_models,
+    #     dataset=dataset_dict,
+    #     prompt_factory=cot_prompt,
+    #     experiment_name="1_to_many_experiment_a",
+    # )
