@@ -74,6 +74,9 @@ def run_zero_shot_experiment(model_name: List[str], dataset: Dict, source_lang='
     # write to json file
     if experiment_name is not None:
         output_path = f"experiments/results/{experiment_name}_zero_shot_results.json"
+        output_dir = os.path.dirname(output_path)
+        if output_dir:
+            os.makedirs(output_dir, exist_ok=True)
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(results, f, ensure_ascii=False, indent=4)
     return outputs
