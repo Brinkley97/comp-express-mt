@@ -1,18 +1,18 @@
 # CompExpress-MT
 
-African machine translation research codebase with a focus on low-resource African languages (LAFAND-MT). The repo now bundles fine-tuning, evaluation, data analysis, and LLM-assisted prompt selection experiments in one place.
+African machine translation research codebase with a focus on low-resource African languages (LAFAND-MT). The repo now bundles fine-tuning, evaluation, data analysis, and LLM-assisted prompt selection experiments in one place. Core fine-tuning and evaluation scripts live under `baseline_codebase/`.
 
 - Paper: A Few Thousand Translations Go a Long Way (LAFAND-MT)
 - Supported models: MT5, ByT5, MBART50, M2M100, Afri variants, + external LLMs via prompt factories
 
 ## Repository layout
 
-- Training & generation scripts
-  - `run_translation.py` (HF fine-tuning/inference with experiment logging)
-  - `generate_topk_translations.py` (top-k candidate generation via beam or sampling)
-- Evaluation
-  - `evaluate_translations.py` (BLEU/chrF++/GLEU with JSONL inputs, batch options, export utilities)
-  - `comet_evaluations.py` (COMET STL + optional QE analysis, statistics, plots)
+- Training & generation scripts (`baseline_codebase/`)
+  - `baseline_codebase/run_translation.py` (HF fine-tuning/inference with experiment logging)
+  - `baseline_codebase/generate_topk_translations.py` (top-k candidate generation via beam or sampling)
+- Evaluation (`baseline_codebase/`)
+  - `baseline_codebase/evaluate_translations.py` (BLEU/chrF++/GLEU with JSONL inputs, batch options, export utilities)
+  - `baseline_codebase/comet_evaluations.py` (COMET STL + optional QE analysis, statistics, plots)
 - Data & artifacts
   - `data/finetune_data/<src-tgt>/` (training JSONL/CSV pairs)
   - `data/tagged_data/` + `data/misc_data/` (gold standards, context tags, aggregation exports)
@@ -88,16 +88,16 @@ African machine translation research codebase with a focus on low-resource Afric
 
 ### Running experiments end-to-end
 
-1. **Fine-tune / run inference** with `run_translation.py`. Include `--predict_with_generate` to output translations during validation.
-2. **Evaluate** with `evaluate_translations.py`, pointing to the saved checkpoint directory.
-3. **Generate top-k candidates** when you need n-best lists for human annotation via `generate_topk_translations.py`.
-4. **Score with COMET** by feeding the exported triples to `comet_evaluations.py`.
+1. **Fine-tune / run inference** with `baseline_codebase/run_translation.py`. Include `--predict_with_generate` to output translations during validation.
+2. **Evaluate** with `baseline_codebase/evaluate_translations.py`, pointing to the saved checkpoint directory.
+3. **Generate top-k candidates** when you need n-best lists for human annotation via `baseline_codebase/generate_topk_translations.py`.
+4. **Score with COMET** by feeding the exported triples to `baseline_codebase/comet_evaluations.py`.
 5. **Prompting experiments** can be executed via custom scripts that import `utils/prompting_strategies.py` and `utils/llms.py`.
 
 Example fine-tune + eval sequence:
 ```bash
 # Train / finetune
-accelerate launch run_translation.py \
+accelerate launch baseline_codebase/run_translation.py \
   --model_name_or_path facebook/m2m100_418M \
   --source_lang en --target_lang twi \
   --train_file data/finetune_data/en-tw/train.json \
@@ -109,7 +109,7 @@ accelerate launch run_translation.py \
   --predict_with_generate --fp16
 
 # Evaluate saved checkpoint
-accelerate launch evaluate_translations.py \
+accelerate launch baseline_codebase/evaluate_translations.py \
   --model_path models/m2m100_en_tw_ep10 \
   --source_lang en --target_lang twi \
   --datasets test=data/finetune_data/en-tw/test.json \
@@ -118,7 +118,7 @@ accelerate launch evaluate_translations.py \
   --save_predictions --save_json --progress
 
 # Optional COMET scoring
-python comet_evaluations.py \
+python baseline_codebase/comet_evaluations.py \
   --input_dir evals/m2m100_en_tw_eval \
   --model masakhane/africomet-stl-1.1 \
   --batch_size 16 --gpus 1
@@ -136,12 +136,12 @@ Primary training/eval data uses HuggingFace JSON lines:
 - Directory naming: `{src}-{tgt}/` (e.g. `en-tw/`)
 - Additional CSV assets for human labels live under `data/tagged_data/`
 
-## Training with `run_translation.py`
+## Training with `baseline_codebase/run_translation.py`
 
-`run_translation.py` wraps the HF Seq2Seq trainer and adds experiment logging controls.
+`baseline_codebase/run_translation.py` wraps the HF Seq2Seq trainer and adds experiment logging controls.
 
 ```bash
-python run_translation.py \
+python baseline_codebase/run_translation.py \
   --model_name_or_path facebook/m2m100_418M \
   --source_lang en --target_lang twi \
   --train_file data/finetune_data/en-tw/train.json \
@@ -166,12 +166,12 @@ Tips:
 - For ByT5-style models include `--source_prefix "translate English to Twi: "`
 - Use `--forced_bos_token twi` for MBART/M2M bilingual decoding
 
-## Batch evaluation (`evaluate_translations.py`)
+## Batch evaluation (`baseline_codebase/evaluate_translations.py`)
 
-`evaluate_translations.py` loads HF checkpoints, runs generation on named JSONL splits, and reports BLEU, sacreBLEU, chrF++, and Google BLEU. Predictions and src/mt/ref triples can be persisted for downstream COMET analysis.
+`baseline_codebase/evaluate_translations.py` loads HF checkpoints, runs generation on named JSONL splits, and reports BLEU, sacreBLEU, chrF++, and Google BLEU. Predictions and src/mt/ref triples can be persisted for downstream COMET analysis.
 
 ```bash
-python evaluate_translations.py \
+python baseline_codebase/evaluate_translations.py \
   --model_path models/m2m100_en_tw_ep10 \
   --source_lang en --target_lang twi \
   --datasets dev=data/finetune_data/en-tw/dev.json test=data/finetune_data/en-tw/test.json \
@@ -184,12 +184,12 @@ python evaluate_translations.py \
 - `--precision {fp32,bf16,fp16}` controls generation dtype
 - Outputs `metrics.json`, optional `<split>_predictions.txt`, and `<split>_triples.json`
 
-## Top-k candidate generation (`generate_topk_translations.py`)
+## Top-k candidate generation (`baseline_codebase/generate_topk_translations.py`)
 
 Generate n-best lists from a fine-tuned model using either deterministic beam search or stochastic sampling.
 
 ```bash
-python generate_topk_translations.py \
+python baseline_codebase/generate_topk_translations.py \
   --model_path models/m2m100_en_tw_ep10 \
   --inputs data/misc_data/akuapem_dataset - verified_data.csv \
   --output evals/m2m100_en_tw_eval/test_topk.jsonl \
@@ -201,12 +201,12 @@ python generate_topk_translations.py \
 - Supports stdin/stdout streaming when `--inputs`/`--output` are omitted
 - Switch to sampling with `--strategy sample --top_p 0.9 --temperature 0.7`
 
-## COMET & statistical analysis (`comet_evaluations.py`)
+## COMET & statistical analysis (`baseline_codebase/comet_evaluations.py`)
 
 Run reference-based COMET STL scoring, optional QE scoring, and paired statistical tests on exported triples.
 
 ```bash
-python comet_evaluations.py \
+python baseline_codebase/comet_evaluations.py \
   --input_dir evals/m2m100_en_tw_eval \
   --model masakhane/africomet-stl-1.1 \
   --qe_model Unbabel/wmt22-cometkiwi-da \
