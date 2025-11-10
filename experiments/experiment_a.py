@@ -18,6 +18,7 @@ from prompting_strategies.base import BasePromptFactory
 from prompting_strategies.experiment_a import (
     ZeroShotPromptFactory,
     FewShotPromptFactory,
+    ChainOfThoughtPromptFactory,
 )
 
 warnings.filterwarnings('ignore')
@@ -120,6 +121,22 @@ def run_few_shot_experiment(
     )
 
 
+def run_chain_of_thought_experiment(
+    model_names: List[str],
+    dataset: Dict,
+    prompt_factory: Optional[ChainOfThoughtPromptFactory] = None,
+    experiment_name: Optional[str] = None,
+) -> Dict:
+    prompt_factory = prompt_factory or ChainOfThoughtPromptFactory()
+    return _run_prompt_experiment(
+        model_names=model_names,
+        dataset=dataset,
+        prompt_factory=prompt_factory,
+        label="chain_of_thought",
+        experiment_name=experiment_name,
+    )
+
+
 if __name__ == "__main__":
     data_path = 'data/tagged_data/one_to_many_akan_eng_mappings_with_tags.json'
     dataset_dict = load_json(data_path)
@@ -133,10 +150,25 @@ if __name__ == "__main__":
 
     zero_shot_prompt = ZeroShotPromptFactory()
     few_shot_prompt = FewShotPromptFactory()
+    cot_prompt = ChainOfThoughtPromptFactory()
 
     run_zero_shot_experiment(
         model_names=selected_models,
         dataset=dataset_dict,
         prompt_factory=zero_shot_prompt,
+        experiment_name="1_to_many_experiment_a",
+    )
+
+    run_few_shot_experiment(
+        model_names=selected_models,
+        dataset=dataset_dict,
+        prompt_factory=few_shot_prompt,
+        experiment_name="1_to_many_experiment_a",
+    )
+
+    run_chain_of_thought_experiment(
+        model_names=selected_models,
+        dataset=dataset_dict,
+        prompt_factory=cot_prompt,
         experiment_name="1_to_many_experiment_a",
     )
