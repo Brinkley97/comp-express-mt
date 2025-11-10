@@ -7,9 +7,12 @@ UF Data Studio (https://ufdatastudio.com/) with advisor Christan E. Grant, Ph.D.
 Factory Method Design Pattern (https://refactoring.guru/design-patterns/factory-method/python/example#lang-features)
 """
 
+import json
 import os
-import openai
 import pathlib
+import warnings
+
+import openai
 import torch
 import ipdb
 
@@ -17,13 +20,39 @@ import pandas as pd
 
 from groq import Groq
 from tqdm import tqdm
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 from dotenv import load_dotenv
 from abc import ABC, abstractmethod
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 load_dotenv()  # Load environment variables from .env file
+
+# Path to the JSON registry that defines available model endpoints.
+MODEL_REGISTRY_PATH = pathlib.Path(__file__).with_name("model_registry.json")
+
+
+def _load_model_registry() -> Dict[str, Dict]:
+    """Load model metadata from the JSON registry."""
+    if not MODEL_REGISTRY_PATH.exists():
+        warnings.warn(
+            f"Model registry file not found at {MODEL_REGISTRY_PATH}. "
+            "Dynamic model creation will be disabled until the file is added."
+        )
+        return {}
+
+    try:
+        with MODEL_REGISTRY_PATH.open("r", encoding="utf-8") as registry_file:
+            data = json.load(registry_file)
+            if not isinstance(data, dict):
+                raise ValueError("Registry JSON must map model names to config objects.")
+            return data
+    except Exception as exc:
+        warnings.warn(f"Failed to load model registry: {exc}. Dynamic creation disabled.")
+        return {}
+
+
+MODEL_REGISTRY = _load_model_registry()
 
 class TextGenerationModelFactory(ABC):
     """An abstract base class to load any pre-trained generation model"""
@@ -63,22 +92,31 @@ class TextGenerationModelFactory(ABC):
         return api_key
     
     @classmethod        
-    def create_instance(self, model_name):
+    def create_instance(cls, model_name: str):
+        """Create a model instance using the dynamic registry, with legacy fallback."""
+        config = MODEL_REGISTRY.get(model_name)
+        if config:
+            return DynamicTextGenerationModel(model_name=model_name, config=config)
 
-        if model_name == 'llama-3.1-70b-instruct':
-            return Llama3170BInstructTextGenerationModel()
-        elif model_name == 'llama-3.3-70b-instruct':
-            return Llama3370BInstructTextGenerationModel()
-        elif model_name == 'mixtral-8x7b-instruct':
-            return Mixtral87BInstructTextGenerationModel()
-        elif model_name == 'llama-3.1-8b-instruct':
-            return Llama318BInstructTextGenerationModel()
-        elif model_name == 'mistral-7b-instruct':
-            return Mistral7BInstructTextGenerationModel()     
-        elif model_name == 'mistral-small-3.1':
-            return MistralSmall31TextGenerationModel()
-        else:
-            raise ValueError(f"Unknown class name: {model_name}")
+        # Legacy fallback for hard-coded classes to maintain backward compatibility.
+        legacy_map = {
+            'llama-3.1-70b-instruct': Llama3170BInstructTextGenerationModel,
+            'llama-3.3-70b-instruct': Llama3370BInstructTextGenerationModel,
+            'mixtral-8x7b-instruct': Mixtral87BInstructTextGenerationModel,
+            'llama-3.1-8b-instruct': Llama318BInstructTextGenerationModel,
+            'mistral-7b-instruct': Mistral7BInstructTextGenerationModel,
+            'mistral-small-3.1': MistralSmall31TextGenerationModel,
+        }
+
+        legacy_cls = legacy_map.get(model_name)
+        if legacy_cls:
+            warnings.warn(
+                "Falling back to legacy model definitions. "
+                f"Consider adding '{model_name}' to utils/model_registry.json."
+            )
+            return legacy_cls()
+
+        raise ValueError(f"Unknown class name: {model_name}")
 
     def assistant(self, content: str) -> Dict:
         """Create an assistant message.
@@ -169,6 +207,52 @@ class TextGenerationModelFactory(ABC):
 
     def __name__(self):
         pass
+
+
+class DynamicTextGenerationModel(TextGenerationModelFactory):
+    """Instantiate chat-completion capable models from registry metadata."""
+
+    def __init__(self, model_name: str, config: Dict):
+        super().__init__()
+        self.config = config
+        self.model_name = config.get("model_id") or model_name
+        platform_name = config.get("platform") or config.get("api_name")
+        if platform_name is None:
+            raise ValueError(f"'platform' is required for model '{model_name}' in the registry.")
+
+        provider = (config.get("provider") or "openai").lower()
+        self.api_name = platform_name
+        self.api_key = self.map_platform_to_api(platform_name)
+        self._configure_client(provider=provider, base_url=config.get("base_url"))
+        self._override_generation_params(
+            temperature=config.get("temperature"),
+            top_p=config.get("top_p")
+        )
+
+    def _configure_client(self, provider: str, base_url: Optional[str] = None) -> None:
+        """Create an SDK client based on provider metadata."""
+        if provider in {"openai", "openai-compatible"}:
+            client_kwargs = {}
+            if base_url:
+                client_kwargs["base_url"] = base_url
+            self.client = openai.OpenAI(api_key=self.api_key, **client_kwargs)
+        elif provider == "groq":
+            self.client = Groq(api_key=self.api_key)
+        else:
+            raise ValueError(
+                f"Unsupported provider '{provider}'. "
+                "Supported providers: openai, groq."
+            )
+
+    def _override_generation_params(
+        self,
+        temperature: Optional[float],
+        top_p: Optional[float]
+    ) -> None:
+        if temperature is not None:
+            self.temperature = temperature
+        if top_p is not None:
+            self.top_p = top_p
 
 class Llama3170BInstructTextGenerationModel(TextGenerationModelFactory):
     def __init__(self):

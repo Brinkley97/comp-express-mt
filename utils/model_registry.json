@@ -1,0 +1,50 @@
+{
+  "llama-3.1-70b-instruct": {
+    "provider": "openai",
+    "platform": "NAVI_GATOR",
+    "base_url": "https://api.ai.it.ufl.edu",
+    "model_id": "llama-3.1-70b-instruct"
+  },
+  "llama-3.3-70b-instruct": {
+    "provider": "openai",
+    "platform": "NAVI_GATOR",
+    "base_url": "https://api.ai.it.ufl.edu",
+    "model_id": "llama-3.3-70b-instruct"
+  },
+  "mixtral-8x7b-instruct": {
+    "provider": "openai",
+    "platform": "NAVI_GATOR",
+    "base_url": "https://api.ai.it.ufl.edu",
+    "model_id": "mixtral-8x7b-instruct"
+  },
+  "llama-3.1-8b-instruct": {
+    "provider": "openai",
+    "platform": "NAVI_GATOR",
+    "base_url": "https://api.ai.it.ufl.edu",
+    "model_id": "llama-3.1-8b-instruct"
+  },
+  "mistral-7b-instruct": {
+    "provider": "openai",
+    "platform": "NAVI_GATOR",
+    "base_url": "https://api.ai.it.ufl.edu",
+    "model_id": "mistral-7b-instruct"
+  },
+  "mistral-small-3.1": {
+    "provider": "openai",
+    "platform": "NAVI_GATOR",
+    "base_url": "https://api.ai.it.ufl.edu",
+    "model_id": "mistral-small-3.1"
+  },
+  "gpt-oss-120b": {
+    "provider": "openai",
+    "platform": "NAVI_GATOR",
+    "base_url": "https://api.ai.it.ufl.edu",
+    "model_id": "gpt-oss-120b"
+  },
+  "gemma-3-27b-it": {
+    "provider": "openai",
+    "platform": "NAVI_GATOR",
+    "base_url": "https://api.ai.it.ufl.edu",
+    "model_id": "gemma-3-27b-it"
+  }
+}
