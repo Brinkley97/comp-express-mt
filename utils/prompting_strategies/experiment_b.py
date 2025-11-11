@@ -96,7 +96,7 @@ class ZeroShotPromptFactory(ExperimentBPromptBase):
             return "You are analyzing an English sentence to infer pragmatic context and select the appropriate Akan translation."
         return "You are analyzing an Akan sentence to infer pragmatic context and select the appropriate English translation."
 
-    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str]) -> str:
+    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             self._intro(),
@@ -159,7 +159,7 @@ SELECTION: 3"""
             return self.EN_TO_AKAN_EXAMPLES
         return self.AKAN_TO_EN_EXAMPLES
 
-    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str]) -> str:
+    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             ("You are analyzing "
@@ -227,7 +227,7 @@ class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
             ]
         )
 
-    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str]) -> str:
+    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             self._intro(),

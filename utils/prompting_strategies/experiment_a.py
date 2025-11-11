@@ -96,7 +96,7 @@ class ZeroShotPromptFactory(ExperimentAPromptBase):
             akan_variant=akan_variant,
         )
 
-    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str]) -> str:
+    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [self._instructions_intro()]
         akan_hint = self._akan_focus_line()
@@ -177,7 +177,7 @@ class FewShotPromptFactory(ExperimentAPromptBase):
             ]
         )
 
-    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str]) -> str:
+    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [self._instructions_intro()]
         akan_hint = self._akan_focus_line()
@@ -218,7 +218,7 @@ class ChainOfThoughtPromptFactory(ExperimentAPromptBase):
             akan_variant=akan_variant,
         )
 
-    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str]) -> str:
+    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             (
