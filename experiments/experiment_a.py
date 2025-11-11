@@ -203,12 +203,12 @@ if __name__ == "__main__":
     default_source, default_target = _infer_languages_from_path(data_path)
 
     selected_models = [
+        "granite-3.3-8b-instruct",
         "gpt-oss-120b",
         "llama-3.3-70b-instruct",
-        "mistral-small-3.1",
-        "granite-3.3-8b-instruct",
+        "mistral-small-3.1",  
     ]
-    
+
     run_zero_shot_experiment(
         model_names=selected_models,
         dataset=dataset_dict,
