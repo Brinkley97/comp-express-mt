@@ -24,6 +24,55 @@ class TagParseError(ValueError):
 TAG_LINE_RE = re.compile(r"TAGS:\s*([^\n\r]+)", re.IGNORECASE)
 SELECTION_RE = re.compile(r"SELECTION:\s*(\d+)", re.IGNORECASE)
 
+KEY_CANONICALS = {
+    "gender": "Gender",
+    "animacy": "Animacy",
+    "status": "Status",
+    "age": "Age",
+    "formality": "Formality",
+    "audience": "Audience",
+    "speech_act": "Speech_Act",
+    "speechact": "Speech_Act",
+}
+
+VALUE_CANONICALS = {
+    "masculine": "Masculine",
+    "feminine": "Feminine",
+    "neutral": "Neutral",
+    "animate": "Animate",
+    "inanimate": "Inanimate",
+    "equal": "Equal",
+    "superior": "Superior",
+    "subordinate": "Subordinate",
+    "peer": "Peer",
+    "elder": "Elder",
+    "younger": "Younger",
+    "formal": "Formal",
+    "casual": "Casual",
+    "individual": "Individual",
+    "small_group": "Small_Group",
+    "smallgroup": "Small_Group",
+    "large_group": "Large_Group",
+    "largegroup": "Large_Group",
+    "broadcast": "Broadcast",
+    "question": "Question",
+    "answer": "Answer",
+    "statement": "Statement",
+    "command": "Command",
+    "request": "Request",
+    "greeting": "Greeting",
+}
+
+
+def _canonicalize_key(raw_key: str) -> str:
+    normalized = raw_key.strip().lower().replace("-", "_")
+    return KEY_CANONICALS.get(normalized, raw_key.strip())
+
+
+def _canonicalize_value(raw_value: str) -> str:
+    normalized = raw_value.strip().lower().replace("-", "_")
+    return VALUE_CANONICALS.get(normalized, raw_value.strip())
+
 
 def _parse_tag_line(tag_line: str) -> Dict[str, str]:
     tags: Dict[str, str] = {}
@@ -31,10 +80,10 @@ def _parse_tag_line(tag_line: str) -> Dict[str, str]:
         if "=" not in chunk:
             continue
         key, value = chunk.split("=", 1)
-        key = key.strip()
-        value = value.strip()
-        if key:
-            tags[key] = value
+        canonical_key = _canonicalize_key(key)
+        canonical_value = _canonicalize_value(value)
+        if canonical_key:
+            tags[canonical_key] = canonical_value
     return tags
 
 

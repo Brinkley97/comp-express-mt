@@ -6,7 +6,7 @@ from .experiment_a import ExperimentAPromptBase
 
 
 class ExperimentBPromptBase(ExperimentAPromptBase):
-    """Prompt helpers for tag-only inference in Experiment B."""
+    """Prompt helpers for Experiment B tag inference (no selection)."""
 
     DIMENSIONS_AKAN_TO_EN = [
         ("GENDER", "Masculine | Feminine | Neutral", "What gender is implied?"),
@@ -55,7 +55,7 @@ class ExperimentBPromptBase(ExperimentAPromptBase):
         return self.DIMENSIONS_AKAN_TO_EN
 
     def _tag_instruction_block(self) -> str:
-        intro = "First, infer the pragmatic context by selecting generating a value for each dimension:"
+        intro = "First, infer the pragmatic context by selecting ONE value for each dimension:"
         lines = [intro]
         for name, values, desc in self._tag_dimensions():
             lines.append(f"- {name}: [{values}] - {desc}")
@@ -93,13 +93,10 @@ class ZeroShotPromptFactory(ExperimentBPromptBase):
     def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
         sections = [
             self._intro(),
-            self._tag_instruction_block(),
-            "Respond ONLY with the TAGS line in the format below.",
-            self._response_format_block(),
-            f"You must always provide TAGS and SELECTION in the specified format. The given sentence is:",
             f"{self.source_label}: \"{source_sentence}\"",
-            f"The tag generation and selection options are:",
-            f"{self.options_label}:\n{options_block}",
+            self._tag_instruction_block(),
+            "Do NOT choose a translation. Respond ONLY with the TAGS line shown below.",
+            self._response_format_block(),
         ]
         return "\n\n".join(sections)
 
@@ -109,29 +106,21 @@ class FewShotPromptFactory(ExperimentBPromptBase):
 
     AKAN_TO_EN_EXAMPLES = """Examples (Akan → English):
 Akan: "Ɔyɛ me mpena"
-Options: 1. He is my boyfriend 2. She is my girlfriend 3. They are my lover
-Analysis: "mpena" = romantic partner, "Ɔ" = 3rd person singular (gender ambiguous). Default to most common interpretation if cues are limited.
+Reasoning: Identify pronouns, relationship terms, and register to determine each pragmatic dimension.
 TAGS: GENDER=Masculine, ANIMACY=Animate, STATUS=Equal, AGE=Peer, FORMALITY=Casual, AUDIENCE=Individual, SPEECH_ACT=Statement
-SELECTION: 1
 
 Akan: "Nana no aba"
-Options: 1. Grandpa has come 2. Grandma has come 3. The elder has arrived
-Analysis: "Nana" = elder/grandparent; gender-neutral. Without cues, prefer the respectful neutral reading.
-TAGS: GENDER=Neutral, ANIMACY=Animate, STATUS=Superior, AGE=Elder, FORMALITY=Casual, AUDIENCE=Small_Group, SPEECH_ACT=Statement
-SELECTION: 3"""
+Reasoning: "Nana" signals an elder/respected figure; consider the respectful tone and implied audience.
+TAGS: GENDER=Neutral, ANIMACY=Animate, STATUS=Superior, AGE=Elder, FORMALITY=Formal, AUDIENCE=Small_Group, SPEECH_ACT=Statement"""
 
     EN_TO_AKAN_EXAMPLES = """Examples (English → Akan):
 English: "Good morning"
-Options: 1. Maakye 2. Mema wo akye 3. Yɛma wo akye
-Analysis: Standard greeting aimed at an individual with polite tone.
+Reasoning: Polite greeting to an individual peer.
 TAGS: FORMALITY=Casual, AUDIENCE=Individual, STATUS=Equal, AGE=Peer, GENDER=Neutral, ANIMACY=Animate, SPEECH_ACT=Greeting
-SELECTION: 2
 
 English: "Please help me with this task"
-Options: 1. Boa me 2. Mesrɛ wo, boa me 3. Mepɛ sɛ woboa me
-Analysis: Presence of “please” signals polite/formal request toward someone with higher status.
-TAGS: FORMALITY=Formal, AUDIENCE=Individual, STATUS=Superior, AGE=Elder, GENDER=Neutral, ANIMACY=Animate, SPEECH_ACT=Request
-SELECTION: 3"""
+Reasoning: Polite request directed toward a respected person.
+TAGS: FORMALITY=Formal, AUDIENCE=Individual, STATUS=Superior, AGE=Elder, GENDER=Neutral, ANIMACY=Animate, SPEECH_ACT=Request"""
 
     def __init__(
         self,
@@ -156,13 +145,15 @@ SELECTION: 3"""
 
     def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
         sections = [
-            ("You are analyzing "
-             f"{self.source_language} sentences to infer their pragmatic context."),
+            (
+                f"You are analyzing {self._title_label(self.source_language)} sentences "
+                "to infer their pragmatic context."
+            ),
             self._examples_block(),
             "Now analyze this sentence:",
             f"{self.source_label}: \"{source_sentence}\"",
             self._tag_instruction_block(),
-            "Respond ONLY with the TAGS line in the format below.",
+            "Do NOT choose a translation. Respond ONLY with the TAGS line shown below.",
             self._response_format_block(),
         ]
         return "\n\n".join(sections)
@@ -197,13 +188,11 @@ class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
             return "\n".join(
                 [
                     "Step 1: ENGLISH SENTENCE ANALYSIS",
-                    "Examine the English sentence for pragmatic cues (politeness markers, formality indicators, audience scope, speech act, social relationship hints).",
-                    "\nStep 2: PRAGMATIC CONTEXT INFERENCE",
-                    "Infer each pragmatic dimension (FORMALITY, AUDIENCE, STATUS, AGE, GENDER, ANIMACY, SPEECH_ACT).",
-                    "\nStep 3: AKAN VARIANT EVALUATION",
-                    "Assess every Akan option for alignment with the inferred context (formality, audience/status fit, speech act preservation, cultural appropriateness).",
-                    "\nStep 4: FINAL SELECTION",
-                    "Choose the Akan translation that best satisfies all pragmatic constraints.",
+                    "Identify politeness markers, formality cues, audience hints, and speech-act indicators.",
+                    "\nStep 2: PRAGMATIC INFERENCE",
+                    "Infer each dimension (FORMALITY, AUDIENCE, STATUS, AGE, GENDER, ANIMACY, SPEECH_ACT).",
+                    "\nStep 3: SUMMARIZE TAGS",
+                    "After reasoning, output the TAGS line using the specified format.",
                 ]
             )
 
@@ -212,11 +201,9 @@ class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
                 "Step 1: LINGUISTIC FEATURE EXTRACTION",
                 "Examine the Akan sentence for pronouns, kinship terms, titles, verb forms, and respect markers.",
                 "\nStep 2: PRAGMATIC INFERENCE",
-                "Infer each pragmatic dimension (GENDER, ANIMACY, STATUS, AGE, FORMALITY, AUDIENCE, SPEECH_ACT).",
-                "\nStep 3: TRANSLATION OPTION EVALUATION",
-                "Assess the English options to see which best reflects the inferred context (gender/animacy alignment, formality, speech act preservation).",
-                "\nStep 4: FINAL SELECTION",
-                "Choose the English translation that best matches all pragmatic cues.",
+                "Infer each dimension (GENDER, ANIMACY, STATUS, AGE, FORMALITY, AUDIENCE, SPEECH_ACT).",
+                "\nStep 3: SUMMARIZE TAGS",
+                "After reasoning, output the TAGS line using the specified format.",
             ]
         )
 
@@ -225,7 +212,7 @@ class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
             self._intro(),
             f"{self.source_label}: \"{source_sentence}\"",
             self._step_block(),
-            "Provide reasoning for each step, then conclude with the TAGS line only:",
+            "Provide reasoning for Steps 1-2, then conclude with the TAGS line only:",
             self._response_format_block(),
         ]
         return "\n\n".join(sections)

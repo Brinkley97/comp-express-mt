@@ -54,7 +54,6 @@ def _generate_tags_with_retry(model, prompt: str) -> Tuple[Dict, str]:
     last_error = ""
     for attempt in range(1, MAX_RETRIES + 1):
         output = model.generate(prompt)
-        print(f"Model Output:\n{output}\n{'-'*50}\n")
         try:
             tags = parse_tags(output)
             return tags.model_dump(), str(output)
@@ -164,6 +163,7 @@ def run_zero_shot_experiment(
         source_language=source_language,
         target_language=target_language,
         akan_variant=akan_variant,
+        tags_source_description="model-predicted pragmatic context",
     )
     return _run_prompt_experiment(
         model_names=model_names,
@@ -194,6 +194,7 @@ def run_few_shot_experiment(
         source_language=source_language,
         target_language=target_language,
         akan_variant=akan_variant,
+        tags_source_description="model-predicted pragmatic context",
     )
     return _run_prompt_experiment(
         model_names=model_names,
@@ -224,6 +225,7 @@ def run_chain_of_thought_experiment(
         source_language=source_language,
         target_language=target_language,
         akan_variant=akan_variant,
+        tags_source_description="model-predicted pragmatic context",
     )
     return _run_prompt_experiment(
         model_names=model_names,

@@ -6,7 +6,7 @@ from .experiment_a import ExperimentAPromptBase, SELECT_BY_NUMBER_TASK
 
 
 class ExperimentCPromptBase(ExperimentAPromptBase):
-    """Prompt helpers for experiment C (human tags provided)."""
+    """Prompt helpers for selection with provided pragmatic tags."""
 
     AKAN_TO_EN_ORDER = ["Gender", "Animacy", "Status", "Age", "Formality", "Audience", "Speech_Act"]
     EN_TO_AKAN_ORDER = ["Formality", "Audience", "Status", "Age", "Gender", "Animacy", "Speech_Act"]
@@ -17,12 +17,14 @@ class ExperimentCPromptBase(ExperimentAPromptBase):
         source_language: str = "Akuapem Twi",
         target_language: str = "English",
         akan_variant: str = "Akuapem Twi",
+        tags_source_description: str = "expert-annotated pragmatic context",
     ):
         super().__init__(
             source_language=source_language,
             target_language=target_language,
             akan_variant=akan_variant,
         )
+        self.tags_source_description = tags_source_description
 
     @property
     def direction(self) -> str:
@@ -34,7 +36,7 @@ class ExperimentCPromptBase(ExperimentAPromptBase):
 
     def _require_tags(self, tags: Optional[Dict[str, str]]) -> Dict[str, str]:
         if not tags:
-            raise ValueError("Experiment C prompts require expert pragmatic tags.")
+            raise ValueError("Experiment C prompts require pragmatic tags to be provided.")
         return tags
 
     def _tag_order(self) -> List[str]:
@@ -43,7 +45,7 @@ class ExperimentCPromptBase(ExperimentAPromptBase):
         return self.AKAN_TO_EN_ORDER
 
     def _format_tag_block(self, tags: Dict[str, str]) -> str:
-        lines = ["Expert pragmatic tags:"]
+        lines = [f"Pragmatic tags ({self.tags_source_description}):"]
         for key in self._tag_order():
             value = tags.get(key, "UNKNOWN")
             lines.append(f"- {key}: {value}")
@@ -53,11 +55,11 @@ class ExperimentCPromptBase(ExperimentAPromptBase):
         if self.direction == "english_to_akan":
             return (
                 "You are selecting the most appropriate Akan translation for an English sentence, "
-                "given expert-annotated pragmatic context."
+                f"given {self.tags_source_description}."
             )
         return (
             "You are selecting the most appropriate English translation for an Akan sentence, "
-            "given expert-annotated pragmatic context."
+            f"given {self.tags_source_description}."
         )
 
 
@@ -71,6 +73,7 @@ class ZeroShotPromptFactory(ExperimentCPromptBase):
         source_language: str = "Akuapem Twi",
         target_language: str = "English",
         akan_variant: str = "Akuapem Twi",
+        tags_source_description: str = "expert-annotated pragmatic context",
     ):
         if prompt_style not in (None, "context"):
             raise ValueError("Experiment C zero-shot only supports the 'context' style.")
@@ -78,6 +81,7 @@ class ZeroShotPromptFactory(ExperimentCPromptBase):
             source_language=source_language,
             target_language=target_language,
             akan_variant=akan_variant,
+            tags_source_description=tags_source_description,
         )
 
     def get_base_prompt(
@@ -140,6 +144,7 @@ Reasoning: Formality=Formal + Status=Superior + Age=Elder requires most respectf
         source_language: str = "Akuapem Twi",
         target_language: str = "English",
         akan_variant: str = "Akuapem Twi",
+        tags_source_description: str = "expert-annotated pragmatic context",
     ):
         if prompt_style not in (None, "context"):
             raise ValueError("Experiment C few-shot only supports the 'context' style.")
@@ -147,6 +152,7 @@ Reasoning: Formality=Formal + Status=Superior + Age=Elder requires most respectf
             source_language=source_language,
             target_language=target_language,
             akan_variant=akan_variant,
+            tags_source_description=tags_source_description,
         )
 
     def _examples(self) -> str:
@@ -165,7 +171,7 @@ Reasoning: Formality=Formal + Status=Superior + Age=Elder requires most respectf
         sections = [
             (
                 f"You are selecting appropriate {self._title_label(self.target_language)} translations "
-                f"for {self._title_label(self.source_language)} sentences using expert-annotated pragmatic context."
+                f"for {self._title_label(self.source_language)} sentences using {self.tags_source_description}."
             ),
             self._examples(),
             "Now select for this sentence:",
@@ -187,6 +193,7 @@ class ChainOfThoughtPromptFactory(ExperimentCPromptBase):
         source_language: str = "Akuapem Twi",
         target_language: str = "English",
         akan_variant: str = "Akuapem Twi",
+        tags_source_description: str = "expert-annotated pragmatic context",
     ):
         if prompt_style not in (None, "context"):
             raise ValueError("Experiment C chain-of-thought only supports the 'context' style.")
@@ -194,17 +201,18 @@ class ChainOfThoughtPromptFactory(ExperimentCPromptBase):
             source_language=source_language,
             target_language=target_language,
             akan_variant=akan_variant,
+            tags_source_description=tags_source_description,
         )
 
     def _cot_intro(self) -> str:
         if self.direction == "english_to_akan":
             return (
                 "You are selecting the most appropriate Akan translation for an English sentence using "
-                "expert-annotated pragmatic context. Follow this reasoning process:"
+                f"{self.tags_source_description}. Follow this reasoning process:"
             )
         return (
             "You are selecting the most appropriate English translation for an Akan sentence using "
-            "expert-annotated pragmatic context. Follow this reasoning process:"
+            f"{self.tags_source_description}. Follow this reasoning process:"
         )
 
     def _step_one(self, tags: Dict[str, str]) -> str:
@@ -256,7 +264,7 @@ class ChainOfThoughtPromptFactory(ExperimentCPromptBase):
     def _step_three(self) -> str:
         return (
             "Step 3: MAKE SELECTION\n"
-            "Choose the translation that perfectly aligns with all expert-annotated pragmatic dimensions."
+            f"Choose the translation that perfectly aligns with all {self.tags_source_description} dimensions."
         )
 
     def get_base_prompt(
