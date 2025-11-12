@@ -377,7 +377,7 @@ if __name__ == "__main__":
     data_path = 'data/tagged_data/one_to_many_akan_eng_mappings_with_tags.json'
     dataset_dict = load_json(data_path)
     default_source, default_target = _infer_languages_from_path(data_path)
-
+    print(f"Default source language: {default_source}, Default target language: {default_target}")
     selected_models = [
         "gpt-oss-120b",
         "llama-3.3-70b-instruct",
