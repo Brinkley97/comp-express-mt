@@ -1,22 +1,12 @@
 {
-  "granite-3.3-8b-instruct": {
-    "accuracy": 0.23593073593073594,
-    "macro_f1": 0.16287179255341191,
-    "num_predictions": 462
-  },
   "gpt-oss-120b": {
-    "accuracy": 0.24458874458874458,
-    "macro_f1": 0.16914903510335177,
+    "accuracy": 0.24675324675324675,
+    "macro_f1": 0.16209965353777106,
     "num_predictions": 462
   },
   "llama-3.3-70b-instruct": {
-    "accuracy": 0.2597402597402597,
-    "macro_f1": 0.16090213543450954,
-    "num_predictions": 462
-  },
-  "mistral-small-3.1": {
-    "accuracy": 0.21428571428571427,
-    "macro_f1": 0.14843271692380927,
+    "accuracy": 0.2662337662337662,
+    "macro_f1": 0.16615932941720019,
     "num_predictions": 462
   }
 }

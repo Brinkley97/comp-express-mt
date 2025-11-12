@@ -185,13 +185,12 @@ def _run_prompt_experiment(
                 row_results[sentence] = {
                     'gold_selection': idx,
                     'llm_selection': selection,
+                    'raw_output': selection_raw_output,
+                    'predicted_tags': tags_dict,
                 }
 
             model_results.append({
                 'src': source_sentence,
-                'predicted_tags': tags_dict,
-                'tag_raw_output': tag_raw_output,
-                'selection_raw_output': selection_raw_output,
                 'tgts': [{sentence: output} for sentence, output in row_results.items()],
             })
 

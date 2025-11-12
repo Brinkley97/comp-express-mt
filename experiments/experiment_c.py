@@ -165,9 +165,8 @@ def _run_prompt_experiment(
         for source_sentence, row in tqdm(dataset.items(), total=len(dataset)):
             candidate_sentences, tag_runs = _extract_options_and_tags(row, tag_schema)
 
-            for run in tag_runs:
+            for run_idx, run in enumerate(tag_runs):
                 tags = run["tags"]
-                expected_idx = run.get("expected_idx")
                 prompt = prompt_factory.get_base_prompt(
                     source_sentence,
                     candidate_sentences,
@@ -178,17 +177,17 @@ def _run_prompt_experiment(
 
                 row_results = {}
                 for idx, sentence in enumerate(candidate_sentences):
-                    row_results[sentence] = {
-                        'gold_selection': idx,
-                        'llm_selection': selection,
-                    }
+                    if run_idx == idx:
+                        row_results[sentence] = {
+                            'gold_selection': idx,
+                            'llm_selection': selection,
+                            'raw_output': raw_output,
+                        }
+                    else:
+                        pass
 
                 model_results.append({
                     'src': source_sentence,
-                    'tags': tags,
-                    'expected_selection': expected_idx,
-                    'llm_selection': selection,
-                    'raw_output': raw_output,
                     'tgts': [{sentence: output} for sentence, output in row_results.items()],
                 })
 
@@ -296,7 +295,23 @@ if __name__ == "__main__":
         "llama-3.3-70b-instruct",
     ]
 
-    run_zero_shot_experiment(
+    # run_zero_shot_experiment(
+    #     model_names=selected_models,
+    #     dataset=dataset_dict,
+    #     experiment_name="1_to_many_experiment_c",
+    #     source_language=default_source,
+    #     target_language=default_target,
+    # )
+
+    # run_few_shot_experiment(
+    #     model_names=selected_models,
+    #     dataset=dataset_dict,
+    #     experiment_name="1_to_many_experiment_c",
+    #     source_language=default_source,
+    #     target_language=default_target,
+    # )
+
+    run_chain_of_thought_experiment(
         model_names=selected_models,
         dataset=dataset_dict,
         experiment_name="1_to_many_experiment_c",

@@ -64,10 +64,18 @@ class ExperimentCPromptBase(ExperimentAPromptBase):
             return (
                 "You are selecting the most appropriate Akuapem Twi translation for an English sentence, "
                 f"given {self.tags_source_description} that apply to that Akuapem Twi sentence."
+                "The tags are supplied to help you choose the most appropriate translation." \
+                "This is essential for capturing the correct pragmatic meaning in context." \
+                "You must use the tags to inform your selection. Thus making sure you've " \
+                "used every available information to select the best translation."
             )
         return (
             "You are selecting the most appropriate English translation for an Akuapem Twi sentence, "
             f"given {self.tags_source_description} for {self.source_language} sentence."
+            "The tags are supplied to help you choose the most appropriate translation." \
+            "This is essential for capturing the correct pragmatic meaning in context." \
+            "You must use the tags to inform your selection. Thus making sure you've " \
+            "used every available information to select the best translation."
         )
 
     def _authority_note(self) -> str:
