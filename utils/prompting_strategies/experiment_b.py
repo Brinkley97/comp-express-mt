@@ -8,24 +8,25 @@ from .experiment_a import ExperimentAPromptBase
 class ExperimentBPromptBase(ExperimentAPromptBase):
     """Prompt helpers for Experiment B tag inference (no selection)."""
 
-    DIMENSIONS_AKAN_TO_EN = [
-        ("GENDER", "Masculine | Feminine | Neutral", "What gender is implied?"),
-        ("ANIMACY", "Animate | Inanimate", "Living being or object?"),
-        ("STATUS", "Equal | Superior | Subordinate", "Social relationship?"),
-        ("AGE", "Peer | Elder | Younger", "Age-based relationship?"),
-        ("FORMALITY", "Formal | Casual", "Register level?"),
-        ("AUDIENCE", "Individual | Small_Group | Large_Group | Broadcast", "Addressee scope?"),
-        ("SPEECH_ACT", "Question | Answer | Statement | Command | Request | Greeting", "Utterance function?"),
+    AKAN_TO_EN_DIMENSIONS = [
+        ("AUDIENCE", "Audience", "INDIVIDUAL | SMALL_GROUP | LARGE_GROUP | BROADCAST", "Who is addressed?"),
+        ("AGE", "Age", "PEER | ELDER | YOUNGER", "Age-based relationship?"),
+        ("FORMALITY", "Formality", "FORMAL | CASUAL", "Register level?"),
+        ("GENDER_SUBJECT", "Gender_Subject", "MASCULINE | FEMININE | NEUTRAL", "Gender of the subject/speaker?"),
+        ("GENDER_OBJECT", "Gender_Object", "MASCULINE | FEMININE | NEUTRAL", "Gender of the object/listener?"),
+        ("ANIMACY", "Animacy", "ANIMATE | INANIMATE", "Living being or object?"),
+        ("SPEECH_ACT", "Speech_Act", "QUESTION | ANSWER | STATEMENT | COMMAND | REQUEST | GREETING", "Utterance function?"),
     ]
 
-    DIMENSIONS_EN_TO_AKAN = [
-        ("FORMALITY", "Formal | Casual", "What register level is appropriate?"),
-        ("AUDIENCE", "Individual | Small_Group | Large_Group | Broadcast", "Who is addressed?"),
-        ("STATUS", "Equal | Superior | Subordinate", "Social relationship?"),
-        ("AGE", "Peer | Elder | Younger", "Age-based dynamics?"),
-        ("GENDER", "Masculine | Feminine | Neutral", "Gender of referents?"),
-        ("ANIMACY", "Animate | Inanimate", "Living beings or objects?"),
-        ("SPEECH_ACT", "Question | Answer | Statement | Command | Request | Greeting", "Function?"),
+    EN_TO_AKAN_DIMENSIONS = [
+        ("AUDIENCE", "Audience", "INDIVIDUAL | SMALL_GROUP | LARGE_GROUP | BROADCAST", "Who is addressed?"),
+        ("STATUS", "Status", "EQUAL | SUPERIOR | SUBORDINATE", "Social relationship?"),
+        ("AGE", "Age", "PEER | ELDER | YOUNGER", "Age-based dynamics?"),
+        ("FORMALITY", "Formality", "FORMAL | CASUAL", "Required register?"),
+        ("GENDER_SUBJECT", "Gender_Subject", "MASCULINE | FEMININE | NEUTRAL", "Gender of the subject/speaker?"),
+        ("GENDER_OBJECT", "Gender_Object", "MASCULINE | FEMININE | NEUTRAL", "Gender of the object/listener?"),
+        ("ANIMACY", "Animacy", "ANIMATE | INANIMATE", "Living being or object?"),
+        ("SPEECH_ACT", "Speech_Act", "QUESTION | ANSWER | STATEMENT | COMMAND | REQUEST | GREETING", "Utterance function?"),
     ]
 
     def __init__(
@@ -49,21 +50,35 @@ class ExperimentBPromptBase(ExperimentAPromptBase):
             return "english_to_akan"
         return "custom"
 
-    def _tag_dimensions(self) -> List[tuple[str, str, str]]:
+    def _tag_dimensions(self) -> List[tuple[str, str, str, str]]:
         if self.direction == "english_to_akan":
-            return self.DIMENSIONS_EN_TO_AKAN
-        return self.DIMENSIONS_AKAN_TO_EN
+            return self.EN_TO_AKAN_DIMENSIONS
+        return self.AKAN_TO_EN_DIMENSIONS
 
     def _tag_instruction_block(self) -> str:
-        intro = "First, infer the pragmatic context by selecting ONE value for each dimension:"
+        intro = (
+            "First, infer the pragmatic context by generating ONE value for each dimension in the exact order shown."
+        )
         lines = [intro]
-        for name, values, desc in self._tag_dimensions():
-            lines.append(f"- {name}: [{values}] - {desc}")
+        for display, _, values, desc in self._tag_dimensions():
+            lines.append(f"- {display}: [{values}] - {desc}")
+        lines.append(
+            "If a dimension name appears twice (e.g., GENDER_SUBJECT vs. GENDER_OBJECT), treat each as a separate role tied to the candidate translation."
+        )
+        lines.append(
+            "Your TAGS must describe the same pragmatic context that would justify whichever translation you ultimately prefer."
+        )
         return "\n".join(lines)
 
     def _response_format_block(self) -> str:
-        tag_order = ", ".join(f"{name}=X" for name, _, _ in self._tag_dimensions())
+        tag_order = ", ".join(f"{display}=X" for display, *_ in self._tag_dimensions())
         return f"TAGS: {tag_order}"
+
+    def _authority_note(self) -> str:
+        return (
+            "All sentences and translation options are verified Akuapem Twi ↔ English data. "
+            "Ignore outside knowledge and rely strictly on the details provided here."
+        )
 
 
 class ZeroShotPromptFactory(ExperimentBPromptBase):
@@ -87,13 +102,16 @@ class ZeroShotPromptFactory(ExperimentBPromptBase):
 
     def _intro(self) -> str:
         if self.direction == "english_to_akan":
-            return "You are analyzing an English sentence to infer its pragmatic context."
-        return "You are analyzing an Akan sentence to infer its pragmatic context."
+            return "You are analyzing an English sentence from native speakers to infer its pragmatic context."
+        return "You are analyzing an Akan sentence from native speakers to infer its pragmatic context."
 
     def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
+        options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             self._intro(),
+            self._authority_note(),
             f"{self.source_label}: \"{source_sentence}\"",
+            f"{self.options_label} (reference only):\n{options_block}",
             self._tag_instruction_block(),
             "Do NOT choose a translation. Respond ONLY with the TAGS line shown below.",
             self._response_format_block(),
@@ -144,14 +162,17 @@ TAGS: FORMALITY=Formal, AUDIENCE=Individual, STATUS=Superior, AGE=Elder, GENDER=
         return self.AKAN_TO_EN_EXAMPLES
 
     def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
+        options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             (
                 f"You are analyzing {self._title_label(self.source_language)} sentences "
                 "to infer their pragmatic context."
             ),
+            self._authority_note(),
             self._examples_block(),
             "Now analyze this sentence:",
             f"{self.source_label}: \"{source_sentence}\"",
+            f"{self.options_label} (reference only):\n{options_block}",
             self._tag_instruction_block(),
             "Do NOT choose a translation. Respond ONLY with the TAGS line shown below.",
             self._response_format_block(),
@@ -208,9 +229,12 @@ class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
         )
 
     def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
+        options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             self._intro(),
+            self._authority_note(),
             f"{self.source_label}: \"{source_sentence}\"",
+            f"{self.options_label} (reference only):\n{options_block}",
             self._step_block(),
             "Provide reasoning for Steps 1-2, then conclude with the TAGS line only:",
             self._response_format_block(),

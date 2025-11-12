@@ -62,6 +62,12 @@ class ExperimentCPromptBase(ExperimentAPromptBase):
             f"given {self.tags_source_description}."
         )
 
+    def _authority_note(self) -> str:
+        return (
+            "All sentences, tags, and translation options are verified data from native speakers. "
+            "Ignore outside knowledge and choose solely based on the provided information."
+        )
+
 
 class ZeroShotPromptFactory(ExperimentCPromptBase):
     """Zero-shot prompts that leverage human tags."""
@@ -94,6 +100,7 @@ class ZeroShotPromptFactory(ExperimentCPromptBase):
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             self._intro(),
+            self._authority_note(),
             f"{self.source_label}: \"{source_sentence}\"",
             self._format_tag_block(tags),
             f"{self.options_label}:\n{options_block}",
@@ -173,6 +180,7 @@ Reasoning: Formality=Formal + Status=Superior + Age=Elder requires most respectf
                 f"You are selecting appropriate {self._title_label(self.target_language)} translations "
                 f"for {self._title_label(self.source_language)} sentences using {self.tags_source_description}."
             ),
+            self._authority_note(),
             self._examples(),
             "Now select for this sentence:",
             f"{self.source_label}: \"{source_sentence}\"",
@@ -277,6 +285,7 @@ class ChainOfThoughtPromptFactory(ExperimentCPromptBase):
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             self._cot_intro(),
+            self._authority_note(),
             f"{self.source_label}: \"{source_sentence}\"",
             self._format_tag_block(tags),
             f"{self.options_label}:\n{options_block}",

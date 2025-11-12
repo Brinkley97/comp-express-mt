@@ -1,20 +1,22 @@
 from __future__ import annotations
 
 import re
-from typing import Dict, Tuple
+from typing import Dict, Tuple, Optional
 
 from pydantic import BaseModel, ValidationError
 from typing_extensions import Literal
 
 
 class PragmaticTagSet(BaseModel):
-    Gender: Literal["Masculine", "Feminine", "Neutral"]
-    Animacy: Literal["Animate", "Inanimate"]
-    Status: Literal["Equal", "Superior", "Subordinate"]
-    Age: Literal["Peer", "Elder", "Younger"]
-    Formality: Literal["Formal", "Casual"]
-    Audience: Literal["Individual", "Small_Group", "Large_Group", "Broadcast"]
-    Speech_Act: Literal["Question", "Answer", "Statement", "Command", "Request", "Greeting"]
+    Audience: Optional[Literal["Individual", "Small_Group", "Large_Group", "Broadcast"]] = None
+    Status: Optional[Literal["Equal", "Superior", "Subordinate"]] = None
+    Age: Optional[Literal["Peer", "Elder", "Younger"]] = None
+    Formality: Optional[Literal["Formal", "Casual"]] = None
+    Gender_Subject: Optional[Literal["Masculine", "Feminine", "Neutral"]] = None
+    Gender_Object: Optional[Literal["Masculine", "Feminine", "Neutral"]] = None
+    Gender: Optional[Literal["Masculine", "Feminine", "Neutral"]] = None
+    Animacy: Optional[Literal["Animate", "Inanimate"]] = None
+    Speech_Act: Optional[Literal["Question", "Answer", "Statement", "Command", "Request", "Greeting"]] = None
 
 
 class TagParseError(ValueError):
@@ -25,12 +27,20 @@ TAG_LINE_RE = re.compile(r"TAGS:\s*([^\n\r]+)", re.IGNORECASE)
 SELECTION_RE = re.compile(r"SELECTION:\s*(\d+)", re.IGNORECASE)
 
 KEY_CANONICALS = {
-    "gender": "Gender",
-    "animacy": "Animacy",
+    "audience": "Audience",
     "status": "Status",
     "age": "Age",
     "formality": "Formality",
-    "audience": "Audience",
+    "gender": "Gender",
+    "gender_subject": "Gender_Subject",
+    "gender_subj": "Gender_Subject",
+    "gender1": "Gender_Subject",
+    "gender_1": "Gender_Subject",
+    "gender_object": "Gender_Object",
+    "gender_obj": "Gender_Object",
+    "gender2": "Gender_Object",
+    "gender_2": "Gender_Object",
+    "animacy": "Animacy",
     "speech_act": "Speech_Act",
     "speechact": "Speech_Act",
 }
@@ -65,12 +75,12 @@ VALUE_CANONICALS = {
 
 
 def _canonicalize_key(raw_key: str) -> str:
-    normalized = raw_key.strip().lower().replace("-", "_")
+    normalized = raw_key.strip().lower().replace("-", "_").replace(" ", "_")
     return KEY_CANONICALS.get(normalized, raw_key.strip())
 
 
 def _canonicalize_value(raw_value: str) -> str:
-    normalized = raw_value.strip().lower().replace("-", "_")
+    normalized = raw_value.strip().lower().replace("-", "_").replace(" ", "_")
     return VALUE_CANONICALS.get(normalized, raw_value.strip())
 
 
