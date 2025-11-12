@@ -80,6 +80,7 @@ def _generate_with_retry(model, base_prompt: str) -> Tuple[int, str]:
     last_output = ""
     prompt = base_prompt
     for attempt in range(1, MAX_SELECTION_RETRIES + 1):
+        print(f"\n Validating prompt schema: {prompt} \n")
         output = model.generate(prompt)
         selection = _parse_selection(output)
         if selection is not None:
@@ -161,7 +162,7 @@ def _run_prompt_experiment(
         )
         model = TextGenerationModelFactory.create_instance(current_model)
         model_results = []
-
+        
         for source_sentence, row in tqdm(dataset.items(), total=len(dataset)):
             candidate_sentences, tag_runs = _extract_options_and_tags(row, tag_schema)
 
