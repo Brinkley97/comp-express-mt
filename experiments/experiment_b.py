@@ -88,7 +88,7 @@ def _generate_tags_with_retry(model, base_prompt: str) -> Tuple[Dict, str]:
     for attempt in range(1, MAX_RETRIES + 1):
         
         output = model.generate(prompt)
-        print(f"[debug] Tag generation attempt {attempt} output:\n{output}\n")
+        # print(f"[debug] Tag generation attempt {attempt} output:\n{output}\n")
         try:
             tags = parse_tags(output)
             return tags.model_dump(), str(output)

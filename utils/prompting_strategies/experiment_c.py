@@ -54,12 +54,12 @@ class ExperimentCPromptBase(ExperimentAPromptBase):
     def _intro(self) -> str:
         if self.direction == "english_to_akan":
             return (
-                "You are selecting the most appropriate Akan translation for an English sentence, "
-                f"given {self.tags_source_description}."
+                "You are selecting the most appropriate Akuapem Twi translation for an English sentence, "
+                f"given {self.tags_source_description} that apply to that Akuapem Twi sentence."
             )
         return (
-            "You are selecting the most appropriate English translation for an Akan sentence, "
-            f"given {self.tags_source_description}."
+            "You are selecting the most appropriate English translation for an Akuapem Twi sentence, "
+            f"given {self.tags_source_description} for {self.source_language} sentence."
         )
 
     def _authority_note(self) -> str:

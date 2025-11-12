@@ -229,17 +229,18 @@ if __name__ == "__main__":
     dataset_dict = load_json(data_path)
     default_source, default_target = _infer_languages_from_path(data_path)
 
+    print(f"Default source language: {default_source}, Default target language: {default_target}"
+          "\n***************************************************************************\n")
+
     selected_models = [
         "gpt-oss-120b",
         "llama-3.3-70b-instruct",
-        "mistral-small-3.1",
-        "granite-3.3-8b-instruct",
     ]
 
     run_zero_shot_experiment(
         model_names=selected_models,
         dataset=dataset_dict,
-        experiment_name="experiment_c",
+        experiment_name="1_to_many_experiment_c",
         source_language=default_source,
         target_language=default_target,
     )
