@@ -74,7 +74,7 @@ class ExperimentBPromptBase(ExperimentAPromptBase):
             return self._coerce_dimensions(self.EN_TO_AKAN_DIMENSIONS)
         return self._coerce_dimensions(self.AKAN_TO_EN_DIMENSIONS)
 
-    def _tag_instruction_block(self, dimensions) -> str:
+    def _tag_instruction_block(self, dimensions, fallback_values=None) -> str:
         intro = (
             "First, infer the pragmatic context by generating ONE value for each dimension in the exact order shown."
         )
@@ -87,8 +87,16 @@ class ExperimentBPromptBase(ExperimentAPromptBase):
         lines.append(
             "Your TAGS must describe the same pragmatic context that would justify whichever translation you ultimately prefer."
         )
+        if fallback_values:
+            fallback_text = ", ".join(
+                f"{key}={value}" for key, value in fallback_values.items()
+            )
+            lines.append(
+                "If you lack information, use these fallback assignments instead of inventing new labels: "
+                f"{fallback_text}."
+            )
         lines.append(
-            "Always copy the values exactly as written inside the brackets. If you are unsure: for AGE choose PEER, for AUDIENCE choose INDIVIDUAL. Never output 'Neutral' for AGE or AUDIENCE."
+            "Always copy the values exactly as written inside the brackets. Never invent new labels such as 'Neutral' for AGE/AUDIENCE."
         )
         return "\n".join(lines)
 
@@ -135,7 +143,7 @@ class ZeroShotPromptFactory(ExperimentBPromptBase):
             self._authority_note(),
             f"{self.source_label}: \"{source_sentence}\"",
             f"{self.options_label} (reference only):\n{options_block}",
-            self._tag_instruction_block(dimensions),
+            self._tag_instruction_block(dimensions, kwargs.get("fallback_values")),
             "Do NOT choose a translation. Respond ONLY with the TAGS line shown below.",
             self._response_format_block(dimensions),
         ]
@@ -197,7 +205,7 @@ TAGS: FORMALITY=Formal, AUDIENCE=Individual, STATUS=Superior, AGE=Elder, GENDER=
             "Now analyze this sentence:",
             f"{self.source_label}: \"{source_sentence}\"",
             f"{self.options_label} (reference only):\n{options_block}",
-            self._tag_instruction_block(dimensions),
+            self._tag_instruction_block(dimensions, kwargs.get("fallback_values")),
             "Do NOT choose a translation. Respond ONLY with the TAGS line shown below.",
             self._response_format_block(dimensions),
         ]

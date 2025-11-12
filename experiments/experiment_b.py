@@ -157,6 +157,12 @@ def _run_prompt_experiment(
                 source_sentence,
                 candidate_sentences,
                 tag_dimensions=tag_schema,
+                fallback_values={
+                    "AUDIENCE": "INDIVIDUAL",
+                    "AGE": "PEER",
+                    "FORMALITY": "FORMAL",
+                    "SPEECH_ACT": "STATEMENT",
+                },
             )
             tags_dict, tag_raw_output = _generate_tags_with_retry(model, tag_prompt)
 
@@ -307,10 +313,10 @@ if __name__ == "__main__":
           "\n***************************************************************************\n")
 
     selected_models = [
+        "granite-3.3-8b-instruct",
         "mistral-small-3.1",
         "llama-3.3-70b-instruct",
         "gpt-oss-120b",
-        "granite-3.3-8b-instruct",
     ]
 
     run_zero_shot_experiment(
