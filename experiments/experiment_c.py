@@ -17,7 +17,7 @@ from prompting_strategies.experiment_c import (
     FewShotPromptFactory,
     ChainOfThoughtPromptFactory,
 )
-from tag_schema import build_schema, map_values_to_schema
+from tag_schema import build_schema, map_values_to_schema, map_dict_to_schema
 
 warnings.filterwarnings('ignore')
 
@@ -109,7 +109,7 @@ def _write_results(outputs: Dict, experiment_name: Optional[str], label: str) ->
 
 def _coerce_tags_from_values(tag_values, schema) -> Dict[str, str]:
     if isinstance(tag_values, dict):
-        return tag_values
+        return map_dict_to_schema(tag_values, schema)
     if isinstance(tag_values, list):
         return map_values_to_schema(tag_values, schema)
     raise ValueError("Tags must be provided as a dict or list.")
