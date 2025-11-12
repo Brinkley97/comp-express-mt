@@ -87,7 +87,7 @@ def _parse_selection(raw_selection) -> Optional[int]:
     return None
 
 
-def _generate_with_retry(model, prompt: str) -> Tuple[int, str]:
+def _generate_with_retry(model, base_prompt: str) -> Tuple[int, str]:
     """
     Attempt to generate a numeric selection from a model, retrying on non-numeric outputs.
     This function calls model.generate(prompt) repeatedly (up to the module-level
@@ -132,14 +132,18 @@ def _generate_with_retry(model, prompt: str) -> Tuple[int, str]:
     """
     
     last_output = ""
+    prompt = base_prompt
     for attempt in range(1, MAX_SELECTION_RETRIES + 1):
         output = model.generate(prompt)
         selection = _parse_selection(output)
         if selection is not None:
             return selection, str(output)
         last_output = str(output)
-        print(
-            f"[warn] Attempt {attempt} returned non-numeric selection. Retrying..."
+        print(f"[warn] Attempt {attempt} returned non-numeric selection. Retrying...")
+        prompt = (
+            f"{base_prompt}\n\n"
+            "All translation options are verified by native speakers. You must choose one of them. "
+            "Respond with ONLY the selection integer (e.g., '2'). Do not provide explanations."
         )
 
     raise ValueError(
