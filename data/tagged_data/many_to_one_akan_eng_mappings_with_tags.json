@@ -6,7 +6,7 @@
             "AGE": "PEER",
             "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
             "ANIMACY": "ANIMATE",
             "SPEECH_ACT": "STATEMENT"
         },
@@ -16,7 +16,7 @@
             "AGE": "PEER",
             "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
             "ANIMACY": "ANIMATE",
             "SPEECH_ACT": "ANSWER"
         },
@@ -26,7 +26,7 @@
             "AGE": "PEER",
             "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
             "ANIMACY": "ANIMATE",
             "SPEECH_ACT": "STATEMENT"
         }
@@ -34,3809 +34,3809 @@
     "Kwaku sings quite well.": {
         "Kwaku to dwom yiye.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "ANIMATE",
-            "GENDER.1": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwaku nim nwom to.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "ANIMATE",
-            "GENDER.1": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "He calls her up every night.": {
         "Anadwo biara ɔfrɛ no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔfrɛ no anadwo biara": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I don't have any money at all.": {
         "Minni sika koraa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Sika biara nni me ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I love your dress.": {
         "M'ani gye wo ntadehyɛ ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "M'ani gye w'ataadeɛ no ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "W'ataadeɛ no yɛ fɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "This is what I can do for you.": {
         "Eyi na metumi ayɛ ama wo.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Deɛ mɛtumi ayɛ ama wo ara nie.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Deɛ mɛtumi ayɛ aboa wo no no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "She met him this morning.": {
         "Anɔpa yi, ohyiaa no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔhyiaa no anɔpa yi.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Anopa yi ara na ɔne no redi ahyiam.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I'd rather not go out today.": {
         "Merenyɛ saa nnɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mempɛ sɛ mɛpue nnɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɛnni me mu sɛ mɛkɔ abɔntene nnɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "What time will you leave?": {
         "Bere bɛn na wubefi hɔ?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Berɛ bɛn na wobɛkɔ?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Wobɛfiri ha berɛ bɛn?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "Don't lose your temper.": {
         "Mma wo bo mfuw.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Hyɛ wo ho so.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ka w'akoma to wo yam.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Adwoberɛw.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Which is mine?": {
         "Nea ɛwɔ he na meyɛ?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "YOUNGER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Deɛ ɛwc hen na yɛ me dea?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Ɛmu nea ɛwɔ hen na ɛwɔ me?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "We left at 2:30.": {
         "Yefii hɔ 2:30.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɛbɔɔ 2:30 na yɛfirii hɔ.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Yɔrefiri hɔ no na 2:30 abɔ.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "She likes animals, you know?": {
         "Ɔte sɛ mmoa, wunim?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Wonim sɛ n'ani gye mmoa ho?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Wonim sɛ ɔpɛ mmoa asɛm?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "You haven't got much time.": {
         "Wonni mmre.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mmerɛ nni hɔ ma wo.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Wo mmerɛ a aka sua.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Sooner or later, we all are going to die.": {
         "Ɛrenkyɛ koraa na yɛn nyinaa bɛwu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔbra twa owuo.": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɛberɛ bi bɛba a yɛn nyinaa bɛwu.": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Kwaku has next to nothing in his wallet.": {
         "Kwaku nni biribiara wɔ ne bag mu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwaku bɔtom awe.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwaku nni ne ho hwee.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwaku nni sika wɔ ne walɛt mu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I'm Kwaku's boss.": {
         "Meyɛ Kwaku adwumam panyin.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwaku adwuma mu panin ne me.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Me na mehwɛ Kwaku so wɔ adwuma mu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Meyɛ Kwaku panin wɔ adwuma mu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "It's their job.": {
         "Ɛyɛ wɔn adwuma.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Wɔn adwuma no no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Adwuma a wɔyɛ no no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "That's your problem.": {
         "Ɛno ne wo haw.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɛno deɛ, w'asɛm.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Kwaku recognized me.": {
         "Kwaku huu me.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwaku kaee me.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwaku werɛ amfi me.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwaku hunuu sɛ ɛyɛ me a.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "What language do they speak in Switzerland?": {
         "Kasa bɛn na wɔka wɔ Switzerland?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Wɔka kasa bɛn wɔ Switzerland?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "Almost three thousand people died.": {
         "Nnipa bɛyɛ mpensa wuwui.": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Nnipa a wɔwui no bɛduru mpem mmiɛnsa.": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Nnipa a wɔwui no bɛyɛ mpem mmiɛnsa.": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "We'll notify Kwaku.": {
         "Yɛrenni kan nka Kwaku ho asɛm.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Yɛbɛyi Kwaku asotire.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Yɛbɛbɔ Kwaku amanneɛ.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Yɛne Kwaku bɛdi ho nkɔmmɔ.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I don't have time to be sick.": {
         "Minni bere a mede bɛsa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Menni berɛ na mede ayare.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mmerɛ nni na mede ayare.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Her son's death broke Abena's heart.": {
         "Ne babarima no wu no maa Abena koma tui.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Abena babarima wuo no aha no yie.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Abena adi ne babarima wuo no ho yaw pa ara.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "That isn't Kwaku's bicycle.": {
         "Ɛno nyɛ Kwaku sakre.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Sakre wei nni Kwaku.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Sakre wei nyɛ Kwaku dea.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɛnyɛ Kwaku sakre no nie.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "No one showed up.": {
         "Obiara amma.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Obiara ansi hɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "She made friends with Asamoah at the party.": {
         "Onyaa nnamfo wɔ apontow no ase.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Apontoɔ no ase na ɔne Asamoah faa nnamfoɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Apontoɔ no ase na ɔne Asamoah nyaa ayɔnkofa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Cain was evil.": {
         "Ná Kain yɛ ɔbɔnefo.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Na Cain tirimu yɛ sum.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Na Cain yɛ nipabɔne ni.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I've been sick for a very long time.": {
         "Mayare bere tenten.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mayare akyɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mmerɛ tenten nie na mayare.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Yareɛ yi atena me so akyɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Who told you the story?": {
         "Hena na ɔkaa asɛm no kyerɛɛ wo?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Hwan na bɔɔ wo amaneɛ?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Hwan na bɔɔ wo asɛm no mu?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "We'll lose everything.": {
         "Yɛbɛsɛe biribiara.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Yɛbɛhwere biribiara.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Biribiara bɛhwere yɛn.": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ne nyinaa bɛfiri yɛn nsa.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Shall I go on?": {
         "So mɛkɔ so ayɛ?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "YOUNGER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Metumi toa so anaa?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "YOUNGER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Mentoa so anaa?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "YOUNGER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "Kwame isn't happy about what's happened.": {
         " Nea esii no,  nea asi no,  n'ani nnye ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwame ani annye nea ɛsiiɛ no ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         " Nea esii no nti, Kwame ani nnye ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwame ani annye deɛ esiiɛ no ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Deɛ esiiɛ no amma Kwame ani annye.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I thought it was Kwame.": {
         "Na ɛyɛ me sɛ me na me ne no nam.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Na ɛyɛ me sɛ ɛyɛ Kwame a.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Na medwene sɛ Kwame a.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "What kind of dreams do you have?": {
         "Anidaso bɛn na wowɔ?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Wo daeɛso ne sɛn?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Wo tirimpɔ ne sɛn?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Wo botaeɛ ne sɛn?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "He came all the way from Nikko to see me off.": {
         "Ɔbaa hɔ bɛhwɛɛ me.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔbɔɔ anamɔn firii Nikko bɛgyaa me kwan.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔfirii Nikko bɛgyaa me kwan.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Don't be sad.": {
         "Mma w'abam mmu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "Mma wo werɛ nho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "Nni awerɛhoɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         }
     },
     "He can't control his desires.": {
         "Ontumi nni n'akɔnnɔ ahorow so.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔntumi nhyɛ n'akɔnnɔ so.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I didn't say anything.": {
         "Mantumi anka hwee.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Manka hwee.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Manka biribiara.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Asamoah isn't my father.": {
         "Me papa a wɔfrɛ no ulah no nyɛ me papa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Asamoah nyɛ me papa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɛnyɛ me papa ne Asamoah.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Me papa nyɛ Asamoah.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "He likes singing.": {
         "N'ani gye nnwonto ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔpɛ nnwontoɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Adeɛ a ɔpɛ ne nnwontoɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Who's your favorite teacher?": {
         "Hena ne kyerɛkyerɛni a w'ani gye ne ho paa?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "YOUNGER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Kyerɛkyerɛni bɛn na wopɛ n'asɛm?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "YOUNGER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Hwan ne ɔkyerkyerɛni a wopɛ n'asɛm?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "YOUNGER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "Be respectful to your superiors, if you have any.": {
         " Sɛ wowɔ bi a,  bu wo mpanyimfo.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         " Sɛ wowɔ akannifoɔ a,  fa anidie ma wɔn.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         " Sɛ wowɔ mpanimfoɔ a,  bu wɔn.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "How many friends do you have on Facebook?": {
         "Nnamfo dodow ahe na wowɔ wɔ Fcaebook so?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Wo nnamfonom a ɛwɔ Facebook yɛ sɛn?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Wo Facebook nnamfonom yɛ dodoɔ sɛn?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "Children mostly lack patience.": {
         " Mmere pii,  mmofra nni ntoboase.": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Abotare yɛ adeɛ a mpɛn pii no ara mmɔfra nni.": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Adeɛ a mmɔfra nni ne abotare.": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I can't keep lying to Osei.": {
         "Mentumi nkɔso nni atoro nkyerɛ Osei.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mentumi ntoa so ntwa Osei ntorɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mentumi nni Osei atorɔ bio.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "That is not what I want.": {
         "Ɛnyɛ eyi na mepɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɛnyɛ nea mepɛ nie.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɛnyɛ nea merehwehwɛ nie.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Wei nyɛ nea mepɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Nea mepɛ no nyɛ wei.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I just want to thank you for all of your help.": {
         "Mepɛ sɛ meda mo ase wɔ mo mmoa nyinaa ho.": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mepɛ sɛ meda wo ase wɔ nea woayɛ ama me nyinaa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mepɛ sɛ meda wo ase wɔ w'adɔeɛ nyinaa ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Can I go in there now?": {
         "So metumi akɔ hɔ seesei?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Afei mɛtumi akɔ mu?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "YOUNGER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Afei mɛtumi awura mu?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "YOUNGER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Mɛtumi awura mu seesei?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "YOUNGER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "Kwabena gave thanks to God.": {
         "Kwabena daa Onyankopɔn ase.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwabena de aseda maa Onyankopɔn.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwabena de Onyankopɔn aseda maa no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "He devoted his life to his study.": {
         "Ɔde ne bere nyinaa suaa ade.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Watu ne ho asi hɔ ama n'adesua.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Wagyae birbiara mu ama n'adesua.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Kwabena is very intelligent.": {
         "Kwabena nim ade paa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwabena nim nwoma pa ara.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwabena adwene mu dɔ yie.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwabena yɛ onimdefoɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "That bridge is made of stone.": {
         "Wɔde abo na ɛyɛɛ saa twene no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Aboɔ na wɔde yɛɛ saa twene no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Saa twene no yɛ aboɔ twene.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I can't believe you’re doing this to me.": {
         "Woayɛ m'ade ama me ho adwiriw me.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɛyɛ me nwanwa sɛ woatumi ayɛ me sei.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mannwene ho da sɛ wobɛtumi ayɛ me sei.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Enti me na woayɛ me sei yi.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Kwabena was shocked by what Abena said.": {
         "Nea Abena kae no maa Kwabena ho dwiriw no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Abena nsɛm a ɔkaeɛ no maa Kwabena ho dwirii no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwabena ho dwirii no wɔ nsɛm a Abena kaeɛ no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "He lived in Ankara for six years.": {
         "Ɔde mfe asia traa Ankara.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔtenaa Ankara mfeɛ nsia.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mfeɛ nsia mu na ɔtenaa Ankara.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ankara ha na ɔtenaa mfeɛ nsia.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "She is a pleasant person.": {
         "N'anim tew.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔyɛ obi a ɔpɛ nipa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔdɔ nipa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔka ne ho bɛn nipa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I was about to go.": {
         "Na merebɛkɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Anka merebɛkɔ ara no no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I can't get her out of my mind.": {
         "Mintumi nnyi m'adwene mfi ne so.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mentumi nyi no mfiri m'adwene mu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mentumi nyi ne ho adwendwene mfiri me mu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ne ho adwene wɔ me tirim.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "The road's in bad condition.": {
         "Kwan no nnye.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwan no asɛe.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwan no nyɛ papa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "She works at the bank.": {
         "Ɔyɛ adwuma wɔ sikakorabea.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "N'adwumabea ne sikakorabea hɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Sikakorabea hɔ na ɔyɛ adwuma.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔyɛ n'adwuma wɔ sikakorabea hɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "What happened last month?": {
         "Dɛn na esii ɔsram a etwaam no mu?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Bosome a ɛtwaa mu no ɛdeɛn na siiɛ?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Nsɛm bɛn na sii bosome a ɛtwaa mu no?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "I do the laundry on Sundays.": {
         "Mehoro nneɛma Kwasida biara.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mesi nneɛma Kwasiada biara.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwasiada biara na mesi nneɛma.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Nneɛma mesi no yɛ Kwasiada biara.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Kwabena is already in Boston.": {
         "Kwabena wɔ Boston dedaw.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwabena adi kan wɔ Boston.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwabena aduru Boston dada.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Whose pencil is this?": {
         "Hena pɛnsere ni?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Pɛnsere yi wɔ hwan?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Hwan na pɛnsere no yɛ ne dea?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "Don't be stupid.": {
         "Nnyimi.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "Nni nkwaseasɛm.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "Ma w'ani nna hɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "Nni agyimisɛm biara.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         }
     },
     "She is interested in jazz.": {
         "N'ani gye jazz ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "N'ani di jazz akyi.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔpɛ jazz.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Jazz yɛ adeɛ a n'ani gye ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Kwabena went along with the scheme.": {
         "Kwabena dii nhyehyɛe no akyi.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwabena de nhyehyɛeɛ n dii dwuma.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwabena gyee nhyehyɛeɛ no too mu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "My father works for a bank.": {
         "Me papa yɛ adwuma ma sikakorabea bi.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Sikakorabea bi na me papa yɛ adwuma ma wɔn.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Me papa di ne dwuma ma sikakorabea bi.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Sikakorabea bi na me papa ne wɔn yɛ adwuma.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "What's that letter about?": {
         "Dɛn na saa krataa no ka ho asɛm?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Krataa no kasa fa deɛn ho?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Krataa no mu nsɛm ne sɛn?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Amannebɔsɛm bɛn na krataa no ka ho asɛm?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "I am disappointed that my friends are not here.": {
         "Ɛyɛ me yaw sɛ me nnamfo nni ha.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Madi me nnamfonom ho yaw sɛ wɔnni ha.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɛha me sɛ me nnamfonom nni ha.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Me werɛ aho sɛ me nnamfonom nni ha.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "It was cloudy yesterday.": {
         " Ɛnnɛra, na omununkum wɔ wim paa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Na ewiem ayɛ kusuu nnora.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Nnora na ewiem ani nyɛ fɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Kwabena's useless.": {
         "Kwabena so nni mfaso.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mfasoɔ biara nni Kwabena so.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwabena nni botaeɛ biara.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwabena nemnam hɔ saa ara kwa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "You taught us that.": {
         "Wokyerɛɛ yɛn saa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Nea wokyerɛɛ yɛn ara no no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Saa ara na wokyerɛɛ yɛn.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "What makes us human?": {
         "Dɛn na ɛma yɛyɛ nnipa?": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Deɛ ɛma yɛyɛ nnipa ne deɛn?": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Deɛn na ma nnipa yɛ nnipa?": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Yɛn nnipaban ne deɛn?": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "I love you just as you are.": {
         "Medɔ wo sɛnea wote pɛpɛɛpɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         " Sɛnea woteɛ no ara no, medɔ wo.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Nea woteɛ biara medɔ wo.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "People in Taiwan work hard.": {
         "Nnipa a wɔwɔ Taiwan no yɛ adwumaden.": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Taiwanfoɔ yɛ nnipa a wɔyɛ adwumaden.": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Wɔn a wɔwɔ pɛ adwuma.": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Nnipa a wɔte Taiwan yɛ wɔn a wɔpɛ adwumaden.": {
             "AUD_SIZE": "LARGE GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "It was drizzling.": {
         "Na nsu retɔ nketenkete.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Nsuo no repete.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Kwabena is a very good friend.": {
         "Kwabena yɛ adamfo pa paa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Me yɔnko paa ne Kwabena.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwabena yɛ me yɔnko prɛko pɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Me yɔnko brɛboɔ ne Kwabena.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Was this letter written by Abena?": {
         "Abena na ɔkyerɛwee saa krataa yi?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Wei ne krataa a Abena twerɛeɛ?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Krataa a Abenaa twerɛeɛ nie?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "I'm very frightened.": {
         "Ehu aka me yiye.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "M'aboto.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ehu abɔ me.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mabɔ hu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I feel betrayed.": {
         "Mete nka sɛ wɔayi me ama.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Wadi me hwammɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mete nka sɛ wɔde m'akyi aka fam.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Kwabena is older than Abena.": {
         "Kwabena anyin sen Abena.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɛnyɛ Abena tipɛn ne Kwabena.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɛnyɛ Abena yɔnko ne Kwabena": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwabena mfeɛ wɔ anim kyɛn Abena.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I'll lend it to you.": {
         "Mede bɛma wo.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mede bɛfɛm wo.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I love coffee.": {
         "M'ani gye kɔfe ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mepɛ kɔfe.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kɔfe yɛ adeɛ a mepɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kɔfe yɛ adeɛ a m'ani gye ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I want to go to the movies today.": {
         "Mepɛ sɛ mekɔhwɛ sini nnɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Nnɛ mepɛ sɛ metwa m'ani so mfonin.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Nnɛ mepɛ sɛ mekɔhweɛ sini.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I'd never hit a woman.": {
         "Meremmɔ ɔbea da.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Memmfa me nsa nnka ɔbaa da.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Merentene me nsa wɔ ɔbaa so da.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "You are a mean person.": {
         "Woyɛ obi a wo tirim yɛ den.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Wo hwenem bɔn wo.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Wompɛ nipa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "He was given an important mission.": {
         "Wɔmaa no dwumadi titiriw bi.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Wɔmaa no dwumasono bi.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Wɔde dwuma titire bi hyɛɛ ne nsa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Do you think I'm made of money?": {
         "Wususuw sɛ meyɛ obi a mewɔ sika?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Ɛyɛ wo sp mewɔ sika?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Wokaa sɛ mewɔ sika?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "Don't come near me. You're filthy.": {
         " Nmmɛn me, wo ho ntew.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "Mfa wo ho fin no mmɛn me.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         " Wo ho yɛ fin, mmɛn me.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         }
     },
     "Memorize this.": {
         "Si eyi so dua.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "We wei gu wo tirim.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "YOUNGER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "Ma wei nka wo tirim.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "YOUNGER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         }
     },
     "I'm rich.": {
         "Meyɛ ɔdefo.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mede me ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Meyɛ sikani.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mewɔ de.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "What's your favorite Beatles song?": {
         "Nnwom bɛn na w'ani gye ho paa?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Beatles nnwom bɛn na yɛ wo dɛ?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Beatles nnwom bɛn na w'ani gye ho?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "She scolded him because he left the door open.": {
         " \"Esiane sɛ ofii pon no mu nti, ": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔtwii n'anim esiane ɛpono no a ɔgyae too hɔ no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɛpono a wantom nti ɔtwii n'anim.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Act like a man.": {
         "Yɛ w'ade te sɛ onipa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Di wo dwuma sɛ ɔbarima.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "Ma mmarisɛm mmra wo mu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "Yɛ ɔkokoɔdurufoɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         }
     },
     "Do you like that song?": {
         "So w'ani gye saa dwom no ho?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Saa nnwom no na wopɛ?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Nnwom a wopɛ nie?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "Asamoah didn't tell Abena his secret.": {
         "Asamoah anka ne kokoam asɛm ankyerɛ Abena.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Asamoah anka n'ahintasɛm ankyerɛ Abena.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Asamoah de nsɛm sumaa Abena.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Asamoah is not serious about his studies.": {
         " \"Sɛ Yalah no, n'adesua no ho nhia no kɛse.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Asamoah ani nku n'adesua ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Asamoah atoto n'adesua ase.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Asamoah adesua nyɛ adeɛ a ɛho hia no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Get ready.": {
         "Siesie wo ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "Yɛ krado.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         }
     },
     "Tell Asamoah I love him.": {
         "Ka kyerɛ Asamoah sɛ medɔ no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ma Asamoah nte sɛ m'ani gye ne ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ka kyerɛ Asamoah sɛ m'ani gye ne ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Some dogs are very smart.": {
         "Nkraman no bi nim nyansa paa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Nkraman no bi ani ate.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Don't tell my wife.": {
         "Nka nkyerɛ me yere.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "REQUEST"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
         },
         "Mmɔ me yere amanneɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "Mma me yere aso nte asɛm yi.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         }
     },
     "What do I have?": {
         "Dɛn na mewɔ?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Na mewɔ deɛn?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "Both of my parents aren't alive.": {
         "M'awofo baanu nyinaa nte nkwa mu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "M'awofoɔ afiri mu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "M'awofoɔ nte ase.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "M'awofoɔ awu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Don't pull my leg!": {
         "Mfa me nan nsi fam!": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "Nsere me!": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "Mfa me nni agorɔ!": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         }
     },
     "I'm not your son.": {
         "Menyɛ wo ba.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɛnyɛ wo babarima ne me.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Wo babarima nyɛ me.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Kwasi asked for a discount.": {
         "Kwasi bisae sɛ wɔmma no aduru bi a wɔde siw awo ano.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwasi srɛɛ ntesoɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwasi pree ntesoɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "ELDER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Would you care for more cookies?": {
         "So wobɛhwɛ wo ho yiye?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Memma wo cookies no biom?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Wobɛdi cookies no biom?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "Do they live with you?": {
         "So wɔne wo te?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Wɔtenaa wo nkyɛn?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Wo ne wɔn na tenaeɛ?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "Don't be so reserved.": {
         "Mma w'ani nnyɛ wo totɔtotɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "Ka wo ho kɔ nipa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ka wo ho bɛn nipa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "YOUNGER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kentene wo ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "YOUNGER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         }
     },
     "I'll be back soon.": {
         "Mɛsan aba nnansa yi ara.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Merenkyɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mɛba seisei ara.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "She married him when she was 20.": {
         "Ɔwaree no bere a na wadi mfe 20.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔdii mfeɛ aduonu na ɔwaree no.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Ɔwaree no no na wadi mfeɛ aduonu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "FEMININE",
-            "GENDER": "MASCULINE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "We gather together every Friday.": {
         "Na yehyiam Fida biara.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Fiada biara yɛhyiam.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Yɛdi ahyiam Fiada biara.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Could I borrow a pencil?": {
         "So na metumi atɔn pɛnsere?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Mɛtumi afɛm wo pɛnsere no?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Wobɛtumi de wo pɛnsere no afɛm me?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "We can pay 200 dollars at most.": {
         "Yebetumi atua dɔla 200.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Yɛatua ama no ak] soro ara na 200 dɔlas.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Yɛatua ama no aboro so na 200 dɔlas.": {
             "AUD_SIZE": "SMALL GROUP",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I like fruit.": {
         "M'ani gye nnuaba ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mepɛ nnuaba.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Nnuaba yɛ adeɛ a m'ani gye ho.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "INANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I don't trust you anymore.": {
         "Minni wo mu ahotoso bio.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mennye wo nni bio.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Wo mu gyidie afiri me mu.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Kwame left the house shortly after Abena left.": {
         "Bere a Abena fii fie hɔ bere tiaa bi akyi na Kwame nso fii fie.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Abena firii fie no ankyɛ biara na Kwame nso kɔeɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Kwame tiaa Abena akyi berɛ tiawa bi mu a Abena kɔeɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "MASCULINE",
-            "GENDER": "FEMININE",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "I'm leaving.": {
         "Merefi hɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Merekɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Merefiri adi.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     },
     "Don't mess with me.": {
         "Wo ne me nnyɛ basaa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Mfa me nni agorɔ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         },
         "Mfa me nnyimi.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "COMMAND"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
         }
     },
     "What's it like?": {
         "Ɛte dɛn?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Sɛn na ɛte": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         },
         "Ne su te sɛn?": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "ELDER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "QUESTION"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
         }
     },
     "I ran out of ideas.": {
         "Na minhu nea menyɛ.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Me nsusuiɛ asa.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "INFORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Menni adwene biara bio.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         },
         "Menni tirimpɔ biara bio.": {
             "AUD_SIZE": "INDIVIDUAL",
-            "STATUS": "PEER",
-            "AGE": "FORMAL",
-            "FORMALITY": "NEUTRAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
             "GENDER": "NEUTRAL",
-            "GENDER.1": "ANIMATE",
-            "ANIMACY": "STATEMENT"
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
         }
     }
 }
