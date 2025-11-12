@@ -106,8 +106,9 @@ def _generate_tags_with_retry(model, base_prompt: str) -> Tuple[Dict, str]:
     )
 
 
-def _generate_selection_with_retry(model, prompt: str) -> Tuple[int, str]:
+def _generate_selection_with_retry(model, base_prompt: str) -> Tuple[int, str]:
     last_output = ""
+    prompt = base_prompt
     for attempt in range(1, MAX_RETRIES + 1):
         output = model.generate(prompt)
         selection = _parse_selection(output)
@@ -115,6 +116,11 @@ def _generate_selection_with_retry(model, prompt: str) -> Tuple[int, str]:
             return selection, str(output)
         last_output = str(output)
         print(f"[warn] Attempt {attempt} returned non-numeric selection. Retrying...")
+        prompt = (
+            f"{base_prompt}\n\n"
+            "All options were validated by native speakers. You must choose one of them. "
+            "Respond with ONLY the selection integer (e.g., '2'). Do not provide explanations."
+        )
 
     raise ValueError(
         f"Model failed to return a numeric selection after {MAX_RETRIES} attempts. "
