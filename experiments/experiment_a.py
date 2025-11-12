@@ -387,13 +387,13 @@ if __name__ == "__main__":
         "llama-3.3-70b-instruct",
     ]
 
-    run_zero_shot_experiment(
-        model_names=selected_models,
-        dataset=dataset_dict,
-        experiment_name="many_to_1_experiment_a",
-        source_language=default_source,
-        target_language=default_target,
-    )
+    # run_zero_shot_experiment(
+    #     model_names=selected_models,
+    #     dataset=dataset_dict,
+    #     experiment_name="many_to_1_experiment_a",
+    #     source_language=default_source,
+    #     target_language=default_target,
+    # )
 
     # run_few_shot_experiment(
     #     model_names=selected_models,
@@ -403,10 +403,10 @@ if __name__ == "__main__":
     #     target_language=default_target,
     # )
 
-    # run_chain_of_thought_experiment(
-    #     model_names=selected_models,
-    #     dataset=dataset_dict,
-    #     experiment_name="many_to_1_experiment_a",
-    #     source_language=default_source,
-    #     target_language=default_target,
-    # )
+    run_chain_of_thought_experiment(
+        model_names=selected_models,
+        dataset=dataset_dict,
+        experiment_name="many_to_1_experiment_a",
+        source_language=default_source,
+        target_language=default_target,
+    )

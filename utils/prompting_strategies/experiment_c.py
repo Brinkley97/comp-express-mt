@@ -64,18 +64,10 @@ class ExperimentCPromptBase(ExperimentAPromptBase):
             return (
                 "You are selecting the most appropriate Akuapem Twi translation for an English sentence, "
                 f"given {self.tags_source_description} that apply to that Akuapem Twi sentence."
-                "The tags are supplied to help you choose the most appropriate translation." \
-                "This is essential for capturing the correct pragmatic meaning in context." \
-                "You must use the tags to inform your selection. Thus making sure you've " \
-                "used every available information to select the best translation."
             )
         return (
             "You are selecting the most appropriate English translation for an Akuapem Twi sentence, "
             f"given {self.tags_source_description} for {self.source_language} sentence."
-            "The tags are supplied to help you choose the most appropriate translation." \
-            "This is essential for capturing the correct pragmatic meaning in context." \
-            "You must use the tags to inform your selection. Thus making sure you've " \
-            "used every available information to select the best translation."
         )
 
     def _authority_note(self) -> str:
@@ -121,8 +113,11 @@ class ZeroShotPromptFactory(ExperimentCPromptBase):
             f"{self.source_label}: \"{source_sentence}\"",
             self._format_tag_block(tags, schema),
             f"{self.options_label}:\n{options_block}",
-            (
-                f"Based on the provided pragmatic context, select the most appropriate "
+            (   f"The expert tags are supplied to help you choose the most appropriate translation."
+                f"This is essential for capturing the correct pragmatic meaning in context."
+                f"You must use the tags to inform your selection. Thus making sure you've "
+                f"used every available information to select the best translation."
+                f"Based on the provided pragmatic context and having ensured you've made the best use of this information, select the most appropriate "
                 f"{self._title_label(self.target_language)} translation by number only."
             ),
             SELECT_BY_NUMBER_TASK,
@@ -204,7 +199,12 @@ Reasoning: Formality=Formal + Status=Superior + Age=Elder requires most respectf
             f"{self.source_label}: \"{source_sentence}\"",
             self._format_tag_block(tags, schema),
             f"{self.options_label}:\n{options_block}",
-            "Select the best translation by number only. Respond with just the number (1, 2, 3, etc.).",
+            "The expert tags are supplied to help you choose the most appropriate translation.",
+            "This is essential for capturing the correct pragmatic meaning in context.",
+            "You must use the tags to inform your selection. Thus making sure you've ",
+            "used every available information to select the best translation.",
+            "Based on the provided pragmatic context and having ensured you've made the best use of this information, "
+            "select the most appropriate translation. Respond with just the number (1, 2, 3, etc.).",
         ]
         return "\n\n".join(sections)
 
@@ -270,7 +270,7 @@ class ChainOfThoughtPromptFactory(ExperimentCPromptBase):
         if self.direction == "english_to_akan":
             return "\n".join(
                 [
-                    "Step 2: EVALUATE EACH AKAN OPTION",
+                    "Step 2: EVALUATE EACH AKUAPEM TWI OPTION and TAG ALIGNMENT",
                     "For each translation option, check:",
                     "- Does it match the required formality and status level?",
                     "- Does it address the correct audience with proper respect?",
@@ -279,7 +279,7 @@ class ChainOfThoughtPromptFactory(ExperimentCPromptBase):
             )
         return "\n".join(
             [
-                "Step 2: EVALUATE EACH ENGLISH OPTION",
+                "Step 2: EVALUATE EACH ENGLISH OPTION and TAG ALIGNMENT",
                 "For each translation, check:",
                 "- Does it match the inferred gender/animacy?",
                 "- Does it reflect the appropriate formality and status relationships?",
@@ -290,7 +290,7 @@ class ChainOfThoughtPromptFactory(ExperimentCPromptBase):
     def _step_three(self) -> str:
         return (
             "Step 3: MAKE SELECTION\n"
-            f"Choose the translation that perfectly aligns with all {self.tags_source_description} dimensions."
+            "Choose the translation that perfectly aligns with the source and provided expert tags."
         )
 
     def get_base_prompt(
@@ -307,10 +307,15 @@ class ChainOfThoughtPromptFactory(ExperimentCPromptBase):
             self._authority_note(),
             f"{self.source_label}: \"{source_sentence}\"",
             self._format_tag_block(tags, schema),
+            "The expert tags are supplied to help you choose the most appropriate translation.",
+            "This is essential for capturing the correct pragmatic meaning in context.",
+            "You must use the tags to inform your selection. Thus making sure you've ",
+            "used every available information to select the best translation.",
             f"{self.options_label}:\n{options_block}",
             self._step_one(tags),
             self._step_two(),
             self._step_three(),
-            'Provide your reasoning for each step, then state your final selection as "SELECTION: [number]".',
+            'Having used your reasoning for each step and applied the tags fully as needed context, '
+            'state your final selection as "SELECTION: [number]".',
         ]
         return "\n\n".join(sections)
