@@ -86,6 +86,7 @@ def _generate_tags_with_retry(model, base_prompt: str) -> Tuple[Dict, str]:
     last_error = ""
     prompt = base_prompt
     for attempt in range(1, MAX_RETRIES + 1):
+        
         output = model.generate(prompt)
         try:
             tags = parse_tags(output)
@@ -210,6 +211,7 @@ def run_zero_shot_experiment(
     )
     direction = _detect_direction(source_language, target_language)
     schema = _derive_schema(dataset, direction)
+    
     return _run_prompt_experiment(
         model_names=model_names,
         dataset=dataset,
@@ -305,8 +307,8 @@ if __name__ == "__main__":
           "\n***************************************************************************\n")
 
     selected_models = [
-        "gpt-oss-120b",
         "llama-3.3-70b-instruct",
+        "gpt-oss-120b",
         "mistral-small-3.1",
         "granite-3.3-8b-instruct",
     ]
