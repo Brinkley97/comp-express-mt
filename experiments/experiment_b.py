@@ -307,9 +307,9 @@ if __name__ == "__main__":
           "\n***************************************************************************\n")
 
     selected_models = [
+        "mistral-small-3.1",
         "llama-3.3-70b-instruct",
         "gpt-oss-120b",
-        "mistral-small-3.1",
         "granite-3.3-8b-instruct",
     ]
 

@@ -87,6 +87,9 @@ class ExperimentBPromptBase(ExperimentAPromptBase):
         lines.append(
             "Your TAGS must describe the same pragmatic context that would justify whichever translation you ultimately prefer."
         )
+        lines.append(
+            "Always copy the values exactly as written inside the brackets. If you are unsure: for AGE choose PEER, for AUDIENCE choose INDIVIDUAL. Never output 'Neutral' for AGE or AUDIENCE."
+        )
         return "\n".join(lines)
 
     def _response_format_block(self, dimensions) -> str:
