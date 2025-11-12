@@ -173,6 +173,7 @@ def _run_prompt_experiment(
                     source_sentence,
                     candidate_sentences,
                     tags=tags,
+                    tag_schema=tag_schema,
                 )
                 selection, raw_output = _generate_with_retry(model, prompt)
 

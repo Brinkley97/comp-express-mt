@@ -44,8 +44,16 @@ class ExperimentCPromptBase(ExperimentAPromptBase):
             return self.EN_TO_AKAN_ORDER
         return self.AKAN_TO_EN_ORDER
 
-    def _format_tag_block(self, tags: Dict[str, str]) -> str:
+    def _format_tag_block(self, tags: Dict[str, str], schema=None) -> str:
         lines = [f"Pragmatic tags ({self.tags_source_description}):"]
+        if schema:
+            for entry in schema:
+                canonical = entry["canonical"]
+                display = entry["display"].replace("_", " ").title()
+                value = tags.get(canonical, "UNKNOWN")
+                lines.append(f"- {display}: {value}")
+            return "\n".join(lines)
+
         for key in self._tag_order():
             value = tags.get(key, "UNKNOWN")
             lines.append(f"- {key}: {value}")
@@ -97,12 +105,13 @@ class ZeroShotPromptFactory(ExperimentCPromptBase):
         **kwargs,
     ) -> str:
         tags = self._require_tags(kwargs.get("tags"))
+        schema = kwargs.get("tag_schema")
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             self._intro(),
             self._authority_note(),
             f"{self.source_label}: \"{source_sentence}\"",
-            self._format_tag_block(tags),
+            self._format_tag_block(tags, schema),
             f"{self.options_label}:\n{options_block}",
             (
                 f"Based on the provided pragmatic context, select the most appropriate "
@@ -174,6 +183,7 @@ Reasoning: Formality=Formal + Status=Superior + Age=Elder requires most respectf
         **kwargs,
     ) -> str:
         tags = self._require_tags(kwargs.get("tags"))
+        schema = kwargs.get("tag_schema")
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             (
@@ -184,7 +194,7 @@ Reasoning: Formality=Formal + Status=Superior + Age=Elder requires most respectf
             self._examples(),
             "Now select for this sentence:",
             f"{self.source_label}: \"{source_sentence}\"",
-            self._format_tag_block(tags),
+            self._format_tag_block(tags, schema),
             f"{self.options_label}:\n{options_block}",
             "Select the best translation by number only. Respond with just the number (1, 2, 3, etc.).",
         ]
@@ -282,12 +292,13 @@ class ChainOfThoughtPromptFactory(ExperimentCPromptBase):
         **kwargs,
     ) -> str:
         tags = self._require_tags(kwargs.get("tags"))
+        schema = kwargs.get("tag_schema")
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             self._cot_intro(),
             self._authority_note(),
             f"{self.source_label}: \"{source_sentence}\"",
-            self._format_tag_block(tags),
+            self._format_tag_block(tags, schema),
             f"{self.options_label}:\n{options_block}",
             self._step_one(tags),
             self._step_two(),
