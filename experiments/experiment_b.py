@@ -54,6 +54,7 @@ def _generate_tags_with_retry(model, prompt: str) -> Tuple[Dict, str]:
     last_error = ""
     for attempt in range(1, MAX_RETRIES + 1):
         output = model.generate(prompt)
+        print(f"Model Output:\n{output}\n{'-'*50}\n")
         try:
             tags = parse_tags(output)
             return tags.model_dump(), str(output)
@@ -246,6 +247,9 @@ if __name__ == "__main__":
     dataset_dict = load_json(data_path)
     default_source, default_target = _infer_languages_from_path(data_path)
 
+    print(f"Default source language: {default_source}, Default target language: {default_target}"
+          "\n***************************************************************************\n")
+
     selected_models = [
         "gpt-oss-120b",
         "llama-3.3-70b-instruct",
@@ -256,7 +260,15 @@ if __name__ == "__main__":
     run_zero_shot_experiment(
         model_names=selected_models,
         dataset=dataset_dict,
-        experiment_name="experiment_b",
+        experiment_name="1_to_many_experiment_b",
         source_language=default_source,
         target_language=default_target,
     )
+
+    # run_few_shot_experiment(
+    #     model_names=selected_models,
+    #     dataset=dataset_dict,
+    #     experiment_name="1_to_many_experiment_b",
+    #     source_language=default_source,
+    #     target_language=default_target,
+    # )
