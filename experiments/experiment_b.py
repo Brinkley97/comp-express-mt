@@ -88,6 +88,7 @@ def _generate_tags_with_retry(model, base_prompt: str) -> Tuple[Dict, str]:
     for attempt in range(1, MAX_RETRIES + 1):
         
         output = model.generate(prompt)
+        print(f"[debug] Tag generation attempt {attempt} output:\n{output}\n")
         try:
             tags = parse_tags(output)
             return tags.model_dump(), str(output)
@@ -96,8 +97,8 @@ def _generate_tags_with_retry(model, base_prompt: str) -> Tuple[Dict, str]:
             print(f"[warn] Attempt {attempt} failed to parse tags: {exc}")
             prompt = (
                 f"{base_prompt}\n\n"
-                f"Your previous response was invalid because: {last_error}. "
-                "Regenerate ONLY the TAGS line using the specified format and valid values."
+                f"Your previous response was invalid because: {last_error}. AVOID MAKING THE SAME MISTAKE.\n"
+                "Regenerate ONLY the TAGS line using the specified format and valid context you have. Don't make things up."
             )
 
     raise ValueError(
@@ -313,19 +314,17 @@ if __name__ == "__main__":
           "\n***************************************************************************\n")
 
     selected_models = [
-        "granite-3.3-8b-instruct",
-        "mistral-small-3.1",
         "llama-3.3-70b-instruct",
         "gpt-oss-120b",
     ]
 
-    run_zero_shot_experiment(
-        model_names=selected_models,
-        dataset=dataset_dict,
-        experiment_name="1_to_many_experiment_b",
-        source_language=default_source,
-        target_language=default_target,
-    )
+    # run_zero_shot_experiment(
+    #     model_names=selected_models,
+    #     dataset=dataset_dict,
+    #     experiment_name="1_to_many_experiment_b",
+    #     source_language=default_source,
+    #     target_language=default_target,
+    # )
 
     # run_few_shot_experiment(
     #     model_names=selected_models,
@@ -334,3 +333,11 @@ if __name__ == "__main__":
     #     source_language=default_source,
     #     target_language=default_target,
     # )
+
+    run_chain_of_thought_experiment(
+        model_names=selected_models,
+        dataset=dataset_dict,
+        experiment_name="1_to_many_experiment_b",
+        source_language=default_source,
+        target_language=default_target,
+    )

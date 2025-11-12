@@ -57,7 +57,7 @@ DIMENSION_DEFS: Dict[str, Dict[str, str]] = {
     "SPEECH_ACT": {
         "display": "SPEECH_ACT",
         "canonical": "Speech_Act",
-        "values": "Question | Answer | Statement | Command | Request | Greeting",
+        "values": "Question | Answer | Statement | Command | Request | Greeting | Advice",
         "description": "Utterance function?",
     },
 }

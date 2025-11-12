@@ -8,15 +8,15 @@ from typing_extensions import Literal
 
 
 class PragmaticTagSet(BaseModel):
-    Audience: Optional[Literal["Individual", "Small_Group", "Large_Group", "Broadcast"]] = None
-    Status: Optional[Literal["Equal", "Superior", "Subordinate"]] = None
-    Age: Optional[Literal["Peer", "Elder", "Younger"]] = None
-    Formality: Optional[Literal["Formal", "Casual"]] = None
-    Gender_Subject: Optional[Literal["Masculine", "Feminine", "Neutral"]] = None
-    Gender_Object: Optional[Literal["Masculine", "Feminine", "Neutral"]] = None
-    Gender: Optional[Literal["Masculine", "Feminine", "Neutral"]] = None
-    Animacy: Optional[Literal["Animate", "Inanimate"]] = None
-    Speech_Act: Optional[Literal["Question", "Answer", "Statement", "Command", "Request", "Greeting"]] = None
+    Audience: Optional[Literal["Individual", "Small_Group", "Large_Group", "Broadcast", "INDIVIDUAL", "SMALL_GROUP", "LARGE_GROUP", "BROADCAST"]] = None
+    Status: Optional[Literal["Equal", "Superior", "Subordinate", "EQUAL", "SUPERIOR", "SUBORDINATE"]] = None
+    Age: Optional[Literal["Peer", "Elder", "Younger", "PEER", "ELDER", "YOUNGER"]] = None
+    Formality: Optional[Literal["Formal", "Casual", "FORMAL", "CASUAL"]] = None
+    Gender_Subject: Optional[Literal["Masculine", "Feminine", "Neutral", "MASCULINE", "FEMININE", "NEUTRAL"]] = None
+    Gender_Object: Optional[Literal["Masculine", "Feminine", "Neutral", "MASCULINE", "FEMININE", "NEUTRAL"]] = None
+    Gender: Optional[Literal["Masculine", "Feminine", "Neutral", "MASculINE", "FEMININE", "NEUTRAL"]] = None
+    Animacy: Optional[Literal["Animate", "Inanimate", "ANIMATE", "INANIMATE"]] = None
+    Speech_Act: Optional[Literal["Question", "Answer", "Statement", "Command", "Request", "Greeting", "Advice", "ADVICE", "QUESTION", "STATEMENT", "COMMAND", "REQUEST", "GREETING", "ANSWER"]] = None
 
 
 class TagParseError(ValueError):

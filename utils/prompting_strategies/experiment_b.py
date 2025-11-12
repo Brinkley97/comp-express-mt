@@ -96,7 +96,8 @@ class ExperimentBPromptBase(ExperimentAPromptBase):
                 f"{fallback_text}."
             )
         lines.append(
-            "Always copy the values exactly as written inside the brackets. Never invent new labels such as 'Neutral' for AGE/AUDIENCE."
+            "Always copy the values exactly as written inside the brackets. Never invent new labels such as 'Neutral' for AGE/AUDIENCE,"
+            "Never invent new labels such as 'ADVICE' for SPEECH_ACT."
         )
         return "\n".join(lines)
 
@@ -269,7 +270,10 @@ class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
             f"{self.source_label}: \"{source_sentence}\"",
             f"{self.options_label} (reference only):\n{options_block}",
             self._step_block(),
-            "Provide reasoning for Steps 1-2, then conclude with the TAGS line only:",
+            "You must use the tag example set we have given in your generation-these are the only dimensions you should consider."
+            "Example, if your think a tag should be INFORMAL, use CASUAL, if you infer it to be Male/Female what we have specified MASCULINE/FEMININE"
+            " as this what is provided in the context given. This applies to all dimensions."
+            "Go on and generate the TAGS ONLY:",
             self._response_format_block(dimensions),
         ]
         return "\n\n".join(sections)
