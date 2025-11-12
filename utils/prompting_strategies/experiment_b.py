@@ -145,6 +145,12 @@ class ZeroShotPromptFactory(ExperimentBPromptBase):
             f"{self.source_label}: \"{source_sentence}\"",
             f"{self.options_label} (reference only):\n{options_block}",
             self._tag_instruction_block(dimensions, kwargs.get("fallback_values")),
+            "For AUDIENCE use INDIVIDUAL/SMALL_GROUP/LARGE_GROUP/BROADCAST only. Do NOT invent new labels.",
+            "For AGE use PEER/ELDER/YOUNGER only. Do NOT invent new labels.",
+            "For FORMALITY use FORMAL/CASUAL only. Do NOT invent new labels.",
+            "For STATUS use EQUAL/SUPERIOR/SUBORDINATE only. Do NOT invent new labels.",
+            "For GENDER_SUBJECT/GENDER_OBJECT use MASCULINE/FEMININE/NEUTRAL only. Do NOT invent new labels.",
+            "For ANIMACY use ANIMATE/INANIMATE only. Do NOT invent new labels.",
             "Do NOT choose a translation. Respond ONLY with the TAGS line shown below.",
             self._response_format_block(dimensions),
         ]
@@ -207,6 +213,12 @@ TAGS: FORMALITY=Formal, AUDIENCE=Individual, STATUS=Superior, AGE=Elder, GENDER=
             f"{self.source_label}: \"{source_sentence}\"",
             f"{self.options_label} (reference only):\n{options_block}",
             self._tag_instruction_block(dimensions, kwargs.get("fallback_values")),
+            "For AUDIENCE use INDIVIDUAL/SMALL_GROUP/LARGE_GROUP/BROADCAST only. Do NOT invent new labels.",
+            "For AGE use PEER/ELDER/YOUNGER only. Do NOT invent new labels.",
+            "For FORMALITY use FORMAL/CASUAL only. Do NOT invent new labels.",
+            "For STATUS use EQUAL/SUPERIOR/SUBORDINATE only. Do NOT invent new labels.",
+            "For GENDER_SUBJECT/GENDER_OBJECT use MASCULINE/FEMININE/NEUTRAL only. Do NOT invent new labels.",
+            "For ANIMACY use ANIMATE/INANIMATE only. Do NOT invent new labels.",
             "Do NOT choose a translation. Respond ONLY with the TAGS line shown below.",
             self._response_format_block(dimensions),
         ]
@@ -273,6 +285,12 @@ class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
             "You must use the tag example set we have given in your generation-these are the only dimensions you should consider."
             "Example, if your think a tag should be INFORMAL, use CASUAL, if you infer it to be Male/Female what we have specified MASCULINE/FEMININE"
             " as this what is provided in the context given. This applies to all dimensions."
+            "For AUDIENCE use INDIVIDUAL/SMALL_GROUP/LARGE_GROUP/BROADCAST only. Do NOT invent new labels.",
+            "For AGE use PEER/ELDER/YOUNGER only. Do NOT invent new labels.",
+            "For FORMALITY use FORMAL/CASUAL only. Do NOT invent new labels.",
+            "For STATUS use EQUAL/SUPERIOR/SUBORDINATE only. Do NOT invent new labels.",
+            "For GENDER_SUBJECT/GENDER_OBJECT use MASCULINE/FEMININE/NEUTRAL only. Do NOT invent new labels.",
+            "For ANIMACY use ANIMATE/INANIMATE only. Do NOT invent new labels.",
             "Go on and generate the TAGS ONLY:",
             self._response_format_block(dimensions),
         ]
