@@ -33,6 +33,7 @@ def _generate_with_tags(model, prompt: str) -> Tuple[Dict, int, str]:
     last_error = ""
     for attempt in range(1, MAX_SELECTION_RETRIES + 1):
         output = model.generate(prompt)
+        print(f"Model Output:\n{output}\n{'-'*50}\n")
         try:
             tags, selection = parse_tags_and_selection(output)
             return tags.model_dump(), selection, str(output)
@@ -76,6 +77,7 @@ def _run_prompt_experiment(
         for idx_key, row in tqdm(dataset.items(), total=len(dataset)):
             candidate_sentences = list(row.keys())
             prompt = prompt_factory.get_base_prompt(idx_key, candidate_sentences)
+            print(f"Prompt:\n{prompt}\n{'-'*50}\n")
             tags_dict, selection, raw_output = _generate_with_tags(model, prompt)
 
             row_results = {}
@@ -179,6 +181,9 @@ if __name__ == "__main__":
     dataset_dict = load_json(data_path)
     default_source, default_target = _infer_languages_from_path(data_path)
 
+    print(f"Default source language: {default_source}, Default target language: {default_target}"
+          "\n***************************************************************************\n")
+
     selected_models = [
         "gpt-oss-120b",
         "llama-3.3-70b-instruct",
@@ -189,7 +194,15 @@ if __name__ == "__main__":
     run_zero_shot_experiment(
         model_names=selected_models,
         dataset=dataset_dict,
-        experiment_name="experiment_b",
+        experiment_name="1_to_many_experiment_b",
         source_language=default_source,
         target_language=default_target,
     )
+
+    # run_few_shot_experiment(
+    #     model_names=selected_models,
+    #     dataset=dataset_dict,
+    #     experiment_name="1_to_many_experiment_b",
+    #     source_language=default_source,
+    #     target_language=default_target,
+    # )

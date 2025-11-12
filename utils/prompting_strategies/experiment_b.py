@@ -9,23 +9,23 @@ class ExperimentBPromptBase(ExperimentAPromptBase):
     """Prompt helpers for Experiment B (tagged selection)."""
 
     DIMENSIONS_AKAN_TO_EN = [
-        ("Gender", "Masculine | Feminine | Neutral", "What gender is implied?"),
-        ("Animacy", "Animate | Inanimate", "Living being or object?"),
-        ("Status", "Equal | Superior | Subordinate", "Social relationship?"),
-        ("Age", "Peer | Elder | Younger", "Age-based relationship?"),
-        ("Formality", "Formal | Casual", "Register level?"),
-        ("Audience", "Individual | Small_Group | Large_Group | Broadcast", "Addressee scope?"),
-        ("Speech_Act", "Question | Answer | Statement | Command | Request | Greeting", "Utterance function?"),
+        ("GENDER", "Masculine | Feminine | Neutral", "What gender is implied?"),
+        ("ANIMACY", "Animate | Inanimate", "Living being or object?"),
+        ("STATUS", "Equal | Superior | Subordinate", "Social relationship?"),
+        ("AGE", "Peer | Elder | Younger", "Age-based relationship?"),
+        ("FORMALITY", "Formal | Casual", "Register level?"),
+        ("AUDIENCE", "Individual | Small_Group | Large_Group | Broadcast", "Addressee scope?"),
+        ("SPEECH_ACT", "Question | Answer | Statement | Command | Request | Greeting", "Utterance function?"),
     ]
 
     DIMENSIONS_EN_TO_AKAN = [
-        ("Formality", "Formal | Casual", "What register level is appropriate?"),
-        ("Audience", "Individual | Small_Group | Large_Group | Broadcast", "Who is addressed?"),
-        ("Status", "Equal | Superior | Subordinate", "Social relationship?"),
-        ("Age", "Peer | Elder | Younger", "Age-based dynamics?"),
-        ("Gender", "Masculine | Feminine | Neutral", "Gender of referents?"),
-        ("Animacy", "Animate | Inanimate", "Living beings or objects?"),
-        ("Speech_Act", "Question | Answer | Statement | Command | Request | Greeting", "Function?"),
+        ("FORMALITY", "Formal | Casual", "What register level is appropriate?"),
+        ("AUDIENCE", "Individual | Small_Group | Large_Group | Broadcast", "Who is addressed?"),
+        ("STATUS", "Equal | Superior | Subordinate", "Social relationship?"),
+        ("AGE", "Peer | Elder | Younger", "Age-based dynamics?"),
+        ("GENDER", "Masculine | Feminine | Neutral", "Gender of referents?"),
+        ("ANIMACY", "Animate | Inanimate", "Living beings or objects?"),
+        ("SPEECH_ACT", "Question | Answer | Statement | Command | Request | Greeting", "Function?"),
     ]
 
     def __init__(
@@ -55,7 +55,7 @@ class ExperimentBPromptBase(ExperimentAPromptBase):
         return self.DIMENSIONS_AKAN_TO_EN
 
     def _tag_instruction_block(self) -> str:
-        intro = "First, infer the pragmatic context by selecting ONE value for each dimension:"
+        intro = "First, infer the pragmatic context by selecting generating a value for each dimension:"
         lines = [intro]
         for name, values, desc in self._tag_dimensions():
             lines.append(f"- {name}: [{values}] - {desc}")
@@ -100,11 +100,13 @@ class ZeroShotPromptFactory(ExperimentBPromptBase):
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             self._intro(),
-            f"{self.source_label}: \"{source_sentence}\"",
-            f"{self.options_label}:\n{options_block}",
             self._tag_instruction_block(),
             self._selection_instruction(),
             self._response_format_block(),
+            f"You must always provide TAGS and SELECTION in the specified format. The given sentence is:",
+            f"{self.source_label}: \"{source_sentence}\"",
+            f"The tag generation and selection options are:",
+            f"{self.options_label}:\n{options_block}",
         ]
         return "\n\n".join(sections)
 
@@ -116,26 +118,26 @@ class FewShotPromptFactory(ExperimentBPromptBase):
 Akan: "Ɔyɛ me mpena"
 Options: 1. He is my boyfriend 2. She is my girlfriend 3. They are my lover
 Analysis: "mpena" = romantic partner, "Ɔ" = 3rd person singular (gender ambiguous). Default to most common interpretation if cues are limited.
-TAGS: Gender=Masculine, Animacy=Animate, Status=Equal, Age=Peer, Formality=Casual, Audience=Individual, Speech_Act=Statement
+TAGS: GENDER=Masculine, ANIMACY=Animate, STATUS=Equal, AGE=Peer, FORMALITY=Casual, AUDIENCE=Individual, SPEECH_ACT=Statement
 SELECTION: 1
 
 Akan: "Nana no aba"
 Options: 1. Grandpa has come 2. Grandma has come 3. The elder has arrived
 Analysis: "Nana" = elder/grandparent; gender-neutral. Without cues, prefer the respectful neutral reading.
-TAGS: Gender=Neutral, Animacy=Animate, Status=Superior, Age=Elder, Formality=Casual, Audience=Small_Group, Speech_Act=Statement
+TAGS: GENDER=Neutral, ANIMACY=Animate, STATUS=Superior, AGE=Elder, FORMALITY=Casual, AUDIENCE=Small_Group, SPEECH_ACT=Statement
 SELECTION: 3"""
 
     EN_TO_AKAN_EXAMPLES = """Examples (English → Akan):
 English: "Good morning"
 Options: 1. Maakye 2. Mema wo akye 3. Yɛma wo akye
 Analysis: Standard greeting aimed at an individual with polite tone.
-TAGS: Formality=Casual, Audience=Individual, Status=Equal, Age=Peer, Gender=Neutral, Animacy=Animate, Speech_Act=Greeting
+TAGS: FORMALITY=Casual, AUDIENCE=Individual, STATUS=Equal, AGE=Peer, GENDER=Neutral, ANIMACY=Animate, SPEECH_ACT=Greeting
 SELECTION: 2
 
 English: "Please help me with this task"
 Options: 1. Boa me 2. Mesrɛ wo, boa me 3. Mepɛ sɛ woboa me
 Analysis: Presence of “please” signals polite/formal request toward someone with higher status.
-TAGS: Formality=Formal, Audience=Individual, Status=Superior, Age=Elder, Gender=Neutral, Animacy=Animate, Speech_Act=Request
+TAGS: FORMALITY=Formal, AUDIENCE=Individual, STATUS=Superior, AGE=Elder, GENDER=Neutral, ANIMACY=Animate, SPEECH_ACT=Request
 SELECTION: 3"""
 
     def __init__(
@@ -206,7 +208,7 @@ class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
                     "Step 1: ENGLISH SENTENCE ANALYSIS",
                     "Examine the English sentence for pragmatic cues (politeness markers, formality indicators, audience scope, speech act, social relationship hints).",
                     "\nStep 2: PRAGMATIC CONTEXT INFERENCE",
-                    "Infer each pragmatic dimension (Formality, Audience, Status, Age, Gender, Animacy, Speech_Act).",
+                    "Infer each pragmatic dimension (FORMALITY, AUDIENCE, STATUS, AGE, GENDER, ANIMACY, SPEECH_ACT).",
                     "\nStep 3: AKAN VARIANT EVALUATION",
                     "Assess every Akan option for alignment with the inferred context (formality, audience/status fit, speech act preservation, cultural appropriateness).",
                     "\nStep 4: FINAL SELECTION",
@@ -219,7 +221,7 @@ class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
                 "Step 1: LINGUISTIC FEATURE EXTRACTION",
                 "Examine the Akan sentence for pronouns, kinship terms, names/titles, verb forms, and respect markers.",
                 "\nStep 2: PRAGMATIC INFERENCE",
-                "Infer each pragmatic dimension (Gender, Animacy, Status, Age, Formality, Audience, Speech_Act).",
+                "Infer each pragmatic dimension (GENDER, ANIMACY, STATUS, AGE, FORMALITY, AUDIENCE, SPEECH_ACT).",
                 "\nStep 3: TRANSLATION OPTION EVALUATION",
                 "Assess the English options to see which best reflects the inferred context (gender/animacy alignment, formality, speech act preservation).",
                 "\nStep 4: FINAL SELECTION",
