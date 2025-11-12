@@ -1,0 +1,22 @@
+{
+  "granite-3.3-8b-instruct": {
+    "accuracy": 0.20346320346320346,
+    "macro_f1": 0.14435331230283913,
+    "num_predictions": 462
+  },
+  "gpt-oss-120b": {
+    "accuracy": 0.2510822510822511,
+    "macro_f1": 0.16482071854597183,
+    "num_predictions": 462
+  },
+  "llama-3.3-70b-instruct": {
+    "accuracy": 0.2554112554112554,
+    "macro_f1": 0.1561652534545186,
+    "num_predictions": 462
+  },
+  "mistral-small-3.1": {
+    "accuracy": 0.24458874458874458,
+    "macro_f1": 0.16215286911273638,
+    "num_predictions": 462
+  }
+}
