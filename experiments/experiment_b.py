@@ -12,7 +12,6 @@ print(f"Notebook Directory: {notebook_dir}")
 sys.path.append(os.path.join(notebook_dir, 'utils/'))
 
 from llms import TextGenerationModelFactory
-from prompting_strategies.base import BasePromptFactory
 from prompting_strategies.experiment_b import (
     ZeroShotPromptFactory as TagZeroShotPromptFactory,
     FewShotPromptFactory as TagFewShotPromptFactory,
@@ -24,10 +23,43 @@ from prompting_strategies.experiment_c import (
     ChainOfThoughtPromptFactory as SelectionChainOfThoughtPromptFactory,
 )
 from pragmatic_tags import parse_tags, TagParseError
+from tag_schema import build_schema
 
 warnings.filterwarnings('ignore')
 
 MAX_RETRIES = 3
+
+AKAN_ALIASES = {"akan", "akuapem", "akuapem twi", "twi"}
+
+
+def _is_akan_language(name: Optional[str]) -> bool:
+    if not name:
+        return False
+    return name.strip().lower() in AKAN_ALIASES
+
+
+def _detect_direction(source_language: str, target_language: str) -> str:
+    if _is_akan_language(source_language) and not _is_akan_language(target_language):
+        return "akan_to_english"
+    if not _is_akan_language(source_language) and _is_akan_language(target_language):
+        return "english_to_akan"
+    raise ValueError(
+        f"Unsupported language pairing for experiment B: {source_language} -> {target_language}"
+    )
+
+
+def _derive_schema(dataset: Dict, direction: str):
+    if not dataset:
+        raise ValueError("Dataset is empty; cannot derive tag schema.")
+    first_row = next(iter(dataset.values()))
+    first_value = next(iter(first_row.values()))
+    if isinstance(first_value, list):
+        tag_length = len(first_value)
+    elif isinstance(first_value, dict):
+        tag_length = len(first_value)
+    else:
+        raise ValueError("Unsupported tag structure; expected list or dict of tag values.")
+    return build_schema(direction, tag_length)
 
 
 def load_json(filepath: str) -> Dict:
@@ -50,8 +82,9 @@ def _parse_selection(raw_selection) -> Optional[int]:
     return None
 
 
-def _generate_tags_with_retry(model, prompt: str) -> Tuple[Dict, str]:
+def _generate_tags_with_retry(model, base_prompt: str) -> Tuple[Dict, str]:
     last_error = ""
+    prompt = base_prompt
     for attempt in range(1, MAX_RETRIES + 1):
         output = model.generate(prompt)
         try:
@@ -60,6 +93,11 @@ def _generate_tags_with_retry(model, prompt: str) -> Tuple[Dict, str]:
         except TagParseError as exc:
             last_error = str(exc)
             print(f"[warn] Attempt {attempt} failed to parse tags: {exc}")
+            prompt = (
+                f"{base_prompt}\n\n"
+                f"Your previous response was invalid because: {last_error}. "
+                "Regenerate ONLY the TAGS line using the specified format and valid values."
+            )
 
     raise ValueError(
         f"Model failed to return valid TAGS after {MAX_RETRIES} attempts. Last error: {last_error}"
@@ -94,8 +132,9 @@ def _write_results(outputs: Dict, experiment_name: Optional[str], label: str) ->
 def _run_prompt_experiment(
     model_names: List[str],
     dataset: Dict,
-    tag_prompt_factory: BasePromptFactory,
-    selection_prompt_factory: BasePromptFactory,
+    tag_prompt_factory,
+    selection_prompt_factory,
+    tag_schema,
     label: str,
     experiment_name: Optional[str] = None,
 ) -> Dict:
@@ -113,7 +152,11 @@ def _run_prompt_experiment(
         for source_sentence, row in tqdm(dataset.items(), total=len(dataset)):
             candidate_sentences = list(row.keys())
 
-            tag_prompt = tag_prompt_factory.get_base_prompt(source_sentence, candidate_sentences)
+            tag_prompt = tag_prompt_factory.get_base_prompt(
+                source_sentence,
+                candidate_sentences,
+                tag_dimensions=tag_schema,
+            )
             tags_dict, tag_raw_output = _generate_tags_with_retry(model, tag_prompt)
 
             selection_prompt = selection_prompt_factory.get_base_prompt(
@@ -165,11 +208,14 @@ def run_zero_shot_experiment(
         akan_variant=akan_variant,
         tags_source_description="model-predicted pragmatic context",
     )
+    direction = _detect_direction(source_language, target_language)
+    schema = _derive_schema(dataset, direction)
     return _run_prompt_experiment(
         model_names=model_names,
         dataset=dataset,
         tag_prompt_factory=tag_prompt_factory,
         selection_prompt_factory=selection_prompt_factory,
+        tag_schema=schema,
         label="zero_shot",
         experiment_name=experiment_name,
     )
@@ -196,11 +242,14 @@ def run_few_shot_experiment(
         akan_variant=akan_variant,
         tags_source_description="model-predicted pragmatic context",
     )
+    direction = _detect_direction(source_language, target_language)
+    schema = _derive_schema(dataset, direction)
     return _run_prompt_experiment(
         model_names=model_names,
         dataset=dataset,
         tag_prompt_factory=tag_prompt_factory,
         selection_prompt_factory=selection_prompt_factory,
+        tag_schema=schema,
         label="few_shot",
         experiment_name=experiment_name,
     )
@@ -227,11 +276,14 @@ def run_chain_of_thought_experiment(
         akan_variant=akan_variant,
         tags_source_description="model-predicted pragmatic context",
     )
+    direction = _detect_direction(source_language, target_language)
+    schema = _derive_schema(dataset, direction)
     return _run_prompt_experiment(
         model_names=model_names,
         dataset=dataset,
         tag_prompt_factory=tag_prompt_factory,
         selection_prompt_factory=selection_prompt_factory,
+        tag_schema=schema,
         label="chain_of_thought",
         experiment_name=experiment_name,
     )

@@ -43,8 +43,9 @@ def _parse_selection(raw_selection) -> Optional[int]:
     return None
 
 
-def _generate_with_retry(model, prompt: str) -> Tuple[int, str]:
+def _generate_with_retry(model, base_prompt: str) -> Tuple[int, str]:
     last_output = ""
+    prompt = base_prompt
     for attempt in range(1, MAX_SELECTION_RETRIES + 1):
         output = model.generate(prompt)
         selection = _parse_selection(output)
@@ -52,6 +53,11 @@ def _generate_with_retry(model, prompt: str) -> Tuple[int, str]:
             return selection, str(output)
         last_output = str(output)
         print(f"[warn] Attempt {attempt} returned non-numeric selection. Retrying...")
+        prompt = (
+            f"{base_prompt}\n\n"
+            "Your previous response did not include a valid numeric selection. "
+            "Respond again with ONLY the selection integer (e.g., '2')."
+        )
     raise ValueError(
         f"Model failed to return a numeric selection after {MAX_SELECTION_RETRIES} attempts. "
         f"Last output: {last_output}"

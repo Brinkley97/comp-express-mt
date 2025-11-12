@@ -50,18 +50,37 @@ class ExperimentBPromptBase(ExperimentAPromptBase):
             return "english_to_akan"
         return "custom"
 
-    def _tag_dimensions(self) -> List[tuple[str, str, str, str]]:
-        if self.direction == "english_to_akan":
-            return self.EN_TO_AKAN_DIMENSIONS
-        return self.AKAN_TO_EN_DIMENSIONS
+    def _coerce_dimensions(self, entries):
+        normalized = []
+        for entry in entries:
+            if isinstance(entry, dict):
+                normalized.append(entry)
+            else:
+                display, canonical, values, desc = entry
+                normalized.append(
+                    {
+                        "display": display,
+                        "canonical": canonical,
+                        "values": values,
+                        "description": desc,
+                    }
+                )
+        return normalized
 
-    def _tag_instruction_block(self) -> str:
+    def _resolve_dimensions(self, custom_dimensions=None):
+        if custom_dimensions:
+            return custom_dimensions
+        if self.direction == "english_to_akan":
+            return self._coerce_dimensions(self.EN_TO_AKAN_DIMENSIONS)
+        return self._coerce_dimensions(self.AKAN_TO_EN_DIMENSIONS)
+
+    def _tag_instruction_block(self, dimensions) -> str:
         intro = (
             "First, infer the pragmatic context by generating ONE value for each dimension in the exact order shown."
         )
         lines = [intro]
-        for display, _, values, desc in self._tag_dimensions():
-            lines.append(f"- {display}: [{values}] - {desc}")
+        for entry in dimensions:
+            lines.append(f"- {entry['display']}: [{entry['values']}] - {entry['description']}")
         lines.append(
             "If a dimension name appears twice (e.g., GENDER_SUBJECT vs. GENDER_OBJECT), treat each as a separate role tied to the candidate translation."
         )
@@ -70,8 +89,8 @@ class ExperimentBPromptBase(ExperimentAPromptBase):
         )
         return "\n".join(lines)
 
-    def _response_format_block(self) -> str:
-        tag_order = ", ".join(f"{display}=X" for display, *_ in self._tag_dimensions())
+    def _response_format_block(self, dimensions) -> str:
+        tag_order = ", ".join(f"{entry['display']}=X" for entry in dimensions)
         return f"TAGS: {tag_order}"
 
     def _authority_note(self) -> str:
@@ -106,15 +125,16 @@ class ZeroShotPromptFactory(ExperimentBPromptBase):
         return "You are analyzing an Akan sentence from native speakers to infer its pragmatic context."
 
     def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
+        dimensions = self._resolve_dimensions(kwargs.get("tag_dimensions"))
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             self._intro(),
             self._authority_note(),
             f"{self.source_label}: \"{source_sentence}\"",
             f"{self.options_label} (reference only):\n{options_block}",
-            self._tag_instruction_block(),
+            self._tag_instruction_block(dimensions),
             "Do NOT choose a translation. Respond ONLY with the TAGS line shown below.",
-            self._response_format_block(),
+            self._response_format_block(dimensions),
         ]
         return "\n\n".join(sections)
 
@@ -162,6 +182,7 @@ TAGS: FORMALITY=Formal, AUDIENCE=Individual, STATUS=Superior, AGE=Elder, GENDER=
         return self.AKAN_TO_EN_EXAMPLES
 
     def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
+        dimensions = self._resolve_dimensions(kwargs.get("tag_dimensions"))
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             (
@@ -173,9 +194,9 @@ TAGS: FORMALITY=Formal, AUDIENCE=Individual, STATUS=Superior, AGE=Elder, GENDER=
             "Now analyze this sentence:",
             f"{self.source_label}: \"{source_sentence}\"",
             f"{self.options_label} (reference only):\n{options_block}",
-            self._tag_instruction_block(),
+            self._tag_instruction_block(dimensions),
             "Do NOT choose a translation. Respond ONLY with the TAGS line shown below.",
-            self._response_format_block(),
+            self._response_format_block(dimensions),
         ]
         return "\n\n".join(sections)
 
@@ -229,6 +250,7 @@ class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
         )
 
     def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
+        dimensions = self._resolve_dimensions(kwargs.get("tag_dimensions"))
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             self._intro(),
@@ -237,6 +259,6 @@ class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
             f"{self.options_label} (reference only):\n{options_block}",
             self._step_block(),
             "Provide reasoning for Steps 1-2, then conclude with the TAGS line only:",
-            self._response_format_block(),
+            self._response_format_block(dimensions),
         ]
         return "\n\n".join(sections)
