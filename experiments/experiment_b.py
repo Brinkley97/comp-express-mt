@@ -131,7 +131,7 @@ def _generate_selection_with_retry(model, base_prompt: str) -> Tuple[int, str]:
 def _write_results(outputs: Dict, experiment_name: Optional[str], label: str) -> None:
     if experiment_name is None:
         return
-    output_path = f"experiments/results/{experiment_name}_{label}_results.json"
+    output_path = f"experiments/results/pure_selection_results/exp_b/{experiment_name}_{label}_results.json"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(outputs, f, ensure_ascii=False, indent=4)

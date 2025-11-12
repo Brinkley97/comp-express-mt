@@ -187,7 +187,7 @@ def _write_results(outputs: Dict, experiment_name: Optional[str], label: str) ->
     """
     if experiment_name is None:
         return
-    output_path = f"experiments/results/{experiment_name}_{label}_results.json"
+    output_path = f"experiments/results/pure_selection_results/exp_a/{experiment_name}_{label}_results.json"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(outputs, f, ensure_ascii=False, indent=4)
@@ -379,19 +379,17 @@ if __name__ == "__main__":
     default_source, default_target = _infer_languages_from_path(data_path)
 
     selected_models = [
-        "granite-3.3-8b-instruct",
         "gpt-oss-120b",
         "llama-3.3-70b-instruct",
-        "mistral-small-3.1",  
     ]
 
-    # run_zero_shot_experiment(
-    #     model_names=selected_models,
-    #     dataset=dataset_dict,
-    #     experiment_name="many_to_1_experiment_a",
-    #     source_language=default_source,
-    #     target_language=default_target,
-    # )
+    run_zero_shot_experiment(
+        model_names=selected_models,
+        dataset=dataset_dict,
+        experiment_name="many_to_1_experiment_a",
+        source_language=default_source,
+        target_language=default_target,
+    )
 
     # run_few_shot_experiment(
     #     model_names=selected_models,
@@ -401,10 +399,10 @@ if __name__ == "__main__":
     #     target_language=default_target,
     # )
 
-    run_chain_of_thought_experiment(
-        model_names=selected_models,
-        dataset=dataset_dict,
-        experiment_name="1_to_many_experiment_a",
-        source_language=default_source,
-        target_language=default_target,
-    )
+    # run_chain_of_thought_experiment(
+    #     model_names=selected_models,
+    #     dataset=dataset_dict,
+    #     experiment_name="1_to_many_experiment_a",
+    #     source_language=default_source,
+    #     target_language=default_target,
+    # )

@@ -80,7 +80,6 @@ def _generate_with_retry(model, base_prompt: str) -> Tuple[int, str]:
     last_output = ""
     prompt = base_prompt
     for attempt in range(1, MAX_SELECTION_RETRIES + 1):
-        print(f"\n Validating prompt schema: {prompt} \n")
         output = model.generate(prompt)
         selection = _parse_selection(output)
         if selection is not None:
@@ -101,7 +100,7 @@ def _generate_with_retry(model, base_prompt: str) -> Tuple[int, str]:
 def _write_results(outputs: Dict, experiment_name: Optional[str], label: str) -> None:
     if experiment_name is None:
         return
-    output_path = f"experiments/results/{experiment_name}_{label}_results.json"
+    output_path = f"experiments/results/pure_selection_results/exp_c/{experiment_name}_{label}_results.json"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(outputs, f, ensure_ascii=False, indent=4)
