@@ -2,11 +2,11 @@ from __future__ import annotations
 
 from typing import List, Optional
 
-from .experiment_a import ExperimentAPromptBase, SELECT_BY_NUMBER_TASK
+from .experiment_a import ExperimentAPromptBase
 
 
 class ExperimentBPromptBase(ExperimentAPromptBase):
-    """Prompt helpers for Experiment B (tagged selection)."""
+    """Prompt helpers for tag-only inference in Experiment B."""
 
     DIMENSIONS_AKAN_TO_EN = [
         ("Gender", "Masculine | Feminine | Neutral", "What gender is implied?"),
@@ -61,19 +61,13 @@ class ExperimentBPromptBase(ExperimentAPromptBase):
             lines.append(f"- {name}: [{values}] - {desc}")
         return "\n".join(lines)
 
-    def _selection_instruction(self) -> str:
-        return (
-            f"Then, based on these inferred tags, select the most appropriate "
-            f"{self._title_label(self.target_language)} translation by number."
-        )
-
     def _response_format_block(self) -> str:
         tag_order = ", ".join(f"{name}=X" for name, _, _ in self._tag_dimensions())
-        return f"TAGS: {tag_order}\nSELECTION: [number]"
+        return f"TAGS: {tag_order}"
 
 
 class ZeroShotPromptFactory(ExperimentBPromptBase):
-    """Zero-shot prompts with tag guidance."""
+    """Zero-shot tag inference prompts."""
 
     def __init__(
         self,
@@ -93,50 +87,42 @@ class ZeroShotPromptFactory(ExperimentBPromptBase):
 
     def _intro(self) -> str:
         if self.direction == "english_to_akan":
-            return "You are analyzing an English sentence to infer pragmatic context and select the appropriate Akan translation."
-        return "You are analyzing an Akan sentence to infer pragmatic context and select the appropriate English translation."
+            return "You are analyzing an English sentence to infer its pragmatic context."
+        return "You are analyzing an Akan sentence to infer its pragmatic context."
 
     def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
-        options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             self._intro(),
             f"{self.source_label}: \"{source_sentence}\"",
-            f"{self.options_label}:\n{options_block}",
             self._tag_instruction_block(),
-            self._selection_instruction(),
+            "Respond ONLY with the TAGS line in the format below.",
             self._response_format_block(),
         ]
         return "\n\n".join(sections)
 
 
 class FewShotPromptFactory(ExperimentBPromptBase):
-    """Few-shot prompts with worked tag examples."""
+    """Few-shot tag inference prompts."""
 
     AKAN_TO_EN_EXAMPLES = """Examples (Akan → English):
 Akan: "Ɔyɛ me mpena"
 Options: 1. He is my boyfriend 2. She is my girlfriend 3. They are my lover
-Analysis: "mpena" = romantic partner, "Ɔ" = 3rd person singular (gender ambiguous). Default to most common interpretation if cues are limited.
+Analysis: Identify gender, animacy, status, age, formality, audience, and speech act from the sentence.
 TAGS: Gender=Masculine, Animacy=Animate, Status=Equal, Age=Peer, Formality=Casual, Audience=Individual, Speech_Act=Statement
-SELECTION: 1
 
 Akan: "Nana no aba"
 Options: 1. Grandpa has come 2. Grandma has come 3. The elder has arrived
-Analysis: "Nana" = elder/grandparent; gender-neutral. Without cues, prefer the respectful neutral reading.
-TAGS: Gender=Neutral, Animacy=Animate, Status=Superior, Age=Elder, Formality=Casual, Audience=Small_Group, Speech_Act=Statement
-SELECTION: 3"""
+Analysis: "Nana" indicates elder/respected person. Infer tags accordingly.
+TAGS: Gender=Neutral, Animacy=Animate, Status=Superior, Age=Elder, Formality=Formal, Audience=Small_Group, Speech_Act=Statement"""
 
     EN_TO_AKAN_EXAMPLES = """Examples (English → Akan):
 English: "Good morning"
-Options: 1. Maakye 2. Mema wo akye 3. Yɛma wo akye
-Analysis: Standard greeting aimed at an individual with polite tone.
+Analysis: Greeting an individual politely.
 TAGS: Formality=Casual, Audience=Individual, Status=Equal, Age=Peer, Gender=Neutral, Animacy=Animate, Speech_Act=Greeting
-SELECTION: 2
 
 English: "Please help me with this task"
-Options: 1. Boa me 2. Mesrɛ wo, boa me 3. Mepɛ sɛ woboa me
-Analysis: Presence of “please” signals polite/formal request toward someone with higher status.
-TAGS: Formality=Formal, Audience=Individual, Status=Superior, Age=Elder, Gender=Neutral, Animacy=Animate, Speech_Act=Request
-SELECTION: 3"""
+Analysis: Polite request aimed at someone of higher status.
+TAGS: Formality=Formal, Audience=Individual, Status=Superior, Age=Elder, Gender=Neutral, Animacy=Animate, Speech_Act=Request"""
 
     def __init__(
         self,
@@ -160,23 +146,21 @@ SELECTION: 3"""
         return self.AKAN_TO_EN_EXAMPLES
 
     def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
-        options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             ("You are analyzing "
-             f"{self.source_language} sentences to infer pragmatic context and select appropriate "
-             f"{self.target_language} translations."),
+             f"{self.source_language} sentences to infer their pragmatic context."),
             self._examples_block(),
             "Now analyze this sentence:",
             f"{self.source_label}: \"{source_sentence}\"",
-            f"{self.options_label}:\n{options_block}",
-            "First infer the pragmatic context, then select the best translation.",
+            self._tag_instruction_block(),
+            "Respond ONLY with the TAGS line in the format below.",
             self._response_format_block(),
         ]
         return "\n\n".join(sections)
 
 
 class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
-    """Chain-of-thought prompts with explicit reasoning steps."""
+    """Chain-of-thought prompts guiding tag inference."""
 
     def __init__(
         self,
@@ -196,45 +180,39 @@ class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
 
     def _intro(self) -> str:
         if self.direction == "english_to_akan":
-            return "You are analyzing an English sentence to infer pragmatic context and select the appropriate Akan translation. Follow this reasoning process:"
-        return "You are analyzing an Akan sentence to infer pragmatic context and select the appropriate English translation. Follow this reasoning process:"
+            return "You are analyzing an English sentence to infer pragmatic context. Follow this reasoning process:"
+        return "You are analyzing an Akan sentence to infer pragmatic context. Follow this reasoning process:"
 
     def _step_block(self) -> str:
         if self.direction == "english_to_akan":
             return "\n".join(
                 [
                     "Step 1: ENGLISH SENTENCE ANALYSIS",
-                    "Examine the English sentence for pragmatic cues (politeness markers, formality indicators, audience scope, speech act, social relationship hints).",
-                    "\nStep 2: PRAGMATIC CONTEXT INFERENCE",
-                    "Infer each pragmatic dimension (Formality, Audience, Status, Age, Gender, Animacy, Speech_Act).",
-                    "\nStep 3: AKAN VARIANT EVALUATION",
-                    "Assess every Akan option for alignment with the inferred context (formality, audience/status fit, speech act preservation, cultural appropriateness).",
-                    "\nStep 4: FINAL SELECTION",
-                    "Choose the Akan translation that best satisfies all pragmatic constraints.",
+                    "Identify politeness markers, formality cues, audience hints, and speech act indicators.",
+                    "\nStep 2: PRAGMATIC INFERENCE",
+                    "Infer each dimension (Formality, Audience, Status, Age, Gender, Animacy, Speech_Act).",
+                    "\nStep 3: SUMMARIZE TAGS",
+                    "After reasoning, output the TAGS line using the specified format.",
                 ]
             )
 
         return "\n".join(
             [
                 "Step 1: LINGUISTIC FEATURE EXTRACTION",
-                "Examine the Akan sentence for pronouns, kinship terms, names/titles, verb forms, and respect markers.",
+                "Examine the Akan sentence for pronouns, kinship terms, titles, verb forms, and respect markers.",
                 "\nStep 2: PRAGMATIC INFERENCE",
-                "Infer each pragmatic dimension (Gender, Animacy, Status, Age, Formality, Audience, Speech_Act).",
-                "\nStep 3: TRANSLATION OPTION EVALUATION",
-                "Assess the English options to see which best reflects the inferred context (gender/animacy alignment, formality, speech act preservation).",
-                "\nStep 4: FINAL SELECTION",
-                "Choose the English translation that best matches all pragmatic cues.",
+                "Infer each dimension (Gender, Animacy, Status, Age, Formality, Audience, Speech_Act).",
+                "\nStep 3: SUMMARIZE TAGS",
+                "After reasoning, output the TAGS line using the specified format.",
             ]
         )
 
     def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
-        options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             self._intro(),
             f"{self.source_label}: \"{source_sentence}\"",
-            f"{self.options_label}:\n{options_block}",
             self._step_block(),
-            "Provide your reasoning for each step, then respond in this format:",
+            "Provide reasoning for each step, then conclude with the TAGS line only:",
             self._response_format_block(),
         ]
         return "\n\n".join(sections)

@@ -38,21 +38,26 @@ def _parse_tag_line(tag_line: str) -> Dict[str, str]:
     return tags
 
 
-def parse_tags_and_selection(response_text: str) -> Tuple[PragmaticTagSet, int]:
-    """Extract validated tags and the numeric selection from a model response."""
+def parse_tags(response_text: str) -> PragmaticTagSet:
+    """Extract and validate the pragmatic tags from a model response."""
     tag_match = TAG_LINE_RE.search(response_text)
     if not tag_match:
         raise TagParseError("Missing TAGS line in model response.")
 
+    tags_dict = _parse_tag_line(tag_match.group(1))
+    try:
+        return PragmaticTagSet(**tags_dict)
+    except ValidationError as exc:
+        raise TagParseError(f"Invalid tag values: {exc}") from exc
+
+
+def parse_tags_and_selection(response_text: str) -> Tuple[PragmaticTagSet, int]:
+    """Extract validated tags and the numeric selection from a model response."""
+    tags = parse_tags(response_text)
+
     selection_match = SELECTION_RE.search(response_text)
     if not selection_match:
         raise TagParseError("Missing SELECTION line in model response.")
-
-    tags_dict = _parse_tag_line(tag_match.group(1))
-    try:
-        tags = PragmaticTagSet(**tags_dict)
-    except ValidationError as exc:
-        raise TagParseError(f"Invalid tag values: {exc}") from exc
 
     selection = int(selection_match.group(1))
     return tags, selection
