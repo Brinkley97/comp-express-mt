@@ -317,5 +317,7 @@ class ChainOfThoughtPromptFactory(ExperimentCPromptBase):
             self._step_three(),
             'Having used your reasoning for each step and applied the tags fully as needed context, '
             'state your final selection as "SELECTION: [number]".',
+            'Output only the final line in the format "SELECTION: [number]". YOU MUST ALWAYS SELECT A NUMERICAL OPTION.',
+            'Example: "SELECTION: 2".',
         ]
         return "\n\n".join(sections)
