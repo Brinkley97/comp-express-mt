@@ -86,6 +86,15 @@ SCHEMA_PATTERNS = {
         ],
     },
     "english_to_akan": {
+        7: [
+            "AUDIENCE",
+            "AGE",
+            "FORMALITY",
+            "GENDER_SUBJECT",
+            "GENDER_OBJECT",
+            "ANIMACY",
+            "SPEECH_ACT",
+        ],
         8: [
             "AUDIENCE",
             "STATUS",
