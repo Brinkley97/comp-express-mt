@@ -183,7 +183,7 @@ def _run_prompt_experiment(
             row_results = {}
             for idx, sentence in enumerate(candidate_sentences):
                 row_results[sentence] = {
-                    'gold_selection': idx,
+                    'gold_selection': idx+1,
                     'llm_selection': selection,
                     'raw_output': selection_raw_output,
                     'predicted_tags': tags_dict,

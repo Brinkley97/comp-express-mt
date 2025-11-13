@@ -184,7 +184,7 @@ def _run_prompt_experiment(
                 selection, raw_output = _generate_with_retry(model, prompt)
 
                 tgts_entry = [{candidate_sentences[idx]: {
-                    'gold_selection': idx,
+                    'gold_selection': idx+1,
                     'llm_selection': selection,
                     'raw_output': raw_output,
                 }}]
@@ -296,21 +296,21 @@ if __name__ == "__main__":
         "llama-3.3-70b-instruct",
     ]
 
-    run_zero_shot_experiment(
-        model_names=selected_models,
-        dataset=dataset_dict,
-        experiment_name="1_to_many_experiment_c",
-        source_language=default_source,
-        target_language=default_target,
-    )
-
-    # run_few_shot_experiment(
+    # run_zero_shot_experiment(
     #     model_names=selected_models,
     #     dataset=dataset_dict,
     #     experiment_name="1_to_many_experiment_c",
     #     source_language=default_source,
     #     target_language=default_target,
     # )
+
+    run_few_shot_experiment(
+        model_names=selected_models,
+        dataset=dataset_dict,
+        experiment_name="1_to_many_experiment_c",
+        source_language=default_source,
+        target_language=default_target,
+    )
 
     # run_chain_of_thought_experiment(
     #     model_names=selected_models,

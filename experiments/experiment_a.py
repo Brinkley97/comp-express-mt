@@ -285,7 +285,7 @@ def _run_prompt_experiment( model_names: List[str], dataset: Dict, prompt_factor
                 prompt = prompt_factory.get_base_prompt(idx_key, sentence_list)
                 selection, raw_output = _generate_with_retry(model, prompt)
                 row_results[sentence] = {
-                    'gold_selection': idx,
+                    'gold_selection': idx+1,
                     'llm_selection': selection,
                     'raw_output': raw_output,
                 }
