@@ -283,7 +283,7 @@ def _infer_languages_from_path(data_path: str) -> Tuple[str, str]:
 
 
 if __name__ == "__main__":
-    data_path = 'data/tagged_data/one_to_many_akan_eng_mappings_with_tags.json'
+    data_path = 'data/tagged_data/many_to_one_akan_eng_mappings_with_tags.json'
     dataset_dict = load_json(data_path)
     default_source, default_target = _infer_languages_from_path(data_path)
 
@@ -295,26 +295,26 @@ if __name__ == "__main__":
         "llama-3.3-70b-instruct",
     ]
 
-    # run_zero_shot_experiment(
-    #     model_names=selected_models,
-    #     dataset=dataset_dict,
-    #     experiment_name="1_to_many_experiment_c",
-    #     source_language=default_source,
-    #     target_language=default_target,
-    # )
+    run_zero_shot_experiment(
+        model_names=selected_models,
+        dataset=dataset_dict,
+        experiment_name="many_to_1_experiment_c",
+        source_language=default_source,
+        target_language=default_target,
+    )
 
-    # run_few_shot_experiment(
-    #     model_names=selected_models,
-    #     dataset=dataset_dict,
-    #     experiment_name="1_to_many_experiment_c",
-    #     source_language=default_source,
-    #     target_language=default_target,
-    # )
+    run_few_shot_experiment(
+        model_names=selected_models,
+        dataset=dataset_dict,
+        experiment_name="many_to_1_experiment_c",
+        source_language=default_source,
+        target_language=default_target,
+    )
 
     run_chain_of_thought_experiment(
         model_names=selected_models,
         dataset=dataset_dict,
-        experiment_name="1_to_many_experiment_c",
+        experiment_name="many_to_1_experiment_c",
         source_language=default_source,
         target_language=default_target,
     )
