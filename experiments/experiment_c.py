@@ -17,7 +17,13 @@ from prompting_strategies.experiment_c import (
     FewShotPromptFactory,
     ChainOfThoughtPromptFactory,
 )
-from tag_schema import build_schema, map_values_to_schema, map_dict_to_schema
+from tag_schema import (
+    build_schema,
+    build_schema_from_keys,
+    map_values_to_schema,
+    map_dict_to_schema,
+    canonicalize_dataset_key,
+)
 
 warnings.filterwarnings('ignore')
 
@@ -45,20 +51,6 @@ def _detect_direction(source_language: str, target_language: str) -> str:
     raise ValueError(
         f"Unsupported language pairing for experiment C: {source_language} -> {target_language}"
     )
-
-
-def _derive_schema(dataset: Dict, direction: str):
-    if not dataset:
-        raise ValueError("Dataset is empty; cannot derive tag schema.")
-    first_row = next(iter(dataset.values()))
-    sample_value = next(iter(first_row.values()))
-    if isinstance(sample_value, list):
-        tag_length = len(sample_value)
-    elif isinstance(sample_value, dict):
-        tag_length = len(sample_value)
-    else:
-        raise ValueError("Unsupported tag structure; expected list or dict of tag values.")
-    return build_schema(direction, tag_length)
 
 
 def _parse_selection(raw_selection) -> Optional[int]:
@@ -114,40 +106,50 @@ def _coerce_tags_from_values(tag_values, schema) -> Dict[str, str]:
     raise ValueError("Tags must be provided as a dict or list.")
 
 
-def _extract_options_and_tags(row: Dict, schema) -> Tuple[List[str], List[Dict]]:
-    """Return candidate sentences and a list of tag runs (tags + expected index)."""
-    if "options" in row:
-        options_dict = row["options"]
-    else:
-        options_dict = {k: v for k, v in row.items() if k != "tags"}
-
-    candidate_sentences = list(options_dict.keys())
-
+def _extract_options_and_tags(row: Dict, direction: str) -> Tuple[List[str], List[Dict]]:
+    """Return candidate sentences and tag info derived from per-option annotations."""
+    candidate_sentences = list(row.keys())
+    values = list(row.values())
     tag_runs: List[Dict] = []
 
-    if "tags" in row:
-        tags_dict = _coerce_tags_from_values(row["tags"], schema)
-        target_sentence = row.get("target_sentence")
-        expected_idx = None
-        if target_sentence and target_sentence in candidate_sentences:
-            expected_idx = candidate_sentences.index(target_sentence)
-        elif "target_index" in row:
-            expected_idx = row["target_index"]
-        tag_runs.append({"tags": tags_dict, "expected_idx": expected_idx})
+    if not values:
         return candidate_sentences, tag_runs
 
-    for idx, values in enumerate(options_dict.values()):
-        tags_dict = _coerce_tags_from_values(values, schema)
-        tag_runs.append({"tags": tags_dict, "expected_idx": idx})
+    first_value = values[0]
 
-    return candidate_sentences, tag_runs
+    if isinstance(first_value, list):
+        schema = build_schema(direction, len(first_value))
+        for idx, option_values in enumerate(values):
+            tags_dict = _coerce_tags_from_values(option_values, schema)
+            tag_runs.append({
+                "tags": tags_dict,
+                "expected_idx": idx,
+                "schema": schema,
+            })
+        return candidate_sentences, tag_runs
+
+    if isinstance(first_value, dict):
+        keys = set()
+        for option_values in values:
+            keys.update(canonicalize_dataset_key(k) for k in option_values.keys())
+        schema = build_schema_from_keys(keys)
+        for idx, option_values in enumerate(values):
+            tags_dict = _coerce_tags_from_values(option_values, schema)
+            tag_runs.append({
+                "tags": tags_dict,
+                "expected_idx": idx,
+                "schema": schema,
+            })
+        return candidate_sentences, tag_runs
+
+    raise ValueError("Unsupported tag structure; expected list or dict of tag values.")
 
 
 def _run_prompt_experiment(
     model_names: List[str],
     dataset: Dict,
     prompt_factory,
-    tag_schema,
+    direction: str,
     label: str,
     experiment_name: Optional[str] = None,
 ) -> Dict:
@@ -163,32 +165,27 @@ def _run_prompt_experiment(
         model_results = []
         
         for source_sentence, row in tqdm(dataset.items(), total=len(dataset)):
-            candidate_sentences, tag_runs = _extract_options_and_tags(row, tag_schema)
+            candidate_sentences, tag_runs = _extract_options_and_tags(row, direction)
 
-            for run_idx, run in enumerate(tag_runs):
+            for run in tag_runs:
                 tags = run["tags"]
+                expected_idx = run.get("expected_idx")
+                schema = run.get("schema")
                 prompt = prompt_factory.get_base_prompt(
                     source_sentence,
                     candidate_sentences,
                     tags=tags,
-                    tag_schema=tag_schema,
+                    tag_schema=schema,
                 )
                 selection, raw_output = _generate_with_retry(model, prompt)
 
-                row_results = {}
-                for idx, sentence in enumerate(candidate_sentences):
-                    if run_idx == idx:
-                        row_results[sentence] = {
-                            'gold_selection': idx,
-                            'llm_selection': selection,
-                            'raw_output': raw_output,
-                        }
-                    else:
-                        pass
-
                 model_results.append({
                     'src': source_sentence,
-                    'tgts': [{sentence: output} for sentence, output in row_results.items()],
+                    'tags': tags,
+                    'expected_selection': expected_idx,
+                    'llm_selection': selection,
+                    'raw_output': raw_output,
+                    'options': candidate_sentences,
                 })
 
         outputs[current_model] = model_results
@@ -212,12 +209,11 @@ def run_zero_shot_experiment(
         akan_variant=akan_variant,
     )
     direction = _detect_direction(source_language, target_language)
-    schema = _derive_schema(dataset, direction)
     return _run_prompt_experiment(
         model_names=model_names,
         dataset=dataset,
         prompt_factory=prompt_factory,
-        tag_schema=schema,
+        direction=direction,
         label="zero_shot",
         experiment_name=experiment_name,
     )
@@ -238,12 +234,11 @@ def run_few_shot_experiment(
         akan_variant=akan_variant,
     )
     direction = _detect_direction(source_language, target_language)
-    schema = _derive_schema(dataset, direction)
     return _run_prompt_experiment(
         model_names=model_names,
         dataset=dataset,
         prompt_factory=prompt_factory,
-        tag_schema=schema,
+        direction=direction,
         label="few_shot",
         experiment_name=experiment_name,
     )
@@ -264,12 +259,11 @@ def run_chain_of_thought_experiment(
         akan_variant=akan_variant,
     )
     direction = _detect_direction(source_language, target_language)
-    schema = _derive_schema(dataset, direction)
     return _run_prompt_experiment(
         model_names=model_names,
         dataset=dataset,
         prompt_factory=prompt_factory,
-        tag_schema=schema,
+        direction=direction,
         label="chain_of_thought",
         experiment_name=experiment_name,
     )

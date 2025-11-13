@@ -62,6 +62,18 @@ DIMENSION_DEFS: Dict[str, Dict[str, str]] = {
     },
 }
 
+SCHEMA_PRIORITY = [
+    "AUDIENCE",
+    "STATUS",
+    "AGE",
+    "FORMALITY",
+    "GENDER_SUBJECT",
+    "GENDER_OBJECT",
+    "GENDER",
+    "ANIMACY",
+    "SPEECH_ACT",
+]
+
 
 SCHEMA_PATTERNS = {
     "akan_to_english": {
@@ -155,7 +167,7 @@ VALUE_ALIASES = {
 }
 
 
-def _canonicalize_key(key: str) -> str:
+def canonicalize_dataset_key(key: str) -> str:
     normalized = key.strip().upper().replace("-", "_")
     return KEY_ALIASES.get(normalized, key.strip())
 
@@ -196,16 +208,26 @@ def map_values_to_schema(values: Iterable[str], schema: List[Dict[str, str]]) ->
 def map_dict_to_schema(value_dict: Dict[str, str], schema: List[Dict[str, str]]) -> Dict[str, str]:
     normalized = {}
     for raw_key, raw_value in value_dict.items():
-        canonical_key = _canonicalize_key(raw_key)
+        canonical_key = canonicalize_dataset_key(raw_key)
         normalized[canonical_key] = _canonicalize_value(raw_value)
 
     mapped = {}
     for entry in schema:
         canonical = entry["canonical"]
         if canonical not in normalized:
-            raise ValueError(
-                f"Missing required tag '{canonical}' while mapping dataset tags." 
-                f" Available keys: {list(normalized.keys())}"
-            )
-        mapped[canonical] = normalized[canonical]
+            mapped[canonical] = "UNKNOWN"
+        else:
+            mapped[canonical] = normalized[canonical]
     return mapped
+
+
+def build_schema_from_keys(keys: Iterable[str]) -> List[Dict[str, str]]:
+    canonical_keys = {canonicalize_dataset_key(k) for k in keys}
+    ordered = [
+        DIMENSION_DEFS[key]
+        for key in SCHEMA_PRIORITY
+        if key in canonical_keys
+    ]
+    if not ordered:
+        raise ValueError("Unable to build schema: no recognized tag keys provided.")
+    return ordered
