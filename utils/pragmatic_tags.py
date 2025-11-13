@@ -11,7 +11,7 @@ class PragmaticTagSet(BaseModel):
     Audience: Optional[Literal["Individual", "Small_Group", "Large_Group", "Broadcast", "INDIVIDUAL", "SMALL_GROUP", "LARGE_GROUP", "BROADCAST"]] = None
     Status: Optional[Literal["Equal", "Superior", "Subordinate", "EQUAL", "SUPERIOR", "SUBORDINATE"]] = None
     Age: Optional[Literal["Peer", "Elder", "Younger", "PEER", "ELDER", "YOUNGER"]] = None
-    Formality: Optional[Literal["Formal", "Casual", "FORMAL", "CASUAL"]] = None
+    Formality: Optional[Literal["Formal", "Informal", "FORMAL", "INFORMAL"]] = None
     Gender_Subject: Optional[Literal["Masculine", "Feminine", "Neutral", "MASCULINE", "FEMININE", "NEUTRAL"]] = None
     Gender_Object: Optional[Literal["Masculine", "Feminine", "Neutral", "MASCULINE", "FEMININE", "NEUTRAL"]] = None
     Gender: Optional[Literal["Masculine", "Feminine", "Neutral", "MASCULINE", "FEMININE", "NEUTRAL"]] = None
@@ -58,7 +58,7 @@ VALUE_CANONICALS = {
     "elder": "Elder",
     "younger": "Younger",
     "formal": "Formal",
-    "casual": "Casual",
+    "informal": "Informal",
     "individual": "Individual",
     "small_group": "Small_Group",
     "smallgroup": "Small_Group",

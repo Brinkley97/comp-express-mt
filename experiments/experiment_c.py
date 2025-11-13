@@ -118,7 +118,7 @@ def _extract_options_and_tags(row: Dict, direction: str) -> Tuple[List[str], Lis
     first_value = values[0]
 
     if isinstance(first_value, list):
-        print(f"[debug] direction: {direction} first_value length: {len(first_value)} values: {values}")
+        
         schema = build_schema(direction, len(first_value))
         for idx, option_values in enumerate(values):
             tags_dict = _coerce_tags_from_values(option_values, schema)
@@ -134,6 +134,8 @@ def _extract_options_and_tags(row: Dict, direction: str) -> Tuple[List[str], Lis
         keys = set()
         for option_values in values:
             keys.update(canonicalize_dataset_key(k) for k in option_values.keys())
+
+        
         schema = build_schema_from_keys(keys)
         for idx, option_values in enumerate(values):
             tags_dict = _coerce_tags_from_values(option_values, schema)
@@ -178,6 +180,7 @@ def _run_prompt_experiment(
                     tags=tags,
                     tag_schema=schema,
                 )
+            
                 selection, raw_output = _generate_with_retry(model, prompt)
 
                 tgts_entry = [{candidate_sentences[idx]: {

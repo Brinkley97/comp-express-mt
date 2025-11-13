@@ -11,7 +11,7 @@ class ExperimentBPromptBase(ExperimentAPromptBase):
     AKAN_TO_EN_DIMENSIONS = [
         ("AUDIENCE", "Audience", "INDIVIDUAL | SMALL_GROUP | LARGE_GROUP | BROADCAST", "Who is addressed?"),
         ("AGE", "Age", "PEER | ELDER | YOUNGER", "Age-based relationship?"),
-        ("FORMALITY", "Formality", "FORMAL | CASUAL", "Register level?"),
+        ("FORMALITY", "Formality", "FORMAL | INFORMAL", "Register level?"),
         ("GENDER_SUBJECT", "Gender_Subject", "MASCULINE | FEMININE | NEUTRAL", "Gender of the subject/speaker?"),
         ("GENDER_OBJECT", "Gender_Object", "MASCULINE | FEMININE | NEUTRAL", "Gender of the object/listener?"),
         ("ANIMACY", "Animacy", "ANIMATE | INANIMATE", "Living being or object?"),
@@ -22,7 +22,7 @@ class ExperimentBPromptBase(ExperimentAPromptBase):
         ("AUDIENCE", "Audience", "INDIVIDUAL | SMALL_GROUP | LARGE_GROUP | BROADCAST", "Who is addressed?"),
         ("STATUS", "Status", "EQUAL | SUPERIOR | SUBORDINATE", "Social relationship?"),
         ("AGE", "Age", "PEER | ELDER | YOUNGER", "Age-based dynamics?"),
-        ("FORMALITY", "Formality", "FORMAL | CASUAL", "Required register?"),
+        ("FORMALITY", "Formality", "FORMAL | INFORMAL", "Required register?"),
         ("GENDER_SUBJECT", "Gender_Subject", "MASCULINE | FEMININE | NEUTRAL", "Gender of the subject/speaker?"),
         ("GENDER_OBJECT", "Gender_Object", "MASCULINE | FEMININE | NEUTRAL", "Gender of the object/listener?"),
         ("ANIMACY", "Animacy", "ANIMATE | INANIMATE", "Living being or object?"),
@@ -147,7 +147,7 @@ class ZeroShotPromptFactory(ExperimentBPromptBase):
             self._tag_instruction_block(dimensions, kwargs.get("fallback_values")),
             "For AUDIENCE use INDIVIDUAL/SMALL_GROUP/LARGE_GROUP/BROADCAST only. Do NOT invent new labels.",
             "For AGE use PEER/ELDER/YOUNGER only. Do NOT invent new labels.",
-            "For FORMALITY use FORMAL/CASUAL only. Do NOT invent new labels.",
+            "For FORMALITY use FORMAL/INFORMAL only. Do NOT invent new labels.",
             "For STATUS use EQUAL/SUPERIOR/SUBORDINATE only. Do NOT invent new labels.",
             "For GENDER_SUBJECT/GENDER_OBJECT use MASCULINE/FEMININE/NEUTRAL only. Do NOT invent new labels.",
             "For ANIMACY use ANIMATE/INANIMATE only. Do NOT invent new labels.",
@@ -163,7 +163,7 @@ class FewShotPromptFactory(ExperimentBPromptBase):
     AKAN_TO_EN_EXAMPLES = """Examples (Akan → English):
 Akan: "Ɔyɛ me mpena"
 Reasoning: Identify pronouns, relationship terms, and register to determine each pragmatic dimension.
-TAGS: GENDER=Masculine, ANIMACY=Animate, STATUS=Equal, AGE=Peer, FORMALITY=Casual, AUDIENCE=Individual, SPEECH_ACT=Statement
+TAGS: GENDER=Masculine, ANIMACY=Animate, STATUS=Equal, AGE=Peer, FORMALITY=INFORMAL, AUDIENCE=Individual, SPEECH_ACT=Statement
 
 Akan: "Nana no aba"
 Reasoning: "Nana" signals an elder/respected figure; consider the respectful tone and implied audience.
@@ -172,7 +172,7 @@ TAGS: GENDER=Neutral, ANIMACY=Animate, STATUS=Superior, AGE=Elder, FORMALITY=For
     EN_TO_AKAN_EXAMPLES = """Examples (English → Akan):
 English: "Good morning"
 Reasoning: Polite greeting to an individual peer.
-TAGS: FORMALITY=Casual, AUDIENCE=Individual, STATUS=Equal, AGE=Peer, GENDER=Neutral, ANIMACY=Animate, SPEECH_ACT=Greeting
+TAGS: FORMALITY=INFORMAL, AUDIENCE=Individual, STATUS=Equal, AGE=Peer, GENDER=Neutral, ANIMACY=Animate, SPEECH_ACT=Greeting
 
 English: "Please help me with this task"
 Reasoning: Polite request directed toward a respected person.
@@ -215,7 +215,7 @@ TAGS: FORMALITY=Formal, AUDIENCE=Individual, STATUS=Superior, AGE=Elder, GENDER=
             self._tag_instruction_block(dimensions, kwargs.get("fallback_values")),
             "For AUDIENCE use INDIVIDUAL/SMALL_GROUP/LARGE_GROUP/BROADCAST only. Do NOT invent new labels.",
             "For AGE use PEER/ELDER/YOUNGER only. Do NOT invent new labels.",
-            "For FORMALITY use FORMAL/CASUAL only. Do NOT invent new labels.",
+            "For FORMALITY use FORMAL/INFORMAL only. Do NOT invent new labels.",
             "For STATUS use EQUAL/SUPERIOR/SUBORDINATE only. Do NOT invent new labels.",
             "For GENDER_SUBJECT/GENDER_OBJECT use MASCULINE/FEMININE/NEUTRAL only. Do NOT invent new labels.",
             "For ANIMACY use ANIMATE/INANIMATE only. Do NOT invent new labels.",
@@ -283,11 +283,11 @@ class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
             f"{self.options_label} (reference only):\n{options_block}",
             self._step_block(),
             "You must use the tag example set we have given in your generation-these are the only dimensions you should consider."
-            "Example, if your think a tag should be INFORMAL, use CASUAL, if you infer it to be Male/Female what we have specified MASCULINE/FEMININE"
+            "Example, if you infer a tag to be Male/Female use what we have specified MASCULINE/FEMININE"
             " as this what is provided in the context given. This applies to all dimensions."
             "For AUDIENCE use INDIVIDUAL/SMALL_GROUP/LARGE_GROUP/BROADCAST only. Do NOT invent new labels.",
             "For AGE use PEER/ELDER/YOUNGER only. Do NOT invent new labels.",
-            "For FORMALITY use FORMAL/CASUAL only. Do NOT invent new labels.",
+            "For FORMALITY use FORMAL/INFORMAL only. Do NOT invent new labels.",
             "For STATUS use EQUAL/SUPERIOR/SUBORDINATE only. Do NOT invent new labels.",
             "For GENDER_SUBJECT/GENDER_OBJECT use MASCULINE/FEMININE/NEUTRAL only. Do NOT invent new labels.",
             "For ANIMACY use ANIMATE/INANIMATE only. Do NOT invent new labels.",

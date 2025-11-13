@@ -130,10 +130,10 @@ class FewShotPromptFactory(ExperimentCPromptBase):
 
     AKAN_TO_EN_EXAMPLES = """Example 1:
 Akan: "Ɔyɛ me mpena"
-Tags: Gender=Masculine, Animacy=Animate, Status=Equal, Age=Peer, Formality=Casual, Audience=Individual, Speech_Act=Statement
+Tags: Gender=Masculine, Animacy=Animate, Status=Equal, Age=Peer, Formality=Informal, Audience=Individual, Speech_Act=Statement
 Options: 1. He is my boyfriend 2. She is my girlfriend 3. They are my lover
 Selection: 1
-Reasoning: Gender=Masculine tag clearly indicates male referent; Formality=Casual supports "boyfriend" over more formal alternatives
+Reasoning: Gender=Masculine tag clearly indicates male referent; Formality=Informal supports "boyfriend" over more formal alternatives
 
 Example 2:
 Akan: "Nana no aba"
@@ -144,10 +144,10 @@ Reasoning: Gender=Feminine + Age=Elder + Formality=Formal best matches "Grandma 
 
     EN_TO_AKAN_EXAMPLES = """Example 1:
 English: "Good morning"
-Tags: Formality=Casual, Audience=Individual, Status=Equal, Age=Peer, Gender=Neutral, Animacy=Animate, Speech_Act=Greeting
-Options: 1. Maakye (very casual) 2. Mema wo akye (polite) 3. Yɛma wo akye (formal plural)
+Tags: Formality=Informal, Audience=Individual, Status=Equal, Age=Peer, Gender=Neutral, Animacy=Animate, Speech_Act=Greeting
+Options: 1. Maakye (very informal) 2. Mema wo akye (polite) 3. Yɛma wo akye (formal plural)
 Selection: 2
-Reasoning: Formality=Casual + Audience=Individual indicates polite individual greeting, not overly formal or too casual
+Reasoning: Formality=Informal + Audience=Individual indicates polite individual greeting, not overly formal or too informal
 
 Example 2:
 English: "Please help me"

@@ -27,7 +27,7 @@ DIMENSION_DEFS: Dict[str, Dict[str, str]] = {
     "FORMALITY": {
         "display": "FORMALITY",
         "canonical": "Formality",
-        "values": "Formal | Casual",
+        "values": "Formal | Informal",
         "description": "Register level?",
     },
     "GENDER_SUBJECT": {
@@ -151,7 +151,7 @@ VALUE_ALIASES = {
     "elder": "ELDER",
     "younger": "YOUNGER",
     "formal": "FORMAL",
-    "casual": "CASUAL",
+    "informal": "INFORMAL",
     "masculine": "MASCULINE",
     "feminine": "FEMININE",
     "neutral": "NEUTRAL",
@@ -222,12 +222,16 @@ def map_dict_to_schema(value_dict: Dict[str, str], schema: List[Dict[str, str]])
 
 
 def build_schema_from_keys(keys: Iterable[str]) -> List[Dict[str, str]]:
-    canonical_keys = {canonicalize_dataset_key(k) for k in keys}
+    canonical_keys = {canonicalize_dataset_key(k.upper()) for k in keys}
+    # upper case canonicallized keys for matching
+    canonical_keys = {k.upper() for k in canonical_keys}
+
     ordered = [
         DIMENSION_DEFS[key]
         for key in SCHEMA_PRIORITY
         if key in canonical_keys
     ]
+    
     if not ordered:
         raise ValueError("Unable to build schema: no recognized tag keys provided.")
     return ordered
