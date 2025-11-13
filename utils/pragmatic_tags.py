@@ -14,7 +14,7 @@ class PragmaticTagSet(BaseModel):
     Formality: Optional[Literal["Formal", "Casual", "FORMAL", "CASUAL"]] = None
     Gender_Subject: Optional[Literal["Masculine", "Feminine", "Neutral", "MASCULINE", "FEMININE", "NEUTRAL"]] = None
     Gender_Object: Optional[Literal["Masculine", "Feminine", "Neutral", "MASCULINE", "FEMININE", "NEUTRAL"]] = None
-    Gender: Optional[Literal["Masculine", "Feminine", "Neutral", "MASculINE", "FEMININE", "NEUTRAL"]] = None
+    Gender: Optional[Literal["Masculine", "Feminine", "Neutral", "MASCULINE", "FEMININE", "NEUTRAL"]] = None
     Animacy: Optional[Literal["Animate", "Inanimate", "ANIMATE", "INANIMATE"]] = None
     Speech_Act: Optional[Literal["Question", "Answer", "Statement", "Command", "Request", "Greeting", "Advice", "ADVICE", "QUESTION", "STATEMENT", "COMMAND", "REQUEST", "GREETING", "ANSWER"]] = None
 

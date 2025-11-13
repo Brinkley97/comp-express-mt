@@ -118,6 +118,7 @@ def _extract_options_and_tags(row: Dict, direction: str) -> Tuple[List[str], Lis
     first_value = values[0]
 
     if isinstance(first_value, list):
+        print(f"[debug] direction: {direction} first_value length: {len(first_value)} values: {values}")
         schema = build_schema(direction, len(first_value))
         for idx, option_values in enumerate(values):
             tags_dict = _coerce_tags_from_values(option_values, schema)
@@ -126,6 +127,7 @@ def _extract_options_and_tags(row: Dict, direction: str) -> Tuple[List[str], Lis
                 "expected_idx": idx,
                 "schema": schema,
             })
+
         return candidate_sentences, tag_runs
 
     if isinstance(first_value, dict):
