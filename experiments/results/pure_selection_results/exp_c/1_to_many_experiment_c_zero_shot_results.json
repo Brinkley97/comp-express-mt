@@ -246,8 +246,8 @@
                 {
                     "He cautioned her to take more care.": {
                         "gold_selection": 3,
-                        "llm_selection": 5,
-                        "raw_output": "5"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -270,8 +270,8 @@
                 {
                     "Try and do it.": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 4,
+                        "raw_output": "4"
                     }
                 }
             ]
@@ -318,8 +318,8 @@
                 {
                     "The phone rang when I was having lunch.": {
                         "gold_selection": 0,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 4,
+                        "raw_output": "4"
                     }
                 }
             ]
@@ -342,8 +342,8 @@
                 {
                     "I was having lunch when the phone rang.": {
                         "gold_selection": 2,
-                        "llm_selection": 4,
-                        "raw_output": "4"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -534,8 +534,8 @@
                 {
                     "Asamoah didn't notice the look of disdain on Esi's face.": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -546,8 +546,8 @@
                 {
                     "Asamoah didnt see the contempt on Esi's face.": {
                         "gold_selection": 1,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -570,8 +570,8 @@
                 {
                     "Asamoah didnt notive how Esi looked at him with disdain.": {
                         "gold_selection": 3,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -582,8 +582,8 @@
                 {
                     "It was like a dream come true.": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -618,8 +618,8 @@
                 {
                     "It felt like a dream come true.": {
                         "gold_selection": 3,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -678,8 +678,8 @@
                 {
                     "I promise you that.": {
                         "gold_selection": 1,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -702,8 +702,8 @@
                 {
                     "You have my word.": {
                         "gold_selection": 3,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -774,8 +774,8 @@
                 {
                     "The funeral took place yesterday.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -786,8 +786,8 @@
                 {
                     "The funeral was held yesterday.": {
                         "gold_selection": 2,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -798,8 +798,8 @@
                 {
                     "It was yesterday that the funeral happened.": {
                         "gold_selection": 3,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -834,8 +834,8 @@
                 {
                     "She never gets up ahead of me.": {
                         "gold_selection": 2,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -894,8 +894,8 @@
                 {
                     "I told them nothing.": {
                         "gold_selection": 0,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -918,8 +918,8 @@
                 {
                     "I said nothing to them.": {
                         "gold_selection": 2,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -930,8 +930,8 @@
                 {
                     "I gave them no information.": {
                         "gold_selection": 3,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -954,8 +954,8 @@
                 {
                     "We hope he will help us.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -978,8 +978,8 @@
                 {
                     "We are counting on him to help.": {
                         "gold_selection": 3,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -1026,8 +1026,8 @@
                 {
                     "It was the perfect opportunity to kiss.": {
                         "gold_selection": 3,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 4,
+                        "raw_output": "4"
                     }
                 }
             ]
@@ -1038,8 +1038,8 @@
                 {
                     "What do you say to going to the concert?": {
                         "gold_selection": 0,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -1098,8 +1098,8 @@
                 {
                     "When will the world end?": {
                         "gold_selection": 2,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 4,
+                        "raw_output": "4"
                     }
                 }
             ]
@@ -1110,8 +1110,8 @@
                 {
                     "At what time will the world end?": {
                         "gold_selection": 3,
-                        "llm_selection": 4,
-                        "raw_output": "4"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -1242,8 +1242,8 @@
                 {
                     "He was happy and intoxicated.": {
                         "gold_selection": 2,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -1338,8 +1338,8 @@
                 {
                     "I have gaining pounds lately.": {
                         "gold_selection": 3,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -1398,8 +1398,8 @@
                 {
                     "Asamoah has a house with two rooms.": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -1422,18 +1422,6 @@
                 {
                     "Asamoah's house has two rooms.": {
                         "gold_selection": 2,
-                        "llm_selection": 3,
-                        "raw_output": "3"
-                    }
-                }
-            ]
-        },
-        {
-            "src": "Minni sika pii saa bere no.",
-            "tgts": [
-                {
-                    "I don't have enough money at the moment.": {
-                        "gold_selection": 0,
                         "llm_selection": 1,
                         "raw_output": "1"
                     }
@@ -1444,10 +1432,22 @@
             "src": "Minni sika pii saa bere no.",
             "tgts": [
                 {
+                    "I don't have enough money at the moment.": {
+                        "gold_selection": 0,
+                        "llm_selection": 4,
+                        "raw_output": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "src": "Minni sika pii saa bere no.",
+            "tgts": [
+                {
                     "I am short on money right now.": {
                         "gold_selection": 1,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -1458,8 +1458,8 @@
                 {
                     "I dont have much cash at the moment.": {
                         "gold_selection": 2,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -1482,8 +1482,8 @@
                 {
                     "Asamoah is a very clever man.": {
                         "gold_selection": 0,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -1494,8 +1494,8 @@
                 {
                     "Asamoah is brilliant.": {
                         "gold_selection": 1,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -1518,8 +1518,8 @@
                 {
                     "Asamoah is an intelligent man.": {
                         "gold_selection": 3,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 4,
+                        "raw_output": "4"
                     }
                 }
             ]
@@ -1614,8 +1614,8 @@
                 {
                     "It is truly amazing.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -1698,8 +1698,8 @@
                 {
                     "What is your honest opinion?": {
                         "gold_selection": 1,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -1734,8 +1734,8 @@
                 {
                     "You do what you can.": {
                         "gold_selection": 0,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 4,
+                        "raw_output": "4"
                     }
                 }
             ]
@@ -1758,8 +1758,8 @@
                 {
                     "Just do your best.": {
                         "gold_selection": 2,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 4,
+                        "raw_output": "4"
                     }
                 }
             ]
@@ -1794,8 +1794,8 @@
                 {
                     " In my opinion, that is the best approach.": {
                         "gold_selection": 1,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -2058,8 +2058,8 @@
                 {
                     "Esi hired Asamoah to paint her house.": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -2166,8 +2166,8 @@
                 {
                     "I will be there for you whe you need me.": {
                         "gold_selection": 2,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -2238,8 +2238,8 @@
                 {
                     "I thought Asamoah would be happy to see Esi.": {
                         "gold_selection": 1,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -2250,8 +2250,8 @@
                 {
                     "I expected Asamoah to be pleased to see Esi.": {
                         "gold_selection": 2,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -2298,8 +2298,8 @@
                 {
                     "I am suffering from itchy athlete's foot.": {
                         "gold_selection": 2,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -2310,8 +2310,8 @@
                 {
                     "He sings so well that it's impossible to hold back tears.": {
                         "gold_selection": 0,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -2322,8 +2322,8 @@
                 {
                     "He sings so beautifully it is hard not to cry.": {
                         "gold_selection": 1,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -2358,8 +2358,8 @@
                 {
                     "This beer has 5% alcohol.": {
                         "gold_selection": 1,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -2370,8 +2370,8 @@
                 {
                     "The alcohol content of this beer is 5%.": {
                         "gold_selection": 2,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -2382,8 +2382,8 @@
                 {
                     "There is 5% alcohol is this beer.": {
                         "gold_selection": 3,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -2406,8 +2406,8 @@
                 {
                     "They considered every possibility.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -2454,8 +2454,8 @@
                 {
                     " Luckily, none of the passengers were hurt.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -2586,8 +2586,8 @@
                 {
                     "No one asked me to the party.": {
                         "gold_selection": 1,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -2634,8 +2634,8 @@
                 {
                     "I am unsure how long this will last.": {
                         "gold_selection": 2,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -2682,8 +2682,8 @@
                 {
                     "He is always on top of things.": {
                         "gold_selection": 2,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -2694,8 +2694,8 @@
                 {
                     "He hadn't eaten in two days.": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -2766,8 +2766,8 @@
                 {
                     "We must remain vigilant.": {
                         "gold_selection": 0,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -2778,8 +2778,8 @@
                 {
                     "We have to stay alert.": {
                         "gold_selection": 1,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -2802,8 +2802,8 @@
                 {
                     "She was kissed by him.": {
                         "gold_selection": 0,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -2874,8 +2874,8 @@
                 {
                     "Once he arrives I will let him know.": {
                         "gold_selection": 2,
-                        "llm_selection": 4,
-                        "raw_output": "4"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -2898,8 +2898,8 @@
                 {
                     " You remember him, don't you?": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -2958,8 +2958,8 @@
                 {
                     "I dont have any money today.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -2970,18 +2970,6 @@
                 {
                     "I am out of money today.": {
                         "gold_selection": 2,
-                        "llm_selection": 2,
-                        "raw_output": "2"
-                    }
-                }
-            ]
-        },
-        {
-            "src": "M'ani begye ho sɛ mehu Asamoah bio.",
-            "tgts": [
-                {
-                    "I'd like to see Asamoah one more time.": {
-                        "gold_selection": 0,
                         "llm_selection": 1,
                         "raw_output": "1"
                     }
@@ -2992,20 +2980,8 @@
             "src": "M'ani begye ho sɛ mehu Asamoah bio.",
             "tgts": [
                 {
-                    "I want to see Asamoah again.": {
-                        "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
-                    }
-                }
-            ]
-        },
-        {
-            "src": "M'ani begye ho sɛ mehu Asamoah bio.",
-            "tgts": [
-                {
-                    "I would like one more meeting with Asamoah.": {
-                        "gold_selection": 2,
+                    "I'd like to see Asamoah one more time.": {
+                        "gold_selection": 0,
                         "llm_selection": 4,
                         "raw_output": "4"
                     }
@@ -3016,10 +2992,34 @@
             "src": "M'ani begye ho sɛ mehu Asamoah bio.",
             "tgts": [
                 {
-                    "I wish to see Asamoah once more.": {
-                        "gold_selection": 3,
+                    "I want to see Asamoah again.": {
+                        "gold_selection": 1,
+                        "llm_selection": 1,
+                        "raw_output": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "src": "M'ani begye ho sɛ mehu Asamoah bio.",
+            "tgts": [
+                {
+                    "I would like one more meeting with Asamoah.": {
+                        "gold_selection": 2,
                         "llm_selection": 3,
                         "raw_output": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "src": "M'ani begye ho sɛ mehu Asamoah bio.",
+            "tgts": [
+                {
+                    "I wish to see Asamoah once more.": {
+                        "gold_selection": 3,
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -3066,8 +3066,8 @@
                 {
                     "He carried on with his experiment.": {
                         "gold_selection": 0,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -3090,8 +3090,8 @@
                 {
                     "He kept working on his experiment.": {
                         "gold_selection": 2,
-                        "llm_selection": 4,
-                        "raw_output": "4"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -3186,8 +3186,8 @@
                 {
                     "America was first colonized in the 17th century.": {
                         "gold_selection": 2,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -3210,8 +3210,8 @@
                 {
                     "Is your dog mean?": {
                         "gold_selection": 0,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -3222,8 +3222,8 @@
                 {
                     "Is your dog aggressive?": {
                         "gold_selection": 1,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -3234,8 +3234,8 @@
                 {
                     "Does your dog bite?": {
                         "gold_selection": 2,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -3306,8 +3306,8 @@
                 {
                     "That is great news for me.": {
                         "gold_selection": 1,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -3318,8 +3318,8 @@
                 {
                     "I am happy to hear that.": {
                         "gold_selection": 2,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -3390,8 +3390,8 @@
                 {
                     "Who do you think you are?": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -3474,8 +3474,8 @@
                 {
                     "He suggested that Esi give John a cup of coffee.": {
                         "gold_selection": 2,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -3486,8 +3486,8 @@
                 {
                     "Asamoah recommended Esi serve John coffee.": {
                         "gold_selection": 3,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -3570,8 +3570,8 @@
                 {
                     "I've gone to Kyoto twice.": {
                         "gold_selection": 0,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -3582,8 +3582,8 @@
                 {
                     "I have visited Kyoto two times.": {
                         "gold_selection": 1,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -3594,8 +3594,8 @@
                 {
                     "I have been to Kyoto twice.": {
                         "gold_selection": 2,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -3618,8 +3618,8 @@
                 {
                     "I was made to wait for over 30 minutes.": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -3690,8 +3690,8 @@
                 {
                     "I need to keep going.": {
                         "gold_selection": 2,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -3774,8 +3774,8 @@
                 {
                     "The ship was unable to depart because of the storm.": {
                         "gold_selection": 2,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -4014,8 +4014,8 @@
                 {
                     "I'm beginning to understand why you don't bother to try to explain things to Asamoah.": {
                         "gold_selection": 0,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -4086,8 +4086,8 @@
                 {
                     "Suicide is a desperate act.": {
                         "gold_selection": 0,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -4098,8 +4098,8 @@
                 {
                     "Taking one's own life is an act of desperation.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -4134,8 +4134,8 @@
                 {
                     "Asamoah had a nice chat with Esi.": {
                         "gold_selection": 0,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -4158,8 +4158,8 @@
                 {
                     "He had a friendly chat with Esi.": {
                         "gold_selection": 2,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -4170,8 +4170,8 @@
                 {
                     "Asamoah enjoyed a pleasnat conversation with Esi.": {
                         "gold_selection": 3,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -4302,8 +4302,8 @@
                 {
                     "Some old lady told Asamoah that he looked like Charles Darwin.": {
                         "gold_selection": 0,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -4386,8 +4386,8 @@
                 {
                     "How many residents are in your town": {
                         "gold_selection": 3,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -4446,8 +4446,8 @@
                 {
                     "I filled a vase with water.": {
                         "gold_selection": 0,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -4530,8 +4530,8 @@
                 {
                     "I know one thing we could do that might be fun.": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -4590,8 +4590,8 @@
                 {
                     "Science is tough.": {
                         "gold_selection": 1,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -4710,8 +4710,8 @@
                 {
                     "Kwaku waved.": {
                         "gold_selection": 0,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -4722,8 +4722,8 @@
                 {
                     "Kwaku waved his hand.": {
                         "gold_selection": 1,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -4782,8 +4782,8 @@
                 {
                     "I just want a straight answer. Nothing more.": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -4794,8 +4794,8 @@
                 {
                     " I just want a clear answer, nothing else.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 4,
+                        "raw_output": "4"
                     }
                 }
             ]
@@ -4818,8 +4818,8 @@
                 {
                     " I only want a direct answer, nothing more.": {
                         "gold_selection": 3,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 4,
+                        "raw_output": "4"
                     }
                 }
             ]
@@ -4926,8 +4926,8 @@
                 {
                     " The truth is, Kwame Jackson is not the boss.": {
                         "gold_selection": 2,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -4938,8 +4938,8 @@
                 {
                     "He is an unpleasant fellow.": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -4962,8 +4962,8 @@
                 {
                     "He is raher disagreeable.": {
                         "gold_selection": 2,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -4974,8 +4974,8 @@
                 {
                     "I've done everything you asked me to.": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -4986,8 +4986,8 @@
                 {
                     "I have completed all the tasks you gave me.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -5010,8 +5010,8 @@
                 {
                     "Don't let the cat out.": {
                         "gold_selection": 0,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -5022,8 +5022,8 @@
                 {
                     "Keep the cat inside.": {
                         "gold_selection": 1,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -5166,8 +5166,8 @@
                 {
                     "I havent had anything to do since yesterday.": {
                         "gold_selection": 1,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -5190,8 +5190,8 @@
                 {
                     "I'm seeing ghosts.": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -5202,8 +5202,8 @@
                 {
                     "I keep imagining spirits.": {
                         "gold_selection": 1,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -5250,8 +5250,8 @@
                 {
                     "I tried two times but it did not work either time.": {
                         "gold_selection": 2,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -5262,8 +5262,8 @@
                 {
                     "She is my dream girl.": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -5298,8 +5298,8 @@
                 {
                     "They're nice kids.": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -5382,8 +5382,8 @@
                 {
                     "Ladies really like that.": {
                         "gold_selection": 1,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -5454,8 +5454,8 @@
                 {
                     "She has a nice body shape.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -5538,8 +5538,8 @@
                 {
                     "It is necessary we find another babysitter.": {
                         "gold_selection": 2,
-                        "llm_selection": 3,
-                        "raw_output": "3"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -5732,8 +5732,8 @@
                 {
                     "I'm studying music.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -5744,8 +5744,8 @@
                 {
                     "I'm taking music lessons.": {
                         "gold_selection": 2,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -5840,8 +5840,8 @@
                 {
                     "Try your best and do it.": {
                         "gold_selection": 2,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 4,
+                        "raw_output": "4"
                     }
                 }
             ]
@@ -5852,8 +5852,8 @@
                 {
                     "Make an effort and get it done.": {
                         "gold_selection": 3,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 4,
+                        "raw_output": "4"
                     }
                 }
             ]
@@ -6008,8 +6008,8 @@
                 {
                     " As soon as she passed out, we brought her to the clinic.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -6032,8 +6032,8 @@
                 {
                     "A teacher's salary is less than an attorney's.": {
                         "gold_selection": 0,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -6116,8 +6116,8 @@
                 {
                     "Asamoah didnt notive how Esi looked at him with disdain.": {
                         "gold_selection": 3,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -6176,8 +6176,8 @@
                 {
                     "Did you see how big their house is?": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -6188,8 +6188,8 @@
                 {
                     "Did you notice how huge their house is?": {
                         "gold_selection": 1,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -7028,8 +7028,8 @@
                 {
                     "Asamoah is a very clever man.": {
                         "gold_selection": 0,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -7040,8 +7040,8 @@
                 {
                     "Asamoah is brilliant.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -7052,8 +7052,8 @@
                 {
                     "Asamoah is extremely smart.": {
                         "gold_selection": 2,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -7064,8 +7064,8 @@
                 {
                     "Asamoah is an intelligent man.": {
                         "gold_selection": 3,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 4,
+                        "raw_output": "4"
                     }
                 }
             ]
@@ -7352,8 +7352,8 @@
                 {
                     "I think that is the best way.": {
                         "gold_selection": 2,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -7448,8 +7448,8 @@
                 {
                     "One wonders how it's possible.": {
                         "gold_selection": 0,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -7604,8 +7604,8 @@
                 {
                     "Esi hired Asamoah to paint her house.": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -7616,8 +7616,8 @@
                 {
                     "Esi employed Asamoah to paint her house.": {
                         "gold_selection": 1,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 2,
+                        "raw_output": "2"
                     }
                 }
             ]
@@ -7664,8 +7664,8 @@
                 {
                     "I love you deeply.": {
                         "gold_selection": 2,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 1,
+                        "raw_output": "1"
                     }
                 }
             ]
@@ -8072,8 +8072,8 @@
                 {
                     "Is it true that you were on TV yesterday?": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -8096,8 +8096,8 @@
                 {
                     "Is it true you appeared on TV yesterday?": {
                         "gold_selection": 2,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -8324,8 +8324,8 @@
                 {
                     "We have to stay alert.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -8336,8 +8336,8 @@
                 {
                     "We must keep our eyes open.": {
                         "gold_selection": 2,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -8876,8 +8876,8 @@
                 {
                     "Perfect!": {
                         "gold_selection": 0,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -8888,8 +8888,8 @@
                 {
                     "Spot on!": {
                         "gold_selection": 1,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -8900,8 +8900,8 @@
                 {
                     "Exactly!": {
                         "gold_selection": 2,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -8912,8 +8912,8 @@
                 {
                     "Just right!": {
                         "gold_selection": 3,
-                        "llm_selection": 1,
-                        "raw_output": "1"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -9692,8 +9692,8 @@
                 {
                     "Asamoah talked pleasantly with Esi.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -9716,8 +9716,8 @@
                 {
                     "Asamoah enjoyed a pleasnat conversation with Esi.": {
                         "gold_selection": 3,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -10124,8 +10124,8 @@
                 {
                     "Science is too hard.": {
                         "gold_selection": 0,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]
@@ -10136,8 +10136,8 @@
                 {
                     "Science is tough.": {
                         "gold_selection": 1,
-                        "llm_selection": 2,
-                        "raw_output": "2"
+                        "llm_selection": 3,
+                        "raw_output": "3"
                     }
                 }
             ]

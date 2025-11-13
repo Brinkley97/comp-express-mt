@@ -1,17 +1,12 @@
 {
-  "mistral-small-3.1": {
-    "accuracy": 0.22510822510822512,
-    "macro_f1": 0.15122723539959632,
-    "num_predictions": 462
-  },
   "llama-3.3-70b-instruct": {
-    "accuracy": 0.2597402597402597,
-    "macro_f1": 0.16629067993809635,
+    "accuracy": 0.2510822510822511,
+    "macro_f1": 0.16784806377435038,
     "num_predictions": 462
   },
   "gpt-oss-120b": {
-    "accuracy": 0.24458874458874458,
-    "macro_f1": 0.16730174630657443,
+    "accuracy": 0.24242424242424243,
+    "macro_f1": 0.15237068367353096,
     "num_predictions": 462
   }
 }

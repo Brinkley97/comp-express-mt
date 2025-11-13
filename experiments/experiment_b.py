@@ -323,26 +323,26 @@ if __name__ == "__main__":
         "gpt-oss-120b",
     ]
 
-    run_zero_shot_experiment(
+    # run_zero_shot_experiment(
+    #     model_names=selected_models,
+    #     dataset=dataset_dict,
+    #     experiment_name="1_to_many_experiment_b",
+    #     source_language=default_source,
+    #     target_language=default_target,
+    # )
+
+    # run_few_shot_experiment(
+    #     model_names=selected_models,
+    #     dataset=dataset_dict,
+    #     experiment_name="1_to_many_experiment_b",
+    #     source_language=default_source,
+    #     target_language=default_target,
+    # )
+
+    run_chain_of_thought_experiment(
         model_names=selected_models,
         dataset=dataset_dict,
         experiment_name="1_to_many_experiment_b",
         source_language=default_source,
         target_language=default_target,
     )
-
-    # run_few_shot_experiment(
-    #     model_names=selected_models,
-    #     dataset=dataset_dict,
-    #     experiment_name="many_to_1_experiment_b",
-    #     source_language=default_source,
-    #     target_language=default_target,
-    # )
-
-    # run_chain_of_thought_experiment(
-    #     model_names=selected_models,
-    #     dataset=dataset_dict,
-    #     experiment_name="many_to_1_experiment_b",
-    #     source_language=default_source,
-    #     target_language=default_target,
-    # )
