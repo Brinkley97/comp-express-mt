@@ -1,0 +1,4424 @@
+{
+    "Anadwo biara ɔfrɛ no.": {
+        "He calls her every night.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He calls him every night.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "She calls her every night.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Anɔpa yi, ohyiaa no.": {
+        "She met him this morning.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        "She met her this morning.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        "He met her this morning.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        "He met him this morning.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        }
+    },
+    "Merenyɛ saa nnɛ.": {
+        "I'd rather not go out today.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "I don't feel like going out today.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "I don't want to go out today.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        }
+    },
+    "Nea ɛwɔ he na meyɛ?": {
+        "Which is mine?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Which one belongs to me?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Which of these is for me?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Which one is mine?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        }
+    },
+    "Misua nnwom.": {
+        "I'm learning music.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        "I'm studying music.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I'm taking music lessons.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        }
+    },
+    "Otuu no fo sɛ ɔnhwɛ yiye paa.": {
+        "She was advised by him to be more careful.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He advised her to be more careful.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He told her to be careful.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He cautioned her to take more care.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He instructed her to be very careful.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Bɔ mmɔden yɛ saa.": {
+        "Try and do it.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "Give it a try.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        },
+        "Try your best and do it.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "Make an effort and get it done.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Wɔfrɛɛ me wɔ telefon so bere a na merema aduan awia no.": {
+        "The phone rang when I was having lunch.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        " While I was having lunch, the phone rang.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        "I was having lunch when the phone rang.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        "The phone went off while I was having lunch.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        }
+    },
+    "Yesua honam fam nyansahu.": {
+        "We're studying physical science.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        "We are learning physical science.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        "We are taking a physical science class.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        }
+    },
+    "Sɛ mene wo a, anka menyɛ saa.": {
+        "I wouldn't do that if I were you.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        " If I were in your shoes, I wouldn't do that.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        },
+        "That is something I will not do if I were you": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        " If I were you, I wouldn't do that.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        }
+    },
+    "Bere a ade tɔɔ ne so ara pɛ na yɛde no kɔɔ ayaresabea hɔ.": {
+        "We took her straight to the clinic as soon as she fainted.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        " As soon as she passed out, we brought her to the clinic.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        " Immediately after she fainted, we took her to the hospital.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        }
+    },
+    "Ɔkyerɛkyerɛfo akatua nnu mmaranimfo de ara kwa.": {
+        "A teacher's salary is less than an attorney's.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Teachers earn less than lawyers.": {
+            "AUD_SIZE": "LARGE GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "A teacher's pay is lower than a lawyer's.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Teachers make less money than attorneys.": {
+            "AUD_SIZE": "LARGE GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Asamoah anhu sɛnea na wobu Esi anim animtiaa no.": {
+        "Asamoah didn't notice the look of disdain on Esi's face.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah didnt see the contempt on Esi's face.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah didnt realize Esi was looking at him with contempt.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah didnt notive how Esi looked at him with disdain.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Na ɛte sɛ dae bi a abam.": {
+        "It was like a dream come true.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "It was a dream fulfilled.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "It seemed like a dream come true.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "It felt like a dream come true.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Wuhuu sɛnea wɔn fie no sõ fa?": {
+        "Did you see how big their house is?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Did you notice how huge their house is?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Have you seen how big their house is?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        }
+    },
+    "Meka ɛno ho asɛm kyerɛ wo.": {
+        "I give you my word on that.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "ELDER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I promise you that.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I assure you of that.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "You have my word.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "ELDER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ɛhaw me yiye.": {
+        "I'm devastated.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "ELDER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I am heartbroken.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I am very upset.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I feel crushed.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "ELDER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ná ayi no ye nnora.": {
+        "The funeral was yesterday.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "The funeral took place yesterday.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "The funeral was held yesterday.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "It was yesterday that the funeral happened.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Me yere nsɔre m'anim.": {
+        "My wife doesn't get up before me.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "My wife never wakes up before me.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "She never gets up ahead of me.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "YOUNGER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Asamoah betumi abua no.": {
+        "Asamoah can answer.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        },
+        "Asamoah can respond.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        },
+        "Asamoah is capable of answering.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        },
+        "Asamoah is able to answer.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        }
+    },
+    "Mekaa hwee kyerɛɛ wɔn.": {
+        "I told them nothing.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I didnt tell them anything.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I said nothing to them.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I gave them no information.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Yɛhwɛ kwan sɛ ɔbɛboa yɛn.": {
+        "We expect that he'll help us.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        },
+        "We hope he will help us.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        },
+        "We expect that he will come to our aid.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        },
+        "We are counting on him to help.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        }
+    },
+    "Ná ɛyɛ bere pa a ɛsɛ sɛ yɛfew ano.": {
+        "It was the perfect moment for a kiss.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "It was the ideal time to kiss.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "The moment was perfect for a kiss.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "It was the perfect opportunity to kiss.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Dɛn na wobɛka sɛ ɛsɛ sɛ wokɔ nnwonto no ase?": {
+        "What do you say to going to the concert?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Do you want to go to the concert?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Shall we go to the concert?": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        }
+    },
+    "Bere bɛn na wiase no bɛba awiei?": {
+        "When will the world come to an end?": {
+            "AUD_SIZE": "LARGE GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "When is the end of the world?": {
+            "AUD_SIZE": "LARGE GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "When will the world end?": {
+            "AUD_SIZE": "LARGE GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "At what time will the world end?": {
+            "AUD_SIZE": "LARGE GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        }
+    },
+    "Asamoah yɛ ɔnokwafo.": {
+        "Asamoah is a sincere person.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah is an honest person.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah is genuine.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah is trustworthy.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Awarefo no de sika pii na ɛyɛɛ wɔn fie.": {
+        "The couple spent a lot of money on furnishing their house.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "They spent a fortune decorating their home.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "They spent a lot on their home furniture.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "They invested heavily in furnishing their house.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ná ne ho ye, na na ɔnom nsa.": {
+        "He was good and drunk.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He felt fine but was drunk.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He was happy and intoxicated.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ná yɛhwɛ sɛnea asubɔnten no mu dɔ fa.": {
+        "We measured the depth of the river.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "We checked how deep the river was.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "We found out the depth of the river.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "We measured how far down the river went.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Me mu reyɛ duru.": {
+        "I'm gaining weight.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I am putting on weight.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I am getting heavier.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I have gaining pounds lately.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Yɛsrɛ sɛ fa wo tekiti wɔ ɔpon no ano.": {
+        "Please pick up your ticket at the counter.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "Collect your ticket at the counter.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        " Pick up your ticket from the counter, please.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "Your ticket is ready at the counter.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        }
+    },
+    "Sɛ́ Asamoah no, ɔwɔ dan abien a adan abien wom.": {
+        "Asamoah has a house with two rooms.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "Asamoah owns a two-room house.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah's house has two rooms.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Minni sika pii saa bere no.": {
+        "I don't have enough money at the moment.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I am short on money right now.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I dont have much cash at the moment.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I dont have sufficient money right now.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Sɛ obi a onim nyansa yiye te sɛ Asamoah.": {
+        "Asamoah is a very clever man.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah is brilliant.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah is extremely smart.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah is an intelligent man.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Bere a Ɔhemmaa no soo nkuruwa no mu no, ɔde guu adaka no mu.": {
+        "Asamoah rinsed off the plates and put them into the dishwasher.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He washed the plates and put them in the dishwasher.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah cleaned the dishes and placed them in the dishwasher.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Mepɛ sɛ wosan susuw gyinae a woasi no ho.": {
+        "I want you to reconsider your decision.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "I want you to rethink your choice.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "I would like you to think about your decision again.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        }
+    },
+    "Ɛyɛ nwonwa yiye.": {
+        "It's quite remarkable.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "It is truly amazing.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "It is quite impressive.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Meyɛ aso tie asɛm yiye.": {
+        "I'm attentive.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I am paying close attention.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I am focused.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I am very alert.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Wususuw ho dɛn ankasa?": {
+        "What do you really think?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "What is your honest opinion?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "What do you truly think?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "How do you really feel about it?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        }
+    },
+    "Woyɛ nea wubetumi biara.": {
+        "You do what you can.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "Do what you are able to do.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "Just do your best.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "Do all that you can.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        }
+    },
+    "Sɛnea mihu no, ɛno ne ɔkwan a eye sen biara.": {
+        " As I see it, that is the best way.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        " In my opinion, that is the best approach.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I think that is the best way.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Mepɛ sɛ migye wo sika.": {
+        "I want to hire you.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I would like to employ you.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I would like to offer you a job.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I wan t to bring you on board.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ná adetɔfo foforo biara nni sotɔɔ no mu.": {
+        "There were no other customers in the store.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "The store had no other customers.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "The shop was empty of other customers.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ɛyɛ nwonwa sɛ ebetumi aba saa.": {
+        "One wonders how it's possible.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "How could this be possible?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "It is hard to believe this can happen.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Asamaoh ye nipa kese.": {
+        "Asamoah's great.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah is fantastic.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah is wonderful.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah is an amazing person.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "So wotee nteɛteɛm no?": {
+        "Didn't you hear the scream?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Didn't you hear that scream?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Didn't you hear the yell?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        }
+    },
+    "Ná ne fã adwudwo.": {
+        "He had a stroke.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He suffered a stroke.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He experienced a stroke.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Esi bɔɔ ne tirim sɛ ɔbɛyɛ ne fie ho mfonini.": {
+        "Esi hired Asamoah to paint her house.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Esi employed Asamoah to paint her house.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Esi hired Asamoah for house painting.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Medɔ wo paa.": {
+        "I love you so much.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I really love you.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I love you deeply.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I love you a lot.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Megyina w'akyi wɔ ahohia bere mu.": {
+        "I'll stand by you in time of need.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I will support you in difficult times.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I will be there for you whe you need me.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I will stick with you in times of need.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Me nuabarima hwɛ television.": {
+        "My brother watches television.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "My brother enjoys watching television.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "My brother is watching television.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ná misusuw sɛ sɛ Asamoah hwɛ Esi a, n'ani begye papa.": {
+        "I thought Asamoah would be glad to see Esi.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        "I thought Asamoah would be happy to see Esi.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        "I expected Asamoah to be pleased to see Esi.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        "I figured Asamoah would enjoy seeing Esi.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        }
+    },
+    "Mewɔ mmirikatufo nan na ɛyɛ me yaw yiye.": {
+        "I have athlete's foot and it's very itchy.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I have athlete's foot and it itches badly.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I am suffering from itchy athlete's foot.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ɔtoo dwom yiye araa ma ɛyɛ den sɛ obi betumi ate nusu.": {
+        "He sings so well that it's impossible to hold back tears.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He sings so beautifully it is hard not to cry.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "His singing moves people to tears.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Nsa a wɔnom no ɔha biara mu 5 na ɛwɔ saa aduru yi mu.": {
+        "This beer contains 5% alcohol.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "This beer has 5% alcohol.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "The alcohol content of this beer is 5%.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "There is 5% alcohol is this beer.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ná wosusuw hokwan biara a wobenya ho.": {
+        "They took every possibility into consideration.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "They considered every possibility.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "All options were taken into account.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "They thought about all possible outcomes": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Anigyesɛm ne sɛ, hyɛn no mufo biara anhaw.": {
+        " Fortunately, no passengers were injured.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        " Luckily, none of the passengers were hurt.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        " Thankfully, no passengers were harmed.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        " Thankfully, all passengers were safe.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Mfutuma akata ɔpon no so.": {
+        "The desk is covered with dust.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "The desk is dusty.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "The desk is coated in dust.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "So ɛyɛ nokware sɛ na wowɔ TV so besi nnɛ?": {
+        "Is it true that you were on TV yesterday?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Were you really on TV yesterday?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Is it true you appeared on TV yesterday?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Did you actually go on TV yesterday?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        }
+    },
+    "Obiara anto nsa frɛɛ me sɛ memmra apontow no ase.": {
+        "Nobody invited me to the party.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "No one asked me to the party.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I wasnt invited to the party by anyone.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Minnim bere tenten a saa tebea yi bedi.": {
+        "I don't know how long this situation is going to last.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I dont know how long this will continue.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I am unsure how long this will last.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I dont know when the situation will end.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Wasiesie ne ho bere nyinaa.": {
+        "He is always prepared.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He is always ready.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He is always on top of things.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ná onniidi nnanu.": {
+        "He hadn't eaten in two days.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He went two days without eating.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "It had been two days since he last ate.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Esiane sɛ na m'ani so atan me nti, anka mereyɛ akyere me.": {
+        "Asamoah risked getting in trouble for me.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah put himself as risk for me.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah could have gotten into trouble to help me.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ɛsɛ sɛ yɛma yɛn ani da hɔ.": {
+        "We must remain vigilant.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "We have to stay alert.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "We must keep our eyes open.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        }
+    },
+    "Ɔfew n'ano.": {
+        "She was kissed by him.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He kissed her.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "She received a kiss from him.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He gave her a kiss.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Sɛ odu hɔ pɛ a, mɛka akyerɛ no.": {
+        " As soon as he arrives, I'll tell him.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I will tell him the moment he arrives.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Once he arrives I will let him know.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I will inform him as soon as he gets here.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Wokae no, ɛnte saa?": {
+        " You remember him, don't you?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        " You remember him, right?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        " You do remember him, don't you?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        " He is familiar to you, isn't he?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        }
+    },
+    "Minni sika nnɛ.": {
+        "I have no money today.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I dont have any money today.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I am out of money today.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "M'ani begye ho sɛ mehu Asamoah bio.": {
+        "I'd like to see Asamoah one more time.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        },
+        "I want to see Asamoah again.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        },
+        "I would like one more meeting with Asamoah.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        },
+        "I wish to see Asamoah once more.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        }
+    },
+    "Sɛ ade sa a, na wo ho ntɔ wo.": {
+        "You had better not go after dark.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "It is best if you dont go after dark.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "Dont go out after dark.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        }
+    },
+    "Ɔkɔɔ so sɔɔ no hwɛe.": {
+        "He carried on with his experiment.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He continued his experiment.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He kept working on his experiment.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He went on with the experiment.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Me telefon foforo no ye sen me telefon dedaw no.": {
+        "My new phone is thinner than my old phone.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "My new phone is slimmer than my old one.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "This phone is thinner than my previous phone.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "My old phone was thicker than the new one.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Amerika atubrafo a wodi kan no duu hɔ wɔ afeha a ɛto so 17 no mu.": {
+        "The first American colonists arrived in the 17th century.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "The first settlers came to America in the 1600s.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "America was first colonized in the 17th century.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "The first American colonists landed in the 17th century.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "So wo kraman no kyerɛ biribi?": {
+        "Is your dog mean?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Is your dog aggressive?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Does your dog bite?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Is your dog unfriendly?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        }
+    },
+    "Manim Asamoah bere tenten.": {
+        "I've known Asamoah for a long time.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I have been friends with Asamoah for a long time.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I have known Asamoah for years.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ɛno yɛ anigyesɛm ma me.": {
+        "That's good news to me.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "That is great news for me.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I am happy to hear that.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ɛyɛ pɛ!": {
+        "Perfect!": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Spot on!": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Exactly!": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Just right!": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Wiase no mu hena na wususuw sɛ woyɛ bi?": {
+        "Who in the world do you think you are?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Who do you think you are?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Who do you think you are kidding?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        }
+    },
+    "Mekɔɔ adidibea hɔ kodii awia.": {
+        "I entered the restaurant and had lunch.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I came into the restaurant and had my lunch.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I went into the restaurant and ate lunch.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Sɛnea Asamoah ka kyerɛɛ Esi no, ɔkae sɛ ɔmma John kɔfe kuruwa biako.": {
+        " \"Asamoah suggested to Esi that she offer John a cup of coffee.\"": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah told Esi to offer John a cup of coffee.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He suggested that Esi give John a cup of coffee.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah recommended Esi serve John coffee.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Onyaa ne ti didii mu wɔ akwanhyia bi a esii afe a etwaam no mu, nanso na ɔda so ara de n'ani kyerɛ soro.": {
+        " He survived an accident last year, but still drives recklessly.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Last year he survived a crash yet he still drives carelessly.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He had an accident last yer but continues to drive dangerously.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Mikyinkyin kakra.": {
+        "I wandered around for a while.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I walked around for a bit.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I strolled around for a while.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Makɔ nea ɛto so abien.": {
+        "I've gone to Kyoto twice.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I have visited Kyoto two times.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I have been to Kyoto twice.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I went to Kyoto on two occasions.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Wɔyɛɛ me sɛ metwɛn mmoro simma 30.": {
+        "I was made to wait for over 30 minutes.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I had to wait more than 30 minutes.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "They made me wait for over half an hour.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I ended up waiting for 30 minutes or more.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ɛsɛ sɛ mekɔ so tra hɔ.": {
+        "I've got to keep going.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I have to keep moving.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I need to keep going.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I must carry on.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Me botae ne sɛ mɛyɛ ɔkyerɛkyerɛfo.": {
+        "My dream is to become a teacher.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I dream of becoming a teacher.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "My goal is to be a teacher.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Esiane ahum no nti, hyɛn no antumi amfi po so hyɛn gyinabea hɔ.": {
+        " Because of the storm, the should couldn't leave port.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "The storm prevented the ship from leaving port.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "The ship was unable to depart because of the storm.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Due to the storm the ship could not sail.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Wɔkyerɛ sɛ asase so hyew a ayɛ no fi carbon dioxide ankasa.": {
+        "It is said that global warming is directly related to carbon dioxide emissions.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "They say global warming is caused by carbon dioxide emissions.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Global warming is reportedly linked directly to CO emissions.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "It is believed that carbon dioxide emissions are a major cause of global warming.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ɔmaa me nsa kaa ne kyerɛwtohɔ ahorow.": {
+        "She gave me access to her records.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "She allowed me to see her records.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "She let me access her records.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I was granted access to her records by her.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "So wohyɛɛ no nkuran sɛ ɔnkɔ polisifo hɔ?": {
+        "Did you advise him to go to the police?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Did you suggest he go to the police?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Did you tell him to contact the police?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        }
+    },
+    "Mepɛ sɛ meyɛ obi a ɔhwehwɛ nneɛma mu.": {
+        "I want to be an actress.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "My ambition is to be an actress.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I hope to pursue a career as an actress.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Hena na ɔka kyerɛɛ wo sɛ mintumi nnom nsu?": {
+        "Who told you I wasn't able to swim?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Who said I could not swim?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Who told you I could not go swimming?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Who claimed I was not able to swim?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        }
+    },
+    "Mifii ase tee nea enti a wonhaw wo ho sɛ wobɛkyerɛkyerɛ nneɛma mu akyerɛ Noh no ase.": {
+        "I'm beginning to understand why you don't bother to try to explain things to Asamoah.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I am beginning to realize why you avoid explaining things to Asamoah.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I am starting to see why you dont try explaining things to Asamoah.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ɔwɔ sakre.": {
+        "She has a bicycle.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "She owns a bicycle.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "She has a bike.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Obi ho a obekum yɛ adeyɛ a anibere wom.": {
+        "Suicide is a desperate act.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Taking one's own life is an act of desperation.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Suicide is an act done out of despair.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Ending one's life is a desperate measure.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ná Esi yɛ nkɔmmɔbɔ a ɛyɛ anigye.": {
+        "Asamoah had a nice chat with Esi.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah talked pleasantly with Esi.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He had a friendly chat with Esi.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Asamoah enjoyed a pleasnat conversation with Esi.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Mepɛ sɛ wo ne me san ba.": {
+        "I want you to come back with me.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        },
+        "I would like you to come back with me.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        },
+        "I want you to return with me.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        }
+    },
+    "Ɛsɛ sɛ mekɔ nnɛyi nhyiam.": {
+        "I should've gone to yesterday's meeting.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I ought to have attended yesterday's meeting.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I regret not going to the meeting yesterday.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I should have been at the meeting yesterday.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Yɛn kyerɛkyerɛfo no ma yenya sukuu dwumadi pii.": {
+        "Our teacher gives us a lot of homework.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "YOUNGER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Our teachers assigns us a lot of homework.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "YOUNGER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "We get a lot of homework from our teacher.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "YOUNGER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ɔbea bi a ne mfe akɔ anim ka kyerɛɛ Asamoah sɛ ɔte sɛ Charles Darwin.": {
+        "Some old lady told Asamoah that he looked like Charles Darwin.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "ELDER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "An elderly woman told Asamoah he resembled Charles Darwin.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Some old lady said Asamoah looked like Charles Darwin.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "ELDER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "An older woman remarked that Asamoah reminded her of Charles Darwin.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "ELDER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Nnipa baahe na wɔte wo kurom?": {
+        "How many people live in your town?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "What is the population of your town?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "How many people live where you live?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "How many residents are in your town": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        }
+    },
+    "Wɔasi gyinae sɛ wɔbɛbɛn saa adwinnan no.": {
+        "They've decided to close that factory.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "They have made the decision to shut down that factory.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "The factory is going to be closed by their decision.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "They have agreed to close that factory.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Mede nsu hyɛɛ kuku bi mu ma.": {
+        "I filled a vase with water.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I put water in a vase.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I filled up a vase with water.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Kwaku ntumi ntu ntɛm sɛnea Abena betumi ayɛ no.": {
+        "Kwaku can't move as quickly as Abena can.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Kwaku is not as fast as Abena.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Kwaku cant keep up with Abena.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Kwaku moves slower than Abena does.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "FEMININE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Minim sɛ ade biako a yebetumi ayɛ ne anigye.": {
+        "I know one thing we could do that might be fun.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I know one thing we could do that would be enjoyable.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I have an idea for something fun we could try.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I know something we could do for fun.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Nyansahu yɛ den dodo.": {
+        "Science is too hard.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Science is tough.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Science is difficult.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Science is challenging.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Kwaku anyɛ bɔne biara.": {
+        "Kwaku didn't mean any harm.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Kwaku meant no harm.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Kwaku didnt intend to hurt anyone.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Mamfa me ho anto wo so.": {
+        "I didn't hang up on you.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I didnt end the call on you.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I didnt hang up the phone on you.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I didnt cut you off.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Kwaku dii akɔneaba.": {
+        "Kwaku waved.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Kwaku waved his hand.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Kwaku gave a wave.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Minnim nipa ko a ɔyɛ.": {
+        "I don't know what kind of person he is.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I dont know his character.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I cant tell what kind of person he is.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "MASCULINE",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Mepɛ mmuae tee, nanso biribiara nni hɔ bio.": {
+        "I just want a straight answer. Nothing more.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        },
+        " I just want a clear answer, nothing else.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        },
+        " Give me a straight answer, that's all.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        " I only want a direct answer, nothing more.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "REQUEST"
+        }
+    },
+    "So na wunim sɛ wɔn mu binom te bepɔw yi so?": {
+        "Did you know that some foxes lived on this mountain?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Were you aware that foxes once lived on this mountain?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Did you hear that foxes used to live up here?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        }
+    },
+    "So wunim ɔkwan bi a wɔfa so tete akraman?": {
+        "Do you know anything about training dogs?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Are you familiar with how to train dogs?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        },
+        "Do you have any knowledge about dog training?": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "QUESTION"
+        }
+    },
+    "Nokwarem no, nsɛm ho amanneɛbɔ Kwame Jackson nyɛ adwuma no so panyin.": {
+        "Kwame Jackson is actually not the manager.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        " In fact, Kwame Jackson is not the manager.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        " The truth is, Kwame Jackson is not the boss.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ɔyɛ yɔnko a n'asɛm yɛ mmɔbɔ.": {
+        "He is an unpleasant fellow.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He is not a nice person.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "He is raher disagreeable.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "MASCULINE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Mayɛ biribiara a woka kyerɛɛ me no.": {
+        "I've done everything you asked me to.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I have completed all the tasks you gave me.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I did everything you told me to.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Mma aboa no kwan mma ɔnkɔ.": {
+        "Don't let the cat out.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "Keep the cat inside.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        },
+        "Dont allow the cat to go out.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "COMMAND"
+        }
+    },
+    "Ɔkɔm rekum yɛn.": {
+        "We're starving.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "We are famished.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "We are really hungry.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ɔbɛsan aba nnansa yi ara.": {
+        "She will come back before long.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "She will return soon.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "It wont be long before she comes back.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Egye obi na wahu emu biako.": {
+        "It takes one to know one.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Only someone like that would recognize it in another.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "You would have to be the smae to spot it.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Efi saa bere no, minni adagyew koraa.": {
+        "I have not been busy since yesterday.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I havent had anything to do since yesterday.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I have been free since yesterday.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "M'ani wɔ me ho so paa.": {
+        "I'm seeing ghosts.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I keep imagining spirits.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I feel like I am seeing apparitions.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Mebɔɔ mmɔden mprenu, nanso emu biara anyɛ yiye.": {
+        " I tried twice, but neither try worked.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I made two attempts but both failed.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I tried two times but it did not work either time.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ɔyɛ me babea a meso no dae.": {
+        "She is my dream girl.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "She is the girl of my dreams.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "She is the one I have always wished for.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Wɔyɛ mmofra pa.": {
+        "They're nice kids.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "YOUNGER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "They are good children.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "YOUNGER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "They are really sweet kids.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "YOUNGER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "ɔyarehwɛfo no bɛkyerɛ wo ɔkwan a wobɛfa so ayɛ saa.": {
+        "The nurse will tell you how to do it.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "The nurse will explain the procedure to you.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "The nurse will show you what to do.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Mmea ani gye ho saa.": {
+        "Women love that.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Ladies really like that.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Most women enjoy that.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "M'ani gye nhoma akenkan ho.": {
+        "I like reading books.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "I enjoy reading.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Reading books is something I like.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ɔwɔ suban pa ankasa.": {
+        "She has a very good figure.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "She has a nice body shape.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "She is well built.": {
+            "AUD_SIZE": "INDIVIDUAL",
+            "AGE": "PEER",
+            "FORMALITY": "FORMAL",
+            "GENDER": "FEMININE",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Nokwarem no, osu bɛtɔ.": {
+        " It's going to rain, for sure.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "It is definitely going to rain.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        },
+        "Rain is surely on the way.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "INANIMATE",
+            "SPEECH_ACT": "STATEMENT"
+        }
+    },
+    "Ɛsɛ sɛ yehu akokoaa foforo bi a wɔawo no foforo.": {
+        "We've got to find a new babysitter.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        "We need to look for another babysitter.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        },
+        "It is necessary we find another babysitter.": {
+            "AUD_SIZE": "SMALL GROUP",
+            "AGE": "PEER",
+            "FORMALITY": "INFORMAL",
+            "GENDER": "NEUTRAL",
+            "GENDER_2": "NEUTRAL",
+            "ANIMACY": "ANIMATE",
+            "SPEECH_ACT": "ANSWER"
+        }
+    }
+}
