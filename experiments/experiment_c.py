@@ -167,9 +167,8 @@ def _run_prompt_experiment(
         for source_sentence, row in tqdm(dataset.items(), total=len(dataset)):
             candidate_sentences, tag_runs = _extract_options_and_tags(row, direction)
 
-            for run in tag_runs:
+            for idx, run in enumerate(tag_runs):
                 tags = run["tags"]
-                expected_idx = run.get("expected_idx")
                 schema = run.get("schema")
                 prompt = prompt_factory.get_base_prompt(
                     source_sentence,
@@ -179,13 +178,16 @@ def _run_prompt_experiment(
                 )
                 selection, raw_output = _generate_with_retry(model, prompt)
 
+                tgts_entry = [{candidate_sentences[idx]: {
+                    'gold_selection': idx,
+                    'llm_selection': selection,
+                    'raw_output': raw_output,
+                }}]
+
                 model_results.append({
                     'src': source_sentence,
                     'tags': tags,
-                    'expected_selection': expected_idx,
-                    'llm_selection': selection,
-                    'raw_output': raw_output,
-                    'options': candidate_sentences,
+                    'tgts': tgts_entry,
                 })
 
         outputs[current_model] = model_results
