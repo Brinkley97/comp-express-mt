@@ -1,0 +1,12 @@
+{
+  "gpt-oss-120b": {
+    "accuracy": 0.3157894736842105,
+    "macro_f1": 0.2121014397677398,
+    "num_predictions": 399
+  },
+  "llama-3.3-70b-instruct": {
+    "accuracy": 0.3107769423558897,
+    "macro_f1": 0.20507143113569154,
+    "num_predictions": 399
+  }
+}

@@ -241,7 +241,7 @@ def main():
     )
     parser.add_argument(
         "--output-dir",
-        default=None,
+        default="experiments/results/selection_results_metric_wise",
         help="Optional directory to place the *_metrics.json files. Defaults to same directory as inputs.",
     )
     args = parser.parse_args()

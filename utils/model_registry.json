@@ -41,6 +41,12 @@
     "base_url": "https://api.ai.it.ufl.edu",
     "model_id": "gpt-oss-120b"
   },
+  "granite-3.3-8b-instruct": {
+    "provider": "openai",
+    "platform": "NAVI_GATOR",
+    "base_url": "https://api.ai.it.ufl.edu",
+    "model_id": "granite-3.3-8b-instruct"
+  },
   "gemma-3-27b-it": {
     "provider": "openai",
     "platform": "NAVI_GATOR",

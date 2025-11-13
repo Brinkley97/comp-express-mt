@@ -2,30 +2,31 @@ from __future__ import annotations
 
 from typing import List, Optional
 
-from .experiment_a import ExperimentAPromptBase, SELECT_BY_NUMBER_TASK
+from .experiment_a import ExperimentAPromptBase
 
 
 class ExperimentBPromptBase(ExperimentAPromptBase):
-    """Prompt helpers for Experiment B (tagged selection)."""
+    """Prompt helpers for Experiment B tag inference (no selection)."""
 
-    DIMENSIONS_AKAN_TO_EN = [
-        ("Gender", "Masculine | Feminine | Neutral", "What gender is implied?"),
-        ("Animacy", "Animate | Inanimate", "Living being or object?"),
-        ("Status", "Equal | Superior | Subordinate", "Social relationship?"),
-        ("Age", "Peer | Elder | Younger", "Age-based relationship?"),
-        ("Formality", "Formal | Casual", "Register level?"),
-        ("Audience", "Individual | Small_Group | Large_Group | Broadcast", "Addressee scope?"),
-        ("Speech_Act", "Question | Answer | Statement | Command | Request | Greeting", "Utterance function?"),
+    AKAN_TO_EN_DIMENSIONS = [
+        ("AUDIENCE", "Audience", "INDIVIDUAL | SMALL_GROUP | LARGE_GROUP | BROADCAST", "Who is addressed?"),
+        ("AGE", "Age", "PEER | ELDER | YOUNGER", "Age-based relationship?"),
+        ("FORMALITY", "Formality", "FORMAL | INFORMAL", "Register level?"),
+        ("GENDER_SUBJECT", "Gender_Subject", "MASCULINE | FEMININE | NEUTRAL", "Gender of the subject/speaker?"),
+        ("GENDER_OBJECT", "Gender_Object", "MASCULINE | FEMININE | NEUTRAL", "Gender of the object/listener?"),
+        ("ANIMACY", "Animacy", "ANIMATE | INANIMATE", "Living being or object?"),
+        ("SPEECH_ACT", "Speech_Act", "QUESTION | ANSWER | STATEMENT | COMMAND | REQUEST | GREETING", "Utterance function?"),
     ]
 
-    DIMENSIONS_EN_TO_AKAN = [
-        ("Formality", "Formal | Casual", "What register level is appropriate?"),
-        ("Audience", "Individual | Small_Group | Large_Group | Broadcast", "Who is addressed?"),
-        ("Status", "Equal | Superior | Subordinate", "Social relationship?"),
-        ("Age", "Peer | Elder | Younger", "Age-based dynamics?"),
-        ("Gender", "Masculine | Feminine | Neutral", "Gender of referents?"),
-        ("Animacy", "Animate | Inanimate", "Living beings or objects?"),
-        ("Speech_Act", "Question | Answer | Statement | Command | Request | Greeting", "Function?"),
+    EN_TO_AKAN_DIMENSIONS = [
+        ("AUDIENCE", "Audience", "INDIVIDUAL | SMALL_GROUP | LARGE_GROUP | BROADCAST", "Who is addressed?"),
+        ("STATUS", "Status", "EQUAL | SUPERIOR | SUBORDINATE", "Social relationship?"),
+        ("AGE", "Age", "PEER | ELDER | YOUNGER", "Age-based dynamics?"),
+        ("FORMALITY", "Formality", "FORMAL | INFORMAL", "Required register?"),
+        ("GENDER_SUBJECT", "Gender_Subject", "MASCULINE | FEMININE | NEUTRAL", "Gender of the subject/speaker?"),
+        ("GENDER_OBJECT", "Gender_Object", "MASCULINE | FEMININE | NEUTRAL", "Gender of the object/listener?"),
+        ("ANIMACY", "Animacy", "ANIMATE | INANIMATE", "Living being or object?"),
+        ("SPEECH_ACT", "Speech_Act", "QUESTION | ANSWER | STATEMENT | COMMAND | REQUEST | GREETING", "Utterance function?"),
     ]
 
     def __init__(
@@ -49,31 +50,70 @@ class ExperimentBPromptBase(ExperimentAPromptBase):
             return "english_to_akan"
         return "custom"
 
-    def _tag_dimensions(self) -> List[tuple[str, str, str]]:
-        if self.direction == "english_to_akan":
-            return self.DIMENSIONS_EN_TO_AKAN
-        return self.DIMENSIONS_AKAN_TO_EN
+    def _coerce_dimensions(self, entries):
+        normalized = []
+        for entry in entries:
+            if isinstance(entry, dict):
+                normalized.append(entry)
+            else:
+                display, canonical, values, desc = entry
+                normalized.append(
+                    {
+                        "display": display,
+                        "canonical": canonical,
+                        "values": values,
+                        "description": desc,
+                    }
+                )
+        return normalized
 
-    def _tag_instruction_block(self) -> str:
-        intro = "First, infer the pragmatic context by selecting ONE value for each dimension:"
+    def _resolve_dimensions(self, custom_dimensions=None):
+        if custom_dimensions:
+            return custom_dimensions
+        if self.direction == "english_to_akan":
+            return self._coerce_dimensions(self.EN_TO_AKAN_DIMENSIONS)
+        return self._coerce_dimensions(self.AKAN_TO_EN_DIMENSIONS)
+
+    def _tag_instruction_block(self, dimensions, fallback_values=None) -> str:
+        intro = (
+            "First, infer the pragmatic context by generating ONE value for each dimension in the exact order shown."
+        )
         lines = [intro]
-        for name, values, desc in self._tag_dimensions():
-            lines.append(f"- {name}: [{values}] - {desc}")
+        for entry in dimensions:
+            lines.append(f"- {entry['display']}: [{entry['values']}] - {entry['description']}")
+        lines.append(
+            "If a dimension name appears twice (e.g., GENDER_SUBJECT vs. GENDER_OBJECT), treat each as a separate role tied to the candidate translation."
+        )
+        lines.append(
+            "Your TAGS must describe the same pragmatic context that would justify whichever translation you ultimately prefer."
+        )
+        if fallback_values:
+            fallback_text = ", ".join(
+                f"{key}={value}" for key, value in fallback_values.items()
+            )
+            lines.append(
+                "If you lack information, use these fallback assignments instead of inventing new labels: "
+                f"{fallback_text}."
+            )
+        lines.append(
+            "Always copy the values exactly as written inside the brackets. Never invent new labels such as 'Neutral' for AGE/AUDIENCE,"
+            "Never invent new labels such as 'ADVICE' for SPEECH_ACT."
+        )
         return "\n".join(lines)
 
-    def _selection_instruction(self) -> str:
-        return (
-            f"Then, based on these inferred tags, select the most appropriate "
-            f"{self._title_label(self.target_language)} translation by number."
-        )
+    def _response_format_block(self, dimensions) -> str:
+        tag_order = ", ".join(f"{entry['display']}=X" for entry in dimensions)
+        return f"TAGS: {tag_order}"
 
-    def _response_format_block(self) -> str:
-        tag_order = ", ".join(f"{name}=X" for name, _, _ in self._tag_dimensions())
-        return f"TAGS: {tag_order}\nSELECTION: [number]"
+    def _authority_note(self) -> str:
+        return (
+            "All sentences and translation options are verified Akuapem Twi ↔ English data. "
+            "Ignore outside knowledge and rely strictly on the details provided here."
+        )
 
 
 class ZeroShotPromptFactory(ExperimentBPromptBase):
-    """Zero-shot prompts with tag guidance."""
+    """Zero-shot tag inference prompts."""
 
     def __init__(
         self,
@@ -93,50 +133,50 @@ class ZeroShotPromptFactory(ExperimentBPromptBase):
 
     def _intro(self) -> str:
         if self.direction == "english_to_akan":
-            return "You are analyzing an English sentence to infer pragmatic context and select the appropriate Akan translation."
-        return "You are analyzing an Akan sentence to infer pragmatic context and select the appropriate English translation."
+            return "You are analyzing an English sentence from native speakers to infer its pragmatic context."
+        return "You are analyzing an Akan sentence from native speakers to infer its pragmatic context."
 
-    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str]) -> str:
+    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
+        dimensions = self._resolve_dimensions(kwargs.get("tag_dimensions"))
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             self._intro(),
+            self._authority_note(),
             f"{self.source_label}: \"{source_sentence}\"",
-            f"{self.options_label}:\n{options_block}",
-            self._tag_instruction_block(),
-            self._selection_instruction(),
-            self._response_format_block(),
+            f"{self.options_label} (reference only):\n{options_block}",
+            self._tag_instruction_block(dimensions, kwargs.get("fallback_values")),
+            "For AUDIENCE use INDIVIDUAL/SMALL_GROUP/LARGE_GROUP/BROADCAST only. Do NOT invent new labels.",
+            "For AGE use PEER/ELDER/YOUNGER only. Do NOT invent new labels.",
+            "For FORMALITY use FORMAL/INFORMAL only. Do NOT invent new labels.",
+            "For STATUS use EQUAL/SUPERIOR/SUBORDINATE only. Do NOT invent new labels.",
+            "For GENDER_SUBJECT/GENDER_OBJECT use MASCULINE/FEMININE/NEUTRAL only. Do NOT invent new labels.",
+            "For ANIMACY use ANIMATE/INANIMATE only. Do NOT invent new labels.",
+            "Do NOT choose a translation. Respond ONLY with the TAGS line shown below.",
+            self._response_format_block(dimensions),
         ]
         return "\n\n".join(sections)
 
 
 class FewShotPromptFactory(ExperimentBPromptBase):
-    """Few-shot prompts with worked tag examples."""
+    """Few-shot tag inference prompts."""
 
     AKAN_TO_EN_EXAMPLES = """Examples (Akan → English):
 Akan: "Ɔyɛ me mpena"
-Options: 1. He is my boyfriend 2. She is my girlfriend 3. They are my lover
-Analysis: "mpena" = romantic partner, "Ɔ" = 3rd person singular (gender ambiguous). Default to most common interpretation if cues are limited.
-TAGS: Gender=Masculine, Animacy=Animate, Status=Equal, Age=Peer, Formality=Casual, Audience=Individual, Speech_Act=Statement
-SELECTION: 1
+Reasoning: Identify pronouns, relationship terms, and register to determine each pragmatic dimension.
+TAGS: GENDER=Masculine, ANIMACY=Animate, STATUS=Equal, AGE=Peer, FORMALITY=INFORMAL, AUDIENCE=Individual, SPEECH_ACT=Statement
 
 Akan: "Nana no aba"
-Options: 1. Grandpa has come 2. Grandma has come 3. The elder has arrived
-Analysis: "Nana" = elder/grandparent; gender-neutral. Without cues, prefer the respectful neutral reading.
-TAGS: Gender=Neutral, Animacy=Animate, Status=Superior, Age=Elder, Formality=Casual, Audience=Small_Group, Speech_Act=Statement
-SELECTION: 3"""
+Reasoning: "Nana" signals an elder/respected figure; consider the respectful tone and implied audience.
+TAGS: GENDER=Neutral, ANIMACY=Animate, STATUS=Superior, AGE=Elder, FORMALITY=Formal, AUDIENCE=Small_Group, SPEECH_ACT=Statement"""
 
     EN_TO_AKAN_EXAMPLES = """Examples (English → Akan):
 English: "Good morning"
-Options: 1. Maakye 2. Mema wo akye 3. Yɛma wo akye
-Analysis: Standard greeting aimed at an individual with polite tone.
-TAGS: Formality=Casual, Audience=Individual, Status=Equal, Age=Peer, Gender=Neutral, Animacy=Animate, Speech_Act=Greeting
-SELECTION: 2
+Reasoning: Polite greeting to an individual peer.
+TAGS: FORMALITY=INFORMAL, AUDIENCE=Individual, STATUS=Equal, AGE=Peer, GENDER=Neutral, ANIMACY=Animate, SPEECH_ACT=Greeting
 
 English: "Please help me with this task"
-Options: 1. Boa me 2. Mesrɛ wo, boa me 3. Mepɛ sɛ woboa me
-Analysis: Presence of “please” signals polite/formal request toward someone with higher status.
-TAGS: Formality=Formal, Audience=Individual, Status=Superior, Age=Elder, Gender=Neutral, Animacy=Animate, Speech_Act=Request
-SELECTION: 3"""
+Reasoning: Polite request directed toward a respected person.
+TAGS: FORMALITY=Formal, AUDIENCE=Individual, STATUS=Superior, AGE=Elder, GENDER=Neutral, ANIMACY=Animate, SPEECH_ACT=Request"""
 
     def __init__(
         self,
@@ -159,24 +199,34 @@ SELECTION: 3"""
             return self.EN_TO_AKAN_EXAMPLES
         return self.AKAN_TO_EN_EXAMPLES
 
-    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str]) -> str:
+    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
+        dimensions = self._resolve_dimensions(kwargs.get("tag_dimensions"))
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
-            ("You are analyzing "
-             f"{self.source_language} sentences to infer pragmatic context and select appropriate "
-             f"{self.target_language} translations."),
+            (
+                f"You are analyzing {self._title_label(self.source_language)} sentences "
+                "to infer their pragmatic context."
+            ),
+            self._authority_note(),
             self._examples_block(),
             "Now analyze this sentence:",
             f"{self.source_label}: \"{source_sentence}\"",
-            f"{self.options_label}:\n{options_block}",
-            "First infer the pragmatic context, then select the best translation.",
-            self._response_format_block(),
+            f"{self.options_label} (reference only):\n{options_block}",
+            self._tag_instruction_block(dimensions, kwargs.get("fallback_values")),
+            "For AUDIENCE use INDIVIDUAL/SMALL_GROUP/LARGE_GROUP/BROADCAST only. Do NOT invent new labels.",
+            "For AGE use PEER/ELDER/YOUNGER only. Do NOT invent new labels.",
+            "For FORMALITY use FORMAL/INFORMAL only. Do NOT invent new labels.",
+            "For STATUS use EQUAL/SUPERIOR/SUBORDINATE only. Do NOT invent new labels.",
+            "For GENDER_SUBJECT/GENDER_OBJECT use MASCULINE/FEMININE/NEUTRAL only. Do NOT invent new labels.",
+            "For ANIMACY use ANIMATE/INANIMATE only. Do NOT invent new labels.",
+            "Do NOT choose a translation. Respond ONLY with the TAGS line shown below.",
+            self._response_format_block(dimensions),
         ]
         return "\n\n".join(sections)
 
 
 class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
-    """Chain-of-thought prompts with explicit reasoning steps."""
+    """Chain-of-thought prompts guiding tag inference."""
 
     def __init__(
         self,
@@ -196,45 +246,52 @@ class ChainOfThoughtPromptFactory(ExperimentBPromptBase):
 
     def _intro(self) -> str:
         if self.direction == "english_to_akan":
-            return "You are analyzing an English sentence to infer pragmatic context and select the appropriate Akan translation. Follow this reasoning process:"
-        return "You are analyzing an Akan sentence to infer pragmatic context and select the appropriate English translation. Follow this reasoning process:"
+            return "You are analyzing an English sentence to infer pragmatic context. Follow this reasoning process:"
+        return "You are analyzing an Akan sentence to infer pragmatic context. Follow this reasoning process:"
 
     def _step_block(self) -> str:
         if self.direction == "english_to_akan":
             return "\n".join(
                 [
                     "Step 1: ENGLISH SENTENCE ANALYSIS",
-                    "Examine the English sentence for pragmatic cues (politeness markers, formality indicators, audience scope, speech act, social relationship hints).",
-                    "\nStep 2: PRAGMATIC CONTEXT INFERENCE",
-                    "Infer each pragmatic dimension (Formality, Audience, Status, Age, Gender, Animacy, Speech_Act).",
-                    "\nStep 3: AKAN VARIANT EVALUATION",
-                    "Assess every Akan option for alignment with the inferred context (formality, audience/status fit, speech act preservation, cultural appropriateness).",
-                    "\nStep 4: FINAL SELECTION",
-                    "Choose the Akan translation that best satisfies all pragmatic constraints.",
+                    "Identify politeness markers, formality cues, audience hints, and speech-act indicators.",
+                    "\nStep 2: PRAGMATIC INFERENCE",
+                    "Infer each dimension (FORMALITY, AUDIENCE, STATUS, AGE, GENDER, ANIMACY, SPEECH_ACT).",
+                    "\nStep 3: SUMMARIZE TAGS",
+                    "After reasoning, output the TAGS line using the specified format.",
                 ]
             )
 
         return "\n".join(
             [
                 "Step 1: LINGUISTIC FEATURE EXTRACTION",
-                "Examine the Akan sentence for pronouns, kinship terms, names/titles, verb forms, and respect markers.",
+                "Examine the Akan sentence for pronouns, kinship terms, titles, verb forms, and respect markers.",
                 "\nStep 2: PRAGMATIC INFERENCE",
-                "Infer each pragmatic dimension (Gender, Animacy, Status, Age, Formality, Audience, Speech_Act).",
-                "\nStep 3: TRANSLATION OPTION EVALUATION",
-                "Assess the English options to see which best reflects the inferred context (gender/animacy alignment, formality, speech act preservation).",
-                "\nStep 4: FINAL SELECTION",
-                "Choose the English translation that best matches all pragmatic cues.",
+                "Infer each dimension (GENDER, ANIMACY, STATUS, AGE, FORMALITY, AUDIENCE, SPEECH_ACT).",
+                "\nStep 3: SUMMARIZE TAGS",
+                "After reasoning, output the TAGS line using the specified format.",
             ]
         )
 
-    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str]) -> str:
+    def get_base_prompt(self, source_sentence: str, candidate_sentences: List[str], **kwargs) -> str:
+        dimensions = self._resolve_dimensions(kwargs.get("tag_dimensions"))
         options_block = self.get_numbered_prompt(candidate_sentences)
         sections = [
             self._intro(),
+            self._authority_note(),
             f"{self.source_label}: \"{source_sentence}\"",
-            f"{self.options_label}:\n{options_block}",
+            f"{self.options_label} (reference only):\n{options_block}",
             self._step_block(),
-            "Provide your reasoning for each step, then respond in this format:",
-            self._response_format_block(),
+            "You must use the tag example set we have given in your generation-these are the only dimensions you should consider."
+            "Example, if you infer a tag to be Male/Female use what we have specified MASCULINE/FEMININE"
+            " as this what is provided in the context given. This applies to all dimensions."
+            "For AUDIENCE use INDIVIDUAL/SMALL_GROUP/LARGE_GROUP/BROADCAST only. Do NOT invent new labels.",
+            "For AGE use PEER/ELDER/YOUNGER only. Do NOT invent new labels.",
+            "For FORMALITY use FORMAL/INFORMAL only. Do NOT invent new labels.",
+            "For STATUS use EQUAL/SUPERIOR/SUBORDINATE only. Do NOT invent new labels.",
+            "For GENDER_SUBJECT/GENDER_OBJECT use MASCULINE/FEMININE/NEUTRAL only. Do NOT invent new labels.",
+            "For ANIMACY use ANIMATE/INANIMATE only. Do NOT invent new labels.",
+            "Go on and generate the TAGS ONLY:",
+            self._response_format_block(dimensions),
         ]
         return "\n\n".join(sections)
