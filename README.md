@@ -31,6 +31,7 @@ Standard MT systems overlook pragmatic ambiguity that frequently appears in Akan
   - `utils/prompting_strategies.py` (prompt factories: zero/few-shot, chain-of-thought)
   - `utils/llms.py` (LLM factory for Groq/OpenAI-compatible deployments)
   - `utils/metrics.py` (classification metrics wrappers)
+  - `utils/compute_cohen_k_llm_human.py` (LLM vs. human pragmatic agreement w/ JSON export)
 - Project config
   - `requirements.txt`
   - `.env` (optional, for API keys consumed by `utils/llms.py`)
@@ -172,6 +173,35 @@ python baseline_codebase/comet_evaluations.py \
 - Aggregates STL/QE metrics per file plus OVERALL, 1→M, M→1 buckets
 - Writes `comet_metrics.json`, optional CSV exports, and comparison plots
 - Includes permutation/sign-flip tests for system differences and correlations
+
+## Pragmatic agreement (Experiment B)
+
+Quantify how well LLM-predicted pragmatic tags align with human annotations using `utils/compute_cohen_k_llm_human.py`. The script aggregates the Experiment B JSON dumps and reports Cohen's κ per tag plus a composite score for every prompting strategy and model.
+
+```bash
+python utils/compute_cohen_k_llm_human.py
+```
+
+- Make sure the Experiment B result files under `experiments/results/pure_selection_results/exp_b/` exist for both many-to-one and one-to-many directions (zero/few-shot + chain-of-thought).
+- `MODELS_TO_EVAL` defaults to `llama-3.3-70b-instruct` and `gpt-oss-12b` (auto-mapped to the on-disk key `gpt-oss-120b`). Edit that list to evaluate additional models.
+- For each model and prompting run, the script prints κ tables and writes a structured summary to `experiments/results/pure_selection_results/exp_b/kappa_results.json` with the shape:
+
+```json
+{
+  "llama-3.3-70b-instruct": {
+    "many_to_one": {
+      "zero_shot": {
+        "n_items": 124,
+        "composite_kappa": 0.006,
+        "field_kappas": {"AUD_SIZE": 0.27, ...}
+      }
+    },
+    "one_to_many": { ... }
+  }
+}
+```
+
+Use the JSON file for downstream plotting/reporting without re-running the evaluator.
 
 ## Prompting experiments
 
